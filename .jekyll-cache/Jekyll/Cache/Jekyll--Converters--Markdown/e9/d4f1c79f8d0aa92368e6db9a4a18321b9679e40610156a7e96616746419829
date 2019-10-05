@@ -1,0 +1,51 @@
+I"�<!-- Main -->
+<div id="main" class="alt">
+
+<!-- One -->
+<section>
+	<header class="major">
+		<h1>A brief introduction</h1>
+	</header>
+	<h2 id="content">What is LMSS?</h2>
+	<p>
+		The LMSS, or "Legal Matter Specification Standard" is <b>a standard way to describe a legal matter or grouping of work around a legal issue</b>. It is an open, free standard published by the SALI Alliance and it can be used by anyone for free.
+	</p>
+	<p>
+		The idea of the LMSS is very simple: in the same way that there are product codes for manufactured products, the LMSS is a system for coding different kinds of legal services and offerings. The purpose of the LMSS is to provide a common interchange language that all participants in the legal industry can use to communicate and specify legal matters matters.
+	</p>
+	<h2 id="content">Why Does it matter?</h2>
+	<p>
+		Matter coding makes buying, staffing pricing and delivering legal services more efficient. Imagine this scenario: a client has the need for legal services in a class action wage and hour case. The client could now provide the codes for that kind of matter. The law firm could look in its database and, by code, it would determine which comparable matters it had handled, which attorneys had the most experience to optimize staffing, and if the client asked for a fixed fee the law firm could accurately see how to price the matter because it could easily find comparable matters.
+	</p> 
+	<p>The current draft revision of the LMSS defines 16 code sets, six of which are core. The core code sets define legal matters to a basic specification. They are:</p>
+	<ul>
+		<li><b>Area of law</b> - the body or bodies of law applicable.</li>
+		<li><b>Industry</b> - the industry of the players or matter</li>
+		<li><b>Legal Entity</b> - the types of legal entities involved with the matter </li>
+		<li><b>Location</b> - the location of the matter, which affects the jurisdiction</li>
+		<li><b>Player role</b> - the roles that the players of the matter have </li>
+		<li><b>Process</b> - the type of legal service or process being delivered</li>
+	</ul>
+	<p>
+		Let’s take a look at the codes. The codes are abbreviations so they are human readable as well as machine readable. When you click on a code, you can see the code, it’s name, a description, and some codes even have tags or synonyms. The next thing you notice is the codes are hierarchical and additive. Codes can have sub codes that provide a greater level of specificity. Codes are designed this way because in the beginning of a matter you may not know the specific area of law or process, but as the matter progresses you will know that. 
+	</p>
+	<p>
+		You can add specificity without changing the pre-existing code. Notice that when I click on a sub the code is added to the end of the parent code separated by a dash. Finally codes are viewer independent, that means they use neutral language that is independent of any party’s perspective. As an example, the standard does not use terms like client and opposing party. Rather it uses terms like plaintiff and defendant, or buyer and seller.
+	</p>
+	<p>
+		The LMSS also defines a structure the structure tells you where to put the information, which may be text numbers or codes. It shows how two different codes interrelate. I’m going to provide a high-level overview of the structure before we go and look at one. The structure includes a document. The document includes one or more matters. Inside the matter the important elements are the locale, that tells me the location or jurisdiction of a matter, and a process. 
+	</p>
+	<p>
+		A process is the legal service that’s being provided. It could be a leasing transaction, a licensing transaction. There may be multiple processes involved in any given matter and the way that you tell the kind of process is by the process type and by the area of law. The area of law provides context to interpret other information in the process. Finally, processes have players. So for example in the litigation, players will include a plaintiff and a defendant, but players may also include judges and witnesses and experts. Not only do players have names, their role is identified and you can also identify the kind of legal entity they are. Are they an individual or are they a corporation? Are they classic plaintiffs players can have counsel and in addition we can identify the industry they’re associated with and whether or not there are governmental authority.
+	</p>
+	<p> let’s see how this all comes together with an actual Sally document. Here we’re looking at a document for an industrial lease. In the header we have the LMSS type which is instance. An instance means that this is actually describing a matter. You can see the version and a title. We see that it’s written in English as spoken in the US and it’s gotten encoding. 
+	</p>
+	<p>
+		Then we look at the matter. The title is optional but the locale is not. We can see that the location is California, the process type is lease, the area of law is landlord-tenant law. Furthermore we can see that there are two players. The first player is AB Co real estate holdings. They’re playing the role of the lessor. there are corporation their counsel is Bill Williams of Dewey hard work LLC the second player is Morton turbines Inc they are the less eighty they also are a corporation their counsel is Stuart Brock LLP and as you can see they’re in the aerospace industry in the process object we described some details about the lease itself we can see in the description that it’s a five year triple net lease the status of this matter is open you can find the effective date and other information that might be useful in tracking this matter you can get all this information and more at sally legal org.
+</p>
+
+
+</section>
+
+</div>
+:ET

@@ -1,23 +1,16 @@
----
-layout: page
-title: Introduction
-nav-menu: true
----
-
-<!-- Main -->
+I"¾<<!-- Main -->
 <div id="main" class="alt">
 
 <!-- One -->
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>Introduction</h1>
+			<h1>Overview</h1>
 		</header>
 
 <!-- Content -->
 <h2 id="content">Sample Content</h2>
-<p>The LMSS is a standard way to describe a legal matter or grouping of work around a legal issue. Itâ€™s an open free standard published by the SALI Alliance and it can be used by anyone for free. It can even be incorporated into commercial products.
-</p>
+<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Sem turpis amet semper</h3>
@@ -324,24 +317,24 @@ Finally, this is a <a href="#">link</a>.</p>
 		</div>
 		<!-- Break -->
 		<div class="4u 12u$(small)">
-			<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+			<input type="radio" id="demo-priority-low" name="demo-priority" checked="" />
 			<label for="demo-priority-low">Low</label>
 		</div>
 		<div class="4u 12u$(small)">
-			<input type="radio" id="demo-priority-normal" name="demo-priority">
+			<input type="radio" id="demo-priority-normal" name="demo-priority" />
 			<label for="demo-priority-normal">Normal</label>
 		</div>
 		<div class="4u$ 12u$(small)">
-			<input type="radio" id="demo-priority-high" name="demo-priority">
+			<input type="radio" id="demo-priority-high" name="demo-priority" />
 			<label for="demo-priority-high">High</label>
 		</div>
 		<!-- Break -->
 		<div class="6u 12u$(small)">
-			<input type="checkbox" id="demo-copy" name="demo-copy">
+			<input type="checkbox" id="demo-copy" name="demo-copy" />
 			<label for="demo-copy">Email me a copy</label>
 		</div>
 		<div class="6u$ 12u$(small)">
-			<input type="checkbox" id="demo-human" name="demo-human" checked>
+			<input type="checkbox" id="demo-human" name="demo-human" checked="" />
 			<label for="demo-human">I am a human</label>
 		</div>
 		<!-- Break -->
@@ -409,3 +402,4 @@ print 'It took ' + i + ' iterations to sort the deck.';
 </section>
 
 </div>
+:ET

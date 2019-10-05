@@ -2,7 +2,7 @@
 title: LMSS
 subtitle: IO
 email: youremailaddress@gmail.com
-description: An api for the SALI Legal Matter <br/> Specification Standard, by Legal.io.
+description: An exploration of the SALI Legal Matter <br/> Specification Standard, by Legal.io.
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
@@ -15,7 +15,7 @@ phone: (716) 555-5555
 
 # homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
+tiles-count: 10
 
 # social settings
 500px_url:
