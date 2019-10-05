@@ -2,7 +2,7 @@
 title: LMSS
 subtitle: IO
 email: youremailaddress@gmail.com
-description: An exploration of the SALI Legal Matter <br/> Specification Standard, by Legal.io.
+description: An introduction to the <a href="https://www.salilegal.org" target="_blank">SALI</a> Legal Matter <br/> Specification Standard, by <a href="https://www.legal.io" target="_blank">Legal.io</a>.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:

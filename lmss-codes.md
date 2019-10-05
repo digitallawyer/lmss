@@ -15,14 +15,13 @@ image: assets/images/pic05.jpg
 			<h1>LMSS Codes</h1>
 		</header>
 		<div class="table-responsive">
-		    <table class="table table-hover">
+		    <table class="table-wrapper">
 		      <tbody>
 		      <tr>
 		        <th class="col-md-2" scope="col">
 		        <span>Code Set</span></th>
 		        <th class="col-md-1" scope="col">
-		        <span class="Sorter"><a href="codetype.php?bb_codetypeOrder=Sorter2&amp;bb_codetypeDir=ASC" id="bb_codetypeSorter2">Code</a> 
-		        </span>&nbsp;</th>
+		        <span class="Sorter">Code</span>&nbsp;</th>
 		        <th class="col-md-5" scope="col">Description </th>
 		        <th class="col-md-2" style="WHITE-SPACE: nowrap" scope="col">Where Used&nbsp;</th>
 		        <th class="col-md-1" style="WHITE-SPACE: nowrap" scope="col"># Codes</th>

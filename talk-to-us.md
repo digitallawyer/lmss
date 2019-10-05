@@ -1,4 +1,13 @@
-I"Ø<!-- Main -->
+---
+layout: page
+title: Talk to us
+description: Contact us to streamline legal operations in your legal department or law firm.
+nav-menu: false
+show_tile: true
+image: assets/images/pic01.jpg
+---
+
+<!-- Main -->
 <div id="main" class="alt">
 	<!-- One -->
 	<section>
@@ -16,7 +25,7 @@
 		<p>
 			Matter coding makes buying, staffing pricing and delivering legal services more efficient. Imagine this scenario: a client has the need for legal services in a class action wage and hour case. The client could now provide the codes for that kind of matter. The law firm could look in its database and, by code, it would determine which comparable matters it had handled, which attorneys had the most experience to optimize staffing, and if the client asked for a fixed fee the law firm could accurately see how to price the matter because it could easily find comparable matters.
 		</p>
-		<h2 id="content">How does it work?</h2>
+		<h2 id="content">What does it look like?</h2>
 		<p>The current draft revision of the LMSS defines 16 code sets, six of which are core. The core code sets define legal matters to a basic specification. They are:</p>
 		<ul>
 			<li><b>Area of law</b> - the body or bodies of law applicable.</li>
@@ -46,4 +55,3 @@
 		</p>
 	</section>
 </div>
-:ET
