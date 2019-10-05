@@ -1,6 +1,6 @@
 # site settings
 title: LMSS
-subtitle: by SALI
+subtitle: IO
 email: youremailaddress@gmail.com
 description: An api for the SALI Legal Matter <br /> Specification Standard, by Legal.io.
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
