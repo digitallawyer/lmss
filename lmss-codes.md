@@ -4,7 +4,7 @@ title: LMSS Codes
 description: A detailed look at the LMSS Codes
 nav-menu: true
 show_tile: true
-image: assets/images/pic05.jpg
+image: assets/images/codes.jpg
 ---
 
 <!-- Main -->

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: LMSS Structure
-description: An in-depth overview of the basic structure of LMSS
+description: An in-depth overview of the structure of LMSS
 nav-menu: true
 show_tile: true
 image: assets/images/structure.jpg

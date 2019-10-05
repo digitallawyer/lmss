@@ -4,7 +4,7 @@ title: Talk to us
 description: Contact us to streamline legal operations in your legal department or law firm.
 nav-menu: false
 show_tile: true
-image: assets/images/pic01.jpg
+image: assets/images/contact.jpg
 ---
 
 <!-- Main -->

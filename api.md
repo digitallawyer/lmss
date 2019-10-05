@@ -4,7 +4,7 @@ title: API
 description: An open API to interact with LMSS
 nav-menu: true
 show_tile: true
-image: assets/images/pic07.jpg
+image: assets/images/api.jpg
 ---
 
 <!-- Main -->
