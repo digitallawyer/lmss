@@ -1,10 +1,10 @@
 ---
 layout: page
-title: A brief introduction
+title: SALI Codes
 description: Get familiar with the basics of LMSS
 nav-menu: true
 show_tile: true
-image: assets/images/pic07.jpg
+image: assets/images/pic05.jpg
 ---
 
 <!-- Main -->

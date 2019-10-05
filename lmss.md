@@ -1,8 +1,10 @@
 ---
 layout: page
-title: Specification
-description: Get familiar with the basics of LMSS
+title: LMSS
+description: The full specifications of LMSS 1
 nav-menu: true
+show_tile: true
+image: assets/images/pic09.jpg
 ---
 
 

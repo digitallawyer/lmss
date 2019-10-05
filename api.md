@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A brief introduction
+title: API
 description: Get familiar with the basics of LMSS
 nav-menu: true
 show_tile: true
