@@ -1,13 +1,4 @@
----
-layout: page
-title: A brief introduction
-description: Get familiar with the basics of LMSS
-nav-menu: true
-show_tile: true
-image: assets/images/pic07.jpg
----
-
-<!-- Main -->
+I"ñ<!-- Main -->
 <div id="main" class="alt">
 	<!-- One -->
 	<section>
@@ -57,3 +48,4 @@ image: assets/images/pic07.jpg
 		</p>
 	</section>
 </div>
+:ET

@@ -3,7 +3,7 @@ title: LMSS
 subtitle: IO
 email: youremailaddress@gmail.com
 description: An exploration of the SALI Legal Matter <br/> Specification Standard, by Legal.io.
-baseurl: "/lmss" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road

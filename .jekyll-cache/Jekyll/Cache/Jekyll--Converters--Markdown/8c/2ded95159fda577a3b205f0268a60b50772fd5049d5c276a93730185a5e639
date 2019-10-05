@@ -1,13 +1,4 @@
----
-layout: page
-title: LMSS Codes
-description: A detailed look at the LMSS Codes
-nav-menu: true
-show_tile: true
-image: assets/images/pic05.jpg
----
-
-<!-- Main -->
+I"ª<!-- Main -->
 <div id="main" class="alt">
 	<!-- One -->
 	<section>
@@ -19,7 +10,8 @@ image: assets/images/pic05.jpg
 		      <tbody>
 		      <tr>
 		        <th class="col-md-2" scope="col">
-		        <span>Code Set</span></th>
+		        <span class="Sorter text-nowrap"><a href="codetype.php?bb_codetypeOrder=Sorter_ct_name&amp;bb_codetypeDir=ASC" id="bb_codetypeSorter_ct_name">Code Set</a> 
+		        </span></th>
 		        <th class="col-md-1" scope="col">
 		        <span class="Sorter"><a href="codetype.php?bb_codetypeOrder=Sorter2&amp;bb_codetypeDir=ASC" id="bb_codetypeSorter2">Code</a> 
 		        </span>&nbsp;</th>
@@ -35,6 +27,7 @@ image: assets/images/pic05.jpg
 		        <td><div>Process <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Area of Law<div></div></div></td> 
 		        <td>117&nbsp;</td> 
 		      </tr>
+		 
 		      <tr>
 		        <td>SALI Court&nbsp;</td> 
 		        <td>SALI-COURT&nbsp;</td> 
@@ -43,6 +36,7 @@ image: assets/images/pic05.jpg
 		        <td><div>Process Object <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Dispute: Venue<div></div></div></td> 
 		        <td>458&nbsp;</td> 
 		      </tr>
+		 
 		      <tr>
 		        <td>SALI Currency (ISO 4217)&nbsp;</td> 
 		        <td>ISO-4217&nbsp;</td> 
@@ -51,6 +45,7 @@ image: assets/images/pic05.jpg
 		        <td><div>Monetary Value <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Currency<div></div></div></td> 
 		        <td>178&nbsp;</td> 
 		      </tr>
+		 
 		      <tr>
 		        <td>SALI Format&nbsp;</td> 
 		        <td>SALI-FMT&nbsp;</td> 
@@ -59,6 +54,7 @@ image: assets/images/pic05.jpg
 		        <td><div>Description <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Format<div></div></div></td> 
 		        <td>2&nbsp;</td> 
 		      </tr>
+		 
 		      <tr>
 		        <td>SALI Governmental Body&nbsp;</td> 
 		        <td>SALI-GOVT&nbsp;</td> 
@@ -67,6 +63,7 @@ image: assets/images/pic05.jpg
 		        <td><div>Player <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Governmental Authority<div><div>Process Object <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Regulatory: Authority<div></div></div></div></div></td> 
 		        <td>331&nbsp;</td> 
 		      </tr>
+		 
 		      <tr>
 		        <td>SALI Industry&nbsp;</td> 
 		        <td>SALI-IND&nbsp;</td> 
@@ -75,6 +72,7 @@ image: assets/images/pic05.jpg
 		        <td><div>Player <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Industry<div></div></div></td> 
 		        <td>25&nbsp;</td> 
 		      </tr>
+		 
 		      <tr>
 		        <td>SALI Legal Entity&nbsp;</td> 
 		        <td>SALI-LEGENT:2&nbsp;</td> 
@@ -83,6 +81,7 @@ image: assets/images/pic05.jpg
 		        <td><div>Player <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Legal Entity<div><div>Process Object <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Transaction Legal Entity<div></div></div></div></div></td> 
 		        <td>27&nbsp;</td> 
 		      </tr>
+		 
 		      <tr>
 		        <td>SALI LMSS Type&nbsp;</td> 
 		        <td>SALI-LMST&nbsp;</td> 
@@ -91,6 +90,7 @@ image: assets/images/pic05.jpg
 		        <td><div>Header <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> LMSS Type<div></div></div></td> 
 		        <td>3&nbsp;</td> 
 		      </tr>
+		 
 		      <tr>
 		        <td>SALI LMSS Version&nbsp;</td> 
 		        <td>SALI-VERS&nbsp;</td> 
@@ -99,15 +99,17 @@ image: assets/images/pic05.jpg
 		        <td><div>Header <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> LMSS Version<div></div></div></td> 
 		        <td>1&nbsp;</td> 
 		      </tr>
+		 
 		      <tr>
 		        <td>SALI Location (Adapted ISO 3166-2)&nbsp;</td> 
 		        <td>SALI-ISO31662&nbsp;</td> 
 		        <td>ISO 3166-2 is part of the ISO 3166 standard published by the International Organization for Standardization (ISO), and defines codes for identifying the principal subdivisions (e.g., provinces or states) of all countries coded in ISO 3166-1. The official name of the standard is Codes for the representation of names of countries and their subdivisions â€“ Part 2: Country subdivision code.  
-		<br>SALI has adapted part 2 to enforce uniqueness of names across the namespace. 
+		<br />SALI has adapted part 2 to enforce uniqueness of names across the namespace. 
 		          </td> 
 		        <td><div>Matter <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Locale<div></div></div></td> 
 		        <td>3,771&nbsp;</td> 
 		      </tr>
+		 
 		      <tr>
 		        <td>SALI Matter Narrative&nbsp;</td> 
 		        <td>SALI-MATNAR&nbsp;</td> 
@@ -116,6 +118,7 @@ image: assets/images/pic05.jpg
 		        <td><div>Narrative <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Type<div></div></div></td> 
 		        <td>3&nbsp;</td> 
 		      </tr>
+		 
 		      <tr>
 		        <td>SALI Player Role&nbsp;</td> 
 		        <td>SALI-PROLE&nbsp;</td> 
@@ -124,6 +127,7 @@ image: assets/images/pic05.jpg
 		        <td><div>Player <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Player Role<div></div></div></td> 
 		        <td>45&nbsp;</td> 
 		      </tr>
+		 
 		      <tr>
 		        <td>SALI Process&nbsp;</td> 
 		        <td>SALI-PROC&nbsp;</td> 
@@ -132,6 +136,7 @@ image: assets/images/pic05.jpg
 		        <td><div>Process <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Process Type<div></div></div></td> 
 		        <td>35&nbsp;</td> 
 		      </tr>
+		 
 		      <tr>
 		        <td>SALI Process Status&nbsp;</td> 
 		        <td>SALI-PROCSTAT&nbsp;</td> 
@@ -140,6 +145,7 @@ image: assets/images/pic05.jpg
 		        <td><div>Process Object <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Status<div></div></div></td> 
 		        <td>3&nbsp;</td> 
 		      </tr>
+		 
 		      <tr>
 		        <td>SALI Representation Role&nbsp;</td> 
 		        <td>SALI-RROLE&nbsp;</td> 
@@ -148,6 +154,7 @@ image: assets/images/pic05.jpg
 		        <td><div>Counsel <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Representation Role<div></div></div></td> 
 		        <td>4&nbsp;</td> 
 		      </tr>
+		 
 		      <tr>
 		        <td>SALI Trial Type&nbsp;</td> 
 		        <td>SALI-TRITYP&nbsp;</td> 
@@ -156,7 +163,14 @@ image: assets/images/pic05.jpg
 		        <td><div>Process Object <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span> Dispute: Trial Type<div></div></div></td> 
 		        <td>2&nbsp;</td> 
 		      </tr>
+		 
+		      
+		      <tr>
+		        <td class="text-center" colspan="6">
+		          &nbsp;</td>
+		      </tr>
 		    </tbody></table>
   </div>
 	</section>
 </div>
+:ET

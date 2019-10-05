@@ -1,13 +1,4 @@
----
-layout: page
-title: A brief introduction
-description: Get familiar with the basics of LMSS
-nav-menu: true
-show_tile: true
-image: assets/images/pic07.jpg
----
-
-<!-- Main -->
+I"à<!-- Main -->
 <div id="main" class="alt">
 	<!-- One -->
 	<section>
@@ -27,7 +18,6 @@ image: assets/images/pic07.jpg
 		</p>
 		<h2>How does it work?</h2>
 		<h3>Structure</h3>
-		<h3>Codes</h3>
 		<p>The current draft revision of the LMSS defines 16 code sets, six of which are core. The core code sets define legal matters to a basic specification. They are:</p>
 		<ul>
 			<li><b>Area of law</b> - the body or bodies of law applicable.</li>
@@ -57,3 +47,4 @@ image: assets/images/pic07.jpg
 		</p>
 	</section>
 </div>
+:ET
