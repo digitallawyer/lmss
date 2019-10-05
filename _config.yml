@@ -2,7 +2,7 @@
 title: LMSS
 subtitle: by SALI
 email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+description: Documentation and an api designed by Legal.io<br /> for the legal Matter Specification Standard.
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: # the base hostname & protocol for your site
 author:
