@@ -1,10 +1,10 @@
 ---
 layout: page
-title: API
-description: An open API to interact with LMSS
+title: LMSS Structure
+description: An in-depth overview of the basic structure of LMSS
 nav-menu: true
 show_tile: true
-image: assets/images/pic07.jpg
+image: assets/images/pic05.jpg
 ---
 
 <!-- Main -->
@@ -12,7 +12,7 @@ image: assets/images/pic07.jpg
 	<!-- One -->
 	<section>
 		<header class="major">
-			<h1>API</h1>
+			<h1>LMSS Structure</h1>
 		</header>
 		<h2 id="content">Under construction</h2>
 	</section>

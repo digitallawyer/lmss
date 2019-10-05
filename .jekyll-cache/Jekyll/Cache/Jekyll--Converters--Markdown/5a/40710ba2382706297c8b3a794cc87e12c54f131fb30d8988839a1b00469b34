@@ -1,18 +1,9 @@
----
-layout: page
-title: SALI Structure
-description: Get familiar with the basics of LMSS
-nav-menu: true
-show_tile: true
-image: assets/images/pic05.jpg
----
-
-<!-- Main -->
+I"Ø<!-- Main -->
 <div id="main" class="alt">
 	<!-- One -->
 	<section>
 		<header class="major">
-			<h1>A brief introduction</h1>
+			<h1>LMSS Structure</h1>
 		</header>
 		<h2 id="content">What is LMSS?</h2>
 		<p>
@@ -55,3 +46,4 @@ image: assets/images/pic05.jpg
 		</p>
 	</section>
 </div>
+:ET

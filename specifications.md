@@ -1,7 +1,7 @@
 ---
 layout: page
-title: LMSS
-description: The full specifications of LMSS 1
+title: Specifications
+description: The full specifications of LMSS v1.0 rev. 2
 nav-menu: true
 show_tile: true
 image: assets/images/pic09.jpg

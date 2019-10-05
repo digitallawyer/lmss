@@ -1,7 +1,7 @@
 ---
 layout: page
-title: SALI Codes
-description: Get familiar with the basics of LMSS
+title: LMSS Codes
+description: A detailed look at the LMSS Codes
 nav-menu: true
 show_tile: true
 image: assets/images/pic05.jpg
@@ -12,7 +12,7 @@ image: assets/images/pic05.jpg
 	<!-- One -->
 	<section>
 		<header class="major">
-			<h1>A brief introduction</h1>
+			<h1>LMSS Codes</h1>
 		</header>
 		<h2 id="content">What is LMSS?</h2>
 		<p>
