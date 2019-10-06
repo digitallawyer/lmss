@@ -1,13 +1,4 @@
----
-layout: page
-title: LMSS Structure
-description: An in-depth overview of the structure of LMSS
-nav-menu: true
-show_tile: true
-image: assets/images/structure.jpg
----
-
-<p style="font-size:0.75em"><a href="/">Home</a>&nbsp;&nbsp;>&nbsp;&nbsp;LMSS Structure</p>
+I"�T<p style="font-size:0.75em"><a href="/">Home</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;LMSS Structure</p>
 <div id="main" class="alt">
 	<!-- One -->
 	<section>
@@ -24,7 +15,7 @@ image: assets/images/structure.jpg
 		<b>Document container elements</b>
 		<table>
 		  <tr>
-		    <th>ELEMENT<br></th>
+		    <th>ELEMENT<br /></th>
 		    <th>REQ</th>
 		    <th>MULT</th>
 		    <th>TYPE</th>
@@ -50,7 +41,7 @@ image: assets/images/structure.jpg
 		</p>
 		<table>
 		<tr>
-		<th>ELEMENT<br></th>
+		<th>ELEMENT<br /></th>
 		<th>REQ</th>
 		<th>MULT</th>
 		<th>TYPE</th>
@@ -74,15 +65,15 @@ image: assets/images/structure.jpg
 		<td>Type</td>
 		<td>Y</td>
 		<td>N</td>
-		<td>Enumeration:<br>SALI LMSS Type</td>
-		<td>The type of the document. Supported types<br>include "Instance", "Template", and "Query". The default value is "Instance"</td>
+		<td>Enumeration:<br />SALI LMSS Type</td>
+		<td>The type of the document. Supported types<br />include "Instance", "Template", and "Query". The default value is "Instance"</td>
 		</tr>
 		<tr>
 		<td>Language</td>
 		<td>N</td>
 		<td>N</td>
-		<td>Enumeration:<br>IETF BCP 47</td>
-		<td>Languages follow the Internet Engineering<br>Task Force recommendation in BCP 47</td>
+		<td>Enumeration:<br />IETF BCP 47</td>
+		<td>Languages follow the Internet Engineering<br />Task Force recommendation in BCP 47</td>
 		</tr>
 		<tr>
 		<td>Charset</td>
@@ -92,7 +83,7 @@ image: assets/images/structure.jpg
 		<td>Default value is UTF-8</td>
 		</tr>
 		<tr>
-		<td>Extension<br>Link</td>
+		<td>Extension<br />Link</td>
 		<td>N</td>
 		<td>Y</td>
 		<td>Text: URI</td>
@@ -110,7 +101,7 @@ image: assets/images/structure.jpg
 		<td>N</td>
 		<td>Y</td>
 		<td>Container</td>
-		<td>Declarations are indexes of names that need<br>to be cross referenced in a specification.<br>NameIDs can be used in place of names<br>wherever names may appear.</td>
+		<td>Declarations are indexes of names that need<br />to be cross referenced in a specification.<br />NameIDs can be used in place of names<br />wherever names may appear.</td>
 		</tr>
 		</table>
 		<h4>3.1. Title</h4>
@@ -139,7 +130,7 @@ image: assets/images/structure.jpg
 		</p>
 		<table>
 		  <tr>
-		    <th>ELEMENT<br></th>
+		    <th>ELEMENT<br /></th>
 		    <th>REQ</th>
 		    <th>MULT</th>
 		    <th>TYPE</th>
@@ -213,7 +204,7 @@ image: assets/images/structure.jpg
 }
 		</code></pre>
 		<h4>4.1. Code Set</h4>
-		<p>The LMSS Code of the code set.</p>
+		<p>The LMSS Code of the code set. (See 6.1)</p>
 		<h4>4.2. Code</h4>
 		<p>The code assigned to the extension. The code will have a “@” prepended to it when used.</p>
 		<h4>4.3. Parent</h4>
@@ -224,52 +215,12 @@ image: assets/images/structure.jpg
 		<p>A declaration may be used to assign and index to an item to ensure accurate cross referencing. Declarations are typically used for legal entities but can be used in place of a Name (See 4.10.1, 4.11.1 and 4.11.2).</p>
 		<p>A legal person or entity is any human or non-human entity, in other words, any human being, firm, or government agency that is recognized as having privileges and obligations, such as having the ability to enter into contracts, to sue, and to be sued.</p>
 		<p>Entities are used to maintain referential integrity across LMSS structure. For example, if the matter includes two processes that refer to the same legal entity as in the example, “Review and negotiate project labor agreement for Jane Smith.” The matter may be encoded to have two processes – one for review and another of negotiation. But the review and negotiation are the same legal entity. An entity declaration should be used in this instance and the entity NameID should be used in each process to ensure that it is understood that the objects of both process are the same.</p>
-		<table>
-			<thead>
-				<tr>
-					<th>ELEMENT</th>
-					<th>REQ.</th>
-					<th>MULT.</th>
-					<th>TYPE</th>
-					<th>COMMENTS</th>
-					<th>&nbsp;</th>
-				</tr>
-			</thead>
-			<tbody>
-		 		<tr>
-		 			<td>NamelD</td>
-		 			<td>Y</td>
-		 			<td>N</td>
-		 			<td>Text(40)</td>
-		 			<td>The NamelD of the entity. Must be of the regular expression form \^[A-Za-z0-9_-]{1,39}</td>
-		 			<td>&nbsp;</td>
-		 		</tr>
-		 		<tr>
-		 			<td>Name</td>
-		 			<td>Y</td>
-		 			<td>N</td>
-		 			<td>Text(250)</td>
-		 			<td>Name to be inserted wherever the NamelD appears</td><td>&nbsp;</td>
-		 		</tr>
-			</tbody>
-		</table>
 		<h4>5.1. NameID</h4>
 		<p>The ID to be used in place of a name. NameIDs must begin with a caret symbol. (e.g. ^102 or ^EntityXYZ).</p>
 		<h4>5.2. Name</h4>
 		<p>The name to be used in place of the NameID.</p>
 		<h3>6. Matter</h3>
 		<p>The Matter container encapsulates the information for a matter. There may be more than one matter per document. The matter must have a title, a human readable description, a locale and one or more processes. The locale may restrict the types of the processes. For example, certain bankruptcy processes are limited to the US because those processes a defined by US Bankruptcy law.</p>
-		<table class="tableizer-table">
-		<thead><tr class="tableizer-firstrow"><th>ELEMENT</th><th>REQ</th><th>MULT.</th><th>TYPE</th><th>COMMENTS</th><th>&nbsp;</th></tr></thead><tbody>
-		 <tr><td>Title</td>		 			<td>Y</td>
-		 			<td>N</td><td>Text(250)</td><td>The title of the matter.</td><td>&nbsp;</td></tr>
-		 <tr><td>Locale</td>		 			<td>Y</td>
-		 			<td>N</td><td>Enumeration: ISO 3166-2</td><td>The location of the matter.</td><td>&nbsp;</td></tr>
-		 <tr><td>Process</td>		 			<td>Y</td>
-		 			<td>Y</td><td>Container</td><td>The process or processes for this matter.</td><td>&nbsp;</td></tr>
-		 <tr><td>Narrative</td>		 			<td>Y</td>
-		 			<td>N</td><td>Container</td><td>The description of the matter.</td><td></td></tr>
-		</tbody></table>
 		<h4>6.1. Title</h4>
 		<p>A required title for the process.</p>
 		<h4>6.2. Locale</h4>
@@ -277,13 +228,6 @@ image: assets/images/structure.jpg
 		<h3>7. Narrative</h3>
 		<p>A narrative holds a group of related matter descriptions. It includes a required type which is an enumerated list, an optional usage tag, and an optional source. Each narrative can have a specified usage so a Matter can have multiple narratives based on the audience. each narrative is intended to capture a logically unique matter interpretation of the matter. Formatting and language variants are accommodated in the description container.</p>
 		<p>Narrative container elements</p>
-		<table class="tableizer-table">
-		<thead><tr class="tableizer-firstrow"><th>ELEMENT</th><th>REQ</th><th>MULT.</th><th>TYPE</th><th>COMMENTS</th><th>&nbsp;</th></tr></thead><tbody>
-		 <tr><td>Type</td><td>Y</td><td>N</td><td>Enumeration: SALI Narrative</td><td>The type of the narrative.</td><td>&nbsp;</td></tr>
-		 <tr><td>Usage</td><td>N</td><td>N</td><td>Text(250)</td><td>Descriptions of the intended audience or other usage of the narrative</td><td>&nbsp;</td></tr>
-		 <tr><td>Description</td><td>Y</td><td>Y</td><td>Container</td><td>One or more descriptions of a narrative.</td><td>&nbsp;</td></tr>
-		 <tr><td>Source</td><td>N</td><td>Y</td><td>Text(250)</td><td>The source of the narrative</td><td></td></tr>
-		</tbody></table>
 		<h4>7.1. Type</h4>
 		<p>The narrative type is an enumerated list intended to capture the sensitivity of the narrative. Values include: public, confidential, private, generic, etc.</p>
 		<h4>7.2. Usage</h4>
@@ -332,91 +276,119 @@ matter.
 		<h4>10.4. Legal Entity</h4>
 		<p>Legal entity describes the type of the player. In law, a “legal person” or “legal entity” is any human or non-human entity, in other words, any human being, firm, or government agency that is recognized as having privileges and obligations, such as having the ability to enter into contracts, to sue, and to be sued. Legal Entity is an enumerated value.</p>
 		<h4>10. 5 Governmental Authority</h4>
-		<p>The enumerated identification of the governmental authority if the player is a governmental authority.</p>
-		<h3>4.11 Counsel</h3>
-		<p>The counsel container includes all of the legal representatives of the player. The fields of the counsel container are described below:</p>
-		<b>Counsel container elements</b>
-		</p>*Either a Name or a NameID is required.</p>
-		<h4>11.1. Name</h4>
-		<p>The name is the name of counsel in human readable form. If a NameID is used, an Name is not required. (NameIDs are indicated by prefixing them with a caret “^” symbol. e.g. “^103”.)</p>
-		<h4>11.2. Firm Name</h4>
-		<p>The firm name is the name of firm that the counsel is part of in human readable form. If a NameID is used, an Firm Name is not required.</p>
-		<h4>11.3. Representation Role</h4>
-		<p>The role of the legal representative. Role is an enumerated value.</p>
-		<h3>12. Process Object</h3>
-		<p>The process object encapsulates important elements of the process. A process can have multiple process object. The process object can simply be a summary of key attributes of the overall process. Additional process objects can be attached to describe the preconditions and post conditions of a process. For example, for a merger, there optionally can be individual process objects describing the predecessor entities and resulting entity. 
-		<table>
-			<thead>
-				<tr>
-					<th>ELEMENT</th>
-					<th>REQ.</th>
-					<th>MULT.</th>
-					<th>TYPE</th>
-					<th>COMMENTS</th>
-				</tr>
-			</thead>
-			<tbody>
- 				<tr>
- 					<td>Non-Monetary Value</td>
- 					<td>N</td>
- 					<td>N</td>
- 					<td>Text(400)</td>
- 					<td>The non-monetary value of the transaction, dispute or object.</td> 
- 				<tr>
-				 <tr><td>Transaction:</td><td>Text(4000)</td><td>Description of the consideration for the deal -</td><td>&nbsp;</td></tr>
-				 <tr><td>Consideration</td><td>Stock, Cash, Real Estate, etc.</td><td>&nbsp;</td></tr>
-				 <tr><td>Transaction:</td><td>Text(4000)</td><td>Type of deal.</td><td>&nbsp;</td></tr>
-				 <tr><td>Deal Type</td><td>&nbsp;</td></tr>
-				 <tr><td>Transaction:</td><td>Text(4000)</td><td>Location of the transaction.</td><td>&nbsp;</td></tr>
-				 <tr><td>Location</td><td>&nbsp;</td></tr>
-				 <tr><td>Transaction:</td><td>Enumerated</td><td>If a formation or dissolution, the kind of legal</td><td>&nbsp;</td></tr>
-				 <tr><td>Legal Entity</td><td>Value: Legal</td><td>entity formed or destroyed.</td><td>&nbsp;</td></tr>
-				 <tr><td>Entity</td><td>&nbsp;</td></tr>
-				 <tr><td>Regulatory:</td><td>Enumerated</td><td>Regulator. A public authority or govemment</td><td>&nbsp;</td></tr>
-				 <tr><td>Authority</td><td>Value:</td><td>agency responsible for exercising</td><td>&nbsp;</td></tr>
-				 <tr><td>Govemmental</td><td>autonomous authority over some area of</td><td>&nbsp;</td></tr>
-				 <tr><td>Authority</td><td>human activity in a regulatory or supervisory</td><td>&nbsp;</td></tr>
-				 <tr><td>capacity.</td><td>&nbsp;</td></tr>
-				 <tr><td>Regulatory:</td><td>Text(250)</td><td>Regulatory authority not included in the</td><td>&nbsp;</td></tr>
-				 <tr><td>Authority Other</td><td>enumeration values</td><td>&nbsp;</td></tr>
-				 <tr><td>Dispute: Venue</td><td>Enumerated</td><td>The venue of the dispute.</td><td>&nbsp;</td></tr>
-				 <tr><td>Value: Court</td><td>&nbsp;</td></tr>
-				 <tr><td>Dispute: Venue</td><td>Text(250)</td><td>Dispute venue not fully covered by the</td><td>&nbsp;</td></tr>
-				 <tr><td>Other</td><td>enumerated values.</td><td>&nbsp;</td></tr>
-				 <tr><td>Dispute: Trial</td><td>N</td><td>N</td><td>Enumerated</td><td>The type of the trial.</td><td>&nbsp;</td></tr>
-				 <tr><td>Type</td><td>Value: Trial Type</td><td>&nbsp;</td></tr>
-				 <tr><td>Dispute: Case</td><td>N</td><td>N</td><td>Text(250)</td><td>Name of the case.</td><td>&nbsp;</td></tr>
-				 <tr><td>Name</td><td>&nbsp;</td></tr>
-				 <tr><td>Dispute:</td><td>N</td><td>N</td><td>Text(250)</td><td>Enumeration TBD</td><td>&nbsp;</td></tr>
-				 <tr><td>Resolution</td><td>&nbsp;</td></tr>
-				 <tr><td>Dispute:</td><td>N</td><td>N</td><td>Date</td><td>Date of the dispute resolution</td><td>&nbsp;</td></tr>
-				 <tr><td>Resolution</td><td>&nbsp;</td></tr>
-				 <tr><td>Date</td><td>&nbsp;</td></tr>
-				 <tr><td>Dispute:</td><td>N</td><td>N</td><td>Integer</td><td>Duration of the dispute in months</td><td>&nbsp;</td></tr>
-				 <tr><td>Duration</td><td>&nbsp;</td></tr>
-				 <tr><td>(Months)</td><td>&nbsp;</td></tr>
-				 <tr><td>Dispute: Multi-</td><td>N</td><td>N</td><td>Boolean</td><td>Set if the dispute is multijurisdictional</td><td>&nbsp;</td></tr>
-				 <tr><td>Jurisdictional</td><td></td></tr>
-			</tbody>
-		</table>
+<p>The enumerated identification of the governmental authority if the player is a<br />
+governmental authority.</p>
+&lt;h3data-line-end=288 &gt;<a id="411_Counsel_287"></a>4.11 Counsel&lt;/h3&gt;
+<p>The counsel container includes all of the legal representatives of the player. The fields<br />
+of the counsel container are described below:<br />
+Counsel container elements<br />
+ELEMENT REQ. MULT. TYPE COMMENTS</p>
+<p>Name (^) Y* N Text(250) The name of the legal representative. May<br />
+use a Name or a declared ID.<br />
+Firm Name N* N Text(250) The firms of the legal representative. May<br />
+use a Name or a declared ID.<br />
+Representation<br />
+Role<br />
+Y N Enumeration The role of the legal representative<br />
+*Either a Name or a NameID is required.</p>
+<h4 data-line-end="304"><a id="4111_Name_303"></a>4.11.1 Name</h4>
+<p>The name is the name of counsel in human readable form. If a NameID is used, an<br />
+Name is not required. (NameIDs are indicated by prefixing them with a caret “^” symbol.<br />
+e.g. “^103”.)</p>
+<h4 data-line-end="311"><a id="4112_Firm_Name_310"></a>4.11.2 Firm Name</h4>
+<p>The firm name is the name of firm that the counsel is part of in human readable form. If<br />
+a NameID is used, an Firm Name is not required.</p>
+<h4 data-line-end="316"><a id="4113_Representation_Role_315"></a>4.11.3 Representation Role</h4>
+<p>The role of the legal representative. Role is an enumerated value.</p>
+&lt;h3data-line-end=320 &gt;<a id="412_Process_Object_319"></a>4.12 Process Object&lt;/h3&gt;
+<p>The process object encapsulates important elements of the process. A process can<br />
+have multiple process object. The process object can simply be a summary of key<br />
+attributes of the overall process. Additional process objects can be attached to describe<br />
+the preconditions and post conditions of a process. For example, for a merger, there<br />
+optionally can be individual process objects describing the predecessor entities and<br />
+resulting entity.<br />
+ELEMENT REQ. MULT. TYPE COMMENTS<br />
+Description N N Text(4000) The description the Process Object<br />
+Status N N Enumeration An enumerated status: Open, closed,<br />
+Canceled<br />
+Cross-Border N N Boolean Is the process cross border?<br />
+Filing Date N N Date The filing date, if appropriate<br />
+Term Sheet<br />
+Date<br />
+N N Date The term sheet date, if appropriate<br />
+Effective Date N N Date The effective date of the process<br />
+Closing Date N N Date Closing date, if appropriate<br />
+Announce date N N Date The date process was announced, if<br />
+appropriate</p>
+&lt;p data349"&gt;Asset Location (^) N N Text(4000) Location of the transaction - esp. for real<br />
+property<br />
+Asset<br />
+Description<br />
+N N Text(4000) Description of the asset such as asset type,<br />
+asset size, etc.<br />
+Monetary Value (^) N N Container The monetary value of the transaction,<br />
+dispute or object</p>
+<p>ELEMENT REQ. MULT. TYPE COMMENTS<br />
 
-<p>ELEMENT REQ. MULT. TYPE COMMENTS<br>
-Dispute:<br>
-Number of<br>
-Depositions<br>
-N N Integer Number of depositions<br>
-Dispute:<br>
-Number of<br>
-Experts<br>
-N N Integer Number of experts<br>
+<table>
+<thead><tr class="tableizer-firstrow"><th>ELEMENT</th><th>REQ.</th><th>MULT.</th><th>TYPE</th><th>COMMENTS</th><th>&nbsp;</th></tr></thead><tbody>
+ <tr><td>Non-Monetary</td><td>N</td><td>N</td><td>Text(400)</td><td>The non-monetary value of the transaction,</td><td>&nbsp;</td></tr>
+ <tr><td>Value</td><td>dispute or object.</td><td>&nbsp;</td></tr>
+ <tr><td>Transaction:</td><td>Text(4000)</td><td>Description of the consideration for the deal -</td><td>&nbsp;</td></tr>
+ <tr><td>Consideration</td><td>Stock, Cash, Real Estate, etc.</td><td>&nbsp;</td></tr>
+ <tr><td>Transaction:</td><td>Text(4000)</td><td>Type of deal.</td><td>&nbsp;</td></tr>
+ <tr><td>Deal Type</td><td>&nbsp;</td></tr>
+ <tr><td>Transaction:</td><td>Text(4000)</td><td>Location of the transaction.</td><td>&nbsp;</td></tr>
+ <tr><td>Location</td><td>&nbsp;</td></tr>
+ <tr><td>Transaction:</td><td>Enumerated</td><td>If a formation or dissolution, the kind of legal</td><td>&nbsp;</td></tr>
+ <tr><td>Legal Entity</td><td>Value: Legal</td><td>entity formed or destroyed.</td><td>&nbsp;</td></tr>
+ <tr><td>Entity</td><td>&nbsp;</td></tr>
+ <tr><td>Regulatory:</td><td>Enumerated</td><td>Regulator. A public authority or govemment</td><td>&nbsp;</td></tr>
+ <tr><td>Authority</td><td>Value:</td><td>agency responsible for exercising</td><td>&nbsp;</td></tr>
+ <tr><td>Govemmental</td><td>autonomous authority over some area of</td><td>&nbsp;</td></tr>
+ <tr><td>Authority</td><td>human activity in a regulatory or supervisory</td><td>&nbsp;</td></tr>
+ <tr><td>capacity.</td><td>&nbsp;</td></tr>
+ <tr><td>Regulatory:</td><td>Text(250)</td><td>Regulatory authority not included in the</td><td>&nbsp;</td></tr>
+ <tr><td>Authority Other</td><td>enumeration values</td><td>&nbsp;</td></tr>
+ <tr><td>Dispute: Venue</td><td>Enumerated</td><td>The venue of the dispute.</td><td>&nbsp;</td></tr>
+ <tr><td>Value: Court</td><td>&nbsp;</td></tr>
+ <tr><td>Dispute: Venue</td><td>Text(250)</td><td>Dispute venue not fully covered by the</td><td>&nbsp;</td></tr>
+ <tr><td>Other</td><td>enumerated values.</td><td>&nbsp;</td></tr>
+ <tr><td>Dispute: Trial</td><td>N</td><td>N</td><td>Enumerated</td><td>The type of the trial.</td><td>&nbsp;</td></tr>
+ <tr><td>Type</td><td>Value: Trial Type</td><td>&nbsp;</td></tr>
+ <tr><td>Dispute: Case</td><td>N</td><td>N</td><td>Text(250)</td><td>Name of the case.</td><td>&nbsp;</td></tr>
+ <tr><td>Name</td><td>&nbsp;</td></tr>
+ <tr><td>Dispute:</td><td>N</td><td>N</td><td>Text(250)</td><td>Enumeration TBD</td><td>&nbsp;</td></tr>
+ <tr><td>Resolution</td><td>&nbsp;</td></tr>
+ <tr><td>Dispute:</td><td>N</td><td>N</td><td>Date</td><td>Date of the dispute resolution</td><td>&nbsp;</td></tr>
+ <tr><td>Resolution</td><td>&nbsp;</td></tr>
+ <tr><td>Date</td><td>&nbsp;</td></tr>
+ <tr><td>Dispute:</td><td>N</td><td>N</td><td>Integer</td><td>Duration of the dispute in months</td><td>&nbsp;</td></tr>
+ <tr><td>Duration</td><td>&nbsp;</td></tr>
+ <tr><td>(Months)</td><td>&nbsp;</td></tr>
+ <tr><td>Dispute: Multi-</td><td>N</td><td>N</td><td>Boolean</td><td>Set if the dispute is multijurisdictional</td><td>&nbsp;</td></tr>
+ <tr><td>Jurisdictional</td><td></td></tr>
+</tbody></table>
+
+<p>ELEMENT REQ. MULT. TYPE COMMENTS<br />
+Dispute:<br />
+Number of<br />
+Depositions<br />
+N N Integer Number of depositions<br />
+Dispute:<br />
+Number of<br />
+Experts<br />
+N N Integer Number of experts<br />
 See the table above for descriptions.</p>
-<h3 data430 data-line-end=431 ><a id="413_Monetary_Value_430"></a>4.13 Monetary Value</h3>
-<p>Monetary Value encapsulates a financial value attribute. It consists of a floating point<br>
-number and a currency code.<br>
-Monetary value container elements<br>
-ELEMENT REQ. MULT. TYPE COMMENTS<br>
-Currency Y N Enumeration:<br>
-Currency<br>
-A currency code a defined by ISO 4217<br>
-Value Y N Float A floating point number that represents the value<br>
+<h3 data430="" data-line-end="431"><a id="413_Monetary_Value_430"></a>4.13 Monetary Value</h3>
+<p>Monetary Value encapsulates a financial value attribute. It consists of a floating point<br />
+number and a currency code.<br />
+Monetary value container elements<br />
+ELEMENT REQ. MULT. TYPE COMMENTS<br />
+Currency Y N Enumeration:<br />
+Currency<br />
+A currency code a defined by ISO 4217<br />
+Value Y N Float A floating point number that represents the value<br />
 &lt;/p&gt;</p>
+</p></p></section></div>
+:ET

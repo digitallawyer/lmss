@@ -1,13 +1,4 @@
----
-layout: page
-title: LMSS Structure
-description: An in-depth overview of the structure of LMSS
-nav-menu: true
-show_tile: true
-image: assets/images/structure.jpg
----
-
-<p style="font-size:0.75em"><a href="/">Home</a>&nbsp;&nbsp;>&nbsp;&nbsp;LMSS Structure</p>
+I"LT<p style="font-size:0.75em"><a href="/">Home</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;LMSS Structure</p>
 <div id="main" class="alt">
 	<!-- One -->
 	<section>
@@ -24,7 +15,7 @@ image: assets/images/structure.jpg
 		<b>Document container elements</b>
 		<table>
 		  <tr>
-		    <th>ELEMENT<br></th>
+		    <th>ELEMENT<br /></th>
 		    <th>REQ</th>
 		    <th>MULT</th>
 		    <th>TYPE</th>
@@ -50,7 +41,7 @@ image: assets/images/structure.jpg
 		</p>
 		<table>
 		<tr>
-		<th>ELEMENT<br></th>
+		<th>ELEMENT<br /></th>
 		<th>REQ</th>
 		<th>MULT</th>
 		<th>TYPE</th>
@@ -74,15 +65,15 @@ image: assets/images/structure.jpg
 		<td>Type</td>
 		<td>Y</td>
 		<td>N</td>
-		<td>Enumeration:<br>SALI LMSS Type</td>
-		<td>The type of the document. Supported types<br>include "Instance", "Template", and "Query". The default value is "Instance"</td>
+		<td>Enumeration:<br />SALI LMSS Type</td>
+		<td>The type of the document. Supported types<br />include "Instance", "Template", and "Query". The default value is "Instance"</td>
 		</tr>
 		<tr>
 		<td>Language</td>
 		<td>N</td>
 		<td>N</td>
-		<td>Enumeration:<br>IETF BCP 47</td>
-		<td>Languages follow the Internet Engineering<br>Task Force recommendation in BCP 47</td>
+		<td>Enumeration:<br />IETF BCP 47</td>
+		<td>Languages follow the Internet Engineering<br />Task Force recommendation in BCP 47</td>
 		</tr>
 		<tr>
 		<td>Charset</td>
@@ -92,7 +83,7 @@ image: assets/images/structure.jpg
 		<td>Default value is UTF-8</td>
 		</tr>
 		<tr>
-		<td>Extension<br>Link</td>
+		<td>Extension<br />Link</td>
 		<td>N</td>
 		<td>Y</td>
 		<td>Text: URI</td>
@@ -110,7 +101,7 @@ image: assets/images/structure.jpg
 		<td>N</td>
 		<td>Y</td>
 		<td>Container</td>
-		<td>Declarations are indexes of names that need<br>to be cross referenced in a specification.<br>NameIDs can be used in place of names<br>wherever names may appear.</td>
+		<td>Declarations are indexes of names that need<br />to be cross referenced in a specification.<br />NameIDs can be used in place of names<br />wherever names may appear.</td>
 		</tr>
 		</table>
 		<h4>3.1. Title</h4>
@@ -139,7 +130,7 @@ image: assets/images/structure.jpg
 		</p>
 		<table>
 		  <tr>
-		    <th>ELEMENT<br></th>
+		    <th>ELEMENT<br /></th>
 		    <th>REQ</th>
 		    <th>MULT</th>
 		    <th>TYPE</th>
@@ -277,13 +268,6 @@ image: assets/images/structure.jpg
 		<h3>7. Narrative</h3>
 		<p>A narrative holds a group of related matter descriptions. It includes a required type which is an enumerated list, an optional usage tag, and an optional source. Each narrative can have a specified usage so a Matter can have multiple narratives based on the audience. each narrative is intended to capture a logically unique matter interpretation of the matter. Formatting and language variants are accommodated in the description container.</p>
 		<p>Narrative container elements</p>
-		<table class="tableizer-table">
-		<thead><tr class="tableizer-firstrow"><th>ELEMENT</th><th>REQ</th><th>MULT.</th><th>TYPE</th><th>COMMENTS</th><th>&nbsp;</th></tr></thead><tbody>
-		 <tr><td>Type</td><td>Y</td><td>N</td><td>Enumeration: SALI Narrative</td><td>The type of the narrative.</td><td>&nbsp;</td></tr>
-		 <tr><td>Usage</td><td>N</td><td>N</td><td>Text(250)</td><td>Descriptions of the intended audience or other usage of the narrative</td><td>&nbsp;</td></tr>
-		 <tr><td>Description</td><td>Y</td><td>Y</td><td>Container</td><td>One or more descriptions of a narrative.</td><td>&nbsp;</td></tr>
-		 <tr><td>Source</td><td>N</td><td>Y</td><td>Text(250)</td><td>The source of the narrative</td><td></td></tr>
-		</tbody></table>
 		<h4>7.1. Type</h4>
 		<p>The narrative type is an enumerated list intended to capture the sensitivity of the narrative. Values include: public, confidential, private, generic, etc.</p>
 		<h4>7.2. Usage</h4>
@@ -397,26 +381,28 @@ matter.
 				 <tr><td>(Months)</td><td>&nbsp;</td></tr>
 				 <tr><td>Dispute: Multi-</td><td>N</td><td>N</td><td>Boolean</td><td>Set if the dispute is multijurisdictional</td><td>&nbsp;</td></tr>
 				 <tr><td>Jurisdictional</td><td></td></tr>
-			</tbody>
-		</table>
+			&lt;/tbody&gt;
+		&lt;/table&gt;
 
-<p>ELEMENT REQ. MULT. TYPE COMMENTS<br>
-Dispute:<br>
-Number of<br>
-Depositions<br>
-N N Integer Number of depositions<br>
-Dispute:<br>
-Number of<br>
-Experts<br>
-N N Integer Number of experts<br>
+<p>ELEMENT REQ. MULT. TYPE COMMENTS<br />
+Dispute:<br />
+Number of<br />
+Depositions<br />
+N N Integer Number of depositions<br />
+Dispute:<br />
+Number of<br />
+Experts<br />
+N N Integer Number of experts<br />
 See the table above for descriptions.</p>
-<h3 data430 data-line-end=431 ><a id="413_Monetary_Value_430"></a>4.13 Monetary Value</h3>
-<p>Monetary Value encapsulates a financial value attribute. It consists of a floating point<br>
-number and a currency code.<br>
-Monetary value container elements<br>
-ELEMENT REQ. MULT. TYPE COMMENTS<br>
-Currency Y N Enumeration:<br>
-Currency<br>
-A currency code a defined by ISO 4217<br>
-Value Y N Float A floating point number that represents the value<br>
+<h3 data430="" data-line-end="431"><a id="413_Monetary_Value_430"></a>4.13 Monetary Value</h3>
+<p>Monetary Value encapsulates a financial value attribute. It consists of a floating point<br />
+number and a currency code.<br />
+Monetary value container elements<br />
+ELEMENT REQ. MULT. TYPE COMMENTS<br />
+Currency Y N Enumeration:<br />
+Currency<br />
+A currency code a defined by ISO 4217<br />
+Value Y N Float A floating point number that represents the value<br />
 &lt;/p&gt;</p>
+</tr></tr></tbody></table></p></section></div>
+:ET
