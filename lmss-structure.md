@@ -8,7 +8,7 @@ image: assets/images/structure.jpg
 ---
 
 
-# LMSS Structure
+# LMSS Structure (WIP)
 
 ## 1. Overview
 
