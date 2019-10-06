@@ -1,0 +1,864 @@
+I"v{<!-- Main -->
+<div id="main" class="alt">
+	<!-- One -->
+	<section>
+		<header class="major">
+			<h1>SALI Player Role</h1>
+		</header>
+		<input type="text" class="light-table-filter" data-table="order-table" placeholder="Enter one or more keywords to search the codes" />
+		<p>
+		<div class="table-responsive">
+    <table class="table-wrapper order-table table">
+       <tbody>
+ 
+      <tr>
+        <th class="text-right" scope="col">#</th>
+ 
+        <th scope="col">
+        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=7&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_ct_name&amp;gridDir=ASC" id="gridSorter_ct_name">Code Set</a> 
+        
+        </span></th>
+ 
+        <th scope="col">
+        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=7&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_bb_level&amp;gridDir=ASC" id="gridSorter_bb_level">Level</a> 
+        
+        </span></th>
+ 
+        <th scope="col">
+        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=7&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_bb_code&amp;gridDir=ASC" id="gridSorter_bb_code">Code</a> 
+        
+        </span></th>
+ 
+        <th scope="col">
+        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=7&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter1&amp;gridDir=ASC" id="gridSorter1">Full Code</a> 
+        
+        </span>&nbsp;</th>
+ 
+        <th scope="col">
+        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=7&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_bb_shortname&amp;gridDir=ASC" id="gridSorter_bb_shortname">Short Name</a> 
+        
+        </span></th>
+ 
+        <th scope="col">
+        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=7&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_bb_name&amp;gridDir=ASC" id="gridSorter_bb_name">Name</a> 
+        
+        </span>&nbsp;</th>
+ 
+        <th scope="col">
+        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=7&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_bb_description&amp;gridDir=ASC" id="gridSorter_bb_description">Description</a> 
+        
+        </span></th>
+ 
+        <th scope="col">
+        <div class="pull-right">
+          
+        </div>
+        </th>
+      </tr>
+ 
+      
+      <tr>
+        <td class="text-right">1&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>APPL&nbsp;</td> 
+        <td>APPL&nbsp;</td> 
+        <td>Appellant&nbsp;</td> 
+        <td>Appellant&nbsp;</td> 
+        <td>An appellant is a person, company or entity that applies to a higher court for a reversal of the decision of a lower court.<br /><strong>Comment:</strong> Process: Dispute: Appellate<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">2&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>APPT&nbsp;</td> 
+        <td>APPT&nbsp;</td> 
+        <td>Applicant/Petitioner&nbsp;</td> 
+        <td>Applicant/Petitioner&nbsp;</td> 
+        <td>An applicant or petitioner is a person who files a petition or makes an application or the person who is applying for a legal remedy to a problem.<br /><strong>Tags:</strong> Applicant; Petitioner<br /><strong>Comment:</strong> Process: Dispute<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">3&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>AQRE&nbsp;</td> 
+        <td>AQRE&nbsp;</td> 
+        <td>Acquiree&nbsp;</td> 
+        <td>Acquiree&nbsp;</td> 
+        <td>An acquiree is a company or entity that is being acquired or purchased in a merger or acquisition transaction. The acquiree is also known as the target firm during a takeover scenario.<br /><strong>Comment:</strong> Process: Transaction: Merger and Acquisition<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">4&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>AQRR&nbsp;</td> 
+        <td>AQRR&nbsp;</td> 
+        <td>Acquiror&nbsp;</td> 
+        <td>Acquiror&nbsp;</td> 
+        <td>An acquiror is the surviving company or entity once a merger takes place.<br /><strong>Comment:</strong> Process: Transaction: Merger and Acquisition<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">5&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>ARBT&nbsp;</td> 
+        <td>ARBT&nbsp;</td> 
+        <td>Arbitrator&nbsp;</td> 
+        <td>Arbitrator&nbsp;</td> 
+        <td>An arbitrator is an independent person or body appointed to hear a dispute in arbitration.<br /><strong>Comment:</strong> Process: Disputes<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">6&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>ASGE&nbsp;</td> 
+        <td>ASGE&nbsp;</td> 
+        <td>Assignee&nbsp;</td> 
+        <td>Assignee&nbsp;</td> 
+        <td>An assignee is a person, company or entity who receives the transfer of property, title or rights from a contract. The assignee receives the transfer from the assignor.<br /><strong>Comment:</strong> Process: Transaction<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">7&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>ASGR&nbsp;</td> 
+        <td>ASGR&nbsp;</td> 
+        <td>Assignor&nbsp;</td> 
+        <td>Assignor&nbsp;</td> 
+        <td>An assignor is a person, company or entity who transfers rights they hold to another entity. The assignor transfers to the assignee.<br /><strong>Comment:</strong> Process: Transaction<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">8&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>BORR&nbsp;</td> 
+        <td>BORR&nbsp;</td> 
+        <td>Borrower&nbsp;</td> 
+        <td>Borrower&nbsp;</td> 
+        <td>A borrower is a person, company, or entity that obtains funds from a business or individual for a specified period of time upon condition of promising to repay the loan.<br /><strong>Comment:</strong> Process: Transaction: Loan<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">9&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>BROK&nbsp;</td> 
+        <td>BROK&nbsp;</td> 
+        <td>Broker&nbsp;</td> 
+        <td>Broker&nbsp;</td> 
+        <td>A broker is an individual or firm employed by others to plan and organize sales or negotiate contracts for a commission.<br /><strong>Comment:</strong> Process: Transaction<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">10&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>BUYR&nbsp;</td> 
+        <td>BUYR&nbsp;</td> 
+        <td>Buyer&nbsp;</td> 
+        <td>Buyer&nbsp;</td> 
+        <td>A buyer or purchaser generally means a person, company or entity contracting with a seller for services or merchandise to be provided or delivered for a named individual. In a strict legal sense, a buyer may also include someone who acquires title to something by deed, devise, execution, prescription, possession, occupancy, or escheat.<br /><strong>Tags:</strong> Buyer; Purchaser; Vendee<br /><strong>Comment:</strong> Process: Transaction<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">11&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>CRED&nbsp;</td> 
+        <td>CRED&nbsp;</td> 
+        <td>Creditor&nbsp;</td> 
+        <td>Creditor&nbsp;</td> 
+        <td>A creditor is a person or company to whom money is owed. Also, a party to which a bankruptcy debtor owes money.<br /><strong>Tags:</strong> Creditor; Lender<br /><strong>Comment:</strong> Process: Transaction; Bankruptcy<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">12&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>OCUC&nbsp;</td> 
+        <td>CRED-OCUC&nbsp;</td> 
+        <td>- Creditors' Committee&nbsp;</td> 
+        <td>Creditors' Committee&nbsp;</td> 
+        <td>A creditors' committee serves to represent the interests of unsecured creditors in bankruptcy court proceedings and also in negotiations between the debtor and other groups. The entity defined by U.S. Bankruptcy Code in Section 1102(a)(1) to represent unsecured creditors.<br /><strong>Tags:</strong> Creditors' Committee; Official Committe of Unsecured Creditors<br /><strong>Comment:</strong> Process: Bankruptcy<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">13&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>SCRD&nbsp;</td> 
+        <td>CRED-SCRD&nbsp;</td> 
+        <td>- Secured Creditor&nbsp;</td> 
+        <td>Secured Creditor&nbsp;</td> 
+        <td>A secured creditor is any creditor or lender associated with an investment in or issuance of a credit product backed by collateral. Secured creditors have a first-order claim on the payouts of a distressed credit investment.<br /><strong>Tags:</strong> Secured Creditor; Secured Lender<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">14&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>UCRD&nbsp;</td> 
+        <td>CRED-UCRD&nbsp;</td> 
+        <td>- Unsecured Creditor&nbsp;</td> 
+        <td>Unsecured Creditor&nbsp;</td> 
+        <td>An unsecured creditor is an individual or institution that lends money without obtaining specified assets as collateral. If a borrower fails to make payment on debt that is unsecured, the creditor cannot take any of the borrower's assets without winning a lawsuit first.<br /><strong>Tags:</strong> Unsecured Creditor; Unsecured Lender<br /><strong>Comment:</strong> Process: Transaction; Bankruptcy<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">15&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>DBIP&nbsp;</td> 
+        <td>DBIP&nbsp;</td> 
+        <td>Debtor-In-Possesion&nbsp;</td> 
+        <td>Debtor-In-Possesion&nbsp;</td> 
+        <td>A debtor in possession in United States bankruptcy law is a person or corporation who has filed a bankruptcy petition, but remains in possession of property upon which a creditor has a lien or similar security interest.<br /><strong>Comment:</strong> Process: Bankruptcy<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">16&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>DEBT&nbsp;</td> 
+        <td>DEBT&nbsp;</td> 
+        <td>Debtor&nbsp;</td> 
+        <td>Debtor&nbsp;</td> 
+        <td>A debtor is a person or institution that owes a sum of money. Also, a debtor in a bankruptcy proceeding.<br /><strong>Comment:</strong> Process: Transaction; Bankruptcy<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">17&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>DEFT&nbsp;</td> 
+        <td>DEFT&nbsp;</td> 
+        <td>Defendant&nbsp;</td> 
+        <td>Defendant&nbsp;</td> 
+        <td>A defendant or respondent is a person or group against whom a criminal or civil action is brought. Actions include dispute matters (litigation, arbitration or mediation) or bankruptcy matters.<br /><strong>Tags:</strong> Defendant; Respondent<br /><strong>Comment:</strong> Process: Dispute; Bankruptcy<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">18&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>DIRC&nbsp;</td> 
+        <td>DIRC&nbsp;</td> 
+        <td>Director&nbsp;</td> 
+        <td>Director&nbsp;</td> 
+        <td>A director is the head of an organization, either elected or appointed, who generally has certain powers and duties relating to management or administration. A corporation's board of directors is composed of a group of people who are elected by the shareholders to make important company policy decisions.<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">19&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>DLER&nbsp;</td> 
+        <td>DLER&nbsp;</td> 
+        <td>Dealer&nbsp;</td> 
+        <td>Dealer&nbsp;</td> 
+        <td>A dealer is a person, company, or entity that buys and sells securities for his or her or its own account and not for others.<br /><strong>Comment:</strong> Process: Transaction<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">20&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>EMPE&nbsp;</td> 
+        <td>EMPE&nbsp;</td> 
+        <td>Employee&nbsp;</td> 
+        <td>Employee&nbsp;</td> 
+        <td>An employee is a person who is hired for a wage, salary, fee or payment to perform work for an employer.<br /><strong>Comment:</strong> Process: Transactions<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">21&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>EMPR&nbsp;</td> 
+        <td>EMPR&nbsp;</td> 
+        <td>Employer&nbsp;</td> 
+        <td>Employer&nbsp;</td> 
+        <td>An employer is a person or entity who hires another to performs service under an express or implied agreement and has control, or the right to control, over the manner and means of performing the services. An employer has the right to control an employee.<br /><strong>Comment:</strong> Process: Transactions<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">22&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>EXCH&nbsp;</td> 
+        <td>EXCH&nbsp;</td> 
+        <td>Exchange&nbsp;</td> 
+        <td>Exchange&nbsp;</td> 
+        <td>An exchange is a marketplace where securities, commodities, derivatives and other financial instruments are traded.<br /><strong>Comment:</strong> Process: Transaction<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">23&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>EXPT&nbsp;</td> 
+        <td>EXPT&nbsp;</td> 
+        <td>Expert&nbsp;</td> 
+        <td>Expert&nbsp;</td> 
+        <td>An expert is a person engaged on behalf of a party or party in interest to a dispute to provide services as a consulting or testifying expert. (A testifying expert would also be a "witness.")<br /><strong>Comment:</strong> Process: Disputes<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">24&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>INCO&nbsp;</td> 
+        <td>INCO&nbsp;</td> 
+        <td>Independent Committee&nbsp;</td> 
+        <td>Independent Committee&nbsp;</td> 
+        <td>An independent committee is a group of people assembled to conduct an activity independent of the management of a company, often in connection with an internal investigation or approval of an interested party transaction. Also known as a "special committee."<br /><strong>Tags:</strong> Independent Committee; Special Committee<br /><strong>Comment:</strong> Process: Dispute<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">25&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>INEX&nbsp;</td> 
+        <td>INEX&nbsp;</td> 
+        <td>Investigator/Examiner&nbsp;</td> 
+        <td>Investigator/Examiner&nbsp;</td> 
+        <td>An investigator or examiner person or group that conducts investigations or examinations on behalf of a governmental criminal or regulatory agency or self-regulatory organization, or in connection with internal, congressional, or other investigations.<br /><strong>Comment:</strong> Process: Dispute<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">26&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>INVR&nbsp;</td> 
+        <td>INVR&nbsp;</td> 
+        <td>Investor&nbsp;</td> 
+        <td>Investor&nbsp;</td> 
+        <td>An investor is a person, company or entity that qualifies under the Securities Act of 1933 and related Securities and Exchange Commission regulations as one having sufficient knowledge and expertise in financial matters to weigh the value and risks of an investment.<br /><strong>Comment:</strong> Process: Transaction<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">27&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>ISSU&nbsp;</td> 
+        <td>ISSU&nbsp;</td> 
+        <td>Issuer&nbsp;</td> 
+        <td>Issuer&nbsp;</td> 
+        <td>An issuer is a legal entity that develops, registers and sells securities to finance its operations. Issuers may be corporations, investment trusts, or domestic or foreign governments.<br /><strong>Comment:</strong> Process: Transaction<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">28&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>JUDG&nbsp;</td> 
+        <td>JUDG&nbsp;</td> 
+        <td>Judge&nbsp;</td> 
+        <td>Judge&nbsp;</td> 
+        <td>A judge is a public official appointed to decide cases in a court of law.<br /><strong>Comment:</strong> Process: Disputes<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">29&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>LESE&nbsp;</td> 
+        <td>LESE&nbsp;</td> 
+        <td>Lessee&nbsp;</td> 
+        <td>Lessee&nbsp;</td> 
+        <td>A lessee is a person or entity that holds the lease of a property; a tenant.<br /><strong>Tags:</strong> Lessee; Tenant<br /><strong>Comment:</strong> Process: Transaction: Lease<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">30&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>LESR&nbsp;</td> 
+        <td>LESR&nbsp;</td> 
+        <td>Lessor&nbsp;</td> 
+        <td>Lessor&nbsp;</td> 
+        <td>A lessor is a person or entity that leases or lets a property to another; a landlord.<br /><strong>Tags:</strong> Landlord; Lessor<br /><strong>Comment:</strong> Process: Transaction: Lease<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">31&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>LICE&nbsp;</td> 
+        <td>LICE&nbsp;</td> 
+        <td>Licensee&nbsp;</td> 
+        <td>Licensee&nbsp;</td> 
+        <td>A licensee is a person or entity to whom a license is granted. A licensee has the license to use someone else's specified property such as a building, a land or intellectual property.<br /><strong>Comment:</strong> Process: Transaction<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">32&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>LICR&nbsp;</td> 
+        <td>LICR&nbsp;</td> 
+        <td>Licensor&nbsp;</td> 
+        <td>Licensor&nbsp;</td> 
+        <td>A licensor is person or entity with exclusive legal rights over a thing or, acting as agent for the owner, gives, sells or otherwise surrenders to another a limited right to use that thing.<br /><strong>Comment:</strong> Process: Transaction<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">33&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>MDTR&nbsp;</td> 
+        <td>MDTR&nbsp;</td> 
+        <td>Mediator&nbsp;</td> 
+        <td>Mediator&nbsp;</td> 
+        <td>A mediator is an independent person or body appointed to mediate a dispute.<br /><strong>Comment:</strong> Process: Dispute<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">34&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>MNTR&nbsp;</td> 
+        <td>MNTR&nbsp;</td> 
+        <td>Monitor&nbsp;</td> 
+        <td>Monitor&nbsp;</td> 
+        <td>Under Canadian Companies' Creditors Arrangement Act (CCAA), a Monitor is an independent third party who is appointed by the Court to monitor the company's ongoing operations and assist with the filing and voting on the Plan of Arrangement.<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">35&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>PART&nbsp;</td> 
+        <td>PART&nbsp;</td> 
+        <td>Partner&nbsp;</td> 
+        <td>Partner&nbsp;</td> 
+        <td>A partner is an individual who is a member of a partnership - an entity formed when at least two or more individuals agree to go into business with one another.<br /><strong>Comment:</strong> Process: Transaction<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">36&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>GENP&nbsp;</td> 
+        <td>PART-GENP&nbsp;</td> 
+        <td>- General Partner&nbsp;</td> 
+        <td>General Partner&nbsp;</td> 
+        <td>A general partner is an owner of a partnership. Often, a general partner either plays an active role in the company's daily operations or is a managing partner. A general partner for a business can act on the company's behalf.<br /><strong>Comment:</strong> Process: Transaction<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">37&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>LTDP&nbsp;</td> 
+        <td>PART-LTDP&nbsp;</td> 
+        <td>- Limited Partner&nbsp;</td> 
+        <td>Limited Partner&nbsp;</td> 
+        <td>A limited partner is a part-owner of a company whose liability for the firm's debts cannot exceed the amount that individual invested in the company. Limited partners are often called silent partners.<br /><strong>Comment:</strong> Process Transaction<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">38&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>PLTF&nbsp;</td> 
+        <td>PLTF&nbsp;</td> 
+        <td>Plaintiff&nbsp;</td> 
+        <td>Plaintiff&nbsp;</td> 
+        <td>A plaintiff, complainant, or claimant is a person who brings a civil or criminal action against another person or entity in a dispute.<br /><strong>Tags:</strong> Claimant; Complainant; Plaintiff<br /><strong>Comment:</strong> Process: Dispute<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">39&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>RESP&nbsp;</td> 
+        <td>RESP&nbsp;</td> 
+        <td>Respondent&nbsp;</td> 
+        <td>Respondent&nbsp;</td> 
+        <td>The respondent is the party against whom a petition is filed, especially one on appeal. The respondent can be either the plaintiff or the defendant from the court below, as either party can appeal the decision thereby making themselves the petitioner and their adversary the respondent.<br /><strong>Comment:</strong> Process: Dispute: Appellate<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">40&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>SELR&nbsp;</td> 
+        <td>SELR&nbsp;</td> 
+        <td>Seller&nbsp;</td> 
+        <td>Seller&nbsp;</td> 
+        <td>A seller is a person, company or entity who sells a thing or property in exchange for other property (often money). One who disposes of a thing in consideration of money.<br /><strong>Tags:</strong> Seller; Supplier; Vendor<br /><strong>Comment:</strong> Process: Transaction<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">41&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>SHAR&nbsp;</td> 
+        <td>SHAR&nbsp;</td> 
+        <td>Shareholder&nbsp;</td> 
+        <td>Shareholder&nbsp;</td> 
+        <td>A shareholder, also referred to as a stockholder, is any person, company, or institution that owns at least one share of a company’s stock (equity).<br /><strong>Tags:</strong> Shareholder; Stockholder<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">42&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>TRUS&nbsp;</td> 
+        <td>TRUS&nbsp;</td> 
+        <td>Trustee&nbsp;</td> 
+        <td>Trustee&nbsp;</td> 
+        <td>A trustee is an individual person or member of a board given control or powers of administration of property in trust with a legal obligation to administer it solely for the purposes specified.<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">43&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>UNDW&nbsp;</td> 
+        <td>UNDW&nbsp;</td> 
+        <td>Underwriter&nbsp;</td> 
+        <td>Underwriter&nbsp;</td> 
+        <td>An underwriter is an individual or institution that underwrites a financial transaction. Underwriting is the process by which an underwriter takes on financial risk for a fee. The risk most typically involves loans, insurance, or investments.<br /><strong>Comment:</strong> Process: Transaction<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">44&nbsp;</td> 
+        <td>SALI Player Role&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>WITN&nbsp;</td> 
+        <td>WITN&nbsp;</td> 
+        <td>Witness&nbsp;</td> 
+        <td>Witness&nbsp;</td> 
+        <td>A witness or non-party is a person or entity called upon to produce documents or provide testimony or other information in connection with a dispute or proceeding (and not a party to the dispute or proceeding).<br /><strong>Tags:</strong> Non-Party; Witness<br /><strong>Comment:</strong> Process: Dispute<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      
+      <tr>
+        <td class="text-center" colspan="9">
+          <nav aria-label="Page navigation">
+          <ul class="pagination">
+            
+          </ul>
+          </nav>
+        </td>
+      </tr>
+    </tbody></table>
+  </div>
+<script type="text/javascript">
+	
+(function(document) {
+	'use strict';
+
+	var LightTableFilter = (function(Arr) {
+
+		var _input;
+
+		function _onInputEvent(e) {
+			_input = e.target;
+			var tables = document.getElementsByClassName(_input.getAttribute('data-table'));
+			Arr.forEach.call(tables, function(table) {
+				Arr.forEach.call(table.tBodies, function(tbody) {
+					Arr.forEach.call(tbody.rows, _filter);
+				});
+			});
+		}
+
+		function _filter(row) {
+			var text = row.textContent.toLowerCase(), val = _input.value.toLowerCase();
+			row.style.display = text.indexOf(val) === -1 ? 'none' : 'table-row';
+		}
+
+		return {
+			init: function() {
+				var inputs = document.getElementsByClassName('light-table-filter');
+				Arr.forEach.call(inputs, function(input) {
+					input.oninput = _onInputEvent;
+				});
+			}
+		};
+	})(Array.prototype);
+
+	document.addEventListener('readystatechange', function() {
+		if (document.readyState === 'complete') {
+			LightTableFilter.init();
+		}
+	});
+
+})(document);
+
+</script>
+</p></section></div>
+:ET

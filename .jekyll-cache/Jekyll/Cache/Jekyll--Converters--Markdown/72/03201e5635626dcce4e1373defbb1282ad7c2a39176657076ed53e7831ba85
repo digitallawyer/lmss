@@ -1,20 +1,11 @@
----
-layout: page-wide
-title: LMSS Codes
-description: A detailed look at the LMSS Codes
-nav-menu: true
-show_tile: true
-image: assets/images/codes.jpg
----
-
-<!-- Main -->
+I"‡(<!-- Main -->
 <div id="main" class="alt">
 	<!-- One -->
 	<section>
 		<header class="major">
 			<h1>LMSS Codes</h1>
 		</header>
-		<input type="text" class="light-table-filter" data-table="order-table" placeholder="Enter one or more keywords to search the codes">
+		<input type="text" class="light-table-filter" data-table="order-table" placeholder="Enter one or more keywords to search the codes" />
 		<p>
 		<div class="table-responsive">
 		    <table class="table-wrapper order-table table">
@@ -87,18 +78,18 @@ image: assets/images/codes.jpg
 		        <td><a href="assets/json/SALI-governmental-body.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td><a href="/SALI-industry">SALI Industry</a></td> 
+		        <td>SALI Industry</td> 
 		        <td>SALI-IND</td> 
 		        <td>A default set of codes provided to define industries. Industry codes are imprecise and are provided give context in interpreting matter descriptions. This default code set is provided.  
 		          </td> 
 		        <td><div>Player <span></span> Industry<div></div></div></td> 
-		        <td><a href="/SALI-industry">25</a></td> 
-		        <td><a href="/SALI-industry">HTML</a></td> 
+		        <td>25</td> 
+		        <td>HTML</td> 
 		        <td><a href="/assets/xlsx/SALI-industry.xlsx">XLSX</a></td>  
 		        <td><a href="assets/json/SALI-industry.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td><a href="/SALI-legal-entity">SALI Legal Entity</a></td> 
+		        <td>SALI Legal Entity</td> 
 		        <td>SALI-LEGENT:2</td> 
 		        <td>The second version of legal entities. Takes into account international considerations. 
 		          </td> 
@@ -109,7 +100,7 @@ image: assets/images/codes.jpg
 		        <td><a href="assets/json/SALI-entity.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td><a href="/SALI-LMSS-type">SALI LMSS Type</a></td> 
+		        <td>SALI LMSS Type</td> 
 		        <td>SALI-LMST</td> 
 		        <td>The types of LMSS documents 
 		          </td> 
@@ -120,7 +111,7 @@ image: assets/images/codes.jpg
 		        <td><a href="assets/json/SALI-LMSS-type.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td><a href="/SALI-LMSS-version">SALI LMSS Version</a></td> 
+		        <td>SALI LMSS Version</td> 
 		        <td>SALI-VERS</td> 
 		        <td>Supported versions of the standard 
 		          </td> 
@@ -134,7 +125,7 @@ image: assets/images/codes.jpg
 		        <td>SALI Location (Adapted ISO 3166-2)</td> 
 		        <td>SALI-ISO31662</td> 
 		        <td>ISO 3166-2 is part of the ISO 3166 standard published by the International Organization for Standardization (ISO), and defines codes for identifying the principal subdivisions (e.g., provinces or states) of all countries coded in ISO 3166-1. The official name of the standard is Codes for the representation of names of countries and their subdivisions â€“ Part 2: Country subdivision code.  
-		<br>SALI has adapted part 2 to enforce uniqueness of names across the namespace. 
+		<br />SALI has adapted part 2 to enforce uniqueness of names across the namespace. 
 		          </td> 
 		        <td><div>Matter <span></span> Locale<div></div></div></td> 
 		        <td>3,771</td>
@@ -253,3 +244,5 @@ image: assets/images/codes.jpg
 })(document);
 
 </script>
+</p></section></div>
+:ET

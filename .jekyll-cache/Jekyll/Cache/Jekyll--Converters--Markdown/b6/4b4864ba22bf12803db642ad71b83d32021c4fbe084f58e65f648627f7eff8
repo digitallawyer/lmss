@@ -1,0 +1,579 @@
+I"�`<!-- Main -->
+<div id="main" class="alt">
+	<!-- One -->
+	<section>
+		<header class="major">
+			<h1>SALI Format</h1>
+		</header>
+		<input type="text" class="light-table-filter" data-table="order-table" placeholder="Enter one or more keywords to search the codes" />
+		<p>
+		<div class="table-responsive">
+    <table class="table-wrapper order-table table">
+      <tbody><tr>
+        <td colspan="6">Records: 1 to 27 of 27</td> 
+        <td class="text-right" colspan="3">
+          </td>
+      </tr>
+ 
+      <tr>
+        <th class="text-right" scope="col">#</th>
+ 
+        <th scope="col">
+        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=18&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_ct_name&amp;gridDir=ASC" id="gridSorter_ct_name">Code Set</a> 
+        
+        </span></th>
+ 
+        <th scope="col">
+        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=18&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_bb_level&amp;gridDir=ASC" id="gridSorter_bb_level">Level</a> 
+        
+        </span></th>
+ 
+        <th scope="col">
+        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=18&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_bb_code&amp;gridDir=ASC" id="gridSorter_bb_code">Code</a> 
+        
+        </span></th>
+ 
+        <th scope="col">
+        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=18&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter1&amp;gridDir=ASC" id="gridSorter1">Full Code</a> 
+        
+        </span>&nbsp;</th>
+ 
+        <th scope="col">
+        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=18&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_bb_shortname&amp;gridDir=ASC" id="gridSorter_bb_shortname">Short Name</a> 
+        
+        </span></th>
+ 
+        <th scope="col">
+        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=18&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_bb_name&amp;gridDir=ASC" id="gridSorter_bb_name">Name</a> 
+        
+        </span>&nbsp;</th>
+ 
+        <th scope="col">
+        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=18&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_bb_description&amp;gridDir=ASC" id="gridSorter_bb_description">Description</a> 
+        
+        </span></th>
+ 
+        <th scope="col">
+        <div class="pull-right">
+          
+        </div>
+        </th>
+      </tr>
+ 
+      
+      <tr>
+        <td class="text-right">1&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>CLASS&nbsp;</td> 
+        <td>CLASS&nbsp;</td> 
+        <td>Class&nbsp;</td> 
+        <td>Class&nbsp;</td> 
+        <td>All those persons in the same category, level of rights (e.g. heirs of dead person who are related by the same degree), or who have suffered from the same incident. Whether a person is part of a class is often crucial in determining who can sue on behalf of the people who have been similarly damaged or collect his/her share if a class action judgment is given.<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">2&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>COMM&nbsp;</td> 
+        <td>COMM&nbsp;</td> 
+        <td>Committees&nbsp;</td> 
+        <td>Committees&nbsp;</td> 
+        <td>Committee Definition: A term of law which refers to a body of one or more persons appointed by a larger assembly or society, to consider, investigate and/or take action on certain specific matters. Committees are either standing or ad hoc (this latter kind is also known as a "special committee")<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">3&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>ADHOC&nbsp;</td> 
+        <td>COMM-ADHOC&nbsp;</td> 
+        <td>- Ad Hoc/Unofficial Committee&nbsp;</td> 
+        <td>Ad Hoc/Unofficial Committee&nbsp;</td> 
+        <td>An ad hoc committee is formed for a specific purpose, usually to solve a particular problem. In U.S. bankruptcy law, an Unofficial Committee means the informal committee comprised of certain of the debtors' larger unsecured creditors that was formed and active prior to the commencement date.<br /><strong>Tags:</strong> Ad Hoc Committee; Special Committee; Unofficial Committee<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">4&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>OCCR&nbsp;</td> 
+        <td>COMM-OCCR&nbsp;</td> 
+        <td>- Official Committee of Creditors&nbsp;</td> 
+        <td>Official Committee of Creditors&nbsp;</td> 
+        <td>In U.S. bankruptcy law under chapter 11, the United States Trustee may appoint an official committee of unsecured creditors. The purpose of this committee is to represent the overall interests of all unsecured creditors.<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">5&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>ENTITY&nbsp;</td> 
+        <td>ENTITY&nbsp;</td> 
+        <td>Entity&nbsp;</td> 
+        <td>Entity&nbsp;</td> 
+        <td>A legal entity is a legal construct through which the law allows a group of natural persons to act as if they were a single person for certain purposes. The most common purposes are lawsuits, property ownership, and contracts. Some examples of legal entities include companies, cooperatives (co-ops), corporations, municipalities, political parties, sovereigns, states, temples, trade unions, and ships or vessels.<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">6&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>BUSTRST&nbsp;</td> 
+        <td>ENTITY-BUSTRST&nbsp;</td> 
+        <td>- Business Trust&nbsp;</td> 
+        <td>Business Trust&nbsp;</td> 
+        <td>A business trust is a form of business organization which is similar to a corporation, in which investors receive transferable certificates of beneficial interest.<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">7&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>CORP&nbsp;</td> 
+        <td>ENTITY-CORP&nbsp;</td> 
+        <td>- Corporation&nbsp;</td> 
+        <td>Corporation&nbsp;</td> 
+        <td>An organization formed with state governmental approval to act as an artificial person that is empowered with legal rights usually only reserved for individuals, such as to sue and be sued, issue shares of stock to raise funds (unless it is non-profit), own property, hire employees or loan and borrow money.<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">8&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>EC&nbsp;</td> 
+        <td>ENTITY-EC&nbsp;</td> 
+        <td>- Exempted Company&nbsp;</td> 
+        <td>Exempted Company&nbsp;</td> 
+        <td>A company that does not have to pay tax or act according to the usual regulations of the country in which it is established. Exempted companies fall on the tax laws of countries and territories including are the Cayman Islands, Bermuda, and Gibraltar.<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">9&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>ELP&nbsp;</td> 
+        <td>ENTITY-ELP&nbsp;</td> 
+        <td>- Exempted Limited Partnership&nbsp;</td> 
+        <td>Exempted Limited Partnership&nbsp;</td> 
+        <td>An exempted limited partnership (ELP) is a Cayman partnership that is registered under the Exempted Limited Partnership Law. The ELP Law specifically preserves relevant provisions of the Partnership Law and provides that the principles of common law and equity applicable to partnerships shall apply to ELPs.<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">10&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>GOVT&nbsp;</td> 
+        <td>ENTITY-GOVT&nbsp;</td> 
+        <td>- Governmental Entity&nbsp;</td> 
+        <td>Governmental Entity&nbsp;</td> 
+        <td>Any government or any governmental agency, semi-governmental or judicial entity or authority (including, without limitation, any stock exchange or any self-regulatory organization established under statute).<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">11&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>GP&nbsp;</td> 
+        <td>ENTITY-GP&nbsp;</td> 
+        <td>- General Partnership&nbsp;</td> 
+        <td>General Partnership&nbsp;</td> 
+        <td>A general partnership, the basic form of partnership under common law, is in most countries an association of persons or an unincorporated company with the following major features: must be created by agreement, proof of existence and estoppel; formed by two or more persons; the owners are jointly and severally liable for any legal actions and debts the company may face, unless otherwise provided by law or in the agreement. It is a partnership in which partners share equally in both responsibility and liability.<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">12&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>LDC&nbsp;</td> 
+        <td>ENTITY-LDC&nbsp;</td> 
+        <td>- Limited Duration Company&nbsp;</td> 
+        <td>Limited Duration Company&nbsp;</td> 
+        <td>A Limited Duration Company is a company which is registered under the International Business Companies Act with a maximum life span of fifty years.<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">13&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>LLC&nbsp;</td> 
+        <td>ENTITY-LLC&nbsp;</td> 
+        <td>- Limited Liability Company&nbsp;</td> 
+        <td>Limited Liability Company&nbsp;</td> 
+        <td>A limited liability company (LLC) is a corporate structure in the United States whereby the owners are not personally liable for the company's debts or liabilities. Limited liability companies are hybrid entities that combine the characteristics of a corporation with those of a partnership or sole proprietorship.<br /><strong>Tags:</strong> LLC; Limited Liability Corporation<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">14&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>LLP&nbsp;</td> 
+        <td>ENTITY-LLP&nbsp;</td> 
+        <td>- Limited Liability Partnership&nbsp;</td> 
+        <td>Limited Liability Partnership&nbsp;</td> 
+        <td>A limited liability partnership (LLP) is a partnership in which some or all partners (depending on the jurisdiction) have limited liabilities. It therefore can exhibit elements of partnerships and corporations. In a LLP, each partner is not responsible or liable for another partner's misconduct or negligence.<br /><strong>Tags:</strong> LLP<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">15&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>LP&nbsp;</td> 
+        <td>ENTITY-LP&nbsp;</td> 
+        <td>- Limited Partnership&nbsp;</td> 
+        <td>Limited Partnership&nbsp;</td> 
+        <td>A Limited Partnership is a business entity that consists of one or more General Partners and one or more Limited Partners. The General Partner may be an individual or an entity, such as a corporation. Typically, the General Partners are liable for any and all of the company's financial obligations, while the Limited Partners possess no liability for the company's debts, obligations or actions. General Partners usually possess all the rights and responsibilities of managing the business entity, including all of its activities and financial matters. They also hold general liability for the debts, obligations, and activities of the Limited Partnership.<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">16&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>MUNI&nbsp;</td> 
+        <td>ENTITY-MUNI&nbsp;</td> 
+        <td>- Municipal Corporation&nbsp;</td> 
+        <td>Municipal Corporation&nbsp;</td> 
+        <td>A municipal corporation is the legal term for a local governing body, including (but not necessarily limited to) cities, counties, towns, townships, charter townships, villages, and boroughs. The term can also be used to describe municipally owned corporations.<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">17&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>NGO&nbsp;</td> 
+        <td>ENTITY-NGO&nbsp;</td> 
+        <td>- Non-Governmental Organization&nbsp;</td> 
+        <td>Non-Governmental Organization&nbsp;</td> 
+        <td>Non-governmental organizations (NGOs) are usually non-profit and sometimes international organizations independent of governments and international governmental organizations (though often funded by governments) that are active in humanitarian, educational, health care, public policy, social, human rights, environmental, and other areas to effect changes according to their objectives.<br /><strong>Tags:</strong> NGOs; nongovernment organizations; nongovernmental organizations<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">18&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>NPO&nbsp;</td> 
+        <td>ENTITY-NPO&nbsp;</td> 
+        <td>- Non-Profit Organization&nbsp;</td> 
+        <td>Non-Profit Organization&nbsp;</td> 
+        <td>A non-profit organization (NPO) is dedicated to furthering a particular social cause or advocating for a shared point of view. In economic terms, it is an organization that uses its surplus of the revenues to further achieve its ultimate objective, rather than distributing its income to the organization's shareholders, leaders, or members. Non-profits are tax-exempt or charitable, meaning they do not pay income tax on the money that they receive for their organization.<br /><strong>Tags:</strong> non-business entity; nonprofit institution; nonprofit organization; not-for-profit organization<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">19&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>PLLC&nbsp;</td> 
+        <td>ENTITY-PLLC&nbsp;</td> 
+        <td>- Professional Limited Liability Company&nbsp;</td> 
+        <td>Professional Limited Liability Company&nbsp;</td> 
+        <td>A professional limited liability company (“PLLC”) is a U.S. business entity designed for licensed professionals, such as lawyers, doctors, architects, engineers, accountants, and chiropractors. While many businesses choose to form a limited liability company (“LLC”) because of the tax, limited liability, and other benefits, some states don’t allow LLCs to be owned by professionals whose occupation requires a license. In these states, licensed professionals who want the benefits of an LLC must form a PLLC instead.<br /><strong>Tags:</strong> PLLC<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">20&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>SA&nbsp;</td> 
+        <td>ENTITY-SA&nbsp;</td> 
+        <td>- Société Anonyme&nbsp;</td> 
+        <td>Société Anonyme&nbsp;</td> 
+        <td>Société anonyme (and variants in other languages; English: Anonymous society; shortened to S.A. or SA) designates a type of corporation in countries that mostly employ civil law. Depending on language, it means anonymous company, anonymous partnership, share company, or joint-stock company, roughly equivalent to a public limited company in common law jurisdictions. It is different from partnerships and private limited companies.<br /><strong>Tags:</strong> SA<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">21&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>SARL&nbsp;</td> 
+        <td>ENTITY-SARL&nbsp;</td> 
+        <td>- Société à Responsabilité Limitée&nbsp;</td> 
+        <td>Société à Responsabilité Limitée&nbsp;</td> 
+        <td>A société à responsabilité limitée (short SARL and variations thereof; lit. "society with limited responsibility") is a form of private company that exists mainly in French-speaking countries, such as France, Luxembourg, Monaco, Algeria, Morocco, Tunisia, Madagascar, Lebanon, and Switzerland (where it is also designated by GmbH or Sagl).<br /><strong>Tags:</strong> SARL<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">22&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>SCS&nbsp;</td> 
+        <td>ENTITY-SCS&nbsp;</td> 
+        <td>- Société en Commandite Simple&nbsp;</td> 
+        <td>Société en Commandite Simple&nbsp;</td> 
+        <td>Société en Commandite Simple is a form of business in which a limited partner provides the bulk of the funds but entrusts the administration of the company to the general partner, who has increased prerogatives from the larger corporations. It should be distinguished from the more frequent limited partnership (SCA).<br /><strong>Tags:</strong> SCS<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">23&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>SOVST&nbsp;</td> 
+        <td>ENTITY-SOVST&nbsp;</td> 
+        <td>- Sovereign State&nbsp;</td> 
+        <td>Sovereign State&nbsp;</td> 
+        <td>In international law, a sovereign state, sovereign country, or simply state, is a nonphysical juridical entity that is represented by one centralized government that has sovereignty over a geographic area.<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">24&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>SP&nbsp;</td> 
+        <td>ENTITY-SP&nbsp;</td> 
+        <td>- Sole Proprietorship&nbsp;</td> 
+        <td>Sole Proprietorship&nbsp;</td> 
+        <td>A sole proprietorship, also known as the sole trader, individual entrepreneurship or proprietorship, is a type of enterprise that is owned and run by one person and in which there is no legal distinction between the owner and the business entity. The sole trader receives all profits (subject to taxation specific to the business) and has unlimited responsibility for all losses and debts. Every asset of the business is owned by the proprietor and all debts of the business are the proprietor's. It is a "sole" proprietorship in contrast with partnerships (which have at least two owners).<br /><strong>Tags:</strong> Sole Trader; individual entrepreneurship<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">25&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>SPC&nbsp;</td> 
+        <td>ENTITY-SPC&nbsp;</td> 
+        <td>- Segregated Portfolio Company&nbsp;</td> 
+        <td>Segregated Portfolio Company&nbsp;</td> 
+        <td>A segregated portfolio company (or SPC), sometimes referred to as a protected cell company, is a company which segregates the assets and liabilities of different classes (or sometimes series) of shares from each other and from the general assets of the SPC.<br /><strong>Tags:</strong> SPC<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">26&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>2&nbsp;</td> 
+        <td>TRADUN&nbsp;</td> 
+        <td>ENTITY-TRADUN&nbsp;</td> 
+        <td>- Trade Union/Labor Union&nbsp;</td> 
+        <td>Trade Union/Labor Union&nbsp;</td> 
+        <td>A trade union (or a labor union in the U.S.) is an association of workers forming a legal unit or legal personhood, usually called a "bargaining unit", which acts as bargaining agent and legal representative for a unit of employees in all matters of law or right arising from or in the administration of a collective agreement.<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      <tr>
+        <td class="text-right">27&nbsp;</td> 
+        <td>SALI Legal Entity&nbsp;</td> 
+        <td>1&nbsp;</td> 
+        <td>INDV&nbsp;</td> 
+        <td>INDV&nbsp;</td> 
+        <td>Individual&nbsp;</td> 
+        <td>Individual&nbsp;</td> 
+        <td>An individual or natural person is a person that is an individual human being, as opposed to a legal person, which may be a private or public organization.<br /><strong>Tags:</strong> Natural Person<br />
+          </td> 
+        <td>
+          <div class="pull-right">
+            
+          </div>
+        </td>
+      </tr>
+ 
+      
+      <tr>
+        <td class="text-center" colspan="9">
+          <nav aria-label="Page navigation">
+          <ul class="pagination">
+            
+          </ul>
+          </nav>
+        </td>
+      </tr>
+    </tbody></table>
+  </div>
+<script type="text/javascript">
+	
+(function(document) {
+	'use strict';
+
+	var LightTableFilter = (function(Arr) {
+
+		var _input;
+
+		function _onInputEvent(e) {
+			_input = e.target;
+			var tables = document.getElementsByClassName(_input.getAttribute('data-table'));
+			Arr.forEach.call(tables, function(table) {
+				Arr.forEach.call(table.tBodies, function(tbody) {
+					Arr.forEach.call(tbody.rows, _filter);
+				});
+			});
+		}
+
+		function _filter(row) {
+			var text = row.textContent.toLowerCase(), val = _input.value.toLowerCase();
+			row.style.display = text.indexOf(val) === -1 ? 'none' : 'table-row';
+		}
+
+		return {
+			init: function() {
+				var inputs = document.getElementsByClassName('light-table-filter');
+				Arr.forEach.call(inputs, function(input) {
+					input.oninput = _onInputEvent;
+				});
+			}
+		};
+	})(Array.prototype);
+
+	document.addEventListener('readystatechange', function() {
+		if (document.readyState === 'complete') {
+			LightTableFilter.init();
+		}
+	});
+
+})(document);
+
+</script>
+</p></section></div>
+:ET
