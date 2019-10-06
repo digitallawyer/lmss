@@ -1,4 +1,4 @@
-I">)<!-- Main -->
+I"*<!-- Main -->
 <div id="main" class="alt">
 	<!-- One -->
 	<section>
@@ -134,7 +134,7 @@
 		        <td><a href="assets/json/SALI-location.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td>SALI Matter Narrative</td> 
+		        <td><a href="/SALI-matter-narrative">SALI Matter Narrative</a></td> 
 		        <td>SALI-MATNAR</td> 
 		        <td>Codes used to identify the type of narrative. 
 		          </td> 
@@ -145,7 +145,7 @@
 		        <td><a href="assets/json/SALI-matter-narrative.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td>SALI Player Role</td> 
+		        <td><a href="/SALI-player-role">SALI Player Role</a></td> 
 		        <td>SALI-PROLE</td> 
 		        <td>The types of player roles that can be applied to a matter. 
 		          </td> 
@@ -156,7 +156,7 @@
 		        <td><a href="assets/json/SALI-player-role.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td>SALI Process</td> 
+		        <td><a href="/SALI-process">SALI Process</a></td> 
 		        <td>SALI-PROC</td> 
 		        <td>Codes used to define a legal service process 
 		          </td> 
@@ -167,7 +167,7 @@
 		        <td><a href="assets/json/SALI-process.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td>SALI Process Status</td> 
+		        <td><a href="/SALI-process-status">SALI Process Status</a></td> 
 		        <td>SALI-PROCSTAT</td> 
 		        <td>The status of a process 
 		          </td> 
@@ -177,7 +177,7 @@
 		        <td><a href="assets/json/SALI-process-status.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td>SALI Representation Role</td> 
+		        <td><a href="/SALI-representation-role">SALI Representation Role</a></td>  
 		        <td>SALI-RROLE</td> 
 		        <td>The types of representation roles for a player. 
 		          </td> 
@@ -188,7 +188,7 @@
 		        <td><a href="assets/json/SALI-representation-role.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td>SALI Trial Type</td> 
+		        <td><a href="/SALI-trial-type">SALI Trial Type</a></td>  
 		        <td>SALI-TRITYP</td> 
 		        <td>The type of trial format. 
 		          </td> 

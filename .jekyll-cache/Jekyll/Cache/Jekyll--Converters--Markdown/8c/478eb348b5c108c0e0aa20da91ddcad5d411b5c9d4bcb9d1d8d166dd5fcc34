@@ -1,4 +1,4 @@
-I"‡(<!-- Main -->
+I"w,<!-- Main -->
 <div id="main" class="alt">
 	<!-- One -->
 	<section>
@@ -78,46 +78,46 @@
 		        <td><a href="assets/json/SALI-governmental-body.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td>SALI Industry</td> 
+		        <td><a href="/SALI-industry">SALI Industry</a></td> 
 		        <td>SALI-IND</td> 
 		        <td>A default set of codes provided to define industries. Industry codes are imprecise and are provided give context in interpreting matter descriptions. This default code set is provided.  
 		          </td> 
 		        <td><div>Player <span></span> Industry<div></div></div></td> 
-		        <td>25</td> 
-		        <td>HTML</td> 
+		        <td><a href="/SALI-industry">25</a></td> 
+		        <td><a href="/SALI-industry">HTML</a></td> 
 		        <td><a href="/assets/xlsx/SALI-industry.xlsx">XLSX</a></td>  
 		        <td><a href="assets/json/SALI-industry.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td>SALI Legal Entity</td> 
+		        <td><a href="/SALI-legal-entity">SALI Legal Entity</a></td> 
 		        <td>SALI-LEGENT:2</td> 
 		        <td>The second version of legal entities. Takes into account international considerations. 
 		          </td> 
 		        <td><div>Player <span></span> Legal Entity<div><div>Process Object <span></span> Transaction Legal Entity<div></div></div></div></div></td> 
-		        <td>27</td>
-				<td>HTML</td> 
+		        <td><a href="/SALI-legal-entity">27</a></td> 
+				<td><a href="/SALI-legal-entity">HTML</a></td> 
 		        <td><a href="/assets/xlsx/SALI-legal-entity.xlsx">XLSX</a></td>  
 		        <td><a href="assets/json/SALI-entity.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td>SALI LMSS Type</td> 
+		        <td><a href="/SALI-LMSS-type">SALI LMSS Type</a></td> 
 		        <td>SALI-LMST</td> 
 		        <td>The types of LMSS documents 
 		          </td> 
 		        <td><div>Header <span></span> LMSS Type<div></div></div></td> 
-		        <td>3</td> 
-		        <td>HTML</td> 
+		        <td><a href="/SALI-LMSS-type">3</a></td> 
+		        <td><a href="/SALI-LMSS-type">HTML</a></td> 
 		        <td><a href="/assets/xlsx/SALI-LMSS-type.xlsx">XLSX</a></td>  
 		        <td><a href="assets/json/SALI-LMSS-type.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td>SALI LMSS Version</td> 
+		        <td><a href="/SALI-LMSS-version">SALI LMSS Version</a></td> 
 		        <td>SALI-VERS</td> 
 		        <td>Supported versions of the standard 
 		          </td> 
 		        <td><div>Header <span></span> LMSS Version<div></div></div></td> 
-		        <td>1</td>
-		        <td>HTML</td> 
+		        <td><a href="/SALI-LMSS-version">1</a></td> 
+		        <td><a href="/SALI-LMSS-version">HTML</a></td> 
 		        <td><a href="/assets/xlsx/SALI-LMSS-version.xlsx">XLSX</a></td>   
 		        <td><a href="assets/json/SALI-LMSS-version.json" target="_blank">JSON</a></td>
 		      </tr>
@@ -134,67 +134,68 @@
 		        <td><a href="assets/json/SALI-location.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td>SALI Matter Narrative</td> 
+		        <td><a href="/SALI-matter-narrative">SALI Matter Narrative</a></td> 
 		        <td>SALI-MATNAR</td> 
 		        <td>Codes used to identify the type of narrative. 
 		          </td> 
 		        <td><div>Narrative <span></span> Type<div></div></div></td> 
-		        <td>3</td> 
-		        <td>HTML</td> 
+		        <td><a href="/SALI-matter-narrative">3</a></td> 
+		        <td><a href="/SALI-matter-narrative">HTML</a></td> 
 		        <td><a href="/assets/xlsx/SALI-matter-narrative.xlsx">XLSX</a></td>  
 		        <td><a href="assets/json/SALI-matter-narrative.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td>SALI Player Role</td> 
+		        <td><a href="/SALI-player-role">SALI Player Role</a></td> 
 		        <td>SALI-PROLE</td> 
 		        <td>The types of player roles that can be applied to a matter. 
 		          </td> 
 		        <td><div>Player <span></span> Player Role<div></div></div></td> 
-		        <td>45</td>
-		        <td>HTML</td> 
+		        <td><a href="/SALI-player-role">45</a></td> 
+		        <td><a href="/SALI-player-role">HTML</a></td> 
 		        <td><a href="/assets/xlsx/SALI-player-role.xlsx">XLSX</a></td>  
 		        <td><a href="assets/json/SALI-player-role.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td>SALI Process</td> 
+		        <td><a href="/SALI-process">SALI Process</a></td> 
 		        <td>SALI-PROC</td> 
 		        <td>Codes used to define a legal service process 
 		          </td> 
 		        <td><div>Process <span></span> Process Type<div></div></div></td> 
-		        <td>35</td> 
-		        <td>HTML</td> 
+		        <td><a href="/SALI-process">35</a></td>  
+		        <td><a href="/SALI-process">HTML</a></td>  
 		        <td><a href="/assets/xlsx/SALI-process.xlsx">XLSX</a></td>
 		        <td><a href="assets/json/SALI-process.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td>SALI Process Status</td> 
+		        <td><a href="/SALI-process-status">SALI Process Status</a></td> 
 		        <td>SALI-PROCSTAT</td> 
 		        <td>The status of a process 
 		          </td> 
 		        <td><div>Process Object <span></span> Status<div></div></div></td> 
-		        <td>3</td> <td>HTML</td> 
+		        <td><a href="/SALI-process-status">3</a></td> 
+		        <td><a href="/SALI-process-status">HTML</a></td> 
 		        <td><a href="/assets/xlsx/SALI-process-status.xlsx">XLSX</a></td> 
 		        <td><a href="assets/json/SALI-process-status.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td>SALI Representation Role</td> 
+		        <td><a href="/SALI-representation-role">SALI Representation Role</a></td>  
 		        <td>SALI-RROLE</td> 
 		        <td>The types of representation roles for a player. 
 		          </td> 
 		        <td><div>Counsel <span></span> Representation Role<div></div></div></td> 
-		        <td>4</td>
-		        <td>HTML</td> 
+		        <td><a href="/SALI-representation-role">4</a></td>  
+		        <td><a href="/SALI-representation-role">HTML</a></td>  
 		        <td><a href="/assets/xlsx/SALI-representation-role.xlsx">XLSX</a></td>  
 		        <td><a href="assets/json/SALI-representation-role.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td>SALI Trial Type</td> 
+		        <td><a href="/SALI-trial-type">SALI Trial Type</a></td>  
 		        <td>SALI-TRITYP</td> 
 		        <td>The type of trial format. 
 		          </td> 
 		        <td><div>Process Object <span></span> Dispute: Trial Type<div></div></div></td> 
-		        <td>2</td>
-		        <td>HTML</td> 
+		        <td><a href="/SALI-trial-type">2</a></td>  
+		        <td><a href="/SALI-trial-type">HTML</a></td>  
 		        <td><a href="/assets/xlsx/SALI-trial-type.xlsx">XLSX</a></td>   
 		        <td><a href="assets/json/SALI-trial-type.json" target="_blank">JSON</a></td>
 		      </tr>

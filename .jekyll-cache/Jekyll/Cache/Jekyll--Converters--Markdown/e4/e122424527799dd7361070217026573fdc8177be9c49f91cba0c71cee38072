@@ -1,55 +1,51 @@
-I"Ù<!-- Main -->
+I"Ò<!-- Main -->
 <div id="main" class="alt">
 	<!-- One -->
 	<section>
 		<header class="major">
-			<h1>SALI Process</h1>
+			<h1>SALI Trial Type</h1>
 		</header>
 		<input type="text" class="light-table-filter" data-table="order-table" placeholder="Enter one or more keywords to search the codes" />
 		<p>
 		<div class="table-responsive">
     <table class="table-wrapper order-table table">
-       <tbody><tr>
-        <td colspan="6">Records: 1 to 3 of 3</td> 
-        <td class="text-right" colspan="3">
-          </td>
-      </tr>
+      <tbody>
  
       <tr>
         <th class="text-right" scope="col">#</th>
  
         <th scope="col">
-        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=22&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_ct_name&amp;gridDir=ASC" id="gridSorter_ct_name">Code Set</a> 
+        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=20&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_ct_name&amp;gridDir=ASC" id="gridSorter_ct_name">Code Set</a> 
         
         </span></th>
  
         <th scope="col">
-        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=22&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_bb_level&amp;gridDir=ASC" id="gridSorter_bb_level">Level</a> 
+        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=20&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_bb_level&amp;gridDir=ASC" id="gridSorter_bb_level">Level</a> 
         
         </span></th>
  
         <th scope="col">
-        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=22&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_bb_code&amp;gridDir=ASC" id="gridSorter_bb_code">Code</a> 
+        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=20&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_bb_code&amp;gridDir=ASC" id="gridSorter_bb_code">Code</a> 
         
         </span></th>
  
         <th scope="col">
-        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=22&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter1&amp;gridDir=ASC" id="gridSorter1">Full Code</a> 
+        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=20&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter1&amp;gridDir=ASC" id="gridSorter1">Full Code</a> 
         
         </span>&nbsp;</th>
  
         <th scope="col">
-        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=22&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_bb_shortname&amp;gridDir=ASC" id="gridSorter_bb_shortname">Short Name</a> 
+        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=20&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_bb_shortname&amp;gridDir=ASC" id="gridSorter_bb_shortname">Short Name</a> 
         
         </span></th>
  
         <th scope="col">
-        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=22&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_bb_name&amp;gridDir=ASC" id="gridSorter_bb_name">Name</a> 
+        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=20&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_bb_name&amp;gridDir=ASC" id="gridSorter_bb_name">Name</a> 
         
         </span>&nbsp;</th>
  
         <th scope="col">
-        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=22&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_bb_description&amp;gridDir=ASC" id="gridSorter_bb_description">Description</a> 
+        <span class="Sorter"><a href="code.php?s_keyword=&amp;ct=20&amp;lvl=&amp;psize=1000&amp;gridOrder=Sorter_bb_description&amp;gridDir=ASC" id="gridSorter_bb_description">Description</a> 
         
         </span></th>
  
@@ -63,13 +59,13 @@
       
       <tr>
         <td class="text-right">1&nbsp;</td> 
-        <td>SALI Process Status&nbsp;</td> 
+        <td>SALI Trial Type&nbsp;</td> 
         <td>1&nbsp;</td> 
-        <td>CA&nbsp;</td> 
-        <td>CA&nbsp;</td> 
-        <td>Canceled&nbsp;</td> 
-        <td>Canceled&nbsp;</td> 
-        <td>The process is canceled.<br />
+        <td>TRIBEN&nbsp;</td> 
+        <td>TRIBEN&nbsp;</td> 
+        <td>Bench Trial&nbsp;</td> 
+        <td>Bench Trial&nbsp;</td> 
+        <td>A bench trial is a trial by judge or panel of judges, as opposed to a trial by jury.<br />
           </td> 
         <td>
           <div class="pull-right">
@@ -80,30 +76,13 @@
  
       <tr>
         <td class="text-right">2&nbsp;</td> 
-        <td>SALI Process Status&nbsp;</td> 
+        <td>SALI Trial Type&nbsp;</td> 
         <td>1&nbsp;</td> 
-        <td>CL&nbsp;</td> 
-        <td>CL&nbsp;</td> 
-        <td>Closed&nbsp;</td> 
-        <td>Closed&nbsp;</td> 
-        <td>The process is closed.<br />
-          </td> 
-        <td>
-          <div class="pull-right">
-            
-          </div>
-        </td>
-      </tr>
- 
-      <tr>
-        <td class="text-right">3&nbsp;</td> 
-        <td>SALI Process Status&nbsp;</td> 
-        <td>1&nbsp;</td> 
-        <td>OP&nbsp;</td> 
-        <td>OP&nbsp;</td> 
-        <td>Open&nbsp;</td> 
-        <td>Open&nbsp;</td> 
-        <td>The process is active.<br />
+        <td>TRIJRY&nbsp;</td> 
+        <td>TRIJRY&nbsp;</td> 
+        <td>Jury Trial&nbsp;</td> 
+        <td>Jury Trial&nbsp;</td> 
+        <td>A jury trial, or trial by jury, is a lawful proceeding in which a jury makes a decision or findings of fact. It is distinguished from a bench trial in which a judge or panel of judges makes all decisions.<br />
           </td> 
         <td>
           <div class="pull-right">

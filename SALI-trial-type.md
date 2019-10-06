@@ -16,11 +16,7 @@ show_tile: false
 		<p>
 		<div class="table-responsive">
     <table class="table-wrapper order-table table">
-      <tbody><tr>
-        <td colspan="6">Records: 1 to 2 of 2</td> 
-        <td class="text-right" colspan="3">
-          </td>
-      </tr>
+      <tbody>
  
       <tr>
         <th class="text-right" scope="col">#</th>
