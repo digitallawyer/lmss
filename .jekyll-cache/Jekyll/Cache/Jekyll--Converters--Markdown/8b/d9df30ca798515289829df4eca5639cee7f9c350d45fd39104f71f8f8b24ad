@@ -1,13 +1,4 @@
----
-layout: page
-title: LMSS Structure
-description: An in-depth overview of the structure of LMSS
-nav-menu: true
-show_tile: true
-image: assets/images/structure.jpg
----
-
-<p style="font-size:0.75em"><a href="/">Home</a>&nbsp;&nbsp;>&nbsp;&nbsp;LMSS Structure</p>
+I"P’<p style="font-size:0.75em"><a href="/">Home</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;LMSS Structure</p>
 <div id="main" class="alt">
 	<!-- One -->
 	<section>
@@ -24,7 +15,7 @@ image: assets/images/structure.jpg
 		<b>Document container elements</b>
 		<table>
 			<tr>
-				<th>ELEMENT<br></th>
+				<th>ELEMENT<br /></th>
 				<th>REQ</th>
 				<th>MULT</th>
 				<th>TYPE</th>
@@ -50,7 +41,7 @@ image: assets/images/structure.jpg
 		</p>
 		<table>
 			<tr>
-				<th>ELEMENT<br></th>
+				<th>ELEMENT<br /></th>
 				<th>REQ</th>
 				<th>MULT</th>
 				<th>TYPE</th>
@@ -74,15 +65,15 @@ image: assets/images/structure.jpg
 				<td>Type</td>
 				<td>Y</td>
 				<td>N</td>
-				<td>Enumeration:<br>SALI LMSS Type</td>
-				<td>The type of the document. Supported types<br>include "Instance", "Template", and "Query". The default value is "Instance"</td>
+				<td>Enumeration:<br />SALI LMSS Type</td>
+				<td>The type of the document. Supported types<br />include "Instance", "Template", and "Query". The default value is "Instance"</td>
 			</tr>
 			<tr>
 				<td>Language</td>
 				<td>N</td>
 				<td>N</td>
-				<td>Enumeration:<br>IETF BCP 47</td>
-				<td>Languages follow the Internet Engineering<br>Task Force recommendation in BCP 47</td>
+				<td>Enumeration:<br />IETF BCP 47</td>
+				<td>Languages follow the Internet Engineering<br />Task Force recommendation in BCP 47</td>
 			</tr>
 			<tr>
 				<td>Charset</td>
@@ -92,7 +83,7 @@ image: assets/images/structure.jpg
 				<td>Default value is UTF-8</td>
 			</tr>
 			<tr>
-				<td>Extension<br>Link</td>
+				<td>Extension<br />Link</td>
 				<td>N</td>
 				<td>Y</td>
 				<td>Text: URI</td>
@@ -110,7 +101,7 @@ image: assets/images/structure.jpg
 				<td>N</td>
 				<td>Y</td>
 				<td>Container</td>
-				<td>Declarations are indexes of names that need<br>to be cross referenced in a specification.<br>NameIDs can be used in place of names<br>wherever names may appear.</td>
+				<td>Declarations are indexes of names that need<br />to be cross referenced in a specification.<br />NameIDs can be used in place of names<br />wherever names may appear.</td>
 			</tr>
 		</table>
 		<h4>3.1. Title</h4>
@@ -139,7 +130,7 @@ image: assets/images/structure.jpg
 		</p>
 		<table>
 			<tr>
-				<th>ELEMENT<br></th>
+				<th>ELEMENT<br /></th>
 				<th>REQ</th>
 				<th>MULT</th>
 				<th>TYPE</th>
@@ -686,14 +677,13 @@ image: assets/images/structure.jpg
 								<p>The role of the legal representative. Role is an enumerated value.</p>
 								<h3>12. Process Object</h3>
 								<p>The process object encapsulates important elements of the process. A process can have multiple process object. The process object can simply be a summary of key attributes of the overall process. Additional process objects can be attached to describe the preconditions and post conditions of a process. For example, for a merger, there optionally can be individual process objects describing the predecessor entities and resulting entity. 
-								<table border="0" cellspacing="0" cellpadding="0">
+
+									<table border="0" cellspacing="0" cellpadding="0">
 									<tbody>
 									<tr>
 									<td>
 									<p>
-									<a
-									href="http://sali.legal/codetype.php?s_ct_name=sali&amp;amp;ct_id=1&amp;amp;bb_codetypeOrder=Sorter_ct_name&amp;amp;bb_codetypeDir=ASC"
-									>
+									<a href="http://sali.legal/codetype.php?s_ct_name=sali&amp;amp;ct_id=1&amp;amp;bb_codetypeOrder=Sorter_ct_name&amp;amp;bb_codetypeDir=ASC">
 									<strong>Code Set</strong>
 									</a>
 									<strong></strong>
@@ -701,9 +691,7 @@ image: assets/images/structure.jpg
 									</td>
 									<td>
 									<p>
-									<a
-									href="http://sali.legal/codetype.php?s_ct_name=sali&amp;amp;ct_id=1&amp;amp;bb_codetypeOrder=Sorter2&amp;amp;bb_codetypeDir=ASC"
-									>
+									<a href="http://sali.legal/codetype.php?s_ct_name=sali&amp;amp;ct_id=1&amp;amp;bb_codetypeOrder=Sorter2&amp;amp;bb_codetypeDir=ASC">
 									<strong>Code</strong>
 									</a>
 									<strong></strong>
@@ -711,9 +699,7 @@ image: assets/images/structure.jpg
 									</td>
 									<td>
 									<p>
-									<a
-									href="http://sali.legal/codetype.php?s_ct_name=sali&amp;amp;ct_id=1&amp;amp;bb_codetypeOrder=Sorter_ct_description&amp;amp;bb_codetypeDir=ASC"
-									>
+									<a href="http://sali.legal/codetype.php?s_ct_name=sali&amp;amp;ct_id=1&amp;amp;bb_codetypeOrder=Sorter_ct_description&amp;amp;bb_codetypeDir=ASC">
 									<strong>Description</strong>
 									</a>
 									<strong></strong>
@@ -741,9 +727,7 @@ image: assets/images/structure.jpg
 									</td>
 									<td>
 									<p>
-									<a
-									href="https://sali.legal/code.php?s_keyword&amp;amp;ct=17&amp;amp;lvl&amp;amp;psize=1000"
-									>
+									<a href="https://sali.legal/code.php?s_keyword&amp;amp;ct=17&amp;amp;lvl&amp;amp;psize=1000">
 									View
 									</a>
 									</p>
@@ -768,9 +752,7 @@ image: assets/images/structure.jpg
 									</td>
 									<td>
 									<p>
-									<a
-									href="https://sali.legal/code.php?s_keyword&amp;amp;ct=3&amp;amp;lvl&amp;amp;psize=1000"
-									>
+									<a href="https://sali.legal/code.php?s_keyword&amp;amp;ct=3&amp;amp;lvl&amp;amp;psize=1000">
 									View
 									</a>
 									</p>
@@ -833,9 +815,7 @@ image: assets/images/structure.jpg
 									</td>
 									<td>
 									<p>
-									<a
-									href="https://sali.legal/code.php?s_keyword&amp;amp;ct=12&amp;amp;lvl&amp;amp;psize=1000"
-									>
+									<a href="https://sali.legal/code.php?s_keyword&amp;amp;ct=12&amp;amp;lvl&amp;amp;psize=1000">
 									View
 									</a>
 									</p>
@@ -1047,9 +1027,7 @@ image: assets/images/structure.jpg
 									</td>
 									<td>
 									<p>
-									<a
-									href="https://sali.legal/code.php?s_keyword&amp;amp;ct=14&amp;amp;lvl&amp;amp;psize=1000"
-									>
+									<a href="https://sali.legal/code.php?s_keyword&amp;amp;ct=14&amp;amp;lvl&amp;amp;psize=1000">
 									View
 									</a>
 									</p>
@@ -1057,6 +1035,5 @@ image: assets/images/structure.jpg
 									</tr>
 									</tbody>
 									</table>
-		</p>
-	</section>
-</div>
+</p></section></div>
+:ET

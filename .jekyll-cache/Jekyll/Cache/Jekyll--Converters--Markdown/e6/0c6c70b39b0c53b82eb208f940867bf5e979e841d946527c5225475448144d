@@ -1,4 +1,4 @@
-I"-W<p style="font-size:0.75em"><a href="/">Home</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;LMSS Structure</p>
+I"�Y<p style="font-size:0.75em"><a href="/">Home</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;LMSS Structure</p>
 <div id="main" class="alt">
 	<!-- One -->
 	<section>
@@ -284,17 +284,47 @@
 		<h3>8. Description</h3>
 		<p>The description is an container encapsulates the specific text of a specific narrative. The description has text, a format and a language. If the language is not specified, it is inherited from the matter. For example, if a firm keeps French and English versions of the same narrative, or plain text and HTML formatted versions of the same narrative, these would be accommodated in the description container.
 		</p>
-		<pre><code>Text Y N Text(4000) The description of the matter.
-Format Y N Enumeration of
-Narrative
-Formats
-Text or HTML
-Language N N Enumeration:
-IETF BCP 47
-The language of the description. If omitted, it
-is assumed to be the same as that of the
-matter.
-		</code></pre>
+		<table>
+			<thead>
+				<tr>
+					<th>ELEMENT</th>
+					<th>REQ</th>
+					<th>MULT.</th>
+					<th>TYPE</th>
+					<th>COMMENTS</th>
+				</tr>
+			</thead>
+			<tbody>
+		 		<tr>
+		 			<td>Text</td>
+		 			<td>Y</td>
+		 			<td>N</td>
+		 			<td>Text(4000)</td>
+		 			<td>The description of the matter.</td>
+		 		</tr>
+		 		<tr>
+		 			<td>Format</td>
+		 			<td>Y</td>
+		 			<td>N</td>
+		 			<td>Enumeration of Narrative Formats</td>
+		 			<td>Text or HTML</td>
+		 		</tr>
+		 		<tr>
+		 			<td>Description</td>
+		 			<td>Y</td>
+		 			<td>Y</td>
+		 			<td>Container</td>
+		 			<td>One or more descriptions of a narrative.</td>
+		 		</tr>
+		 		<tr>
+		 			<td>Language</td>
+		 			<td>N</td>
+		 			<td>N</td>
+		 			<td>Enumeration: IETF BCP 47</td>
+		 			<td>The language of the description. If omitted, it is assumed to be the same as that of the matter.</td>
+		 		</tr>
+			</tbody>
+		</table>
 		<h4>8.1. Text</h4>
 		<p>The text holds the characters of the description. The format of the text is interpreted based on the description type.</p>
 		<h4>8.2. Format</h4>
@@ -302,7 +332,7 @@ matter.
 		<h4>8.3. Language</h4>
 		<p>Language is optionally specified by using BCP 47.</p>
 		<h3>9. Process</h3>
-		<p>The Process container describes the process, service or product being delivered. Every process must have a single process type. Top-level process types are transactions, disputes, regulatory proceedings, bankruptcy/restructurings, and advisory. If we think of the process as a sentence, the process type reprints the “verb.” They describe the action that is being taken. The players are the legal entities involved in the process. These should be thought of the subject (Joe Smith) and object (Company X) in the sentence “Joe Smith sued Company X for $500,000 for breach of contract.” The process predicate contains the predecessors or outcomes of the process. In the sentence above, “for $500,000” and “for breach of contract.” The Area of Law provides context to the process. The area of law should be thought of the primary subject of law for the process — think the class that’s the attorney was in when she learned about the applicable law. The area of law is provided primarily for context as in the examples, “He prosecuted the defendant” and “She prosecuted the patent.” The first is criminal law, the second is intellectual property law.</p>
+		<p>The Process container describes the process, service or product being delivered. Every process must have a single process type. Top-level process types are transactions, disputes, regulatory proceedings, bankruptcy/restructurings, and advisory. If we think of the process as a sentence, the process type reprints the “verb.” They describe the action that is being taken.</p><p> The players are the legal entities involved in the process. These should be thought of the subject (Joe Smith) and object (Company X) in the sentence “Joe Smith sued Company X for $500,000 for breach of contract.” The process predicate contains the predecessors or outcomes of the process. In the sentence above, “for $500,000” and “for breach of contract.”</p><p>The Area of Law provides context to the process. The area of law should be thought of the primary subject of law for the process — think the class that’s the attorney was in when she learned about the applicable law. The area of law is provided primarily for context as in the examples, “He prosecuted the defendant” and “She prosecuted the patent.” The first is criminal law, the second is intellectual property law.</p>
 		<h4>9.1. Title</h4>
 		<p>The optional title of the process. Examples include: “LLC formation in California”, and “License of technology to French company.”.</p>
 		<h4>9.2. Description</h4>
