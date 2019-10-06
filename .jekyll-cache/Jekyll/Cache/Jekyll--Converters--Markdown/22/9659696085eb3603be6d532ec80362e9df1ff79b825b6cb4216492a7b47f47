@@ -1,4 +1,4 @@
-I"~&<!-- Main -->
+I"F(<!-- Main -->
 <div id="main" class="alt">
 	<!-- One -->
 	<section>
@@ -56,24 +56,24 @@
 		        <td><a href="assets/json/SALI-currency.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td>SALI Format</td> 
+		        <td><a href="/SALI-format">SALI Format</a></td> 
 		        <td>SALI-FMT</td> 
 		        <td>The format of a description 
 		          </td> 
 		        <td><div>Description <span></span> Format<div></div></div></td> 
 		        <td>2</td> 
-		        <td>HTML</td> 
+		        <td><a href="/SALI-format">HTML</a></td> 
 		        <td><a href="/assets/xlsx/SALI-format.xlsx">XLSX</a></td> 
 		        <td><a href="assets/json/SALI-format.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td>SALI Governmental Body</td> 
+		        <td><a href="/SALI-governmental-body">SALI Governmental Body</a></td> 
 		        <td>SALI-GOVT</td> 
 		        <td>An initial set of government code. Currently U.S. federal only. 
 		          </td> 
 		        <td><div>Player <span></span> Governmental Authority<div><div>Process Object <span></span> Regulatory: Authority<div></div></div></div></div></td> 
 		        <td>331</td> 
-		        <td>HTML</td> 
+		        <td><a href="/SALI-governmental-body">HTML</a></td> 
 		        <td><a href="/assets/xlsx/SALI-governmental-body.xlsx">XLSX</a></td>  
 		        <td><a href="assets/json/SALI-governmental-body.json" target="_blank">JSON</a></td>
 		      </tr>
@@ -153,7 +153,7 @@
 		        <td>45</td>
 		        <td>HTML</td> 
 		        <td><a href="/assets/xlsx/SALI-player-role.xlsx">XLSX</a></td>  
-		        <td>JSON</td>
+		        <td><a href="assets/json/SALI-player-role.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
 		        <td>SALI Process</td> 
@@ -164,7 +164,7 @@
 		        <td>35</td> 
 		        <td>HTML</td> 
 		        <td><a href="/assets/xlsx/SALI-process.xlsx">XLSX</a></td>
-		        <td>JSON</td>
+		        <td><a href="assets/json/SALI-process.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
 		        <td>SALI Process Status</td> 
@@ -174,7 +174,7 @@
 		        <td><div>Process Object <span></span> Status<div></div></div></td> 
 		        <td>3</td> <td>HTML</td> 
 		        <td><a href="/assets/xlsx/SALI-process-status.xlsx">XLSX</a></td> 
-		        <td>JSON</td>
+		        <td><a href="assets/json/SALI-process-status.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
 		        <td>SALI Representation Role</td> 
@@ -185,7 +185,7 @@
 		        <td>4</td>
 		        <td>HTML</td> 
 		        <td><a href="/assets/xlsx/SALI-representation-role.xlsx">XLSX</a></td>  
-		        <td>JSON</td>
+		        <td><a href="assets/json/SALI-representation-role.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
 		        <td>SALI Trial Type</td> 
@@ -196,7 +196,7 @@
 		        <td>2</td>
 		        <td>HTML</td> 
 		        <td><a href="/assets/xlsx/SALI-trial-type.xlsx">XLSX</a></td>   
-		        <td>JSON</td>
+		        <td><a href="assets/json/SALI-trial-type.json" target="_blank">JSON</a></td>
 		      </tr>
 		    </tbody></table>
   </div>

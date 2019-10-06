@@ -1,0 +1,4646 @@
+I"ƒ¦<!-- Main -->
+<div id="main" class="alt">
+	<!-- One -->
+	<section>
+		<header class="major">
+			<h1>SALI  Governmental Body</h1>
+		</header>
+		<input type="text" class="light-table-filter" data-table="order-table" placeholder="Enter one or more keywords to search the codes" />
+		<p>
+		<div class="table-responsive">
+    <table class="table-wrapper order-table table">
+<thead><tr><th title="Field #1">#</th>
+<th title="Field #2">Code Set</th>
+<th title="Field #3">Level</th>
+<th title="Field #4">Code</th>
+<th title="Field #5">Full Code</th>
+<th title="Field #6">Short Name</th>
+<th title="Field #7">Name</th>
+<th title="Field #8">Description</th>
+<th title="Field #9">Tags</th>
+<th title="Field #10">URL</th>
+<th title="Field #11">Comment</th>
+</tr></thead>
+<tbody><tr>
+<td align="right">1</td>
+<td>SALI Governmental Body</td>
+<td align="right">1</td>
+<td>US</td>
+<td>US</td>
+<td>United States</td>
+<td>United States</td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">2</td>
+<td>SALI Governmental Body</td>
+<td align="right">2</td>
+<td>FD</td>
+<td>US-FD</td>
+<td>Federal Agencies</td>
+<td>Federal Agencies</td>
+<td>Federal agencies includes legislative, judicial and executive brach departments and agencies. It also includes Special Inspector General Office and quasi-official agencies.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">3</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>ACHP</td>
+<td>US-FD-ACHP</td>
+<td>Advisory Council on Historic Preservation</td>
+<td>Advisory Council on Historic Preservation</td>
+<td>The ACHP promotes the preservation, enhancement, and sustainable use of the nationï¿½s diverse historic resources, and advises the President and Congress on national historic preservation policy.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">4</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>ACUS</td>
+<td>US-FD-ACUS</td>
+<td>Administrative Conference of the United States</td>
+<td>Administrative Conference of the United States</td>
+<td>ACUS is an independent U.S. federal agency charged with convening expert representatives from the public and private sectors to recommend improvements to administrative process and procedure. ACUS initiatives promote efficiency, participation, and fairness in the promulgation of federal regulations and in the administration of federal programs.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">5</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>AMTRAK</td>
+<td>US-FD-AMTRAK</td>
+<td>Amtrak</td>
+<td>Amtrak</td>
+<td>The National Railroad Passenger Corporation, founded in 1971 as a quasi-public corporation and doing business as Amtrak, is a passenger railroad service that provides medium- and long-distance intercity service in the contiguous United States and to nine Canadian cities.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">6</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>AOC</td>
+<td>US-FD-AOC</td>
+<td>Architect of the Capitol</td>
+<td>Architect of the Capitol</td>
+<td>The Architect of the Capitol (AOC) is the federal agency responsible for the maintenance, operation, development, and preservation of the United States Capitol Complex, and also the head of that agency.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">7</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>CBO</td>
+<td>US-FD-CBO</td>
+<td>Congressional Budget Office</td>
+<td>Congressional Budget Office</td>
+<td>The Congressional Budget Office (CBO) is a federal agency within the legislative branch of the United States government that provides budget and economic information to Congress.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">8</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>CFPB</td>
+<td>US-FD-CFPB</td>
+<td>Consumer Financial Protection Bureau</td>
+<td>Consumer Financial Protection Bureau</td>
+<td>The Consumer Financial Protection Bureau (CFPB), also known as the Bureau of Consumer Financial Protection (BCFP), is an agency of the United States government responsible for consumer protection in the financial sector. CFPB&#39;s jurisdiction includes banks, credit unions, securities firms, payday lenders, mortgage-servicing operations, foreclosure relief services, debt collectors and other financial companies operating in the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">9</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>CFTC</td>
+<td>US-FD-CFTC</td>
+<td>Commodity Futures Trading Commission</td>
+<td>Commodity Futures Trading Commission</td>
+<td>The U.S. Commodity Futures Trading Commission (CFTC) is an independent agency of the US government created in 1974, that regulates futures and option markets.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">10</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>CIA</td>
+<td>US-FD-CIA</td>
+<td>Central Intelligence Agency</td>
+<td>Central Intelligence Agency</td>
+<td>The Central Intelligence Agency (CIA) is a civilian foreign intelligence service of the Federal government of the United States, tasked with gathering, processing, and analyzing national security information from around the world, primarily through the use of human intelligence (HUMINT).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">11</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>CIOC</td>
+<td>US-FD-CIOC</td>
+<td>Chief Information Officers Council</td>
+<td>Chief Information Officers Council</td>
+<td>The CIO Council is the principal interagency forum on U.S. Federal agency practices for information technology management.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">12</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>CNCS</td>
+<td>US-FD-CNCS</td>
+<td>Corporation for National and Community Service</td>
+<td>Corporation for National and Community Service</td>
+<td>The Corporation for National and Community Service (CNCS) is a U.S. federal government agency that engages more than five million Americans in service through AmeriCorps, Learn and Serve America, Senior Corps, and other national service initiatives.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">13</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>CPSC</td>
+<td>US-FD-CPSC</td>
+<td>Consumer Product Safety Commission</td>
+<td>Consumer Product Safety Commission</td>
+<td>The United States Consumer Product Safety Commission (CPSC or Commission) is an independent agency of the United States government that seeks to promote the safety of consumer products by addressing &quot;unreasonable risks&quot; of injury (through coordinating recalls, evaluating products that are the subject of consumer complaints or industry reports, etc.); developing uniform safety standards (some mandatory, some through a voluntary standards process); and conducting research into product-related illness and injury.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">14</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>CSB</td>
+<td>US-FD-CSB</td>
+<td>Chemical Safety and Hazard Investigation Board</td>
+<td>Chemical Safety and Hazard Investigation Board</td>
+<td>The U.S. Chemical Safety Board (CSB) is an independent, nonregulatory federal agency that investigates the root causes of major chemical incidents.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">15</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>DHS</td>
+<td>US-FD-DHS</td>
+<td>Department of Homeland Security</td>
+<td>Department of Homeland Security</td>
+<td>The United States Department of Homeland Security (DHS) is a cabinet department of the United States federal government with responsibilities in public security, roughly comparable to the interior or home ministries of other countries. Its stated missions involve anti-terrorism, border security, immigration and customs, cyber security, and disaster prevention and management.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">16</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>CBP</td>
+<td>US-FD-DHS-CBP</td>
+<td>U.S. Customs and Border Protection</td>
+<td>U.S. Customs and Border Protection</td>
+<td>United States Customs and Border Protection (CBP) is the largest federal law enforcement agency of the United States Department of Homeland Security, and is the countryï¿½s primary border control organization.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">17</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>USBP</td>
+<td>US-FD-DHS-CBP-USBP</td>
+<td>United States Border Patrol</td>
+<td>United States Border Patrol</td>
+<td>The United States Border Patrol (USBP) is a U.S. federal law enforcement agency whose mission is to detect and prevent illegal aliens, terrorists and terrorist weapons from entering the United States, and prevent illegal trafficking of people and contraband.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">18</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DHSOIG</td>
+<td>US-FD-DHS-DHSOIG</td>
+<td>DHS Office of the Inspector General</td>
+<td>DHS Office of the Inspector General</td>
+<td>The Department of Homeland Security Office of Inspector General was established along with the Department of Homeland Security itself in 2002 by the Homeland Security Act. Its mission as &quot;supervis[ing] independent audits, investigations, and inspections of the programs and operations of DHS, and recommends ways for DHS to carry out its responsibilities in the most effective, efficient, and economical manner possible.&quot;</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">19</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>FEMA</td>
+<td>US-FD-DHS-FEMA</td>
+<td>Federal Emergency Management Agency</td>
+<td>Federal Emergency Management Agency</td>
+<td>The Federal Emergency Management Agency (FEMA) is an agency of the United States Department of Homeland Security. The agency&#39;s primary purpose is to coordinate the response to a disaster that has occurred in the United States and that overwhelms the resources of local and state authorities.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">20</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>FPS</td>
+<td>US-FD-DHS-FPS</td>
+<td>Federal Protective Service</td>
+<td>Federal Protective Service</td>
+<td>The Federal Protective Service (FPS) is the uniformed security police division of the National Protection and Programs Directorate of the United States Department of Homeland Security.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">21</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>HSARPA</td>
+<td>US-FD-DHS-HSARPA</td>
+<td>Homeland Security Advanced Research Projects Agency</td>
+<td>Homeland Security Advanced Research Projects Agency</td>
+<td>Homeland Security Advanced Research Projects Agency (HSARPA) is a part of the Science and Technology Directorate at the United States Department of Homeland Security.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">22</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>CBD</td>
+<td>US-FD-DHS-HSARPA-CBD</td>
+<td>Chemical and Biological Defense Division</td>
+<td>Chemical and Biological Defense Division</td>
+<td>The Chemical and Biological Defense Division (CBD) is a division of the Science and Technology Directorate of the United States Department of Homeland Security. Within the Homeland Security Advanced Research Projects Agency, CBD develops technologies to increase the United States&#39;s preparedness and protect key National infrastructure against chemical, biological, and agricultural threats and disasters through improved threat awareness and advanced surveillance, detection, and protective countermeasures.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">23</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>ICE</td>
+<td>US-FD-DHS-ICE</td>
+<td>United States Immigration and Customs Enforcement</td>
+<td>United States Immigration and Customs Enforcement</td>
+<td>The U.S. Immigration and Customs Enforcement (ICE) is a law enforcement agency of the federal government of the United States tasked to enforce the immigration laws of the United States and to investigate criminal and terrorist activity of foreign nationals residing in the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">24</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>NCCIC</td>
+<td>US-FD-DHS-NCCIC</td>
+<td>National Cybersecurity and Communications Integration Center</td>
+<td>National Cybersecurity and Communications Integration Center</td>
+<td>The National Cybersecurity and Communications Integration Center (NCCIC) is part of the Office of Cybersecurity &amp; Communications of the U.S. Department of Homeland Security. It acts to coordinate various aspects of the U.S. federal government&#39;s cybersecurity and cyberattack mitigation efforts, through cooperation with civilian agencies, infrastructure operators, state and local governments, and international partners.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">25</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>NPPD</td>
+<td>US-FD-DHS-NPPD</td>
+<td>National Protection and Programs Directorate</td>
+<td>National Protection and Programs Directorate</td>
+<td>The National Protection and Programs Directorate (NPPD) is a component within the United States Department of Homeland Security. NPPD&#39;s goal is to advance the Department&#39;s national security mission by reducing and eliminating threats to U.S. critical physical and cyber infrastructure.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">26</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>OIA</td>
+<td>US-FD-DHS-OIA</td>
+<td>Office of Intelligence and Analysis</td>
+<td>Office of Intelligence and Analysis</td>
+<td>The Office of Intelligence and Analysis (I&amp;A) is an agency of the United States Department of Homeland Security.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">27</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>TSA</td>
+<td>US-FD-DHS-TSA</td>
+<td>Transportation Security Administration</td>
+<td>Transportation Security Administration</td>
+<td>The Transportation Security Administration (TSA) is an agency of the U.S. Department of Homeland Security that has authority over the security of the traveling public in the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">28</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>FAMS</td>
+<td>US-FD-DHS-TSA-FAMS</td>
+<td>Federal Air Marshal Service</td>
+<td>Federal Air Marshal Service</td>
+<td>The Federal Air Marshal Service (FAMS) is a United States federal law enforcement agency under the supervision of the Transportation Security Administration (TSA) of the United States Department of Homeland Security (DHS).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">29</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>USCG</td>
+<td>US-FD-DHS-USCG</td>
+<td>United States Coast Guard</td>
+<td>United States Coast Guard</td>
+<td>The United States Coast Guard (USCG) is a branch of the United States Armed Forces.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">30</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>USCGR</td>
+<td>US-FD-DHS-USCG-USCGR</td>
+<td>Coast Guard Reserve</td>
+<td>Coast Guard Reserve</td>
+<td>The United States Coast Guard Reserve is the reserve component of the United States Coast Guard. It is organized, trained, administered, and supplied under the direction of the Commandant of the Coast Guard through the Director of Reserve and Military Personnel.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">31</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>USCIS</td>
+<td>US-FD-DHS-USCIS</td>
+<td>U.S. Citizenship and Immigration Services</td>
+<td>U.S. Citizenship and Immigration Services</td>
+<td>U.S. Citizenship and Immigration Services (USCIS) is an agency of the U.S. Department of Homeland Security (DHS) that administers the country&#39;s naturalization and immigration systems.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">32</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>USSS</td>
+<td>US-FD-DHS-USSS</td>
+<td>United States Secret Service</td>
+<td>United States Secret Service</td>
+<td>The United States Secret Service (also USSS or Secret Service) is a federal law enforcement agency under the United States Department of Homeland Security, charged with conducting criminal investigations and protecting the nation&#39;s leaders.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">33</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>DOC</td>
+<td>US-FD-DOC</td>
+<td>Department of Commerce</td>
+<td>Department of Commerce</td>
+<td>The United States Department of Commerce is the Cabinet department of the United States government concerned with promoting economic growth. Among its tasks are gathering economic and demographic data for business and government decision-making, and helping to set industrial standards.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">34</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>BEA</td>
+<td>US-FD-DOC-BEA</td>
+<td>Bureau of Economic Analysis</td>
+<td>Bureau of Economic Analysis</td>
+<td>The Bureau of Economic Analysis (BEA) of the United States Department of Commerce is a U.S. government agency that provides official macroeconomic and industry statistics, most notably reports about the gross domestic product (GDP) of the United States and its various unitsï¿½states, cities/towns/townships/villages/counties and metropolitan areas.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">35</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>BIS</td>
+<td>US-FD-DOC-BIS</td>
+<td>Bureau of Industry and Security</td>
+<td>Bureau of Industry and Security</td>
+<td>The Bureau of Industry and Security (BIS) is an agency of the United States Department of Commerce that deals with issues involving national security and high technology.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">36</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>CITA</td>
+<td>US-FD-DOC-CITA</td>
+<td>Committee for the Implementation of Textile Agreements</td>
+<td>Committee for the Implementation of Textile Agreements</td>
+<td>The Committee for the Implementation of Textile Agreements is responsible for matters affecting textile trade policy, and for supervising the implementation of all textile trade agreements.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">37</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>ESA</td>
+<td>US-FD-DOC-ESA</td>
+<td>Economics and Statistics Administration</td>
+<td>Economics and Statistics Administration</td>
+<td>The Economics and Statistics Administration (ESA) is an agency within the United States Department of Commerce (DOC) that analyzes, disseminates, and reports on national economic and demographic data.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">38</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>ITA</td>
+<td>US-FD-DOC-ITA</td>
+<td>International Trade Administration</td>
+<td>International Trade Administration</td>
+<td>The International Trade Administration (ITA) is an agency in the United States Department of Commerce that promotes United States exports of nonagricultural U.S. services and goods.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">39</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>NIST</td>
+<td>US-FD-DOC-NIST</td>
+<td>National Institute of Standards and Technology</td>
+<td>National Institute of Standards and Technology</td>
+<td>The National Institute of Standards and Technology (NIST) is a physical sciences laboratory and a non-regulatory agency of the United States Department of Commerce.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">40</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>NOAA</td>
+<td>US-FD-DOC-NOAA</td>
+<td>National Oceanic and Atmospheric Administration</td>
+<td>National Oceanic and Atmospheric Administration</td>
+<td>The National Oceanic and Atmospheric Administration (NOAA) is an American scientific agency within the United States Department of Commerce that focuses on the conditions of the oceans, major waterways, and the atmosphere.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">41</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>NMFS</td>
+<td>US-FD-DOC-NOAA-NMFS</td>
+<td>National Marine Fisheries Service</td>
+<td>National Marine Fisheries Service</td>
+<td>The National Marine Fisheries Service (NMFS) is a United States federal agency, responsible for the stewardship of national marine resources.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">42</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>NTIA</td>
+<td>US-FD-DOC-NTIA</td>
+<td>National Telecommunications and Information Administration</td>
+<td>National Telecommunications and Information Administration</td>
+<td>The National Telecommunications and Information Administration (NTIA) is an agency of the United States Department of Commerce that serves as the President&#39;s principal adviser on telecommunications policies pertaining to the United States&#39; economic and technological advancement and to the regulation of the telecommunications industry.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">43</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>USCB</td>
+<td>US-FD-DOC-USCB</td>
+<td>United States Census Bureau</td>
+<td>United States Census Bureau</td>
+<td>The United States Census Bureau (USCB) is a principal agency of the U.S. Federal Statistical System, responsible for producing data about the American people and economy.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">44</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>USPTO</td>
+<td>US-FD-DOC-USPTO</td>
+<td>Patent and Trademark Office</td>
+<td>Patent and Trademark Office</td>
+<td>The United States Patent and Trademark Office (USPTO) is an agency in the U.S. Department of Commerce that issues patents to inventors and businesses for their inventions, and trademark registration for product and intellectual property identification.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">45</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>DOD</td>
+<td>US-FD-DOD</td>
+<td>Department of Defense</td>
+<td>Department of Defense</td>
+<td>The Department of Defense (USDOD, or DOD) is an executive branch department of the federal government of the United States charged with coordinating and supervising all agencies and functions of the government concerned directly with national security and the United States Armed Forces.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">46</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>AAFES</td>
+<td>US-FD-DOD-AAFES</td>
+<td>Army &amp; Air Force Exchange Service</td>
+<td>Army &amp; Air Force Exchange Service</td>
+<td>The Army &amp; Air Force Exchange Service (AAFES, also referred to as The Exchange) is the retailer on U.S. Army and Air Force installations worldwide.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">47</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>ARMY</td>
+<td>US-FD-DOD-ARMY</td>
+<td>United States Army</td>
+<td>United States Army</td>
+<td>The United States Army (USA) is the land warfare service branch of the United States Armed Forces.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">48</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>ARNG</td>
+<td>US-FD-DOD-ARMY-ARNG</td>
+<td>Army National Guard</td>
+<td>Army National Guard</td>
+<td>The Army National Guard (ARNG), in conjunction with the Air National Guard, is a militia force and a federal military reserve force of the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">49</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>INSCOM</td>
+<td>US-FD-DOD-ARMY-INSCOM</td>
+<td>U.S. Army Intelligence and Security Command</td>
+<td>U.S. Army Intelligence and Security Command</td>
+<td>The United States Army Intelligence and Security Command (INSCOM) is a direct reporting unit that conducts intelligence, security, and information operations for U.S. Army commanders and national decision makers.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">50</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>USACE</td>
+<td>US-FD-DOD-ARMY-USACE</td>
+<td>Army Corps of Engineers</td>
+<td>Army Corps of Engineers</td>
+<td>The United States Army Corps of Engineers (USACE) is a U.S. federal agency under the Department of Defense and a major Army command made up of some 37,000 civilian and military personnel, making it one of the world&#39;s largest public engineering, design, and construction management agencies.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">51</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>USAR</td>
+<td>US-FD-DOD-ARMY-USAR</td>
+<td>U.S. Army Reserve</td>
+<td>U.S. Army Reserve</td>
+<td>The United States Army Reserve (USAR) is the reserve force of the United States Army.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">52</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>ASBCA</td>
+<td>US-FD-DOD-ASBCA</td>
+<td>Armed Services Board of Contract Appeals</td>
+<td>Armed Services Board of Contract Appeals</td>
+<td>The Armed Services Board of Contract Appeals (ASBCA) is an administrative tribunal within the United States Federal Government that hears certain claims arising from contract disputes between government contractors and either the Department of Defense or the National Aeronautics and Space Administration.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">53</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>CENTCOM</td>
+<td>US-FD-DOD-CENTCOM</td>
+<td>U.S. Central Command</td>
+<td>U.S. Central Command</td>
+<td>The United States Central Command (USCENTCOM or CENTCOM) is a theater-level Unified Combatant Command of the U.S. Department of Defense.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">54</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DARC</td>
+<td>US-FD-DOD-DARC</td>
+<td>Defense Acquisition Regulations Council</td>
+<td>Defense Acquisition Regulations Council</td>
+<td>The Defense Acquisition Regulatory Council (DARC) is a group overseen by the United States Department of Defense (DoD). DARC is in charge of the Federal Acquisition Regulation (FAR) on a joint basis with the Civilian Agency Acquisition Council (CAAC).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">55</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DARPA</td>
+<td>US-FD-DOD-DARPA</td>
+<td>Defense Advanced Research Projects Agency</td>
+<td>Defense Advanced Research Projects Agency</td>
+<td>The Defense Advanced Research Projects Agency (DARPA) is an agency of the United States Department of Defense responsible for the development of emerging technologies for use by the military.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">56</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DCAA</td>
+<td>US-FD-DOD-DCAA</td>
+<td>Defense Contract Audit Agency</td>
+<td>Defense Contract Audit Agency</td>
+<td>The Defense Contract Audit Agency (DCAA) is an agency of the United States Department of Defense under the direction of the Under Secretary of Defense (Comptroller).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">57</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DCMA</td>
+<td>US-FD-DOD-DCMA</td>
+<td>Defense Contract Management Agency</td>
+<td>Defense Contract Management Agency</td>
+<td>The Defense Contract Management Agency (DCMA) is an agency of the United States federal government reporting to the Under Secretary of Defense for Acquisition and Sustainment.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">58</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DeCA</td>
+<td>US-FD-DOD-DeCA</td>
+<td>Defense Commissary Agency</td>
+<td>Defense Commissary Agency</td>
+<td>The Defense Commissary Agency (DeCA), headquartered at Fort Lee (Virginia), is an agency of the United States Department of Defense (DoD) that operates nearly 240 commissaries worldwide.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">59</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DFAS</td>
+<td>US-FD-DOD-DFAS</td>
+<td>Defense Finance and Accounting Service</td>
+<td>Defense Finance and Accounting Service</td>
+<td>The Defense Finance and Accounting Service (DFAS) is an agency of the United States Department of Defense (DOD) responsible for all payments to servicemembers, employees, vendors, and contractors.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">60</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DHA</td>
+<td>US-FD-DOD-DHA</td>
+<td>Defense Health Agency</td>
+<td>Defense Health Agency</td>
+<td>The Defense Health Agency (DHA) is a joint, integrated Combat Support Agency that enables the U.S. Army, U.S. Navy, and U.S. Air Force medical services to provide a medically ready force and ready medical force to Combatant Commands in both peacetime and wartime.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">61</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DIA</td>
+<td>US-FD-DOD-DIA</td>
+<td>Defense Intelligence Agency</td>
+<td>Defense Intelligence Agency</td>
+<td>The Defense Intelligence Agency (DIA), an external intelligence service of the United States federal government, specializes in defense and military intelligence.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">62</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DISA</td>
+<td>US-FD-DOD-DISA</td>
+<td>Defense Information Systems Agency</td>
+<td>Defense Information Systems Agency</td>
+<td>The Defense Information Systems Agency (DISA), known as the Defense Communications Agency (DCA) until 1991, is a United States Department of Defense (DoD) combat support agency composed of military, federal civilians, and contractors.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">63</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DLA</td>
+<td>US-FD-DOD-DLA</td>
+<td>Defense Logistics Agency</td>
+<td>Defense Logistics Agency</td>
+<td>The Defense Logistics Agency (DLA) is a combat support agency in the United States Department of Defense, with more than 26,000 civilian and military personnel throughout the world.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">64</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DODOIG</td>
+<td>US-FD-DOD-DODOIG</td>
+<td>DOD Office of Inspector General</td>
+<td>DOD Office of Inspector General</td>
+<td>The Department of Defences Office of the Inspector General has the mission to detect and deter fraud, waste, and abuse in Department of Defense programs and operations.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">65</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>DCIS</td>
+<td>US-FD-DOD-DODOIG-DCIS</td>
+<td>Defense Criminal Investigative Service</td>
+<td>Defense Criminal Investigative Service</td>
+<td>The Defense Criminal Investigative Service is the criminal investigative arm of the Office of the Inspector General, U.S. Department of Defense.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">66</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DSCA</td>
+<td>US-FD-DOD-DSCA</td>
+<td>Defense Security Cooperation Agency</td>
+<td>Defense Security Cooperation Agency</td>
+<td>The Defense Security Cooperation Agency (DSCA), as part of the United States Department of Defense (DoD), provides financial and technical assistance, transfer of defense matï¿½riel, training and services to allies, and promotes military-to-military contacts.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">67</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DSS</td>
+<td>US-FD-DOD-DSS</td>
+<td>Defense Security Service</td>
+<td>Defense Security Service</td>
+<td>The Defense Security Service (DSS) is a federal security agency of the United States Department of Defense (DoD).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">68</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DTRA</td>
+<td>US-FD-DOD-DTRA</td>
+<td>Defense Threat Reduction Agency</td>
+<td>Defense Threat Reduction Agency</td>
+<td>The Defense Threat Reduction Agency (DTRA) is an agency within the United States Department of Defense (DoD) and is the official Combat Support Agency for countering weapons of mass destruction (chemical, biological, radiological, nuclear, and high explosives).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">69</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>MDA</td>
+<td>US-FD-DOD-MDA</td>
+<td>Missile Defense Agency</td>
+<td>Missile Defense Agency</td>
+<td>The Missile Defense Agency is partially or wholly responsible for the development of several ballistic missile defense (BMD) systems, including the Patriot PAC-3, Aegis BMD, THAAD and the Ground-Based Midcourse Defense system.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">70</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>NAVY</td>
+<td>US-FD-DOD-NAVY</td>
+<td>United States Navy</td>
+<td>United States Navy</td>
+<td>The United States Navy (USN) is the naval warfare service branch of the United States Armed Forces and one of the seven uniformed services of the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">71</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>MSC</td>
+<td>US-FD-DOD-NAVY-MSC</td>
+<td>Military Sealift Command</td>
+<td>Military Sealift Command</td>
+<td>The United States Navy&#39;s Military Sealift Command (MSC) is an organization that controls the replenishment and military transport ships of the Navy.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">72</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>NGA</td>
+<td>US-FD-DOD-NGA</td>
+<td>National Geospatial-Intelligence Agency</td>
+<td>National Geospatial-Intelligence Agency</td>
+<td>The National Geospatial-Intelligence Agency (NGA) is both a combat support agency under the United States Department of Defense and an intelligence agency of the United States Intelligence Community, with the primary mission of collecting, analyzing, and distributing geospatial intelligence (GEOINT) in support of national security.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">73</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>NSA</td>
+<td>US-FD-DOD-NSA</td>
+<td>National Security Agency</td>
+<td>National Security Agency</td>
+<td>The National Security Agency (NSA) is a national-level intelligence agency of the United States Department of Defense, under the authority of the Director of National Intelligence.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">74</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>SOCOM</td>
+<td>US-FD-DOD-SOCOM</td>
+<td>U.S. Special Operations Command</td>
+<td>U.S. Special Operations Command</td>
+<td>The United States Special Operations Command (USSOCOM or SOCOM) is the Unified Combatant Command charged with overseeing the various Special Operations Component Commands of the Army, Marine Corps, Navy, and Air Force of the United States Armed Forces.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">75</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>USAF</td>
+<td>US-FD-DOD-USAF</td>
+<td>United States Air Force</td>
+<td>United States Air Force</td>
+<td>The United States Air Force (USAF) is the aerial and space warfare service branch of the United States Armed Forces.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">76</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>AFR</td>
+<td>US-FD-DOD-USAF-AFR</td>
+<td>Air Force Reserve</td>
+<td>Air Force Reserve</td>
+<td>The Air Force Reserve supports the work of the Air Force, including traditional flying missions and other more specialized missions, such as Weather Reconnaissance (Hurricane Hunters), Modular Aerial Fire Fighting (MAFFs) and Personnel Recovery (Pararescuemen).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">77</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>ANG</td>
+<td>US-FD-DOD-USAF-ANG</td>
+<td>Air Force National Guard</td>
+<td>Air Force National Guard</td>
+<td>The Air National Guard (ANG), also known as the Air Guard, is a federal military reserve force as well as the militia air force of each U.S. state, the District of Columbia, the Commonwealth of Puerto Rico, and the territories of Guam and the U.S. Virgin Islands.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">78</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>USMC</td>
+<td>US-FD-DOD-USMC</td>
+<td>United States Marine Corps</td>
+<td>United States Marine Corps</td>
+<td>The United States Marine Corps (USMC), also referred to as the United States Marines, is a branch of the United States Armed Forces responsible for conducting expeditionary and amphibious operations with the United States Navy as well as the Army and Air Force.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">79</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>USNG</td>
+<td>US-FD-DOD-USNG</td>
+<td>United States National Guard</td>
+<td>United States National Guard</td>
+<td>The National Guard of the United States, part of the reserve components of the United States Armed Forces, is a reserve military force, composed of National Guard military members or units of each state and the territories of Guam, the Virgin Islands, Puerto Rico, and the District of Columbia.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">80</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>USTRANSCOM</td>
+<td>US-FD-DOD-USTRANSCOM</td>
+<td>U.S. Transportation Command</td>
+<td>U.S. Transportation Command</td>
+<td>The United States Transportation Command (USTRANSCOM) is one of ten unified commands of the United States Department of Defense.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">81</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>DOE</td>
+<td>US-FD-DOE</td>
+<td>Department of Energy</td>
+<td>Department of Energy</td>
+<td>The United States Department of Energy (DOE) is a cabinet-level department of the United States Government concerned with the United States&#39; policies regarding energy and safety in handling nuclear material.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">82</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>ARPAE</td>
+<td>US-FD-DOE-ARPAE</td>
+<td>Advanced Research Projects Agency-Energy</td>
+<td>Advanced Research Projects Agency-Energy</td>
+<td>The Advanced Research Projects Agency-Energy is a United States government agency tasked with promoting and funding research and development of advanced energy technologies.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">83</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>BPA</td>
+<td>US-FD-DOE-BPA</td>
+<td>Bonneville Power Administration</td>
+<td>Bonneville Power Administration</td>
+<td>The Bonneville Power Administration (BPA) is an American federal agency operating in the Pacific Northwest. BPA was created by an act of Congress in 1937 to market electric power from the Bonneville Dam located on the Columbia River and to construct facilities necessary to transmit that power.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">84</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DOEOIG</td>
+<td>US-FD-DOE-DOEOIG</td>
+<td>DOE Office of Inspector General</td>
+<td>DOE Office of Inspector General</td>
+<td>U.S. Department of Energy, Office of Inspector General&#39;s mission is to help the Department and the American taxpayer by strengthening the integrity, economy, and efficiency of the Departmentï¿½s programs and operations.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">85</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>EERE</td>
+<td>US-FD-DOE-EERE</td>
+<td>Office of Energy Efficiency and Renewable Energy</td>
+<td>Office of Energy Efficiency and Renewable Energy</td>
+<td>The Office of Energy Efficiency and Renewable Energy (EERE) is an office within the United States Department of Energy. Its mission is to help support the development of clean, renewable and efficient energy technologies to America and support a global clean energy economy.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">86</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>EIA</td>
+<td>US-FD-DOE-EIA</td>
+<td>Energy Information Administration</td>
+<td>Energy Information Administration</td>
+<td>The U.S. Energy Information Administration (EIA) is a principal agency of the U.S. Federal Statistical System responsible for collecting, analyzing, and disseminating energy information to promote sound policymaking, efficient markets, and public understanding of energy and its interaction with the economy and the environment.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">87</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>FERC</td>
+<td>US-FD-DOE-FERC</td>
+<td>Federal Energy Regulatory Commission</td>
+<td>Federal Energy Regulatory Commission</td>
+<td>The Federal Energy Regulatory Commission (FERC) is the United States federal agency that regulates the transmission and wholesale sale of electricity and natural gas in interstate commerce and regulates the transportation of oil by pipeline in interstate commerce.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">88</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>NNSA</td>
+<td>US-FD-DOE-NNSA</td>
+<td>National Nuclear Security Administration</td>
+<td>National Nuclear Security Administration</td>
+<td>The National Nuclear Security Administration (NNSA) is a United States federal government agency responsible for enhancing national security through the military application of nuclear science.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">89</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>DOI</td>
+<td>US-FD-DOI</td>
+<td>Department of the Interior</td>
+<td>Department of the Interior</td>
+<td>The United States Department of the Interior (DOI) is the United States federal executive department of the U.S. government responsible for the management and conservation of most federal lands and natural resources, and the administration of programs relating to Native Americans, Alaska Natives, Native Hawaiians, territorial affairs, and insular areas of the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">90</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>BIA</td>
+<td>US-FD-DOI-BIA</td>
+<td>Bureau of Indian Affairs</td>
+<td>Bureau of Indian Affairs</td>
+<td>The Bureau of Indian Affairs (BIA) is an agency of the federal government of the United States within the U.S. Department of the Interior.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">91</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>BLM</td>
+<td>US-FD-DOI-BLM</td>
+<td>Bureau of Land Management</td>
+<td>Bureau of Land Management</td>
+<td>The Bureau of Land Management (BLM) is an agency within the United States Department of the Interior that administers public lands in the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">92</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>BOEM</td>
+<td>US-FD-DOI-BOEM</td>
+<td>Bureau of Ocean Energy Management</td>
+<td>Bureau of Ocean Energy Management</td>
+<td>The Bureau of Ocean Energy Management (BOEM) is an agency within the United States Department of the Interior, established in 2010 by Secretarial Order.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">93</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>BSEE</td>
+<td>US-FD-DOI-BSEE</td>
+<td>Bureau of Safety and Environmental Enforcement</td>
+<td>Bureau of Safety and Environmental Enforcement</td>
+<td>The Bureau of Safety and Environmental Enforcement (BSEE) is an agency under the United States Department of the Interior.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">94</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DOIOIG</td>
+<td>US-FD-DOI-DOIOIG</td>
+<td>DOI Office of the Inspector General</td>
+<td>DOI Office of the Inspector General</td>
+<td>The mission of the Department of the Interior Office of Inspector General is to provide independent oversight and promote excellence, integrity, and accountability within the programs, operations, and management of the U.S. Department of the Interior.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">95</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>FWS</td>
+<td>US-FD-DOI-FWS</td>
+<td>Fish and Wildlife Service</td>
+<td>Fish and Wildlife Service</td>
+<td>The United States Fish and Wildlife Service (USFWS or FWS) is an agency of the federal government within the U.S. Department of the Interior dedicated to the management of fish, wildlife, and natural habitats.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">96</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>NPS</td>
+<td>US-FD-DOI-NPS</td>
+<td>National Park Service</td>
+<td>National Park Service</td>
+<td>The National Park Service (NPS) is an agency of the United States federal government that manages all national parks, many national monuments, and other conservation and historical properties with various title designations.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">97</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>USPP</td>
+<td>US-FD-DOI-NPS-USPP</td>
+<td>United States Park Police</td>
+<td>United States Park Police</td>
+<td>The United States Park Police (USPP) is one of the oldest uniformed federal law enforcement agencies in the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">98</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>ONRR</td>
+<td>US-FD-DOI-ONRR</td>
+<td>Office of Natural Resources Revenue</td>
+<td>Office of Natural Resources Revenue</td>
+<td>The Office of Natural Resources Revenue (ONRR) is a unit of the United States Department of the Interior, established by Secretarial Order.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">99</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>OSMRE</td>
+<td>US-FD-DOI-OSMRE</td>
+<td>Office of Surface Mining, Reclamation, and Enforcement</td>
+<td>Office of Surface Mining, Reclamation, and Enforcement</td>
+<td>The Office of Surface Mining Reclamation and Enforcement (OSMRE) is a branch of the United States Department of the Interior.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">100</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>USBR</td>
+<td>US-FD-DOI-USBR</td>
+<td>Bureau of Reclamation</td>
+<td>Bureau of Reclamation</td>
+<td>Established in 1902, the Bureau of Reclamation is best known for the dams, powerplants, and canals it constructed in the 17 western states. These water projects led to homesteading and promoted the economic development of the West. Reclamation has constructed more than 600 dams and reservoirs including Hoover Dam on the Colorado River and Grand Coulee on the Columbia River.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">101</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>USGS</td>
+<td>US-FD-DOI-USGS</td>
+<td>U.S. Geological Survey</td>
+<td>U.S. Geological Survey</td>
+<td>United States Geological Survey (USGS)</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">102</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>DOJ</td>
+<td>US-FD-DOJ</td>
+<td>Department of Justice</td>
+<td>Department of Justice</td>
+<td>The United States Department of Justice (DOJ), also known as the Justice Department, is a federal executive department of the U.S. government, responsible for the enforcement of the law and administration of justice in the United States, equivalent to the justice or interior ministries of other countries.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">103</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>ATF</td>
+<td>US-FD-DOJ-ATF</td>
+<td>Bureau of Alcohol, Tobacco, Firearms and Explosives</td>
+<td>Bureau of Alcohol, Tobacco, Firearms and Explosives</td>
+<td>The Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) is a federal law enforcement organization within the United States Department of Justice.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">104</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>BOP</td>
+<td>US-FD-DOJ-BOP</td>
+<td>Bureau of Prisons</td>
+<td>Bureau of Prisons</td>
+<td>The Federal Bureau of Prisons (BOP) is a United States federal law enforcement agency. A subdivision of the U.S. Department of Justice, the BOP is responsible for the administration of the federal prison system.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">105</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>CRD</td>
+<td>US-FD-DOJ-CRD</td>
+<td>Civil Rights Division</td>
+<td>Civil Rights Division</td>
+<td>The Civil Rights Division of the Department of Justice, created in 1957 by the enactment of the Civil Rights Act of 1957, works to uphold the civil and constitutional rights of all Americans, particularly some of the most vulnerable members of our society. The Division enforces federal statutes prohibiting discrimination on the basis of race, color, sex, disability, religion, familial status and national origin.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">106</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>OSC</td>
+<td>US-FD-DOJ-CRD-OSC</td>
+<td>Office of Special Counsel for Immigration-Related Unfair Employment Practices</td>
+<td>Office of Special Counsel for Immigration-Related Unfair Employment Practices</td>
+<td>The Office of Special Counsel for Immigration-Related Unfair Employment Practices (OSC) investigates and prosecutes allegations of national origin and citizenship status discrimination in hiring, firing, and recruitment or referral for a fee, as well as unfair documentary practices during the employment eligibility verification process and retaliation under the anti-discrimination provision of the Immigration and Nationality Act (INA). In addition, OSC conducts outreach aimed at educating employers, workers and the general public about their rights and responsibilities under the INA&#39;s anti-discrimination provision.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">107</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DEA</td>
+<td>US-FD-DOJ-DEA</td>
+<td>Drug Enforcement Administration</td>
+<td>Drug Enforcement Administration</td>
+<td>The Drug Enforcement Administration (DEA) is a United States federal law enforcement agency under the United States Department of Justice, tasked with combating drug smuggling and use within the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">108</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>ONSI</td>
+<td>US-FD-DOJ-DEA-ONSI</td>
+<td>Office of National Security Intelligence</td>
+<td>Office of National Security Intelligence</td>
+<td>The Office of National Security Intelligence of the United States Drug Enforcement Administration (DEA) helps initiate new investigations of major drug organizations, strengthens ongoing ones and subsequent prosecutions, develops information that leads to seizures and arrests, and provides policy makers with illegal drug trade trend information upon which programmatic decisions can be based.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">109</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DOJOIG</td>
+<td>US-FD-DOJ-DOJOIG</td>
+<td>DOJ Office of the Inspector General</td>
+<td>DOJ Office of the Inspector General</td>
+<td>The Office of the Inspector General (OIG) for the Department of Justice (DOJ) is the Office of the Inspector General specific to the United States Department of Justice that is responsible for conducting nearly all of the investigations of DOJ employees and programs. The office has several hundred employees, reporting to the Inspector General.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">110</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>ENRD</td>
+<td>US-FD-DOJ-ENRD</td>
+<td>Environment and Natural Resources Division</td>
+<td>Environment and Natural Resources Division</td>
+<td>The United States Department of Justice Environment and Natural Resources Division (ENRD) is one of seven litigating components of the U.S. Department of Justice.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">111</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>EOIR</td>
+<td>US-FD-DOJ-EOIR</td>
+<td>Executive Office for Immigration Review</td>
+<td>Executive Office for Immigration Review</td>
+<td>The Executive Office for Immigration Review (EOIR) is an office of the United States Department of Justice and is responsible for adjudicating all immigration cases in the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">112</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>OCAHO</td>
+<td>US-FD-DOJ-EOIR-OCAHO</td>
+<td>Office of the Chief Administrative Hearing Officer</td>
+<td>Office of the Chief Administrative Hearing Officer</td>
+<td>The Office of the Chief Administrative Hearing Officer (OCAHO) is a U.S. federal agency headed by a Chief Administrative Hearing Officer who is responsible for the general supervision and management of Administrative Law Judges who preside at hearings which are mandated by provisions of law enacted in the Immigration Reform and Control Act of 1986 (IRCA (PDF)) and the Immigration Act of 1990 (PDF). These acts, among others, amended the Immigration and Nationality Act of 1952 (INA).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">113</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>EOUST</td>
+<td>US-FD-DOJ-EOUST</td>
+<td>Executive Offices for U.S. Trustees</td>
+<td>Executive Offices for U.S. Trustees</td>
+<td>The Executive Office for United States Trustees (EOUST) was created to oversee the United States Trustee Program by providing policy guidance and coordination to United States Trustees, whose duties are set forth in Titles 11 and 28 of the United States Code.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"></td>
+<td> </td>
+<td align="right"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">114</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>FBI</td>
+<td>US-FD-DOJ-FBI</td>
+<td>Federal Bureau of Investigation</td>
+<td>Federal Bureau of Investigation</td>
+<td>The Federal Bureau of Investigation (FBI) is the domestic intelligence and security service of the United States, and its principal federal law enforcement agency.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">115</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>OJP</td>
+<td>US-FD-DOJ-OJP</td>
+<td>Office of Justice Programs</td>
+<td>Office of Justice Programs</td>
+<td>The Office of Justice Programs (OJP) is an agency of the United States Department of Justice that focuses on crime prevention through research and development, assistance to state, local, and tribal criminal justice agencies, including law enforcement, corrections, and juvenile justice through grants and assistance to crime victims.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">116</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>BJS</td>
+<td>US-FD-DOJ-OJP-BJS</td>
+<td>Bureau of Justice Statistics</td>
+<td>Bureau of Justice Statistics</td>
+<td>The United States Bureau of Justice Statistics (BJS) is a federal government agency belonging to the U.S. Department of Justice and a principal agency of the U.S. Federal Statistical System.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">117</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>OSG</td>
+<td>US-FD-DOJ-OSG</td>
+<td>Office of the Solicitor General</td>
+<td>Office of the Solicitor General</td>
+<td>The task of the Office of the Solicitor General is to supervise and conduct government litigation in the United States Supreme Court. Virtually all such litigation is channeled through the Office of the Solicitor General and is actively conducted by the Office.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">118</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>USMS</td>
+<td>US-FD-DOJ-USMS</td>
+<td>United States Marshals Service</td>
+<td>United States Marshals Service</td>
+<td>The United States Marshals Service (USMS) is a federal law enforcement agency within the U.S. Department of Justice. It is the oldest American federal law enforcement agency and was created by the Judiciary Act of 1789 during the presidency of George Washington as the Office of the United States Marshal. The USMS as it stands today was established in 1969 to provide guidance and assistance to Marshals throughout the federal judicial districts. USMS is an agency of the United States executive branch reporting to the United States Attorney General, but serves as the enforcement arm of the United States federal courts to ensure the effective operation of the judiciary and integrity of the Constitution.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">119</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>USTP</td>
+<td>US-FD-DOJ-USTP</td>
+<td>United States Trustee Program</td>
+<td>United States Trustee Program</td>
+<td>The United States Trustee Program is a component of the United States Department of Justice that is responsible for overseeing the administration of bankruptcy cases and private trustees.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">120</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>DOL</td>
+<td>US-FD-DOL</td>
+<td>Department of Labor</td>
+<td>Department of Labor</td>
+<td>The United States Department of Labor (DOL) is a cabinet-level department of the U.S. federal government responsible for occupational safety, wage and hour standards, unemployment insurance benefits, reemployment services, and some economic statistics; many U.S. states also have such departments. The department is headed by the U.S. Secretary of Labor.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">121</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>BLS</td>
+<td>US-FD-DOL-BLS</td>
+<td>Bureau of Labor Statistics</td>
+<td>Bureau of Labor Statistics</td>
+<td>The Bureau of Labor Statistics (BLS) is a unit of the United States Department of Labor. It is the principal fact-finding agency for the U.S. government in the broad field of labor economics and statistics and serves as a principal agency of the U.S. Federal Statistical System.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">122</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>BRB</td>
+<td>US-FD-DOL-BRB</td>
+<td>Benefits Review Board</td>
+<td>Benefits Review Board</td>
+<td>The Department of Labor&#39;s Benefits Review Board was created in 1972, by the United States Congress, to review and issue decisions on appeals of workersï¿½ compensation claims arising under the Longshore and Harbor Workersï¿½ Compensation Act and the Black Lung Benefits amendments to the Federal Coal Mine Health and Safety Act of 1969.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">123</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DOL SOL</td>
+<td>US-FD-DOL-DOL SOL</td>
+<td>DOL Office of the Solicitor</td>
+<td>DOL Office of the Solicitor</td>
+<td>The Office of the Solicitor&#39;s mission is to meet the legal service demands of the entire Department of Labor.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">124</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DOLARB</td>
+<td>US-FD-DOL-DOLARB</td>
+<td>Department of Labor Administrative Review Board</td>
+<td>Department of Labor Administrative Review Board</td>
+<td>The Administrative Review Board issues final agency decisions for the Secretary of Labor in cases arising under a wide range of worker protection laws, primarily involving environmental, transportation, and securities whistleblower protection; H-1B immigration provisions; child labor; employment discrimination; job training; seasonal and migrant workers; and federal construction and service contracts.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">125</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DOLCRC</td>
+<td>US-FD-DOL-DOLCRC</td>
+<td>Civil Rights Center</td>
+<td>Civil Rights Center</td>
+<td>The Department of Labor Civil Rights Center (CRC) develops, administers, and enforces Departmental policies, practices, and procedures pursuant to Title VI and Title VII of the Civil Rights Act of 1964, as amended; Section 188 of the Workforce Investment Act (WIA), as amended; the Rehabilitation Act of 1973, as amended; the Age Discrimination Act of 1975, as amended; the Age Discrimination in Employment Act of 1967, as amended; the Equal Pay Act of 1963; Title IX of the Education Amendments of 1972, as amended; Title II of the Americans with Disabilities Act of 1990, as amended; the Civil Service Reform Act of 1978; the Civil Rights Act of 1991; the Notification and Federal Employee Antidiscrimination and Retaliation (No FEAR) Act; and related statutes and Executive Orders.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">126</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DOLOIG</td>
+<td>US-FD-DOL-DOLOIG</td>
+<td>DOL Office of the Inspector General</td>
+<td>DOL Office of the Inspector General</td>
+<td>The Office of Inspector General (OIG) at the U.S. Department of Labor (DOL) conducts audits to review the effectiveness, efficiency, economy, and integrity of all DOL programs and operations, including those performed by its contractors and grantees.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">127</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>EBSA</td>
+<td>US-FD-DOL-EBSA</td>
+<td>Employee Benefits Security Administration</td>
+<td>Employee Benefits Security Administration</td>
+<td>The Employee Benefits Security Administration (EBSA) is an agency of the United States Department of Labor responsible for administering, regulating and enforcing the provisions of Title I of the Employee Retirement Income Security Act of 1974 (ERISA).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">128</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>ERISAAC</td>
+<td>US-FD-DOL-EBSA-ERISAAC</td>
+<td>ERISA Advisory Council</td>
+<td>ERISA Advisory Council</td>
+<td>The duties of the ERISA Advisory Council are to advise the Secretary and submit recommendations regarding the Secretary&#39;s functions under ERISA.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">129</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>ETA</td>
+<td>US-FD-DOL-ETA</td>
+<td>Employment and Training Administration</td>
+<td>Employment and Training Administration</td>
+<td>The Employment and Training Administration (ETA) is part of the U.S. Department of Labor.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">130</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>OFLC</td>
+<td>US-FD-DOL-ETA-OFLC</td>
+<td>Office of Foreign Labor Certification</td>
+<td>Office of Foreign Labor Certification</td>
+<td>The Office of Foreign Labor Certification (OFLC) is a division of the Employment &amp; Training Administration within the U.S. Department of Labor (DOL), a United States executive department responsible for promoting the welfare of workers, job seekers, and retirees.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">131</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>OJC</td>
+<td>US-FD-DOL-ETA-OJC</td>
+<td>Office of Job Corps</td>
+<td>Office of Job Corps</td>
+<td>Job Corps is a program administered by the United States Department of Labor that offers free-of-charge education and vocational training to young men and women ages 16 to 24.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">132</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>ILAB</td>
+<td>US-FD-DOL-ILAB</td>
+<td>Bureau of International Labor Affairs</td>
+<td>Bureau of International Labor Affairs</td>
+<td>The Bureau of International Labor Affairs (ILAB) is an operating unit of the United States Department of Labor which manages the department&#39;s international responsibilities.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">133</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>MSHA</td>
+<td>US-FD-DOL-MSHA</td>
+<td>Mine Safety and Health Administration</td>
+<td>Mine Safety and Health Administration</td>
+<td>The Mine Safety and Health Administration (MSHA) is an agency of the United States Department of Labor which administers the provisions of the Federal Mine Safety and Health Act of 1977 (Mine Act) to enforce compliance with mandatory safety and health standards as a means to eliminate fatal accidents, to reduce the frequency and severity of nonfatal accidents, to minimize health hazards, and to promote improved safety and health conditions in the nation&#39;s mines.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">134</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>OALJ</td>
+<td>US-FD-DOL-OALJ</td>
+<td>Office of Administrative Law Judges</td>
+<td>Office of Administrative Law Judges</td>
+<td>The Office of Administrative Law Judges conducts rulemaking and adjudicatory hearings throughout the United States in proceedings subject to the Administrative Procedure Act. Approximately 50 statutes administered by agencies within the Department of Agriculture require APA hearings. The Judges issue initial decisions and orders in adjudicatory proceedings, approve of consent decisions entered into by parties, and decide appeals of debarments and suspensions.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">135</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>BALCA</td>
+<td>US-FD-DOL-OALJ-BALCA</td>
+<td>Board of Alien Labor Certification Appeals</td>
+<td>Board of Alien Labor Certification Appeals</td>
+<td>A board of Administrative Law Judges (ALJs) within the Wage and Hour Division of the Department of Labor (DOL) charged with reviewing and deciding immigration-related labor certification appeals. BALCA is responsible for issuing final administrative decisions on PERM applications, a type of labor certification and the first step of most employer-sponsored green card processes.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">136</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>ODEP</td>
+<td>US-FD-DOL-ODEP</td>
+<td>Office of Disability Employment Policy</td>
+<td>Office of Disability Employment Policy</td>
+<td>The Office of Disability Employment Policy (ODEP) is the only non-regulatory federal agency that promotes policies and coordinates with employers and all levels of government to increase workplace success for people with disabilities.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">137</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>OFCCP</td>
+<td>US-FD-DOL-OFCCP</td>
+<td>Office of Federal Contract Compliance Programs</td>
+<td>Office of Federal Contract Compliance Programs</td>
+<td>The Office of Federal Contract Compliance Programs (OFCCP) is part of the U.S. Department of Labor.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">138</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>OLMS</td>
+<td>US-FD-DOL-OLMS</td>
+<td>Office of Labor-Management Standards</td>
+<td>Office of Labor-Management Standards</td>
+<td>The Office of Labor-Management Standards (OLMS) of the U.S. Department of Labor administers and enforces most provisions of the Labor-Management Reporting and Disclosure Act of 1959 (LMRDA).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">139</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>OSHA</td>
+<td>US-FD-DOL-OSHA</td>
+<td>Occupational Safety and Health Administration</td>
+<td>Occupational Safety and Health Administration</td>
+<td>The Occupational Safety and Health Administration (OSHA) is an agency of the United States Department of Labor. Congress established the agency under the Occupational Safety and Health Act (OSH Act).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">140</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>ACCSH</td>
+<td>US-FD-DOL-OSHA-ACCSH</td>
+<td>Advisory Committee on Construction Safety and Health</td>
+<td>Advisory Committee on Construction Safety and Health</td>
+<td>ACCSH is a continuing advisory body established by statute that provides advice and assistance in construction standards and policy matters to the Department of Labor Assistant Secretary.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">141</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>DSG</td>
+<td>US-FD-DOL-OSHA-DSG</td>
+<td>Directorate of Standards and Guidance</td>
+<td>Directorate of Standards and Guidance</td>
+<td>The mission of the Directorate of Standards and Guidance is to ensure safe and healthful working conditions in covered workplaces throughout the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">142</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>DTE</td>
+<td>US-FD-DOL-OSHA-DTE</td>
+<td>Directorate of Training and Education</td>
+<td>Directorate of Training and Education</td>
+<td>The Directorate of Training and Education provide leadership, direction and management of the OTI, the OTI Education Center Program, the Outreach Training Program and other compliance assistance and training programs.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">143</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>OWPP</td>
+<td>US-FD-DOL-OSHA-OWPP</td>
+<td>Office of the Whistleblower Protection Program</td>
+<td>Office of the Whistleblower Protection Program</td>
+<td>OSHA&#39;s whistleblower statutes protect whistleblowers from retaliation. An employer cannot retaliate by taking &quot;adverse action&quot; against workers who report injuries, safety concerns, or other protected activity.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">144</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>OTLA</td>
+<td>US-FD-DOL-OTLA</td>
+<td>Office of Trade and Labor Affairs</td>
+<td>Office of Trade and Labor Affairs</td>
+<td>The Office of Trade and Labor Affairs (OTLA) within the Bureau of International Labor Affairs is responsible for overseeing the labor provisions in U.S. free trade agreements (FTAs) on behalf of the US Labor Department.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">145</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>PBGC</td>
+<td>US-FD-DOL-PBGC</td>
+<td>Pension Benefit Guaranty Corporation</td>
+<td>Pension Benefit Guaranty Corporation</td>
+<td>The Pension Benefit Guaranty Corporation (PBGC) is a United States &quot;federally chartered corporation&quot; created to encourage the continuation and maintenance of voluntary private defined benefit pension plans, provide timely and uninterrupted payment of pension benefits, and keep pension insurance premiums at the lowest level necessary to carry out its operations.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">146</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>PBGCOIG</td>
+<td>US-FD-DOL-PBGC-PBGCOIG</td>
+<td>PBGC Office of the Inspector General</td>
+<td>PBGC Office of the Inspector General</td>
+<td>The mandate of the Office of the Inspector General (OIG) of the Pension Benefit Guaranty Corporation (PBGC) is to detect and prevent fraud, waste, abuse, and violations of law, and to promote economy, efficiency and effectiveness of the PBGC.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">147</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>WHD</td>
+<td>US-FD-DOL-WHD</td>
+<td>Wage and Hour Division</td>
+<td>Wage and Hour Division</td>
+<td>The Wage and Hour Division (WHD) of the United States Department of Labor is the federal office responsible for enforcing federal labor laws.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">148</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>DOT</td>
+<td>US-FD-DOT</td>
+<td>Department of Transportation</td>
+<td>Department of Transportation</td>
+<td>The United States Department of Transportation (USDOT or DOT) is a federal Cabinet department of the U.S. government concerned with transportation.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">149</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DOTOIG</td>
+<td>US-FD-DOT-DOTOIG</td>
+<td>DOT Office of the Inspector General</td>
+<td>DOT Office of the Inspector General</td>
+<td>The Office of the Inspector General (OIG) conducts audits and investigations on behalf of the American public to improve the performance and integrity of DOTï¿½s programs to ensure a safe, efficient, and effective national transportation system.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">150</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>FAA</td>
+<td>US-FD-DOT-FAA</td>
+<td>Federal Aviation Administration</td>
+<td>Federal Aviation Administration</td>
+<td>The Federal Aviation Administration (FAA) of the United States is a national authority with powers to regulate all aspects of civil aviation.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">151</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>FHWA</td>
+<td>US-FD-DOT-FHWA</td>
+<td>Federal Highway Administration</td>
+<td>Federal Highway Administration</td>
+<td>The Federal Highway Administration (FHWA) is a division of the United States Department of Transportation that specializes in highway transportation.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">152</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>FMCSA</td>
+<td>US-FD-DOT-FMCSA</td>
+<td>Federal Motor Carrier Safety Administration</td>
+<td>Federal Motor Carrier Safety Administration</td>
+<td>US-FMCSA-Logo.svg</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"></td>
+<td> </td>
+<td align="right"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>FMCSA Logo</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"></td>
+<td> </td>
+<td align="right"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Agency overview</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"></td>
+<td> </td>
+<td align="right"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Formed January 1, 2000</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"></td>
+<td> </td>
+<td align="right"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Jurisdiction United States Government</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"></td>
+<td> </td>
+<td align="right"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Headquarters Washington, D.C.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"></td>
+<td> </td>
+<td align="right"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Employees 1,000</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"></td>
+<td> </td>
+<td align="right"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Annual budget $668.523 million (FY15), requested[1]</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"></td>
+<td> </td>
+<td align="right"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Agency executive</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"></td>
+<td> </td>
+<td align="right"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Raymond P. Martinez, Administrator[2]</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"></td>
+<td> </td>
+<td align="right"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Parent agency US Department of Transportation</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"></td>
+<td> </td>
+<td align="right"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>Website Federal Motor Carrier Safety Administration Website</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"></td>
+<td> </td>
+<td align="right"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>The Federal Motor Carrier Safety Administration (FMCSA) is an agency in the United States Department of Transportation that regulates the trucking industry in the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">153</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>FRA</td>
+<td>US-FD-DOT-FRA</td>
+<td>Federal Railroad Administration</td>
+<td>Federal Railroad Administration</td>
+<td>The Federal Railroad Administration (FRA) is an agency in the United States Department of Transportation (DOT).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">154</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>FTA</td>
+<td>US-FD-DOT-FTA</td>
+<td>Federal Transit Administration</td>
+<td>Federal Transit Administration</td>
+<td>The Federal Transit Administration (FTA) is an agency within the United States Department of Transportation (DOT) that provides financial and technical assistance to local public transportation systems.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">155</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>MARAD</td>
+<td>US-FD-DOT-MARAD</td>
+<td>Maritime Administration</td>
+<td>Maritime Administration</td>
+<td>The United States Maritime Administration (MARAD) is an agency of the United States Department of Transportation.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">156</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>NHTSA</td>
+<td>US-FD-DOT-NHTSA</td>
+<td>National Highway Traffic Safety Administration</td>
+<td>National Highway Traffic Safety Administration</td>
+<td>The National Highway Traffic Safety Administration (NHTSA) is an agency of the Executive Branch of the U.S. government, part of the Department of Transportation.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">157</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>PHMSA</td>
+<td>US-FD-DOT-PHMSA</td>
+<td>Pipeline and Hazardous Materials Safety Administration</td>
+<td>Pipeline and Hazardous Materials Safety Administration</td>
+<td>The Pipeline and Hazardous Materials Safety Administration (PHMSA) is a United States Department of Transportation agency responsible for developing and enforcing regulations for the safe, reliable, and environmentally sound operation of the US&#39; 2.6 million mile pipeline transportation.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">158</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>RITA</td>
+<td>US-FD-DOT-RITA</td>
+<td>Research and Innovative Technology Administration</td>
+<td>Research and Innovative Technology Administration</td>
+<td>The Research and Innovative Technology Administration (RITA) is a unit of the United States Department of Transportation (USDOT).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">159</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>BTS</td>
+<td>US-FD-DOT-RITA-BTS</td>
+<td>Bureau of Transportation Statistics</td>
+<td>Bureau of Transportation Statistics</td>
+<td>The Bureau of Transportation Statistics (BTS), as part of the United States Department of Transportation, compiles, analyzes, and makes accessible information on the nation&#39;s transportation systems.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">160</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>STB</td>
+<td>US-FD-DOT-STB</td>
+<td>Surface Transportation Board</td>
+<td>Surface Transportation Board</td>
+<td>The Surface Transportation Board (STB) of the United States is a federal, bipartisan, independent adjudicatory board. The STB was established in 1996 to assume some of the regulatory functions that had been administered by the Interstate Commerce Commission when the ICC was abolished.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">161</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>DRBC</td>
+<td>US-FD-DRBC</td>
+<td>Delaware River Basin Commission</td>
+<td>Delaware River Basin Commission</td>
+<td>The Delaware River Basin Commission (DRBC) is a United States government agency created in 1961 by an interstate compact amongst four states (Pennsylvania, Delaware, New Jersey, and New York). The purpose of the Commission is to bring the Delaware River under collective and balanced control, and to ensure fair usage by the states.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">162</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>EAC</td>
+<td>US-FD-EAC</td>
+<td>U.S. Election Assistance Commission</td>
+<td>U.S. Election Assistance Commission</td>
+<td>The Election Assistance Commission (EAC) is an independent agency of the United States government. The Commission serves as a national clearinghouse and resource of information regarding election administration.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">163</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>ED</td>
+<td>US-FD-ED</td>
+<td>Department of Education</td>
+<td>Department of Education</td>
+<td>The United States Department of Education (ED or DoED) is a Cabinet-level department of the United States government. The primary functions of the Department of Education are to &quot;establish policy for, administer and coordinate most federal assistance to education, collect data on US schools, and to enforce federal educational laws regarding privacy and civil rights.&quot;</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">164</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>EDOIG</td>
+<td>US-FD-ED-EDOIG</td>
+<td>ED Office of the Inspector General</td>
+<td>ED Office of the Inspector General</td>
+<td>U.S. Department of Education Office of Inspector General (OIG) is an independent entity within the U.S. Department of Education (ED) responsible for identifying fraud, waste, abuse, and criminal activity involving ED funds, programs, and operations.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">165</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>OCR</td>
+<td>US-FD-ED-OCR</td>
+<td>Office for Civil Rights (ED)</td>
+<td>Office for Civil Rights (ED)</td>
+<td>The Office for Civil Rights (OCR) is a sub-agency of the U.S. Department of Education that is primarily focused on enforcing civil rights laws prohibiting schools from engaging in discrimination on the basis of race, color, national origin, sex, disability, age, or membership in patriotic youth organizations.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">166</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>EEOC</td>
+<td>US-FD-EEOC</td>
+<td>Equal Employment Opportunity Commission</td>
+<td>Equal Employment Opportunity Commission</td>
+<td>The U.S. Equal Employment Opportunity Commission (EEOC) is a federal agency that administers and enforces civil rights laws against workplace discrimination.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">167</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>EOP</td>
+<td>US-FD-EOP</td>
+<td>Executive Office of the President</td>
+<td>Executive Office of the President</td>
+<td>The Executive Office of the President of the United States (EOP) is a group of agencies at the center of the executive branch of the United States federal government. The EOP supports the work of the President.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">168</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>CEA</td>
+<td>US-FD-EOP-CEA</td>
+<td>Council of Economic Advisers</td>
+<td>Council of Economic Advisers</td>
+<td>The Council of Economic Advisers (CEA) is a United States agency within the Executive Office of the President which advises the President of the United States on economic policy.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">169</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>CEQ</td>
+<td>US-FD-EOP-CEQ</td>
+<td>Council on Environmental Quality</td>
+<td>Council on Environmental Quality</td>
+<td>The Council on Environmental Quality (CEQ) is a division of the Executive Office of the President that coordinates federal environmental efforts in the United States and works closely with agencies and other White House offices on the development of environmental and energy policies and initiatives.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">170</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DPC</td>
+<td>US-FD-EOP-DPC</td>
+<td>Domestic Policy Council</td>
+<td>Domestic Policy Council</td>
+<td>The Domestic Policy Council (DPC) of the United States is the principal forum used by the President of the United States for considering domestic policy matters, excluding economic matters, which are the domain of the National Economic Council.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">171</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>NEC</td>
+<td>US-FD-EOP-NEC</td>
+<td>National Economic Council</td>
+<td>National Economic Council</td>
+<td>The National Economic Council (NEC) of the United States is the principal forum used by the President of the United States for considering economic policy matters, separate from matters relating to domestic policy, which are the domain of the Domestic Policy Council. The council forms part of the Office of White House Policy which contains the National Economic Council and other offices.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">172</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>NSC</td>
+<td>US-FD-EOP-NSC</td>
+<td>National Security Council</td>
+<td>National Security Council</td>
+<td>A National Security Council (NSC) is usually an executive branch governmental body responsible for coordinating policy on national security issues and advising chief executives on matters related to national security.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">173</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>OMB</td>
+<td>US-FD-EOP-OMB</td>
+<td>Office of Management and Budget</td>
+<td>Office of Management and Budget</td>
+<td>The Office of Management and Budget (OMB) is the largest office within the Executive Office of the President of the United States (EOP).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">174</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>IPEC</td>
+<td>US-FD-EOP-OMB-IPEC</td>
+<td>Office of the U.S. Intellectual Property Enforcement Coordinator</td>
+<td>Office of the U.S. Intellectual Property Enforcement Coordinator</td>
+<td>The Office of the U.S. Intellectual Property Enforcement Coordinator is dedicated to the protection of the American intellectual property that powers our economy.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">175</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>OFPP</td>
+<td>US-FD-EOP-OMB-OFPP</td>
+<td>Office of Federal Procurement Policy</td>
+<td>Office of Federal Procurement Policy</td>
+<td>The Office of Federal Procurement Policy (OFPP) is a component of the United States Office of Management and Budget (OMB), which is part of the Executive Office of the President of the United States (EOP).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">176</td>
+<td>SALI Governmental Body</td>
+<td align="right">6</td>
+<td>FARC</td>
+<td>US-FD-EOP-OMB-OFPP-FARC</td>
+<td>Federal Acquisition Regulatory Council</td>
+<td>Federal Acquisition Regulatory Council</td>
+<td>The Federal Acquisition Regulatory Council (FAR) Council was established to assist in the direction and coordination of Government-wide procurement policy and Government-wide procurement regulatory activities in the Federal Government, in accordance with Title 41, Chapter 7, Section 421 of the Office of Federal Procurement Policy (OFPP) Act.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">177</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>OIRA</td>
+<td>US-FD-EOP-OMB-OIRA</td>
+<td>Office of Information and Regulatory Affairs</td>
+<td>Office of Information and Regulatory Affairs</td>
+<td>The Office of Information and Regulatory Affairs is a United States Government office within the Office of Management and Budget (OMB), an agency in the Executive Office of the President.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">178</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>ONDCP</td>
+<td>US-FD-EOP-ONDCP</td>
+<td>Office of National Drug Control Policy</td>
+<td>Office of National Drug Control Policy</td>
+<td>The Office of National Drug Control Policy is a component of the Executive Office of the President of the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">179</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>OSTP</td>
+<td>US-FD-EOP-OSTP</td>
+<td>Office of Science and Technology Policy</td>
+<td>Office of Science and Technology Policy</td>
+<td>The Office of Science and Technology Policy (OSTP) is a department of the United States government, part of the Executive Office of the President (EOP), established with a broad mandate to advise the President on the effects of science and technology on domestic and international affairs.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">180</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>USTR</td>
+<td>US-FD-EOP-USTR</td>
+<td>Office of the United States Trade Representative</td>
+<td>Office of the United States Trade Representative</td>
+<td>The Office of the United States Trade Representative (USTR) is the United States government agency responsible for developing and recommending United States trade policy to the President of the United States, conducting trade negotiations at bilateral and multilateral levels, and coordinating trade policy within the government through the interagency Trade Policy Staff Committee (TPSC) and Trade Policy Review Group (TPRG).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">181</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>EPA</td>
+<td>US-FD-EPA</td>
+<td>Environmental Protection Agency</td>
+<td>Environmental Protection Agency</td>
+<td>The Environmental Protection Agency is an independent agency of the United States federal government for environmental protection.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">182</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>EPAOIG</td>
+<td>US-FD-EPA-EPAOIG</td>
+<td>EPA Office of the Inspector General</td>
+<td>EPA Office of the Inspector General</td>
+<td>Office of the Inspector General (EPAOIG) is part of the Environmental protection Agency (EPA).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">183</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>OAR</td>
+<td>US-FD-EPA-OAR</td>
+<td>Office of Air and Radiation</td>
+<td>Office of Air and Radiation</td>
+<td>Office of Air and Radiation (OAR) is part of the Environmental protection Agency (EPA).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">184</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>OCSPP</td>
+<td>US-FD-EPA-OCSPP</td>
+<td>Office of Chemical Safety and Pollution Prevention</td>
+<td>Office of Chemical Safety and Pollution Prevention</td>
+<td>Office of Chemical Safety and Pollution Prevention (OCSPP) is part of the Environmental protection Agency (EPA).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">185</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>OSWER</td>
+<td>US-FD-EPA-OSWER</td>
+<td>Office of Solid Waste and Emergency Response</td>
+<td>Office of Solid Waste and Emergency Response</td>
+<td>Office of Solid Waste and Emergency Response (OSWER) is part of the Environmental protection Agency (EPA).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">186</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>OW</td>
+<td>US-FD-EPA-OW</td>
+<td>Office of Water</td>
+<td>Office of Water</td>
+<td>Office of Water (OW) is part of the Environmental protection Agency (EPA).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">187</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>EXIM</td>
+<td>US-FD-EXIM</td>
+<td>U.S. Export-Import Bank</td>
+<td>U.S. Export-Import Bank</td>
+<td>The Exportï¿½Import Bank of the United States (abbreviated as Ex-Im Bank or the Bank) is the official export credit agency (ECA) of the United States federal government. Operating as a wholly owned federal government corporation, the Bank &quot;assists in financing and facilitating U.S. exports of goods and services&quot;.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">188</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>FCA</td>
+<td>US-FD-FCA</td>
+<td>Farm Credit Administration</td>
+<td>Farm Credit Administration</td>
+<td>The Farm Credit Administration is an independent agency of the Executive Branch of the federal government of the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">189</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>FCC</td>
+<td>US-FD-FCC</td>
+<td>Federal Communications Commission</td>
+<td>Federal Communications Commission</td>
+<td>The Federal Communications Commission (FCC) is an independent agency of the United States government created to regulate interstate communications by radio, television, wire, satellite, and cable.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">190</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>FDIC</td>
+<td>US-FD-FDIC</td>
+<td>Federal Deposit Insurance Corporation</td>
+<td>Federal Deposit Insurance Corporation</td>
+<td>The Federal Deposit Insurance Corporation (FDIC) is a United States government corporation providing deposit insurance to depositors in U.S. commercial banks and savings institutions.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">191</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>FEC</td>
+<td>US-FD-FEC</td>
+<td>Federal Election Commission</td>
+<td>Federal Election Commission</td>
+<td>The Federal Election Commission (FEC) is an independent regulatory agency whose purpose is to enforce campaign finance law in United States federal elections.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">192</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>FFIEC</td>
+<td>US-FD-FFIEC</td>
+<td>Federal Financial Institutions Examination Council</td>
+<td>Federal Financial Institutions Examination Council</td>
+<td>The Federal Financial Institutions Examination Council (FFIEC) is a formal U.S. government interagency body composed of five banking regulators that is &quot;empowered to prescribe uniform principles, standards, and report forms to promote uniformity in the supervision of financial institutions&quot;.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">193</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>FHFA</td>
+<td>US-FD-FHFA</td>
+<td>Federal Housing Finance Agency</td>
+<td>Federal Housing Finance Agency</td>
+<td>The Federal Housing Finance Agency (FHFA) is an independent federal agency created as the successor regulatory agency of the Federal Housing Finance Board (FHFB), the Office of Federal Housing Enterprise Oversight (OFHEO), and the U.S. Department of Housing and Urban Development government-sponsored enterprise mission team,[2] absorbing the powers and regulatory authority of both entities, with expanded legal and regulatory authority, including the ability to place government-sponsored enterprises (GSEs) into receivership or conservatorship.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">194</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>FJC</td>
+<td>US-FD-FJC</td>
+<td>Federal Judicial Center</td>
+<td>Federal Judicial Center</td>
+<td>The Federal Judicial Center is the education and research agency of the United States federal courts.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">195</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>FLRA</td>
+<td>US-FD-FLRA</td>
+<td>Federal Labor Relations Authority</td>
+<td>Federal Labor Relations Authority</td>
+<td>The Federal Labor Relations Authority (FLRA) is an independent agency of the United States government that governs labor relations between the federal government and its employees.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">196</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>FSIP</td>
+<td>US-FD-FLRA-FSIP</td>
+<td>Federal Service Impasses Panel</td>
+<td>Federal Service Impasses Panel</td>
+<td>The Federal Service Impasses Panel resolves impasses between federal agencies and unions representing federal employees arising from negotiations arising under the Federal Service Labor-Management Relations Statute and the Federal Employees Flexible and Compressed Work Schedules Act.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">197</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>FMC</td>
+<td>US-FD-FMC</td>
+<td>Federal Maritime Commission</td>
+<td>Federal Maritime Commission</td>
+<td>The United States Federal Maritime Commission (FMC) is an independent federal agency, based in Washington, D.C., responsible for the regulation of oceanborne international transportation of the U.S.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">198</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>FMCS</td>
+<td>US-FD-FMCS</td>
+<td>Federal Mediation and Conciliation Service</td>
+<td>Federal Mediation and Conciliation Service</td>
+<td>The Federal Mediation and Conciliation Service (FMCS) is an independent agency of the United States government, founded in 1947, which provides mediation services to industry, community and government agencies worldwide.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">199</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>FMSHRC</td>
+<td>US-FD-FMSHRC</td>
+<td>Federal Mine Safety and Health Review Commission</td>
+<td>Federal Mine Safety and Health Review Commission</td>
+<td>The Federal Mine Safety and Health Review Commission is an independent adjudicative agency of the United States government that provides administrative trial and appellate review of legal disputes arising under the Federal Mine Safety and Health Amendments Act, or Mine Act, of 1977.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">200</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>FRB</td>
+<td>US-FD-FRB</td>
+<td>Federal Reserve Board</td>
+<td>Federal Reserve Board</td>
+<td>The Federal Reserve System is the central bank of the United States. It performs five general functions to promote the effective operation of the U.S. economy and, more generally, the public interest.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"></td>
+<td> </td>
+<td align="right"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>The Federal Reserve</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"></td>
+<td> </td>
+<td align="right"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"></td>
+<td> </td>
+<td align="right"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>conducts the nationï¿½s monetary policy to promote maximum employment, stable prices, and moderate long-term interest rates in the U.S. economy;</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"></td>
+<td> </td>
+<td align="right"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>promotes the stability of the financial system and seeks to minimize and contain systemic risks through active monitoring and engagement in the U.S. and abroad;</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"></td>
+<td> </td>
+<td align="right"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>promotes the safety and soundness of individual financial institutions and monitors their impact on the financial system as a whole;</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"></td>
+<td> </td>
+<td align="right"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>fosters payment and settlement system safety and efficiency through services to the banking industry and the U.S. government that facilitate U.S.-dollar transactions and payments; and</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"></td>
+<td> </td>
+<td align="right"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>promotes consumer protection and community development through consumer-focused supervision and examination, research and analysis of emerging consumer issues and trends, community economic development activities, and the administration of consumer laws and regulations.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">201</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>FRTIB</td>
+<td>US-FD-FRTIB</td>
+<td>Federal Retirement Thrift Investment Board</td>
+<td>Federal Retirement Thrift Investment Board</td>
+<td>The Federal Retirement Thrift Investment Board was established as an independent agency of the United States government. It was established to administer the Thrift Savings Plan, which is a retirement savings and investment plan for Federal employees and members of the uniformed services, including the Ready Reserve.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">202</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>FTC</td>
+<td>US-FD-FTC</td>
+<td>Federal Trade Commission</td>
+<td>Federal Trade Commission</td>
+<td>The Federal Trade Commission (FTC) is an independent agency of the United States government. Its principal mission is the promotion of consumer protection and the elimination and prevention of anti-competitive business practices, such as coercive monopoly.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">203</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>BCP</td>
+<td>US-FD-FTC-BCP</td>
+<td>Bureau of Consumer Protection</td>
+<td>Bureau of Consumer Protection</td>
+<td>The Bureau of Consumer Protection&#39;s mandate is to protect consumers against unfair or deceptive acts or practices in commerce. With the written consent of the Commission, Bureau attorneys enforce federal laws related to consumer affairs and rules promulgated by the Federal Trade Commission.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">204</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>GAO</td>
+<td>US-FD-GAO</td>
+<td>Government Accountability Office</td>
+<td>Government Accountability Office</td>
+<td>The Government Accountability Office (GAO) is a legislative branch government agency that provides auditing, evaluation, and investigative services for the United States Congress. It is the supreme audit institution of the federal government of the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">205</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>GPO</td>
+<td>US-FD-GPO</td>
+<td>Government Printing Office</td>
+<td>Government Printing Office</td>
+<td>The United States Government Publishing Office (GPO) (formerly the Government Printing Office) is an agency of the legislative branch of the United States federal government. The office prints and binds documents produced by and for the federal government, including the Supreme Court, the Congress, the Executive Office of the President, executive departments, and independent agencies.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">206</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>GSA</td>
+<td>US-FD-GSA</td>
+<td>General Services Administration</td>
+<td>General Services Administration</td>
+<td>The General Services Administration (GSA), an independent agency of the United States government that helps to manage and support the basic functioning of federal agencies.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">207</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>CAAC</td>
+<td>US-FD-GSA-CAAC</td>
+<td>Civilian Agency Acquisition Council</td>
+<td>Civilian Agency Acquisition Council</td>
+<td>The Civilian Agency Acquisition Council (CAAC) Assists the Administrator of General Services in developing and maintaining the Federal Acquisition Regulation (FAR) System by developing or reviewing all proposed changes to the FAR.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">208</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>FAS</td>
+<td>US-FD-GSA-FAS</td>
+<td>Federal Acquisition Service</td>
+<td>Federal Acquisition Service</td>
+<td>The Federal Acquisition Service (FAS) provides comprehensive solutions for products and services across the government. GSA assists with procurement work for other government agencies. As part of this effort, it maintains the large GSA Schedules, which other agencies can use to buy goods and services.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">209</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>GSAOIG</td>
+<td>US-FD-GSA-GSAOIG</td>
+<td>GSA Office of the Inspector General</td>
+<td>GSA Office of the Inspector General</td>
+<td>The GSA Office of Inspector General (GSAOIG) was established by the Inspector General Act of 1978 (Public Law 95-452) as an independent unit responsible for promoting economy, efficiency, and effectiveness and detecting and preventing fraud, waste, and mismanagement in the General Services Administration&#39;s (GSA) programs and operations.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">210</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>HHS</td>
+<td>US-FD-HHS</td>
+<td>Department of Health and Human Services</td>
+<td>Department of Health and Human Services</td>
+<td>The United States Department of Health and Human Services (HHS), also known as the Health Department, is a cabinet-level department of the U.S. federal government with the goal of protecting the health of all Americans and providing essential human services.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">211</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>ACF</td>
+<td>US-FD-HHS-ACF</td>
+<td>Administration for Children and Families</td>
+<td>Administration for Children and Families</td>
+<td>The Administration for Children and Families (ACF) is a division of the United States Department of Health and Human Services (HHS).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">212</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>OCSE</td>
+<td>US-FD-HHS-ACF-OCSE</td>
+<td>Office of Child Support Enforcement</td>
+<td>Office of Child Support Enforcement</td>
+<td>The Office of Child Support Enforcement (OCSE) is a United States government office responsible for overseeing the U.S. child support program.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">213</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>AHRQ</td>
+<td>US-FD-HHS-AHRQ</td>
+<td>Agency for Healthcare Research and Quality</td>
+<td>Agency for Healthcare Research and Quality</td>
+<td>The Agency for Healthcare Research and Quality (AHRQ), is one of 12 Agencies within the United States Department of Health and Human Services (HHS).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">214</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>ATSDR</td>
+<td>US-FD-HHS-ATSDR</td>
+<td>Agency for Toxic Substances and Disease Registry</td>
+<td>Agency for Toxic Substances and Disease Registry</td>
+<td>The Agency for Toxic Substances and Disease Registry (ATSDR) is a federal public health agency within the United States Department of Health and Human Services.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">215</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>CDC</td>
+<td>US-FD-HHS-CDC</td>
+<td>Centers for Disease Control and Prevention</td>
+<td>Centers for Disease Control and Prevention</td>
+<td>The Centers for Disease Control and Prevention (CDC) is a United States federal agency under the Department of Health and Human Services, and is the leading national public health institute of the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">216</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>NIOSH</td>
+<td>US-FD-HHS-CDC-NIOSH</td>
+<td>National Institute for Occupational Safety and Health</td>
+<td>National Institute for Occupational Safety and Health</td>
+<td>The National Institute for Occupational Safety and Health (NIOSH) is the United States federal agency responsible for conducting research and making recommendations for the prevention of work-related injury and illness.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">217</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>CMS</td>
+<td>US-FD-HHS-CMS</td>
+<td>Centers for Medicare and Medicaid Services</td>
+<td>Centers for Medicare and Medicaid Services</td>
+<td>The Centers for Medicare &amp; Medicaid Services (CMS), previously known as the Health Care Financing Administration (HCFA), is a federal agency within the United States Department of Health and Human Services (HHS) that administers the Medicare program and works in partnership with state governments to administer Medicaid, the Children&#39;s Health Insurance Program (CHIP), and health insurance portability standards.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">218</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>CCIIO</td>
+<td>US-FD-HHS-CMS-CCIIO</td>
+<td>Center for Consumer Information and Insurance Oversight</td>
+<td>Center for Consumer Information and Insurance Oversight</td>
+<td>The Center for Consumer Information and Insurance Oversight (CCIIO) is charged with helping implement many reforms of the Affordable Care Act, the historic health reform bill that was signed into law March 23, 2010. CCIIO oversees the implementation of the provisions related to private health insurance. In particular, CCIIO is working with states to establish new Health Insurance Marketplaces.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">219</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>FDA</td>
+<td>US-FD-HHS-FDA</td>
+<td>Food and Drug Administration</td>
+<td>Food and Drug Administration</td>
+<td>The Food and Drug Administration (FDA or USFDA) is a federal agency of the United States Department of Health and Human Services, one of the United States federal executive departments.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">220</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>CFSAN</td>
+<td>US-FD-HHS-FDA-CFSAN</td>
+<td>Center for Food Safety and Applied Nutrition</td>
+<td>Center for Food Safety and Applied Nutrition</td>
+<td>The Center for Food Safety and Applied Nutrition (CFSAN) is the branch of the United States Food and Drug Administration (FDA) that regulates food, dietary supplements, and cosmetics.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">221</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>OMPT</td>
+<td>US-FD-HHS-FDA-OMPT</td>
+<td>Office of Medical Products and Tobacco</td>
+<td>Office of Medical Products and Tobacco</td>
+<td>The Office of Medical Products and Tobacco is a division of the FDA that provides high-level coordination and leadership across the centers for drug, biologics, medical devices, and tobacco products. The office also oversees the agency&#39;s special medical programs.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">222</td>
+<td>SALI Governmental Body</td>
+<td align="right">6</td>
+<td>CBER</td>
+<td>US-FD-HHS-FDA-OMPT-CBER</td>
+<td>Center for Biologics Evaluation and Research</td>
+<td>Center for Biologics Evaluation and Research</td>
+<td>CBER is the Center within FDA that regulates biological products for human use under applicable federal laws, including the Public Health Service Act and the Federal Food, Drug and Cosmetic Act.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">223</td>
+<td>SALI Governmental Body</td>
+<td align="right">6</td>
+<td>CDER</td>
+<td>US-FD-HHS-FDA-OMPT-CDER</td>
+<td>Center for Drug Evaluation and Research</td>
+<td>Center for Drug Evaluation and Research</td>
+<td>The Center for Drug Evaluation and Research (CDER) performs an essential public health task by making sure that safe and effective drugs are available to improve the health of people in the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">224</td>
+<td>SALI Governmental Body</td>
+<td align="right">6</td>
+<td>CDRH</td>
+<td>US-FD-HHS-FDA-OMPT-CDRH</td>
+<td>Center for Devices and Radiological Health</td>
+<td>Center for Devices and Radiological Health</td>
+<td>The Center for Devices and Radiological Health (CDRH) is responsible for protecting and promoting the public health of the citizens of the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">225</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>HHS OCR</td>
+<td>US-FD-HHS-HHS OCR</td>
+<td>Office for Civil Rights - HHS</td>
+<td>Office for Civil Rights - HHS</td>
+<td>The U.S. Department of Health and Human Services (HHS) Office for Civil Rights (OCR) enforces federal civil rights laws, conscience and religious freedom laws, the Health Insurance Portability and Accountability Act (HIPAA) Privacy, Security, and Breach Notification Rules, and the Patient Safety Act and Rule, which together protect fundamental rights of nondiscrimination, conscience, religious freedom, and health information privacy.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">226</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>HHSOIG</td>
+<td>US-FD-HHS-HHSOIG</td>
+<td>HHS Office of the Inspector General</td>
+<td>HHS Office of the Inspector General</td>
+<td>Office of Inspector General&#39;s (OIG) mission is to protect the integrity of Department of Health &amp; Human Services (HHS) programs as well as the health and welfare of program beneficiaries.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">227</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>HRSA</td>
+<td>US-FD-HHS-HRSA</td>
+<td>Health Resources and Services Administration</td>
+<td>Health Resources and Services Administration</td>
+<td>The Health Resources and Services Administration (HRSA) is an agency of the U.S. Department of Health and Human Services focused on improving access to health care services for people who are uninsured, isolated or medically vulnerable.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">228</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>IHS</td>
+<td>US-FD-HHS-IHS</td>
+<td>Indian Health Service</td>
+<td>Indian Health Service</td>
+<td>The Indian Health Service (IHS) is an operating division (OPDIV) within the U.S. Department of Health and Human Services (HHS).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">229</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>NIH</td>
+<td>US-FD-HHS-NIH</td>
+<td>National Institutes of Health</td>
+<td>National Institutes of Health</td>
+<td>The National Institutes of Health (NIH) is the primary agency of the United States government responsible for biomedical and public health research.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">230</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>OHRP</td>
+<td>US-FD-HHS-OHRP</td>
+<td>Office for Human Research Protections</td>
+<td>Office for Human Research Protections</td>
+<td>The Office for Human Research Protections (OHRP) is a small office within the United States Department of Health and Human Services (DHHS), specifically the Office of the Assistant Secretary for Health in the Office of the Secretary of DHHS, that deals with ethical oversights in clinical research conducted by the Department, mostly through the National Institutes of Health (NIH).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">231</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>ONC</td>
+<td>US-FD-HHS-ONC</td>
+<td>Office of the National Coordinator for Health Information Technology</td>
+<td>Office of the National Coordinator for Health Information Technology</td>
+<td>The Office of the National Coordinator for Health Information Technology (ONC) is a staff division of the Office of the Secretary, within the U.S. Department of Health and Human Services. ONC leads national health IT efforts, charged as the principal federal entity to coordinate nationwide efforts to implement and use the most advanced health information technology and the electronic exchange of health information.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">232</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>ORI</td>
+<td>US-FD-HHS-ORI</td>
+<td>Office of Research Integrity</td>
+<td>Office of Research Integrity</td>
+<td>The Office of Research Integrity (ORI) is a U.S. government agency that focuses on research integrity, especially in health.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">233</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>USPHS</td>
+<td>US-FD-HHS-USPHS</td>
+<td>U.S. Public Health Service</td>
+<td>U.S. Public Health Service</td>
+<td>The mission of the U.S. Public Health Service Commissioned Corps is to protect, promote, and advance the health and safety of the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">234</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>HUD</td>
+<td>US-FD-HUD</td>
+<td>Department of Housing and Urban Development</td>
+<td>Department of Housing and Urban Development</td>
+<td>The United States Department of Housing and Urban Development (HUD) is a Cabinet department in the Executive branch of the United States federal government. HUD&#39;s mission is to create strong, sustainable, inclusive communities and quality affordable homes for all. HUD is working to strengthen the housing market to bolster the economy and protect consumers; meet the need for quality affordable rental homes; utilize housing as a platform for improving quality of life; build inclusive and sustainable communities free from discrimination, and transform the way HUD does business.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">235</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>FHA</td>
+<td>US-FD-HUD-FHA</td>
+<td>Federal Housing Administration</td>
+<td>Federal Housing Administration</td>
+<td>The Federal Housing Administration (FHA), a United States government agency, sets standards for construction and underwriting and insures loans made by banks and other private lenders for home building.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">236</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>GNMA</td>
+<td>US-FD-HUD-GNMA</td>
+<td>Government National Mortgage Association</td>
+<td>Government National Mortgage Association</td>
+<td>The Government National Mortgage Association (GNMA), or Ginnie Mae, was established in the United States in 1968 to promote home ownership.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">237</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>HUDOIG</td>
+<td>US-FD-HUD-HUDOIG</td>
+<td>HUD Office of the Inspector General</td>
+<td>HUD Office of the Inspector General</td>
+<td>The U.S. Department of Housing and Urban Development (HUD) Inspector General&#39;s mission is to detect and prevent fraud, waste, and abuse and promote the effectiveness and efficiency of government operations.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">238</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>PIH</td>
+<td>US-FD-HUD-PIH</td>
+<td>Public and Indian Housing Office</td>
+<td>Public and Indian Housing Office</td>
+<td>The Office of Public and Indian Housing (PIH) is an agency of the U.S. Department of Housing and Urban Development. Its mission is to ensure safe, decent, and affordable housing, create opportunities for residents&#39; self-sufficiency and economic independence, and assure the fiscal integrity of all program participants.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">239</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>JCUS</td>
+<td>US-FD-JCUS</td>
+<td>Judicial Conference of the United States</td>
+<td>Judicial Conference of the United States</td>
+<td>The Judicial Conference of the United States, formerly known as Conference of Senior Circuit Judges, was created by the United States Congress in 1922 with the principal objective of framing policy guidelines for administration of judicial courts in the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">240</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>AOUSC</td>
+<td>US-FD-JCUS-AOUSC</td>
+<td>Administrative Office of the United States Courts</td>
+<td>Administrative Office of the United States Courts</td>
+<td>Administrative Office of the U.S. Courts provides administrative support to the Federal Judiciary.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">241</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>LOC</td>
+<td>US-FD-LOC</td>
+<td>Library of Congress</td>
+<td>Library of Congress</td>
+<td>The Library of Congress (LOC) is the research library that officially serves the United States Congress and is the de facto national library of the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">242</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>CRS</td>
+<td>US-FD-LOC-CRS</td>
+<td>Congressional Research Service</td>
+<td>Congressional Research Service</td>
+<td>The Congressional Research Service (CRS), known as Congress&#39;s think tank, is a public policy research arm of the United States Congress.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">243</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>USCO</td>
+<td>US-FD-LOC-USCO</td>
+<td>United States Copyright Office</td>
+<td>United States Copyright Office</td>
+<td>The United States Copyright Office (sometimes abbreviated USCO), a part of the Library of Congress, is the official U.S. government body that maintains records of copyright registration in the United States, including a Copyright Catalog.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">244</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>MACPAC</td>
+<td>US-FD-MACPAC</td>
+<td>Medicaid and CHIP Payment and Access Commission</td>
+<td>Medicaid and CHIP Payment and Access Commission</td>
+<td>The Medicaid and CHIP Payment and Access Commission (MACPAC) is a non-partisan legislative branch agency that provides policy and data analysis and makes recommendations to Congress, the Secretary of the U.S. Department of Health and Human Services, and the states on a wide array of issues affecting Medicaid and the State Childrenï¿½s Health Insurance Program (CHIP). The U.S. Comptroller General appoints MACPACï¿½s 17 commissioners, who come from diverse regions across the United States and bring broad expertise and a wide range of perspectives on Medicaid and CHIP.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">245</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>MedPAC</td>
+<td>US-FD-MedPAC</td>
+<td>Medicare Payment Advisory Commission</td>
+<td>Medicare Payment Advisory Commission</td>
+<td>The Medicare Payment Advisory Commission (MedPAC) is an independent US federal body. MedPAC was established by the Balanced Budget Act of 1997 (P.L. 105-33). The Commission&#39;s 17 members bring diverse expertise in the financing and delivery of health care services.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">246</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>MSPB</td>
+<td>US-FD-MSPB</td>
+<td>Merit Systems Protection Board</td>
+<td>Merit Systems Protection Board</td>
+<td>The Merit Systems Protection Board (MSPB) is an independent quasi-judicial agency established in 1979 to protect federal merit systems against partisan political and other prohibited personnel practices and to ensure adequate protection for federal employees against abuses by agency management.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">247</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>NARA</td>
+<td>US-FD-NARA</td>
+<td>National Archives and Records Administration</td>
+<td>National Archives and Records Administration</td>
+<td>The National Archives and Records Administration (NARA) is an independent agency of the United States government charged with preserving and documenting government and historical records and with increasing public access to those documents, which comprise the National Archives.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">248</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>OGIS</td>
+<td>US-FD-NARA-OGIS</td>
+<td>Office of Government Information Services</td>
+<td>Office of Government Information Services</td>
+<td>The Office of Government Information Services (OGIS) is a Freedom of Information Act (FOIA) resource for the public and the government. OGIS is charged with reviewing FOIA policies, procedures and compliance of Federal agencies and identifying ways to improve compliance. Our mission also includes resolving FOIA disputes between Federal agencies and requesters.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">249</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>NASA</td>
+<td>US-FD-NASA</td>
+<td>National Aeronautics and Space Administration</td>
+<td>National Aeronautics and Space Administration</td>
+<td>The National Aeronautics and Space Administration (NASA) is an independent agency of the United States Federal Government responsible for the civilian space program, as well as aeronautics and aerospace research.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">250</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>NCD</td>
+<td>US-FD-NCD</td>
+<td>National Council on Disability</td>
+<td>National Council on Disability</td>
+<td>The National Council on Disability (NCD) is an independent federal agency of the United States government. NCD&#39;s membership is composed of five presidential appointees, four congressional appointees, an executive director appointed by the chairperson, and a full-time professional staff.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">251</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>NCUA</td>
+<td>US-FD-NCUA</td>
+<td>National Credit Union Administration</td>
+<td>National Credit Union Administration</td>
+<td>The National Credit Union Administration (NCUA) is the independent federal agency created by the United States Congress to regulate, charter, and supervise federal credit unions.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">252</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>NEH</td>
+<td>US-FD-NEH</td>
+<td>National Endowment for the Humanities</td>
+<td>National Endowment for the Humanities</td>
+<td>The National Endowment for the Humanities (NEH) is an independent federal agency of the U.S. government dedicated to supporting research, education, preservation, and public programs in the humanities.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">253</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>NLRB</td>
+<td>US-FD-NLRB</td>
+<td>National Labor Relations Board</td>
+<td>National Labor Relations Board</td>
+<td>The National Labor Relations Board (NLRB) is an independent US government agency with responsibilities for enforcing US labor law in relation to collective bargaining and unfair labor practices.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">254</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>NMB</td>
+<td>US-FD-NMB</td>
+<td>National Mediation Board</td>
+<td>National Mediation Board</td>
+<td>The National Mediation Board (NMB) is an independent agency of the United States government that coordinates labor-management relations within the U.S. railroads and airlines industries.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">255</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>NRAB</td>
+<td>US-FD-NMB-NRAB</td>
+<td>National Railroad Adjustment Board</td>
+<td>National Railroad Adjustment Board</td>
+<td>???</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">256</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>NRC</td>
+<td>US-FD-NRC</td>
+<td>Nuclear Regulatory Commission</td>
+<td>Nuclear Regulatory Commission</td>
+<td>The Nuclear Regulatory Commission (NRC) is an independent agency of the United States government tasked with protecting public health and safety related to nuclear energy.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">257</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>NRO</td>
+<td>US-FD-NRO</td>
+<td>National Reconnaissance Office</td>
+<td>National Reconnaissance Office</td>
+<td>The National Reconnaissance Office (NRO) is a member of the United States Intelligence Community and an agency of the United States Department of Defense.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">258</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>NSF</td>
+<td>US-FD-NSF</td>
+<td>National Science Foundation</td>
+<td>National Science Foundation</td>
+<td>The National Science Foundation (NSF) is a United States government agency that supports fundamental research and education in all the non-medical fields of science and engineering.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">259</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>NTSB</td>
+<td>US-FD-NTSB</td>
+<td>National Transportation Safety Board</td>
+<td>National Transportation Safety Board</td>
+<td>The National Transportation Safety Board (NTSB) is an independent U.S. government investigative agency responsible for civil transportation accident investigation.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">260</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>NWTRB</td>
+<td>US-FD-NWTRB</td>
+<td>Nuclear Waste Technical Review Board</td>
+<td>Nuclear Waste Technical Review Board</td>
+<td>The U.S. Nuclear Waste Technical Review Board was established to evaluate the technical and scientific validity of activities related to managing and disposing of spent nuclear fuel and high-level radioactive waste</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">261</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>ODNI</td>
+<td>US-FD-ODNI</td>
+<td>Office of the Director of National Intelligence</td>
+<td>Office of the Director of National Intelligence</td>
+<td>The Director of National Intelligence (DNI) serves as the head of the U.S. Intelligence Community, overseeing and directing the implementation of the National Intelligence Program (NIP).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">262</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>NCIX</td>
+<td>US-FD-ODNI-NCIX</td>
+<td>Office of the National Counterintelligence Executive</td>
+<td>Office of the National Counterintelligence Executive</td>
+<td>The Office of the National Counterintelligence Executive (ONCIX) leads national counterintelligence (CI) for the United States government and serves as the director of the National Counterintelligence and Security Center under the Office of the Director of National Intelligence (ODNI).</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">263</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>OGE</td>
+<td>US-FD-OGE</td>
+<td>Office of Government Ethics</td>
+<td>Office of Government Ethics</td>
+<td>OGE logo</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right"></td>
+<td> </td>
+<td align="right"></td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+<td>The United States Office of Government Ethics (OGE) is an independent agency within the executive branch of the U.S. Federal Government which is responsible for directing executive branch policies relating to the prevention of conflict of interest on the part of Federal executive branch officers and employees.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">264</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>OPM</td>
+<td>US-FD-OPM</td>
+<td>Office of Personnel Management</td>
+<td>Office of Personnel Management</td>
+<td>The United States Office of Personnel Management (OPM) is an independent agency of the United States federal government that manages the government&#39;s civilian workforce.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">265</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>NBIB</td>
+<td>US-FD-OPM-NBIB</td>
+<td>National Background Investigations Bureau</td>
+<td>National Background Investigations Bureau</td>
+<td>The National Background Investigations Bureau (NBIB) is a semi-autonomous U.S. Government agency housed within the United States Office of Personnel Management (OPM) that is responsible for conducting security clearance investigations into individuals who need to hold security clearances for employment purposes.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">266</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>OPMOIG</td>
+<td>US-FD-OPM-OPMOIG</td>
+<td>OPM Office of the Inspector General</td>
+<td>OPM Office of the Inspector General</td>
+<td>The Office of the Inspector General (OIG) is an independent office within the Office of Personnel Management (OPM) dedicated to promoting accountability and transparency both within and outside of the agency. Its mission is to provide independent and objective oversight of OPM services and programs by conducting audits, investigations, and evaluations. The OIG provides recommendations to help improve the efficiency and effectiveness of OPMï¿½s operations.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">267</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>OSBA</td>
+<td>US-FD-OSBA</td>
+<td>Office of Small Business Assistance</td>
+<td>Office of Small Business Assistance</td>
+<td>???</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">268</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>OSHRC</td>
+<td>US-FD-OSHRC</td>
+<td>Occupational Safety and Health Review Commission</td>
+<td>Occupational Safety and Health Review Commission</td>
+<td>The Occupational Safety and Health Review Commission (OSHRC) is an independent federal agency created under the Occupational Safety and Health Act to decide contests of citations or penalties resulting from OSHA inspections of American workplaces.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">269</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>OVP</td>
+<td>US-FD-OVP</td>
+<td>Office of the Vice President</td>
+<td>Office of the Vice President</td>
+<td>The Office of the Vice President includes personnel who directly support or advise the Vice President of the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">270</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>PCLOB</td>
+<td>US-FD-PCLOB</td>
+<td>Privacy and Civil Liberties Oversight Board</td>
+<td>Privacy and Civil Liberties Oversight Board</td>
+<td>The Privacy and Civil Liberties Oversight Board (PCLOB) is an independent agency within the executive branch of the United States government, established to advise the President and other senior executive branch officials to ensure that concerns with respect to privacy and civil liberties in the United States are appropriately considered in the development and implementation of all laws, regulations, and executive branch policies related to terrorism.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">271</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>PEACE</td>
+<td>US-FD-PEACE</td>
+<td>Peace Corps</td>
+<td>Peace Corps</td>
+<td>The Peace Corps is a volunteer program run by the United States government. The stated mission of the Peace Corps includes providing technical assistance, helping people outside the United States to understand American culture, and helping Americans to understand the cultures of other countries.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">272</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>PRC</td>
+<td>US-FD-PRC</td>
+<td>Postal Regulatory Commission</td>
+<td>Postal Regulatory Commission</td>
+<td>The United States Postal Regulatory Commission (or PRC), formerly called the Postal Rate Commission, is an independent regulatory agency created by the Postal Reorganization Act of 1970.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">273</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>RRB</td>
+<td>US-FD-RRB</td>
+<td>Railroad Retirement Board</td>
+<td>Railroad Retirement Board</td>
+<td>The U.S. Railroad Retirement Board (RRB) is an independent agency in the executive branch of the United States government to administer a social insurance program providing retirement benefits to the country&#39;s railroad workers.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">274</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>SBA</td>
+<td>US-FD-SBA</td>
+<td>Small Business Administration</td>
+<td>Small Business Administration</td>
+<td>The U.S. Small Business Administration (SBA) is a United States government agency that provides support to entrepreneurs and small businesses.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">275</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>SBAOA</td>
+<td>US-FD-SBA-SBAOA</td>
+<td>SBA Office of Advocacy</td>
+<td>SBA Office of Advocacy</td>
+<td>The Office of Advocacy of the U.S. Small Business Administration represents the views of small business to Congress, the White House, federal agencies, federal courts, and state policymakers.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">276</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>SEC</td>
+<td>US-FD-SEC</td>
+<td>Securities and Exchange Commission</td>
+<td>Securities and Exchange Commission</td>
+<td>The U.S. Securities and Exchange Commission (SEC) is an independent agency of the United States federal government. The SEC holds primary responsibility for enforcing the federal securities laws, proposing securities rules, and regulating the securities industry, the nation&#39;s stock and options exchanges, and other activities and organizations, including the electronic securities markets in the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">277</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>DCF</td>
+<td>US-FD-SEC-DCF</td>
+<td>Division of Corporation Finance</td>
+<td>Division of Corporation Finance</td>
+<td>The SEC Division of Corporation Finance seeks to ensure that investors are provided with material information in order to make informed investment decisions, both when a company initially offers its securities to the public and on an ongoing basis as it continues to give information to the marketplace. The Division also provides interpretive assistance to companies with respect to SEC rules and forms and makes recommendations to the Commission regarding new rules and revisions to existing rules.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">278</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>PCAOB</td>
+<td>US-FD-SEC-PCAOB</td>
+<td>Public Company Accounting Oversight Board</td>
+<td>Public Company Accounting Oversight Board</td>
+<td>The Public Company Accounting Oversight Board (PCAOB) is a private-sector, nonprofit corporation created to oversee the audits of public companies and other issuers in order to protect the interests of investors and further the public interest in the preparation of informative, accurate and independent audit reports.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">279</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>SI</td>
+<td>US-FD-SI</td>
+<td>Smithsonian Institution</td>
+<td>Smithsonian Institution</td>
+<td>The Smithsonian Institution is a group of museums and research centers administered by the Government of the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">280</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>SIGAR</td>
+<td>US-FD-SIGAR</td>
+<td>Special Inspector General for Afghanistan Reconstruction</td>
+<td>Special Inspector General for Afghanistan Reconstruction</td>
+<td>Special Inspector General for Afghanistan Reconstruction (SIGAR) is the U.S. government&#39;s leading oversight authority on Afghanistan reconstruction.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">281</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>SRBC</td>
+<td>US-FD-SRBC</td>
+<td>Susquehanna River Basin Commission</td>
+<td>Susquehanna River Basin Commission</td>
+<td>The Susquehanna River Basin Commission (SRBC) is federal-interstate compact commission created by the Susquehanna River Basin Compact between three U.S states: (Pennsylvania, New York, and Maryland), and the federal government to lead the conservation, development, and administration of the Basinï¿½s resources that would preserve and enhance its value as a scenic and recreational asset for the people who live in the Basin.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">282</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>SSA</td>
+<td>US-FD-SSA</td>
+<td>Social Security Administration</td>
+<td>Social Security Administration</td>
+<td>The United States Social Security Administration (SSA) is an independent agency of the U.S. federal government that administers Social Security, a social insurance program consisting of retirement, disability, and survivors&#39; benefits.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">283</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>STATE</td>
+<td>US-FD-STATE</td>
+<td>Department of State</td>
+<td>Department of State</td>
+<td>The United States Department of State (DOS), often referred to as the State Department, is the United States federal executive department that advises the President and represents the country in international affairs and foreign policy issues.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">284</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>IDCA</td>
+<td>US-FD-STATE-IDCA</td>
+<td>International Development Cooperation Agency</td>
+<td>International Development Cooperation Agency</td>
+<td>The International Development Cooperation Agency (IDCA) was established by Executive Order in September, 1979. The IDCA was abolished by act of Oct. 2, 1998 (112 Stat. 2681-790) and its functions transferred to the Department of State, U.S. Agency for International Development, and overseas Private Investment Corporation.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">285</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>OPIC</td>
+<td>US-FD-STATE-IDCA-OPIC</td>
+<td>Overseas Private Investment Corporation</td>
+<td>Overseas Private Investment Corporation</td>
+<td>The Overseas Private Investment Corporation (OPIC) is the United States government&#39;s development finance institution. It mobilizes private capital to help solve critical development challenges and, in doing so, advances the foreign policy of the United States and national security objectives.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">286</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>USAID</td>
+<td>US-FD-STATE-IDCA-USAID</td>
+<td>United States Agency for International Development</td>
+<td>United States Agency for International Development</td>
+<td>The United States Agency for International Development (USAID) is an independent agency of the United States federal government that is primarily responsible for administering civilian foreign aid and development assistance.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">287</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>STATEOIG</td>
+<td>US-FD-STATE-STATEOIG</td>
+<td>State Department Office of the Inspector General</td>
+<td>State Department Office of the Inspector General</td>
+<td>The State Department Office of the Inspector General (OIG) inspects more than 260 embassies, diplomatic posts, and international broadcasting installations throughout the world to determine whether policy goals are being achieved and whether the interests of the United States are being represented and advanced effectively. Additionally, OIG performs specialized security inspections and audits in support of the Department&#39;s mission to provide effective protection to our personnel, facilities, and sensitive information.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">288</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>TREAS</td>
+<td>US-FD-TREAS</td>
+<td>Department of the Treasury</td>
+<td>Department of the Treasury</td>
+<td>United States Department of the Treasury</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">289</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>CFIUS</td>
+<td>US-FD-TREAS-CFIUS</td>
+<td>Committee on Foreign Investment in the U.S.</td>
+<td>Committee on Foreign Investment in the U.S.</td>
+<td>The Committee on Foreign Investment in the United States (CFIUS) is an inter-agency committee of the United States Government that reviews the national security implications of foreign investments in U.S. companies or operations.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">290</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>FINCEN</td>
+<td>US-FD-TREAS-FINCEN</td>
+<td>Financial Crimes Enforcement Network</td>
+<td>Financial Crimes Enforcement Network</td>
+<td>The Financial Crimes Enforcement Network (FinCEN) is a bureau of the United States Department of the Treasury that collects and analyzes information about financial transactions in order to combat domestic and international money laundering, terrorist financing, and other financial crimes.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">291</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>FSOC</td>
+<td>US-FD-TREAS-FSOC</td>
+<td>Financial Stability Oversight Council</td>
+<td>Financial Stability Oversight Council</td>
+<td>The Financial Stability Oversight Council (FSOC) is a United States federal government organization, established by Title I of the Doddï¿½Frank Wall Street Reform and Consumer Protection Act. The Council is charged with identifying risks to the financial stability of the United States; promoting market discipline; and responding to emerging risks to the stability of the United States&#39; financial system.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">292</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>IRS</td>
+<td>US-FD-TREAS-IRS</td>
+<td>Internal Revenue Service</td>
+<td>Internal Revenue Service</td>
+<td>The Internal Revenue Service (IRS) is the revenue service of the United States federal government. The government agency is a bureau of the Department of the Treasury.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">293</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>APPEALS</td>
+<td>US-FD-TREAS-IRS-APPEALS</td>
+<td>IRS Office of Appeals</td>
+<td>IRS Office of Appeals</td>
+<td>The IRS Office of Appeals is an independent organization within the IRS that helps taxpayers resolve their tax disputes through an informal, administrative process. Our mission is to resolve tax controversies fairly and impartially, without litigation. Appeals reviews cases after the IRS has made its decision, offering an objective point of view on each appealed case.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">294</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>IRSAC</td>
+<td>US-FD-TREAS-IRS-IRSAC</td>
+<td>IRS Advisory Council</td>
+<td>IRS Advisory Council</td>
+<td>The Internal Revenue Service Advisory Council (IRSAC) conveys the public&#39;s perception of IRS&#39; activities and, plays a significant role as external evaluator regarding the reorganization and its implementation.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">295</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>IRSCC</td>
+<td>US-FD-TREAS-IRS-IRSCC</td>
+<td>IRS Office of Chief Counsel</td>
+<td>IRS Office of Chief Counsel</td>
+<td>As the chief legal advisor to the IRS Commissioner on all matters pertaining to the interpretation, administration and enforcement of the Internal Revenue Laws (as well as all other legal matters) the Chief Counsel provides legal guidance and interpretive advice to the IRS, Treasury and to taxpayers.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">296</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>IRSTAS</td>
+<td>US-FD-TREAS-IRS-IRSTAS</td>
+<td>IRS Taxpayer Advocate Service</td>
+<td>IRS Taxpayer Advocate Service</td>
+<td>The Taxpayer Advocate Service (TAS) is an independent organization within the Internal Revenue Service (IRS). Its job is to ensure that every taxpayer is treated fairly and that taxpayers know and understand their rights.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">297</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>IRSWO</td>
+<td>US-FD-TREAS-IRS-IRSWO</td>
+<td>IRS Whistleblower Office</td>
+<td>IRS Whistleblower Office</td>
+<td>The IRS Whistleblower Office is a branch of the United States Internal Revenue Service that will &quot;process tips received from individuals, who spot tax problems in their workplace, while conducting day-to-day personal business or anywhere else they may be encountered.&quot;</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">298</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>LB&amp;I</td>
+<td>US-FD-TREAS-IRS-LB&amp;I</td>
+<td>IRS Large Business and International Division</td>
+<td>IRS Large Business and International Division</td>
+<td>The IRS Large Business and International (LB&amp;I) Division serves corporations, subchapter S corporations, and partnerships with assets greater than $10 million. These entities typically have large numbers of employees, deal with complicated issues involving tax law and accounting principles, and conduct their operations in an expanding global environment.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">299</td>
+<td>SALI Governmental Body</td>
+<td align="right">5</td>
+<td>TE/GE</td>
+<td>US-FD-TREAS-IRS-TE/GE</td>
+<td>IRS Tax Exempt and Government Entities Division</td>
+<td>IRS Tax Exempt and Government Entities Division</td>
+<td>The IRS Tax Exempt and Governments Entities Division of the IRS provides administrative guidance to their examiners to ensure consistent tax administration and on matters relating to internal operations. The administrative guidance can be in the form of interim guidance or directives; they donï¿½t establish the IRSï¿½s position on legal issues and are not legal guidance.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">300</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>IRSOB</td>
+<td>US-FD-TREAS-IRSOB</td>
+<td>IRS Oversight Board</td>
+<td>IRS Oversight Board</td>
+<td>The IRS Oversight Boardï¿½s responsibility is to oversee the IRS in its administration, management, conduct, direction, and supervision of the execution and application of the internal revenue laws.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">301</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>OCC</td>
+<td>US-FD-TREAS-OCC</td>
+<td>Office of the Comptroller of the Currency</td>
+<td>Office of the Comptroller of the Currency</td>
+<td>The Office of the Comptroller of the Currency (OCC) is an independent bureau within the United States Department of the Treasury that was established by the National Currency Act of 1863 and serves to charter, regulate, and supervise all national banks and thrift institutions and the federally licensed branches and agencies of foreign banks in the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">302</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>OFAC</td>
+<td>US-FD-TREAS-OFAC</td>
+<td>Office of Foreign Assets Control</td>
+<td>Office of Foreign Assets Control</td>
+<td>The Office of Foreign Assets Control (OFAC) is a financial intelligence and enforcement agency of the U.S. Treasury Department.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">303</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>OTP</td>
+<td>US-FD-TREAS-OTP</td>
+<td>Office of Tax Policy</td>
+<td>Office of Tax Policy</td>
+<td>The Office of Tax Policy is an agency of the United States Department of the Treasury headed by the Assistant Secretary of the Treasury for Tax Policy.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">304</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>OTS</td>
+<td>US-FD-TREAS-OTS</td>
+<td>Office of Thrift Supervision</td>
+<td>Office of Thrift Supervision</td>
+<td>The Office of Thrift Supervision (OTS) was a United States federal agency under the Department of the Treasury that chartered, supervised, and regulated all federally chartered and state-chartered savings banks and savings and loans associations.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">305</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>SIGTARP</td>
+<td>US-FD-TREAS-SIGTARP</td>
+<td>Special Inspector General for the Troubled Asset Relief Program</td>
+<td>Special Inspector General for the Troubled Asset Relief Program</td>
+<td>The Office of the Special Inspector General for the Troubled Asset Relief Program (SIGTARP) is a federal law enforcement agency and an independent audit watchdog that targets financial institution crime and other fraud, waste, and abuse related to TARP</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">306</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>TIGTA</td>
+<td>US-FD-TREAS-TIGTA</td>
+<td>Treasury Inspector General for Tax Administration</td>
+<td>Treasury Inspector General for Tax Administration</td>
+<td>The Treasury Inspector General for Tax Administration (TIGTA) was established under the IRS Restructuring and Reform Act of 1998 to provide independent oversight of IRS activities. TIGTA promotes the economy, efficiency, and effectiveness in the administration of the internal revenue laws. It is also committed to the prevention and detection of fraud, waste, and abuse within the IRS and related entities.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">307</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>TTB</td>
+<td>US-FD-TREAS-TTB</td>
+<td>Alcohol and Tobacco Tax and Trade Bureau</td>
+<td>Alcohol and Tobacco Tax and Trade Bureau</td>
+<td>The Alcohol and Tobacco Tax and Trade Bureau, statutorily named the Tax and Trade Bureau and frequently shortened to TTB, is a bureau of the United States Department of the Treasury, which regulates and collects taxes on trade and imports of alcohol, tobacco, and firearms within the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">308</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>TVA</td>
+<td>US-FD-TVA</td>
+<td>Tennessee Valley Authority</td>
+<td>Tennessee Valley Authority</td>
+<td>The Tennessee Valley Authority (TVA) is a federally owned corporation in the United States created to provide navigation, flood control, electricity generation, fertilizer manufacturing, and economic development to the Tennessee Valley.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">309</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>USAGM</td>
+<td>US-FD-USAGM</td>
+<td>U.S. Agency for Global Media</td>
+<td>U.S. Agency for Global Media</td>
+<td>The U.S. Agency for Global Media, formerly the Broadcasting Board of Governors (BBG), is an independent agency of the United States government. The BBG supervises Voice of America (VOA), Radio Free Europe/Radio Liberty, Radio y Television Marti, Radio Free Asia, and the Middle East Broadcast Networks.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">310</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>VOA</td>
+<td>US-FD-USAGM-VOA</td>
+<td>Voice of America</td>
+<td>Voice of America</td>
+<td>Voice of America (VOA) is a U.S. government-funded international radio broadcast source that serves as the United States federal government&#39;s official institution for non-military, external broadcasting. As the largest U.S. international broadcaster, VOA produces digital, TV, and radio content in more than 40 languages which it distributes to affiliate stations around the globe.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">311</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>USCCR</td>
+<td>US-FD-USCCR</td>
+<td>Commission on Civil Rights</td>
+<td>Commission on Civil Rights</td>
+<td>The U.S. Commission on Civil Rights is a bipartisan, independent commission of the United States federal government, created in 1957, that is charged with the responsibility for investigating, reporting on, and making recommendations concerning civil rights issues in the United States.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">312</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>USCP</td>
+<td>US-FD-USCP</td>
+<td>U.S. Capitol Police</td>
+<td>U.S. Capitol Police</td>
+<td>The United States Capitol Police (USCP) is a federal law enforcement agency charged with protecting the United States Congress within the District of Columbia and throughout the United States and its territories.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">313</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>USDA</td>
+<td>US-FD-USDA</td>
+<td>Department of Agriculture</td>
+<td>Department of Agriculture</td>
+<td>The United States Department of Agriculture (USDA), also known as the Agriculture Department, is the U.S. federal executive department responsible for developing and executing federal laws related to farming, forestry, and food. It aims to meet the needs of farmers and ranchers, promote agricultural trade and production, work to assure food safety, protect natural resources, foster rural communities and end hunger in the United States and internationally.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">314</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>APHIS</td>
+<td>US-FD-USDA-APHIS</td>
+<td>Animal and Plant Health Inspection Service</td>
+<td>Animal and Plant Health Inspection Service</td>
+<td>The Animal and Plant Health Inspection Service (APHIS) is an agency of the United States Department of Agriculture (USDA) based in Riverdale, Maryland responsible for protecting animal health, animal welfare, and plant health. APHIS is the lead agency for collaboration with other agencies to protect U.S. agriculture from invasive pests and diseases.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">315</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>FS</td>
+<td>US-FD-USDA-FS</td>
+<td>Forest Service</td>
+<td>Forest Service</td>
+<td>The United States Forest Service (USFS) is an agency of the U.S. Department of Agriculture that administers the nation&#39;s national forests and national grasslands.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">316</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>FSA</td>
+<td>US-FD-USDA-FSA</td>
+<td>Farm Service Agency</td>
+<td>Farm Service Agency</td>
+<td>The Farm Service Agency (FSA) is the United States Department of Agriculture agency into which were merged several predecessor agencies, including the Agricultural Stabilization and Conservation Service (ASCS). The ASCS was, as the FSA is now, primarily tasked with the implementation of farm conservation and regulation laws around the country.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">317</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>FSIS</td>
+<td>US-FD-USDA-FSIS</td>
+<td>Food Safety and Inspection Service</td>
+<td>Food Safety and Inspection Service</td>
+<td>The Food Safety and Inspection Service (FSIS), an agency of the United States Department of Agriculture (USDA), is the public health regulatory agency responsible for ensuring that United States&#39; commercial supply of meat, poultry, and egg products is safe, wholesome, and correctly labeled and packaged.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">318</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>USDAOIG</td>
+<td>US-FD-USDA-USDAOIG</td>
+<td>USDA Office of the Inspector General</td>
+<td>USDA Office of the Inspector General</td>
+<td>The Office of Inspector General (OIG), U.S. Department of Agriculture (USDA) is the law enforcement arm of the Department, with Department-wide investigative jurisdiction.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">319</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>USITC</td>
+<td>US-FD-USITC</td>
+<td>International Trade Commission</td>
+<td>International Trade Commission</td>
+<td>The United States International Trade Commission (USITC, sometimes I.T.C.) is an independent, bipartisan, quasi-judicial, federal agency of the United States that provides trade expertise to both the legislative and executive branches.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">320</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>USOSC</td>
+<td>US-FD-USOSC</td>
+<td>U.S. Office of Special Counsel</td>
+<td>U.S. Office of Special Counsel</td>
+<td>The United States Office of Special Counsel (OSC) is a permanent independent federal investigative and prosecutorial agency whose primary mission is the safeguarding of the merit system in federal employment by protecting employees and applicants from prohibited personnel practices (PPPs), especially reprisal for &quot;whistleblowing.&quot;</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">321</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>USPS</td>
+<td>US-FD-USPS</td>
+<td>United States Postal Service</td>
+<td>United States Postal Service</td>
+<td>The United States Postal Service (USPS) is an independent agency of the United States federal government responsible for providing postal service in the United States, including its insular areas and associated states.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">322</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>USPIS</td>
+<td>US-FD-USPS-USPIS</td>
+<td>United States Postal Inspection Service</td>
+<td>United States Postal Inspection Service</td>
+<td>The United States Postal Inspection Service (USPIS) is the law enforcement arm of the United States Postal Service. Its jurisdiction is defined as &quot;crimes that may adversely affect or fraudulently use the U.S. Mail, the postal system or postal employees.&quot;</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">323</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>USPSOIG</td>
+<td>US-FD-USPS-USPSOIG</td>
+<td>USPS Office of Inspector General</td>
+<td>USPS Office of Inspector General</td>
+<td>The United States Postal Service Office of the Inspector General plays a key role in maintaining the integrity and accountability of America&#39;s postal service, its revenue and assets, and its employees.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">324</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>USSC</td>
+<td>US-FD-USSC</td>
+<td>United States Sentencing Commission</td>
+<td>United States Sentencing Commission</td>
+<td>The United States Sentencing Commission is an independent agency of the judicial branch of the federal government of the United States. It is responsible for articulating the sentencing guidelines for the United States federal courts.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">325</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>USSTRATCOM</td>
+<td>US-FD-USSTRATCOM</td>
+<td>U.S. Strategic Command</td>
+<td>U.S. Strategic Command</td>
+<td>United States Strategic Command (USSTRATCOM), is one of ten unified commands in the United States Department of Defense. It is responsible for strategic deterrence, global strike, and operating the Defense Department&#39;s Global Information Grid.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">326</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>USCYBERCOM</td>
+<td>US-FD-USSTRATCOM-USCYBERCOM</td>
+<td>U.S. Cyber Command</td>
+<td>U.S. Cyber Command</td>
+<td>United States Cyber Command (USCYBERCOM) is one of ten unified commands of the United States Department of Defense. It unifies the direction of cyberspace operations, strengthens DoD cyberspace capabilities, and integrates and bolsters DoD&#39;s cyber expertise.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">327</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>USTDA</td>
+<td>US-FD-USTDA</td>
+<td>United States Trade and Development Agency</td>
+<td>United States Trade and Development Agency</td>
+<td>The U.S. Trade and Development Agency (USTDA) is an independent agency of the United States government, established to advance economic development and U.S. commercial interests in developing and middle-income countries.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">328</td>
+<td>SALI Governmental Body</td>
+<td align="right">3</td>
+<td>VA</td>
+<td>US-FD-VA</td>
+<td>Department of Veterans Affairs</td>
+<td>Department of Veterans Affairs</td>
+<td>The United States Department of Veterans Affairs (VA) is a federal Cabinet-level agency that provides near-comprehensive healthcare services to eligible military veterans at VA medical centers and outpatient clinics located throughout the country.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">329</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>VAOIG</td>
+<td>US-FD-VA-VAOIG</td>
+<td>VA Office of Inspector General</td>
+<td>VA Office of Inspector General</td>
+<td>U.S. Department of Veterans Affairs Office of Inspector General&#39;s mission is to serve veterans and the public by conducting effective oversight of the programs and operations of the Department of Veterans Affairs (VA) through independent audits, inspections, reviews, and investigations.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">330</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>VBA</td>
+<td>US-FD-VA-VBA</td>
+<td>Veterans Benefits Administration</td>
+<td>Veterans Benefits Administration</td>
+<td>The Veterans Benefits Administration (VBA) is an agency of the U.S. Department of Veterans Affairs. It is responsible for administering the Departmentï¿½s programs that provide financial and other forms of assistance to veterans, their dependents, and survivors.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+<tr>
+<td align="right">331</td>
+<td>SALI Governmental Body</td>
+<td align="right">4</td>
+<td>VHA</td>
+<td>US-FD-VA-VHA</td>
+<td>Veterans Health Administration</td>
+<td>Veterans Health Administration</td>
+<td>The Veterans Health Administration (VHA) is the component of the United States Department of Veterans Affairs (VA) led by the Under Secretary of Veterans Affairs for Health that implements the healthcare program of the VA through the administration and operation of numerous VA Medical Centers (VAMC), Outpatient Clinics (OPC), Community Based Outpatient Clinics (CBOC), and VA Community Living Centers (VA Nursing Home) Programs.</td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+</tbody></table>
+  </div>
+<script type="text/javascript">
+	
+(function(document) {
+	'use strict';
+
+	var LightTableFilter = (function(Arr) {
+
+		var _input;
+
+		function _onInputEvent(e) {
+			_input = e.target;
+			var tables = document.getElementsByClassName(_input.getAttribute('data-table'));
+			Arr.forEach.call(tables, function(table) {
+				Arr.forEach.call(table.tBodies, function(tbody) {
+					Arr.forEach.call(tbody.rows, _filter);
+				});
+			});
+		}
+
+		function _filter(row) {
+			var text = row.textContent.toLowerCase(), val = _input.value.toLowerCase();
+			row.style.display = text.indexOf(val) === -1 ? 'none' : 'table-row';
+		}
+
+		return {
+			init: function() {
+				var inputs = document.getElementsByClassName('light-table-filter');
+				Arr.forEach.call(inputs, function(input) {
+					input.oninput = _onInputEvent;
+				});
+			}
+		};
+	})(Array.prototype);
+
+	document.addEventListener('readystatechange', function() {
+		if (document.readyState === 'complete') {
+			LightTableFilter.init();
+		}
+	});
+
+})(document);
+
+</script>
+</p></section></div>
+:ET

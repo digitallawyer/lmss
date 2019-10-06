@@ -65,24 +65,24 @@ image: assets/images/codes.jpg
 		        <td><a href="assets/json/SALI-currency.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td>SALI Format</td> 
+		        <td><a href="/SALI-format">SALI Format</a></td> 
 		        <td>SALI-FMT</td> 
 		        <td>The format of a description 
 		          </td> 
 		        <td><div>Description <span></span> Format<div></div></div></td> 
 		        <td>2</td> 
-		        <td>HTML</td> 
+		        <td><a href="/SALI-format">HTML</a></td> 
 		        <td><a href="/assets/xlsx/SALI-format.xlsx">XLSX</a></td> 
 		        <td><a href="assets/json/SALI-format.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td>SALI Governmental Body</td> 
+		        <td><a href="/SALI-governmental-body">SALI Governmental Body</a></td> 
 		        <td>SALI-GOVT</td> 
 		        <td>An initial set of government code. Currently U.S. federal only. 
 		          </td> 
 		        <td><div>Player <span></span> Governmental Authority<div><div>Process Object <span></span> Regulatory: Authority<div></div></div></div></div></td> 
 		        <td>331</td> 
-		        <td>HTML</td> 
+		        <td><a href="/SALI-governmental-body">HTML</a></td> 
 		        <td><a href="/assets/xlsx/SALI-governmental-body.xlsx">XLSX</a></td>  
 		        <td><a href="assets/json/SALI-governmental-body.json" target="_blank">JSON</a></td>
 		      </tr>
