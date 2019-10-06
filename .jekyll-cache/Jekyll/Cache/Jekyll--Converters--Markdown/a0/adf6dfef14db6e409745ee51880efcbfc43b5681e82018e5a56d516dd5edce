@@ -1,13 +1,4 @@
----
-layout: page
-title: API
-description: Integrate the LMSS in your applications
-nav-menu: true
-show_tile: true
-image: assets/images/api.jpg
----
-
-<!-- Main -->
+I"+<!-- Main -->
 <div id="main" class="alt">
 	<!-- One -->
 	<section>
@@ -24,8 +15,8 @@ image: assets/images/api.jpg
 						</p>
 						<p style="color:white;">A series of static JSON API's that provide read-only access to the most up-to-date version of the LMSS Codes. Useful when you want to integrate LMSS in your own legal applications.</p>
 						<ul class="actions small">
-							<li><button class="button special small">Learn More</button></li>
-							<li><button class="button small">Demo</button></li>
+							<li><a href="#" class="button special small">Learn More</a></li>
+							<li><a href="#" class="button small">Demo</a></li>
 						</ul>
 					</div>
 				</a>				
@@ -36,10 +27,10 @@ image: assets/images/api.jpg
 						<p>
 							<b>Legal.io Matter API</b>
 						</p>
-						<p style="color:white;">A LMSS Instance API to create LMSS-conforming matters in the Legal.io network. Useful for legal departments and law firms to find high-quality lawyers and legal professionals.</p>
+						<p style="color:white;">A LMSS Instance API to create LMSS-conforming matters in the Legal.io network. Useful for legal departments and law firms that need help identifying high-quality legal resources.</p>
 						<ul class="actions small">
-							<li><button class="button special small">Learn More</button></li>
-							<li><button class="button small">Demo</button></li>
+							<li><a href="#" class="button special small">Learn More</a></li>
+							<li><a href="#" class="button small">Demo</a></li>
 						</ul>
 					</div>
 				</a>
@@ -49,3 +40,4 @@ image: assets/images/api.jpg
 	
 </div>
 
+:ET

@@ -1,0 +1,54 @@
+[
+  {
+    "#": "1",
+    "Code Set": "SALI Representation Role",
+    "Level": "1",
+    "Code": "BARR",
+    "Full Code": "BARR",
+    "Short Name": "Barrister",
+    "Name": "Barrister",
+    "Description": "A barrister represents clients in open court and may appear at the bar.",
+    "Tags": "",
+    "URL": "",
+    "Comment": ""
+  },
+  {
+    "#": "2",
+    "Code Set": "SALI Representation Role",
+    "Level": "1",
+    "Code": "COUN",
+    "Full Code": "COUN",
+    "Short Name": "Counsel/Attorney",
+    "Name": "Counsel/Attorney",
+    "Description": "The attorney or attorneys representing the player. A counsel or a counsellor at law is a person who gives advice and deals with various issues, particularly in legal matters. It is a title often used interchangeably with the title of lawyer.",
+    "Tags": "attorney; counsellor",
+    "URL": "",
+    "Comment": ""
+  },
+  {
+    "#": "3",
+    "Code Set": "SALI Representation Role",
+    "Level": "1",
+    "Code": "LCOUN",
+    "Full Code": "LCOUN",
+    "Short Name": "Local Counsel",
+    "Name": "Local Counsel",
+    "Description": "Local Counsel is a local attorney hired in a particular jurisdiction for the purposes of supporting a pro hac vice admission. Admission Pro Hac Vice (for this occasion only) means temporary admission of an out-of-state lawyer to practice before a court in a specific case or a set of cases. In almost all U.S. jurisdictions, attorneys who practice pro hac vice must do so with a local lawyer acting as local counsel.",
+    "Tags": "",
+    "URL": "",
+    "Comment": ""
+  },
+  {
+    "#": "4",
+    "Code Set": "SALI Representation Role",
+    "Level": "1",
+    "Code": "SOLI",
+    "Full Code": "SOLI",
+    "Short Name": "Solicitor",
+    "Name": "Solicitor",
+    "Description": "A solicitor meets prospective clients, hears the client's problems, gives legal advice, drafts letters and documents, negotiates on the client's behalf, and prepares the client's case for trial.",
+    "Tags": "",
+    "URL": "",
+    "Comment": ""
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "#": "1",
+    "Code Set": "SALI Trial Type",
+    "Level": "1",
+    "Code": "TRIBEN",
+    "Full Code": "TRIBEN",
+    "Short Name": "Bench Trial",
+    "Name": "Bench Trial",
+    "Description": "A bench trial is a trial by judge or panel of judges, as opposed to a trial by jury.",
+    "Tags": "",
+    "URL": "",
+    "Comment": ""
+  },
+  {
+    "#": "2",
+    "Code Set": "SALI Trial Type",
+    "Level": "1",
+    "Code": "TRIJRY",
+    "Full Code": "TRIJRY",
+    "Short Name": "Jury Trial",
+    "Name": "Jury Trial",
+    "Description": "A jury trial, or trial by jury, is a lawful proceeding in which a jury makes a decision or findings of fact. It is distinguished from a bench trial in which a judge or panel of judges makes all decisions.",
+    "Tags": "",
+    "URL": "",
+    "Comment": ""
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "#": "1",
+    "Code Set": "SALI Process Status",
+    "Level": "1",
+    "Code": "CA",
+    "Full Code": "CA",
+    "Short Name": "Canceled",
+    "Name": "Canceled",
+    "Description": "The process is canceled.",
+    "Tags": "",
+    "URL": "",
+    "Comment": ""
+  },
+  {
+    "#": "2",
+    "Code Set": "SALI Process Status",
+    "Level": "1",
+    "Code": "CL",
+    "Full Code": "CL",
+    "Short Name": "Closed",
+    "Name": "Closed",
+    "Description": "The process is closed.",
+    "Tags": "",
+    "URL": "",
+    "Comment": ""
+  },
+  {
+    "#": "3",
+    "Code Set": "SALI Process Status",
+    "Level": "1",
+    "Code": "OP",
+    "Full Code": "OP",
+    "Short Name": "Open",
+    "Name": "Open",
+    "Description": "The process is active.",
+    "Tags": "",
+    "URL": "",
+    "Comment": ""
+  }
+]
