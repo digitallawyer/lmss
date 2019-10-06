@@ -1,13 +1,4 @@
----
-layout: page
-title: API
-description: Integrate the LMSS in your applications
-nav-menu: true
-show_tile: true
-image: assets/images/api.jpg
----
-
-<p style="font-size:0.75em"><a href="/">Home</a>&nbsp;&nbsp;>&nbsp;&nbsp;API</p>
+I"ã<p style="font-size:0.5em">Home &gt; API</p>
 <!-- Main -->
 <div id="main" class="alt">
 	<!-- One -->
@@ -48,3 +39,4 @@ image: assets/images/api.jpg
 	
 </div>
 
+:ET

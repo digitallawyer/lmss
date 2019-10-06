@@ -1,13 +1,4 @@
----
-layout: page
-title: LMSS UX API
-description: Integrate the LMSS in your applications
-nav-menu: false
-show_tile: false
-image: assets/images/api.jpg
----
-
-<p style="font-size:0.75em"><a href="/">Home</a>&nbsp;&nbsp;>&nbsp;&nbsp;<a href="/api">API</a>&nbsp;&nbsp;>&nbsp;&nbsp;LMSS UX API
+I"ü<p style="font-size:0.75em"><a href="/">Home</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a href="/api">API</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;LMSS UX API
 </p>
 <!-- Main -->
 <div id="main" class="alt">
@@ -16,11 +7,11 @@ image: assets/images/api.jpg
 		<header class="major">
 			<h1>API</h1>
 		</header>
-		<h3>LMSS UX API</h3>
+		<h3>Matter API</h3>
 		<p>A series of static JSON API's that provide read-only access to the most up-to-date version of the LMSS Codes. Useful when you want to integrate LMSS in your own legal applications.</p>
 	</section>
 	
-<input type="text" class="light-table-filter" data-table="order-table" placeholder="Enter one or more keywords to search the codes">
+<input type="text" class="light-table-filter" data-table="order-table" placeholder="Enter one or more keywords to search the codes" />
 		<p>
 		<div class="table-responsive">
 		    <table class="table-wrapper order-table table">
@@ -174,3 +165,5 @@ image: assets/images/api.jpg
 
 </script>
 
+</p></div>
+:ET
