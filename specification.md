@@ -8,4 +8,4 @@ image: assets/images/pic09.jpg
 ---
 
 # Specification
-<iframe src="http://docs.google.com/gview?url=http://lmss.io/assets/pdf/SALI-LMSS-1.0-rev2c.pdf&embedded=true" style="width:100%; height:80vh;" frameborder="0"></iframe>
+<iframe src="http://docs.google.com/gview?url=https://lmss.io/assets/pdf/SALI-LMSS-1.0-rev2c.pdf&embedded=true" style="width:100%; height:80vh;" frameborder="0"></iframe>
