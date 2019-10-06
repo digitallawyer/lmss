@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Talk to us
-description: Contact us to streamline legal operations in your legal department or law firm.
+description: Streamline your legal operations with LMSS.
 nav-menu: false
 show_tile: true
 image: assets/images/contact.jpg

@@ -4,7 +4,7 @@ title: A brief introduction
 description: Get familiar with the basics of LMSS
 nav-menu: true
 show_tile: true
-image: assets/images/pic07.jpg
+image: assets/images/introduction.jpg
 ---
 
 <!-- Main -->
