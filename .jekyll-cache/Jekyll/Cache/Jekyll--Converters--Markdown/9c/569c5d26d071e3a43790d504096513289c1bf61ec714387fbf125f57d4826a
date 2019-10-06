@@ -1,13 +1,4 @@
----
-layout: page
-title: A brief introduction
-description: Get familiar with the basics of LMSS
-nav-menu: true
-show_tile: true
-image: assets/images/introduction.jpg
----
-
-<p style="font-size:0.75em"><a href="/">Home</a>&nbsp;&nbsp;>&nbsp;&nbsp;Introduction</p>
+I"ö<p style="font-size:0.75em"><a href="/">Home</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;Introduction</p>
 <!-- Main -->
 <div id="main" class="alt">
 	<!-- One -->
@@ -26,10 +17,7 @@ image: assets/images/introduction.jpg
 				</p>			
 			</div>
 			<div class="6u 12u$(medium)">
-				<br>
-				<span class="image fit">
-					<iframe width="100%" height="420" src="https://www.youtube.com/embed/XdcMBHTNE6M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</span>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/XdcMBHTNE6M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 			</div>
 		</div>
 		<h2>Why Does it matter?</h2>
@@ -62,7 +50,7 @@ image: assets/images/introduction.jpg
                "legal entity" : "CLASS",  //Class
                "counsel" : {
                   "name" : "Filbert Evans",
-                  "firm name" : "Evans Lockridge & Paul LLP",
+                  "firm name" : "Evans Lockridge &amp; Paul LLP",
                   "representation role" : "COUN"  //Counsel/Attorney
                }
             },
@@ -115,3 +103,5 @@ image: assets/images/introduction.jpg
 		<p>
 			Thank you for taking the time to learn more about the LMSS. If you want to learn more about how the LMSS can streamline legal operations in your legal department or law firm, feel free to <a href="/talk-to-us">contact us</a>!
 		</p>
+</p></section></div>
+:ET

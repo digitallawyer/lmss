@@ -1,37 +1,54 @@
----
-layout: page
-title: A brief introduction
-description: Get familiar with the basics of LMSS
-nav-menu: true
-show_tile: true
-image: assets/images/introduction.jpg
----
-
-<p style="font-size:0.75em"><a href="/">Home</a>&nbsp;&nbsp;>&nbsp;&nbsp;Introduction</p>
+I"à<p style="font-size:0.75em"><a href="/">Home</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;Introduction</p>
 <!-- Main -->
 <div id="main" class="alt">
 	<!-- One -->
 	<section>
 		<header class="major">
-			<h1>A brief introduction</h1>
+			<h1>API</h1>
 		</header>
+		<h3>Ways to work with LMSS</h3>
 		<div class="row 200%">
 			<div class="6u 12u$(medium)">
-				<h2>What is LMSS?</h2>
-				<p>
-					The LMSS, or "Legal Matter Specification Standard" is <b>a standard way to describe a legal matter or grouping of work around a legal issue</b>. It is an open, free standard published by the SALI Alliance and it can be used by anyone for free.
-				</p>
-				<p>
-					The idea behind the LMSS is simple: in the same way that there are product codes for manufactured products, the LMSS is a system for coding different kinds of legal services and offerings. The purpose of the LMSS is to provide a common interchange language that all participants in the legal industry can use to communicate and specify legal matters matters.
-				</p>			
+				<a href="/lmss-ux-api">
+					<div class="box">
+						<p>
+							<b>LMSS UX API</b>
+						</p>
+						<p style="color:white;">A series of static JSON API's that provide read-only access to the most up-to-date version of the LMSS Codes. Useful when you want to integrate LMSS in your own legal applications.</p>
+						<ul class="actions small">
+							<li><button class="button special small">Learn More</button></li>
+						</ul>
+					</div>
+				</a>				
 			</div>
 			<div class="6u 12u$(medium)">
-				<br>
-				<span class="image fit">
-					<iframe width="100%" height="420" src="https://www.youtube.com/embed/XdcMBHTNE6M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</span>
+				<a href="/matter-api">
+					<div class="box">
+						<p>
+							<b>Legal.io Matter API</b>
+						</p>
+						<p style="color:white;">A LMSS Instance API to create LMSS-conforming matters in the Legal.io network. Useful for legal departments and law firms to find high-quality lawyers and legal professionals.</p>
+						<ul class="actions small">
+							<li><button class="button special small">Learn More</button></li>
+						</ul>
+					</div>
+				</a>
 			</div>
 		</div>
+	</section>
+	
+	<section>
+		<header class="major">
+			<h1>A brief introduction</h1>
+		</header>
+		<h2>What is LMSS?</h2>
+		<p>
+			The LMSS, or "Legal Matter Specification Standard" is <b>a standard way to describe a legal matter or grouping of work around a legal issue</b>. It is an open, free standard published by the SALI Alliance and it can be used by anyone for free.
+		</p>
+		<p>
+			The idea behind the LMSS is simple: in the same way that there are product codes for manufactured products, the LMSS is a system for coding different kinds of legal services and offerings. The purpose of the LMSS is to provide a common interchange language that all participants in the legal industry can use to communicate and specify legal matters matters.
+		</p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/XdcMBHTNE6M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 		<h2>Why Does it matter?</h2>
 		<p>
 			Matter coding makes buying, staffing pricing and delivering legal services more efficient. Imagine this scenario: a client has the need for legal services in a class action wage and hour case. The client could now provide the codes for that kind of matter. The law firm could look in its database and, by code, it would determine which comparable matters it had handled, which attorneys had the most experience to optimize staffing, and if the client asked for a fixed fee the law firm could accurately see how to price the matter because it could easily find comparable matters.
@@ -62,7 +79,7 @@ image: assets/images/introduction.jpg
                "legal entity" : "CLASS",  //Class
                "counsel" : {
                   "name" : "Filbert Evans",
-                  "firm name" : "Evans Lockridge & Paul LLP",
+                  "firm name" : "Evans Lockridge &amp; Paul LLP",
                   "representation role" : "COUN"  //Counsel/Attorney
                }
             },
@@ -115,3 +132,5 @@ image: assets/images/introduction.jpg
 		<p>
 			Thank you for taking the time to learn more about the LMSS. If you want to learn more about how the LMSS can streamline legal operations in your legal department or law firm, feel free to <a href="/talk-to-us">contact us</a>!
 		</p>
+</p></section></div>
+:ET

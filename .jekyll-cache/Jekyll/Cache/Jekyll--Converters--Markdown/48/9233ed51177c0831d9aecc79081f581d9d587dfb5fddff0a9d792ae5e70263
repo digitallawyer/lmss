@@ -1,7 +1,37 @@
-I"š<p style="font-size:0.75em"><a href="/">Home</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;Introduction</p>
+I"¬ <p style="font-size:0.75em"><a href="/">Home</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;Introduction</p>
 <!-- Main -->
 <div id="main" class="alt">
 	<!-- One -->
+	<section>
+		<header class="major">
+			<h1>A brief introduction</h1>
+		</header>
+		<div class="row 200%">
+			<div class="6u 12u$(medium)">
+				<h2>What is LMSS?</h2>
+				<p>
+					The LMSS, or "Legal Matter Specification Standard" is <b>a standard way to describe a legal matter or grouping of work around a legal issue</b>. It is an open, free standard published by the SALI Alliance and it can be used by anyone for free.
+				</p>
+				<p>
+					The idea behind the LMSS is simple: in the same way that there are product codes for manufactured products, the LMSS is a system for coding different kinds of legal services and offerings. The purpose of the LMSS is to provide a common interchange language that all participants in the legal industry can use to communicate and specify legal matters matters.
+				</p>			
+			</div>
+			<div class="6u 12u$(medium)">
+				<a href="/matter-api">
+					<div class="box">
+						<p>
+							<b>Legal.io Matter API</b>
+						</p>
+						<p style="color:white;">A LMSS Instance API to create LMSS-conforming matters in the Legal.io network. Useful for legal departments and law firms to find high-quality lawyers and legal professionals.</p>
+						<ul class="actions small">
+							<li><button class="button special small">Learn More</button></li>
+						</ul>
+					</div>
+				</a>
+			</div>
+		</div>
+	</section>
+	
 	<section>
 		<header class="major">
 			<h1>A brief introduction</h1>
@@ -13,6 +43,7 @@
 		<p>
 			The idea behind the LMSS is simple: in the same way that there are product codes for manufactured products, the LMSS is a system for coding different kinds of legal services and offerings. The purpose of the LMSS is to provide a common interchange language that all participants in the legal industry can use to communicate and specify legal matters matters.
 		</p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/XdcMBHTNE6M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 		<h2>Why Does it matter?</h2>
 		<p>
 			Matter coding makes buying, staffing pricing and delivering legal services more efficient. Imagine this scenario: a client has the need for legal services in a class action wage and hour case. The client could now provide the codes for that kind of matter. The law firm could look in its database and, by code, it would determine which comparable matters it had handled, which attorneys had the most experience to optimize staffing, and if the client asked for a fixed fee the law firm could accurately see how to price the matter because it could easily find comparable matters.
