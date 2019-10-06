@@ -25,7 +25,6 @@ image: assets/images/api.jpg
 						<p style="color:white;">A series of static JSON API's that provide read-only access to the most up-to-date version of the LMSS Codes. Useful when you want to integrate LMSS in your own legal applications.</p>
 						<ul class="actions small">
 							<li><button class="button special small">Learn More</button></li>
-							<li><button class="button small">Demo</button></li>
 						</ul>
 					</div>
 				</a>				
@@ -39,7 +38,6 @@ image: assets/images/api.jpg
 						<p style="color:white;">A LMSS Instance API to create LMSS-conforming matters in the Legal.io network. Useful for legal departments and law firms to find high-quality lawyers and legal professionals.</p>
 						<ul class="actions small">
 							<li><button class="button special small">Learn More</button></li>
-							<li><button class="button small">Demo</button></li>
 						</ul>
 					</div>
 				</a>
