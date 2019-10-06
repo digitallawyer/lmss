@@ -1,20 +1,11 @@
----
-layout: page-wide
-title: LMSS Codes
-description: A detailed look at the LMSS Codes
-nav-menu: true
-show_tile: true
-image: assets/images/codes.jpg
----
-
-<!-- Main -->
+I"B<!-- Main -->
 <div id="main" class="alt">
 	<!-- One -->
 	<section>
 		<header class="major">
 			<h1>LMSS Codes</h1>
 		</header>
-		<input type="text" class="light-table-filter" data-table="order-table" placeholder="Enter one or more keywords to search the codes">
+		<input type="search" class="light-table-filter" data-table="order-table" placeholder="Filter" />
 		<p>
 		<div class="table-responsive">
 		    <table class="table-wrapper order-table table">
@@ -29,18 +20,16 @@ image: assets/images/codes.jpg
 		        <th style="WHITE-SPACE: nowrap"># Codes</th>
 		        <th style="WHITE-SPACE: nowrap"></th>
 		        <th style="WHITE-SPACE: nowrap"></th>
-		        <th style="WHITE-SPACE: nowrap"></th>
 		      </tr>
 		      <tr>
-		        <td><a href="/SALI-areas-of-law">SALI Area of Law</a></td> 
+		        <td><a href="/sali-areas-of-law">SALI Area of Law</a></td> 
 		        <td>SALI-AOL:2</td> 
 		        <td>Areas of Law codes 
 		          </td> 
 		        <td><div>Process <span></span> Area of Law<div></div></div></td> 
-		        <td><a href="/SALI-areas-of-law">117</a></td>
-		        <td><a href="/SALI-areas-of-law">HTML</a></td>
-		        <td><a href="/assets/xlsx/SALI-areas-of-law.xlsx">XLSX</a></td>
-		        <td><a href="assets/json/SALI-areas-of-law.json" target="_blank">JSON</a></td> 
+		        <td>117</td>
+		        <td><a href="/sali-areas-of-law">Html</a></td> 
+		        <td>Json</td> 
 		      </tr>
 		      <tr>
 		        <td>SALI Court</td> 
@@ -48,9 +37,7 @@ image: assets/images/codes.jpg
 		        <td>Codes for courts. Currently limited to U.S. courts. 
 		          </td> 
 		        <td><div>Process Object <span></span> Dispute: Venue<div></div></div></td> 
-		        <td>458</td>
-		        <td><a href="">Html</a></td> 
-		        <td>Json</td> 
+		        <td>458</td> 
 		      </tr>
 		      <tr>
 		        <td>SALI Currency (ISO 4217)</td> 
@@ -59,8 +46,6 @@ image: assets/images/codes.jpg
 		          </td> 
 		        <td><div>Monetary Value <span></span> Currency<div></div></div></td> 
 		        <td>178</td> 
-		        <td><a href="">Html</a></td> 
-		        <td>Json</td> 
 		      </tr>
 		      <tr>
 		        <td>SALI Format</td> 
@@ -69,8 +54,6 @@ image: assets/images/codes.jpg
 		          </td> 
 		        <td><div>Description <span></span> Format<div></div></div></td> 
 		        <td>2</td> 
-		        <td><a href="">Html</a></td> 
-		        <td>Json</td> 
 		      </tr>
 		      <tr>
 		        <td>SALI Governmental Body</td> 
@@ -79,8 +62,6 @@ image: assets/images/codes.jpg
 		          </td> 
 		        <td><div>Player <span></span> Governmental Authority<div><div>Process Object <span></span> Regulatory: Authority<div></div></div></div></div></td> 
 		        <td>331</td> 
-		        <td><a href="">Html</a></td> 
-		        <td>Json</td> 
 		      </tr>
 		      <tr>
 		        <td>SALI Industry</td> 
@@ -89,8 +70,6 @@ image: assets/images/codes.jpg
 		          </td> 
 		        <td><div>Player <span></span> Industry<div></div></div></td> 
 		        <td>25</td> 
-		        <td><a href="">Html</a></td> 
-		        <td>Json</td> 
 		      </tr>
 		      <tr>
 		        <td>SALI Legal Entity</td> 
@@ -98,9 +77,7 @@ image: assets/images/codes.jpg
 		        <td>The second version of legal entities. Takes into account international considerations. 
 		          </td> 
 		        <td><div>Player <span></span> Legal Entity<div><div>Process Object <span></span> Transaction Legal Entity<div></div></div></div></div></td> 
-		        <td>27</td>
-				<td><a href="">Html</a></td> 
-		        <td>Json</td>  
+		        <td>27</td> 
 		      </tr>
 		      <tr>
 		        <td>SALI LMSS Type</td> 
@@ -109,8 +86,6 @@ image: assets/images/codes.jpg
 		          </td> 
 		        <td><div>Header <span></span> LMSS Type<div></div></div></td> 
 		        <td>3</td> 
-		        <td><a href="">Html</a></td> 
-		        <td>Json</td> 
 		      </tr>
 		      <tr>
 		        <td>SALI LMSS Version</td> 
@@ -118,20 +93,16 @@ image: assets/images/codes.jpg
 		        <td>Supported versions of the standard 
 		          </td> 
 		        <td><div>Header <span></span> LMSS Version<div></div></div></td> 
-		        <td>1</td>
-		        <td><a href="">Html</a></td> 
-		        <td>Json</td> 
+		        <td>1</td> 
 		      </tr>
 		      <tr>
 		        <td>SALI Location (Adapted ISO 3166-2)</td> 
 		        <td>SALI-ISO31662</td> 
 		        <td>ISO 3166-2 is part of the ISO 3166 standard published by the International Organization for Standardization (ISO), and defines codes for identifying the principal subdivisions (e.g., provinces or states) of all countries coded in ISO 3166-1. The official name of the standard is Codes for the representation of names of countries and their subdivisions – Part 2: Country subdivision code.  
-		<br>SALI has adapted part 2 to enforce uniqueness of names across the namespace. 
+		<br />SALI has adapted part 2 to enforce uniqueness of names across the namespace. 
 		          </td> 
 		        <td><div>Matter <span></span> Locale<div></div></div></td> 
-		        <td>3,771</td>
-		        <td><a href="">Html</a></td> 
-		        <td>Json</td>  
+		        <td>3,771</td> 
 		      </tr>
 		      <tr>
 		        <td>SALI Matter Narrative</td> 
@@ -140,8 +111,6 @@ image: assets/images/codes.jpg
 		          </td> 
 		        <td><div>Narrative <span></span> Type<div></div></div></td> 
 		        <td>3</td> 
-		        <td><a href="">Html</a></td> 
-		        <td>Json</td> 
 		      </tr>
 		      <tr>
 		        <td>SALI Player Role</td> 
@@ -149,9 +118,7 @@ image: assets/images/codes.jpg
 		        <td>The types of player roles that can be applied to a matter. 
 		          </td> 
 		        <td><div>Player <span></span> Player Role<div></div></div></td> 
-		        <td>45</td>
-		        <td><a href="">Html</a></td> 
-		        <td>Json</td> 
+		        <td>45</td> 
 		      </tr>
 		      <tr>
 		        <td>SALI Process</td> 
@@ -160,8 +127,6 @@ image: assets/images/codes.jpg
 		          </td> 
 		        <td><div>Process <span></span> Process Type<div></div></div></td> 
 		        <td>35</td> 
-		        <td><a href="">Html</a></td> 
-		        <td>Json</td> 
 		      </tr>
 		      <tr>
 		        <td>SALI Process Status</td> 
@@ -169,8 +134,7 @@ image: assets/images/codes.jpg
 		        <td>The status of a process 
 		          </td> 
 		        <td><div>Process Object <span></span> Status<div></div></div></td> 
-		        <td>3</td> <td><a href="">Html</a></td> 
-		        <td>Json</td> 
+		        <td>3</td> 
 		      </tr>
 		      <tr>
 		        <td>SALI Representation Role</td> 
@@ -178,9 +142,7 @@ image: assets/images/codes.jpg
 		        <td>The types of representation roles for a player. 
 		          </td> 
 		        <td><div>Counsel <span></span> Representation Role<div></div></div></td> 
-		        <td>4</td>
-		        <td><a href="">Html</a></td> 
-		        <td>Json</td> 
+		        <td>4</td> 
 		      </tr>
 		      <tr>
 		        <td>SALI Trial Type</td> 
@@ -188,9 +150,7 @@ image: assets/images/codes.jpg
 		        <td>The type of trial format. 
 		          </td> 
 		        <td><div>Process Object <span></span> Dispute: Trial Type<div></div></div></td> 
-		        <td>2</td>
-		        <td><a href="">Html</a></td> 
-		        <td>Json</td> 
+		        <td>2</td> 
 		      </tr>
 		    </tbody></table>
   </div>
@@ -238,3 +198,5 @@ image: assets/images/codes.jpg
 })(document);
 
 </script>
+</p></section></div>
+:ET

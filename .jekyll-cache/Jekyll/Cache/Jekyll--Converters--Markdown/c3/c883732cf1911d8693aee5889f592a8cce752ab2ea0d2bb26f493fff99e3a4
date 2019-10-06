@@ -1,15 +1,7 @@
----
-layout: page
-title: Talk to us
-description: Streamline your legal operations with LMSS.
-nav-menu: false
-show_tile: true
-image: assets/images/contact.jpg
----
-<header class="major">
+I"R<header class="major">
 	<h1>Get in touch</h1>
 </header>
- <!-- Contact -->
+<p><!-- Contact --></p>
 <section id="contact">
 	<div class="inner">
 		<section style="padding-left:0.1em">
@@ -75,3 +67,4 @@ image: assets/images/contact.jpg
 		</section>
 	</div>
 </section>
+:ET

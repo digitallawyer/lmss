@@ -1,19 +1,11 @@
----
-layout: page
-title: Talk to us
-description: Streamline your legal operations with LMSS.
-nav-menu: false
-show_tile: true
-image: assets/images/contact.jpg
----
-<header class="major">
+I"(<header class="major">
 	<h1>Get in touch</h1>
 </header>
- <!-- Contact -->
+<p><!-- Contact --></p>
 <section id="contact">
 	<div class="inner">
-		<section style="padding-left:0.1em">
-			<form action="https://formspree.io/contact@legal.io" method="POST">
+		<section>
+			<form action="https://formspree.io/youremailaddress@gmail.com" method="POST">
 				<div class="field half first">
 					<label for="name">Name</label>
 					<input type="text" name="name" id="name" />
@@ -53,8 +45,6 @@ image: assets/images/contact.jpg
 					<h3>Address</h3>
 					<span>
 					
-					    Legal.io<br />
-
 					    1535 Mission St<br />
 					
 					
@@ -75,3 +65,4 @@ image: assets/images/contact.jpg
 		</section>
 	</div>
 </section>
+:ET
