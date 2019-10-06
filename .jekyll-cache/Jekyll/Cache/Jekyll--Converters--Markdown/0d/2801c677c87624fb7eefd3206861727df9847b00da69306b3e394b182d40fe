@@ -1,13 +1,4 @@
----
-layout: page
-title: Matter API
-description: Integrate the LMSS in your applications
-nav-menu: false
-show_tile: false
-image: assets/images/api.jpg
----
-
-<p style="font-size:0.75em"><a href="/">Home</a>&nbsp;&nbsp;>&nbsp;&nbsp;<a href="/api">API</a>&nbsp;&nbsp;>&nbsp;&nbsp;Legal.io Matter API
+I"Â<p style="font-size:0.75em"><a href="/">Home</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a href="/api">API</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;Legal.io Matter API
 </p>
 <!-- Main -->
 <div id="main" class="alt">
@@ -24,49 +15,49 @@ image: assets/images/api.jpg
 	<div class="row 200%">
 		<div class="6u 12u$(medium)">
 			<form name="test_form">
-				<br>
+				<br />
 		        <div class="">
 		            <div class="field" style="display: none;">
 		            	<label for="given_name">Community API token</label>
-		            	<input name="api_token" pattern=".+" required="animated-label" type="text" disabled="disabled" value="7b69c2e4-c1aa-4b69-888c-0a30f55556d2">
+		            	<input name="api_token" pattern=".+" required="animated-label" type="text" disabled="disabled" value="7b69c2e4-c1aa-4b69-888c-0a30f55556d2" />
 		            </div>
 		            <div class="field">
-		            	<label for="summary">Title *</label>
-		            	<input  id="title_input" name="summary" pattern=".+" required="required" type="text" onkeyup="titleUpdateFunction()">
+		            	<label for="summary">Title</label>
+		            	<input id="title_input" name="summary" pattern=".+" required="required" type="text" onkeyup="titleUpdateFunction()" />
 		            </div>
 		            <div class="field">
 		            	<label for="location">Location *</label>
-		            	<input name="location" pattern=".+" required="animated-label" type="text">
+		            	<input name="location" pattern=".+" required="animated-label" type="text" />
 		            </div>
 		            <div class="field">
-		            	<label for="content">Description *</label>
-		            	<input name="content" pattern=".+" required="animated-label" type="text">
+		            	<label for="content">Content *</label>
+		            	<input name="content" pattern=".+" required="animated-label" type="text" />
 					</div>
 					<div class="12u$ field">
-						<label>Area of law *</label>
+						<label>Practice Areas</label>
 						<div class="select-wrapper">
-							<select id="#PracticeAreas" class="multiselect" name="practice_areas"  data-placeholder="Select">
+							<select id="#PracticeAreas" class="multiselect" name="practice_areas" data-placeholder="Select">
 								<option value="Family">Family</option>
 								<option value="Bank">Bank</option>
 							</select>
 						</div>
 					</div>
-					<hr>
+					<hr />
 					<div class="field half first">
 						<label for="given_name">First name *</label>
-						<input id="given_name_input" name="given_name" pattern=".+" required="animated-label" type="text" onkeyup="myFunction()">
+						<input id="given_name_input" name="given_name" pattern=".+" required="animated-label" type="text" onkeyup="myFunction()" />
 					</div>
 		            <div class="field half">
 		            	<label for="family_name">Last name</label>
-		            	<input name="family_name" pattern=".+" required="animated-label" type="text">
+		            	<input name="family_name" pattern=".+" required="animated-label" type="text" />
 		            </div>
 		            <div class="field half first">
 		            	<label for="email">Email</label>
-		            	<input name="email" pattern=".+" required="animated-label" type="text">
+		            	<input name="email" pattern=".+" required="animated-label" type="text" />
 		            </div>
 		            <div class="field half">
 		            	<label for="telephone">Telephone *</label>
-		            	<input name="telephone" pattern=".+" required="animated-label" type="text">
+		            	<input name="telephone" pattern=".+" required="animated-label" type="text" />
 		            </div>
 					<div class="field pull-right">
 		            	<button name="send_data" type="test">Next</button>
@@ -79,8 +70,8 @@ image: assets/images/api.jpg
 			</form>
 		</div>
 		<div class="6u 12u$(medium)">
-		<br>
-		<label for="given_name">LMSS Representation</label>
+		<br />
+		<br />
 		<pre><code>
 {
    "document" : {
@@ -90,12 +81,11 @@ image: assets/images/api.jpg
          "title" : "<span id="title_result">...</span>",
          "language" : "en-us",
          "charset" : "UTF-8"
-      },
-      "matter" : {
+      }
+      ,"matter" : {
          "title" : "<span id="title_result2">...</span>",
          "locale" : "NAM-US-US+GA",
          "process" : {
-            "process type" : "A",
             "description" : "...",
             "area of law" : "LEMP-WGHR",
             "player" : [{
@@ -114,6 +104,7 @@ image: assets/images/api.jpg
 
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
 <script>
 
 function titleUpdateFunction()
@@ -182,7 +173,7 @@ jQuery(function() {
             var nl = "<br/>\n"
             jQuery('#post_data').html(
                 '<strong>Making api call</strong>' + nl +
-                'Sending data to ' + url + nl
+                'Sending data to: ' + url + nl + json
             )
 
             function output(data, textStatus) {
@@ -211,3 +202,5 @@ jQuery(function() {
         })
     });
 </script>
+
+:ET
