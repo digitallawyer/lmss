@@ -1,0 +1,29 @@
+I"-<!-- Main -->
+<div id="main" class="alt">
+	<!-- One -->
+	<section>
+		<header class="major">
+			<h1>API</h1>
+		</header>
+		<h2 id="content">Under construction</h2>
+		<p>Once this page is completed (probably on Sunday 10/6/2019), it will contain two main sections:</p>
+		<ul>
+			<li><b>LMSS UX API</b>: A series of static, read-only JSON API's, useful when integrating LMSS in any legal applications.</li>
+			<li><b>Legal.io Matter API</b>: Instructions on how to use the Legal.io Matter API, useful when in need of legal help.</li>
+		</ul>
+	</section>
+</div>
+
+<div class="6u 12u$(medium)">
+	<div class="box">
+		<p>Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus lorem ipsum.</p>
+	</div>
+</div>
+
+<div class="6u 12u$(medium)">
+<div class="box">
+	<p>Felis sagittis eget tempus primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Magna sed etiam ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus lorem ipsum.</p>
+</div>
+</div>
+<p>&lt;/div&gt;</p>
+:ET
