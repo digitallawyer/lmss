@@ -19,142 +19,142 @@ image: assets/images/codes.jpg
 		    <table class="table-wrapper">
 		      <tbody>
 		      <tr>
-		        <th scope="col">
+		        <th>
 		        <span>Code Set</span></th>
-		        <th scope="col">
-		        <span class="Sorter">Code</span>&nbsp;</th>
-		        <th scope="col">Description </th>
-		        <th style="WHITE-SPACE: nowrap" scope="col">Where Used&nbsp;</th>
-		        <th style="WHITE-SPACE: nowrap" scope="col"># Codes</th>
+		        <th>
+		        <span>Code</span></th>
+		        <th>Description </th>
+		        <th style="WHITE-SPACE: nowrap">Where Used</th>
+		        <th style="WHITE-SPACE: nowrap"># Codes</th>
 		      </tr>
 		      <tr>
-		        <td>SALI Area of Law&nbsp;</td> 
-		        <td>SALI-AOL:2&nbsp;</td> 
+		        <td><a href="/sali-areas-of-law">SALI Area of Law</a></td> 
+		        <td>SALI-AOL:2</td> 
 		        <td>Areas of Law codes 
 		          </td> 
 		        <td><div>Process <span></span> Area of Law<div></div></div></td> 
-		        <td>117&nbsp;</td> 
+		        <td>117</td> 
 		      </tr>
 		      <tr>
-		        <td>SALI Court&nbsp;</td> 
-		        <td>SALI-COURT&nbsp;</td> 
+		        <td>SALI Court</td> 
+		        <td>SALI-COURT</td> 
 		        <td>Codes for courts. Currently limited to U.S. courts. 
 		          </td> 
 		        <td><div>Process Object <span></span> Dispute: Venue<div></div></div></td> 
-		        <td>458&nbsp;</td> 
+		        <td>458</td> 
 		      </tr>
 		      <tr>
-		        <td>SALI Currency (ISO 4217)&nbsp;</td> 
-		        <td>ISO-4217&nbsp;</td> 
+		        <td>SALI Currency (ISO 4217)</td> 
+		        <td>ISO-4217</td> 
 		        <td>ISO Currency Codes 
 		          </td> 
 		        <td><div>Monetary Value <span></span> Currency<div></div></div></td> 
-		        <td>178&nbsp;</td> 
+		        <td>178</td> 
 		      </tr>
 		      <tr>
-		        <td>SALI Format&nbsp;</td> 
-		        <td>SALI-FMT&nbsp;</td> 
+		        <td>SALI Format</td> 
+		        <td>SALI-FMT</td> 
 		        <td>The format of a description 
 		          </td> 
 		        <td><div>Description <span></span> Format<div></div></div></td> 
-		        <td>2&nbsp;</td> 
+		        <td>2</td> 
 		      </tr>
 		      <tr>
-		        <td>SALI Governmental Body&nbsp;</td> 
-		        <td>SALI-GOVT&nbsp;</td> 
+		        <td>SALI Governmental Body</td> 
+		        <td>SALI-GOVT</td> 
 		        <td>An initial set of government code. Currently U.S. federal only. 
 		          </td> 
 		        <td><div>Player <span></span> Governmental Authority<div><div>Process Object <span></span> Regulatory: Authority<div></div></div></div></div></td> 
-		        <td>331&nbsp;</td> 
+		        <td>331</td> 
 		      </tr>
 		      <tr>
-		        <td>SALI Industry&nbsp;</td> 
-		        <td>SALI-IND&nbsp;</td> 
+		        <td>SALI Industry</td> 
+		        <td>SALI-IND</td> 
 		        <td>A default set of codes provided to define industries. Industry codes are imprecise and are provided give context in interpreting matter descriptions. This default code set is provided.  
 		          </td> 
 		        <td><div>Player <span></span> Industry<div></div></div></td> 
-		        <td>25&nbsp;</td> 
+		        <td>25</td> 
 		      </tr>
 		      <tr>
-		        <td>SALI Legal Entity&nbsp;</td> 
-		        <td>SALI-LEGENT:2&nbsp;</td> 
+		        <td>SALI Legal Entity</td> 
+		        <td>SALI-LEGENT:2</td> 
 		        <td>The second version of legal entities. Takes into account international considerations. 
 		          </td> 
 		        <td><div>Player <span></span> Legal Entity<div><div>Process Object <span></span> Transaction Legal Entity<div></div></div></div></div></td> 
-		        <td>27&nbsp;</td> 
+		        <td>27</td> 
 		      </tr>
 		      <tr>
-		        <td>SALI LMSS Type&nbsp;</td> 
-		        <td>SALI-LMST&nbsp;</td> 
+		        <td>SALI LMSS Type</td> 
+		        <td>SALI-LMST</td> 
 		        <td>The types of LMSS documents 
 		          </td> 
 		        <td><div>Header <span></span> LMSS Type<div></div></div></td> 
-		        <td>3&nbsp;</td> 
+		        <td>3</td> 
 		      </tr>
 		      <tr>
-		        <td>SALI LMSS Version&nbsp;</td> 
-		        <td>SALI-VERS&nbsp;</td> 
+		        <td>SALI LMSS Version</td> 
+		        <td>SALI-VERS</td> 
 		        <td>Supported versions of the standard 
 		          </td> 
 		        <td><div>Header <span></span> LMSS Version<div></div></div></td> 
-		        <td>1&nbsp;</td> 
+		        <td>1</td> 
 		      </tr>
 		      <tr>
-		        <td>SALI Location (Adapted ISO 3166-2)&nbsp;</td> 
-		        <td>SALI-ISO31662&nbsp;</td> 
+		        <td>SALI Location (Adapted ISO 3166-2)</td> 
+		        <td>SALI-ISO31662</td> 
 		        <td>ISO 3166-2 is part of the ISO 3166 standard published by the International Organization for Standardization (ISO), and defines codes for identifying the principal subdivisions (e.g., provinces or states) of all countries coded in ISO 3166-1. The official name of the standard is Codes for the representation of names of countries and their subdivisions – Part 2: Country subdivision code.  
 		<br>SALI has adapted part 2 to enforce uniqueness of names across the namespace. 
 		          </td> 
 		        <td><div>Matter <span></span> Locale<div></div></div></td> 
-		        <td>3,771&nbsp;</td> 
+		        <td>3,771</td> 
 		      </tr>
 		      <tr>
-		        <td>SALI Matter Narrative&nbsp;</td> 
-		        <td>SALI-MATNAR&nbsp;</td> 
+		        <td>SALI Matter Narrative</td> 
+		        <td>SALI-MATNAR</td> 
 		        <td>Codes used to identify the type of narrative. 
 		          </td> 
 		        <td><div>Narrative <span></span> Type<div></div></div></td> 
-		        <td>3&nbsp;</td> 
+		        <td>3</td> 
 		      </tr>
 		      <tr>
-		        <td>SALI Player Role&nbsp;</td> 
-		        <td>SALI-PROLE&nbsp;</td> 
+		        <td>SALI Player Role</td> 
+		        <td>SALI-PROLE</td> 
 		        <td>The types of player roles that can be applied to a matter. 
 		          </td> 
 		        <td><div>Player <span></span> Player Role<div></div></div></td> 
-		        <td>45&nbsp;</td> 
+		        <td>45</td> 
 		      </tr>
 		      <tr>
-		        <td>SALI Process&nbsp;</td> 
-		        <td>SALI-PROC&nbsp;</td> 
+		        <td>SALI Process</td> 
+		        <td>SALI-PROC</td> 
 		        <td>Codes used to define a legal service process 
 		          </td> 
 		        <td><div>Process <span></span> Process Type<div></div></div></td> 
-		        <td>35&nbsp;</td> 
+		        <td>35</td> 
 		      </tr>
 		      <tr>
-		        <td>SALI Process Status&nbsp;</td> 
-		        <td>SALI-PROCSTAT&nbsp;</td> 
+		        <td>SALI Process Status</td> 
+		        <td>SALI-PROCSTAT</td> 
 		        <td>The status of a process 
 		          </td> 
 		        <td><div>Process Object <span></span> Status<div></div></div></td> 
-		        <td>3&nbsp;</td> 
+		        <td>3</td> 
 		      </tr>
 		      <tr>
-		        <td>SALI Representation Role&nbsp;</td> 
-		        <td>SALI-RROLE&nbsp;</td> 
+		        <td>SALI Representation Role</td> 
+		        <td>SALI-RROLE</td> 
 		        <td>The types of representation roles for a player. 
 		          </td> 
 		        <td><div>Counsel <span></span> Representation Role<div></div></div></td> 
-		        <td>4&nbsp;</td> 
+		        <td>4</td> 
 		      </tr>
 		      <tr>
-		        <td>SALI Trial Type&nbsp;</td> 
-		        <td>SALI-TRITYP&nbsp;</td> 
+		        <td>SALI Trial Type</td> 
+		        <td>SALI-TRITYP</td> 
 		        <td>The type of trial format. 
 		          </td> 
 		        <td><div>Process Object <span></span> Dispute: Trial Type<div></div></div></td> 
-		        <td>2&nbsp;</td> 
+		        <td>2</td> 
 		      </tr>
 		    </tbody></table>
   </div>
