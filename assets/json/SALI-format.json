@@ -1,0 +1,28 @@
+[
+  {
+    "#": "1",
+    "Code Set": "SALI Format",
+    "Level": "1",
+    "Code": "HTML",
+    "Full Code": "HTML",
+    "Short Name": "HTML",
+    "Name": "HTML",
+    "Description": "The HTML format of a description.",
+    "Tags": "",
+    "URL": "",
+    "Comment": ""
+  },
+  {
+    "#": "2",
+    "Code Set": "SALI Format",
+    "Level": "1",
+    "Code": "TEXT",
+    "Full Code": "TEXT",
+    "Short Name": "Text",
+    "Name": "Text",
+    "Description": "The text format for a description.",
+    "Tags": "",
+    "URL": "",
+    "Comment": ""
+  }
+]

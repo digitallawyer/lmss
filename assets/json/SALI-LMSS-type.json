@@ -1,0 +1,41 @@
+[
+  {
+    "#": "1",
+    "Code Set": "SALI LMSS Type",
+    "Level": "1",
+    "Code": "INST",
+    "Full Code": "INST",
+    "Short Name": "Instance",
+    "Name": "Instance",
+    "Description": "An LMS Instance",
+    "Tags": "",
+    "URL": "",
+    "Comment": ""
+  },
+  {
+    "#": "2",
+    "Code Set": "SALI LMSS Type",
+    "Level": "1",
+    "Code": "QRY",
+    "Full Code": "QRY",
+    "Short Name": "Query",
+    "Name": "Query",
+    "Description": "An LMS Query",
+    "Tags": "",
+    "URL": "",
+    "Comment": ""
+  },
+  {
+    "#": "3",
+    "Code Set": "SALI LMSS Type",
+    "Level": "1",
+    "Code": "TMPL",
+    "Full Code": "TMPL",
+    "Short Name": "Template",
+    "Name": "Template",
+    "Description": "An LMS Template",
+    "Tags": "",
+    "URL": "",
+    "Comment": ""
+  }
+]
