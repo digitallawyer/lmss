@@ -1,13 +1,4 @@
----
-layout: page
-title: Matter API
-description: Integrate the LMSS in your applications
-nav-menu: false
-show_tile: false
-image: assets/images/api.jpg
----
-
-<p style="font-size:0.75em"><a href="/">Home</a>&nbsp;&nbsp;>&nbsp;&nbsp;<a href="/api">API</a>&nbsp;&nbsp;>&nbsp;&nbsp;Legal.io Matter API
+I"…<p style="font-size:0.75em"><a href="/">Home</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<a href="/api">API</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;Legal.io Matter API
 </p>
 <!-- Main -->
 <div id="main" class="alt">
@@ -20,34 +11,6 @@ image: assets/images/api.jpg
 		<p>A LMSS Instance API to create LMSS-conforming matters in the Legal.io network. Useful for legal departments and law firms to find high-quality lawyers and legal professionals.</p>
 	</section>
 </div>
-<div>
-	<form name="test_form">
-        <p>
-            <label for="given_name">Community API token</label>
-            <input name="api_token" pattern=".+" required="animated-label" type="text" disabled="disabled" value="7b69c2e4-c1aa-4b69-888c-0a30f55556d2">
-			<label for="given_name">First name *</label>
-            <input name="given_name" pattern=".+" required="animated-label" type="text">
-            <label for="family_name">Last name</label>
-            <input name="family_name" pattern=".+" required="animated-label" type="text">
-            <label for="email">Email</label>
-            <input name="email" pattern=".+" required="animated-label" type="text">
-            <label for="telephone">Telephone *</label>
-            <input name="telephone" pattern=".+" required="animated-label" type="text">
-            <label for="summary">Summary *</label>
-            <input name="summary" pattern=".+" required="animated-label" type="text">
-            <label for="location">Location of where the legal matter is (state, city *</label>
-            <input name="location" pattern=".+" required="animated-label" type="text">
-            <label for="content">Content *</label>
-            <input name="content" pattern=".+" required="animated-label" type="text">
-			<label>Practice Areas</label>
-			<select id="#PracticeAreas" class="multiselect" name="practice_areas" multiple="multiple" data-placeholder="Select" style="width:250px"><option value="Family">Family</option></select>
-            <button name="send_data" type="test">Next</button>
-            <div id="post_data">
-            	<div id="response">
-
-
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script>
 jQuery(function() {
         var $form = jQuery('form[name="test_form"]')
@@ -90,7 +53,7 @@ jQuery(function() {
 
             var json = JSON.stringify(data)
             var community_token = $form.find('input[name="api_token"]').val()
-            var url = 'https://app.legal.io/api/v1/intake/new'
+            var url = '/api/v1/intake/new'
             var headers = {
                 'X-LEGALIO-TOKEN': community_token,
                 'Content-Type': 'application/json',
@@ -129,3 +92,5 @@ jQuery(function() {
         })
     });
 </script>
+
+:ET
