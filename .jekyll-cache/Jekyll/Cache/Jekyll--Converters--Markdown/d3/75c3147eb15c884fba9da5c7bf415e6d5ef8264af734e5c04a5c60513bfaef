@@ -1,43 +1,33 @@
----
-layout: page
-title: LMSS Structure
-description: An in-depth overview of the structure of LMSS
-nav-menu: true
-show_tile: true
-image: assets/images/structure.jpg
----
+I"�P<h1 id="lmss-structure">LMSS Structure</h1>
 
+<h2 id="1-overview">1. Overview</h2>
 
-# LMSS Structure
-
-## 1. Overview
-
-The LMSS document is comprised of a Header and one or more Matters. The Header
+<p>The LMSS document is comprised of a Header and one or more Matters. The Header
 and the Matter(s) are containers. Each container has elements that may be of type Text,
 Numeric, Enumeration or Container. Enumerations are stored in Text(250) fields to
 accommodate multiple levels of specificity that are represented as concatenated codes.
-Containers are pointers to other structures.
+Containers are pointers to other structures.</p>
 
-A well-formed Document is a structure that includes all required fields. (Note that the
+<p>A well-formed Document is a structure that includes all required fields. (Note that the
 concept of a well-formed document applies to instance but not templates or queries.) In
 the tables below, “REQ” indicates whether the element is required (in an LMSS instance
 but not a query), “MULT” indicates whether multiple values are permitted. A well-formed
 document is required in the interchange of instances of matters between systems. A
 well-formed document is not required when the LMSS is used in a query. In those
-instances, a missing field matches all instances. See LMSS Queries below.
+instances, a missing field matches all instances. See LMSS Queries below.</p>
 
-## 2. Document
+<h2 id="2-document">2. Document</h2>
 
-The Document container is the top-level container in the LMSS instance. The Document
+<p>The Document container is the top-level container in the LMSS instance. The Document
 must have a Header and one or more Matters.
 Document container elements
 ELEMENT REQ MULT. TYPE COMMENTS
 Header Y N Container The header information for the document
-Matter Y Y Container The matters included in the document.
+Matter Y Y Container The matters included in the document.</p>
 
-## 4.3 Document Header
+<h2 id="43-document-header">4.3 Document Header</h2>
 
-The LMSS document header is describes the version, type, default language and
+<p>The LMSS document header is describes the version, type, default language and
 character set needed to for correctly read the LMSS document.
 ELEMENT REQ MULT. TYPE COMMENTS
 Title N N Text(250) An optional title for the document.
@@ -46,11 +36,9 @@ encoded
 Type Y N Enumeration:
 SALI LMSS Type
 The type of the document. Supported types
-include "Instance", "Template", and "Query".
+include “Instance”, “Template”, and “Query”.</p>
 
-
-```
-The default value is "Instance"
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The default value is "Instance"
 Language N N Enumeration:
 IETF BCP 47
 Languages follow the Internet Engineering
@@ -64,19 +52,19 @@ Declaration N Y Container Declarations are indexes of names that need
 to be cross referenced in a specification.
 NameIDs can be used in place of names
 wherever names may appear.
-```
-#### 4.3.1 Title
+</code></pre></div></div>
+<h4 id="431-title">4.3.1 Title</h4>
 
-An optional title for the document.
+<p>An optional title for the document.</p>
 
-#### 4.3.2 Version
+<h4 id="432-version">4.3.2 Version</h4>
 
-The LMSS version is defined and maintained by SALI. Published version of the
-standard may be found at Sali.org
+<p>The LMSS version is defined and maintained by SALI. Published version of the
+standard may be found at Sali.org</p>
 
-#### 4.3.3 Type
+<h4 id="433-type">4.3.3 Type</h4>
 
-Type refers to the type of the Document. Permissible values include:
+<p>Type refers to the type of the Document. Permissible values include:
  Instance – An instance encodes a specific matter. Instances have required
 containers and elements to be well formed.
  Template – A template encodes default settings of an instance. Parts of
@@ -84,26 +72,25 @@ templates that are not specified are assumed to accept all values. Templates
 must adhere to the LMSS container structure, however required elements are
 relaxed.
  Query – A query encodes a database query following a SQL-like structure.
-Queries have select, where, order by and limit structures.
+Queries have select, where, order by and limit structures.</p>
 
-#### 4.3.4 Language
+<h4 id="434-language">4.3.4 Language</h4>
 
-Language declares the default language of the LMSS structure. Languages follow the
-Internet Engineering Task Force recommendation in BCP 47.
+<p>Language declares the default language of the LMSS structure. Languages follow the
+Internet Engineering Task Force recommendation in BCP 47.</p>
 
+<h4 id="435-charset">4.3.5 Charset</h4>
 
-#### 4.3.5 Charset
+<p>The charset describes the encoding of the characters in the LMSS document. The
+default encoding is UTF-8.</p>
 
-The charset describes the encoding of the characters in the LMSS document. The
-default encoding is UTF-8.
+<h4 id="436-extension-link">4.3.6 Extension Link</h4>
 
-#### 4.3.6 Extension Link
+<p>A link to an extension file that conforms to the LMSS Extension file format.</p>
 
-A link to an extension file that conforms to the LMSS Extension file format.
+<h3 id="44-extension">4.4 Extension</h3>
 
-### 4.4 Extension
-
-An extension container is an in-document definition of an extension. A document may
+<p>An extension container is an in-document definition of an extension. A document may
 include an array of these in the header. The scope applies to the document.
 ELEMENT REQ. MULT. TYPE COMMENTS
 Code Set Y N Text(40) The code of the code set being extended
@@ -114,64 +101,62 @@ before this definition.
 Name Y N Text(250) The short name of the extended code
 A sample in-document extension is shown below
 {
-"document" : {
-"header" : {
-"lmss version" : "1.02" //Draft LMSS 1.0 Rev 2
-,"lmss type" : "INST" //Instance
-,"language" : "en-us"
-,"charset" : "UTF-8"
-,"extension" : [{
-"code set" : "SALI-IND"
-,"code" : "@MULFAM"
-,"parent" : "RES"
-,"name" : "Multi-Family Residential"
+“document” : {
+“header” : {
+“lmss version” : “1.02” //Draft LMSS 1.0 Rev 2
+,”lmss type” : “INST” //Instance
+,”language” : “en-us”
+,”charset” : “UTF-8”
+,”extension” : [{
+“code set” : “SALI-IND”
+,”code” : “@MULFAM”
+,”parent” : “RES”
+,”name” : “Multi-Family Residential”
 }
 ,{
-"code set" : "SALI-IND"
+“code set” : “SALI-IND”</p>
 
-
-,"code" : "@OFFICE"
-,"parent" : "RES"
-,"name" : "Office"
+<p>,”code” : “@OFFICE”
+,”parent” : “RES”
+,”name” : “Office”
 }
 ,{
-"code set" : "SALI-IND"
-,"code" : "@INDUST"
-,"parent" : "RES"
-,"name" : "Industrial"
+“code set” : “SALI-IND”
+,”code” : “@INDUST”
+,”parent” : “RES”
+,”name” : “Industrial”
 }
 ,{
-"code set" : "SALI-IND"
-,"code" : "@RESIDL"
-,"parent" : "RES"
-,"name" : "Residential"
+“code set” : “SALI-IND”
+,”code” : “@RESIDL”
+,”parent” : “RES”
+,”name” : “Residential”
 }]
 }
 }
-}
+}</p>
 
-#### 4.4.1 Code Set
+<h4 id="441-code-set">4.4.1 Code Set</h4>
 
-The LMSS Code of the code set. (See 6.1)
+<p>The LMSS Code of the code set. (See 6.1)</p>
 
-#### 4.4.2 Code
+<h4 id="442-code">4.4.2 Code</h4>
 
-The code assigned to the extension. The code will have a "@" prepended to it when
-used.
+<p>The code assigned to the extension. The code will have a “@” prepended to it when
+used.</p>
 
-#### 4.4.3 Parent
+<h4 id="443-parent">4.4.3 Parent</h4>
 
-The parent code. The parent code must be an existing standard code in the code set, or
-a previously defined extension. Examples include "RES" or "@OFFICE".
+<p>The parent code. The parent code must be an existing standard code in the code set, or
+a previously defined extension. Examples include “RES” or “@OFFICE”.</p>
 
-#### 4.4.4 Name
+<h4 id="444-name">4.4.4 Name</h4>
 
-The short name of extension code.
+<p>The short name of extension code.</p>
 
+<h3 id="45-declaration">4.5 Declaration</h3>
 
-### 4.5 Declaration
-
-A declaration may be used to assign and index to an item to ensure accurate cross
+<p>A declaration may be used to assign and index to an item to ensure accurate cross
 referencing. Declarations are typically used for legal entities but can be used in place of
 a Name (See 4.10.1, 4.11.1 and 4.11.2).
 A legal person or entity is any human or non-human entity, in other words, any human
@@ -179,7 +164,7 @@ being, firm, or government agency that is recognized as having privileges and
 obligations, such as having the ability to enter into contracts, to sue, and to be sued.
 Entities are used to maintain referential integrity across LMSS structure. For example, if
 the matter includes two processes that refer to the same legal entity as in the example,
-"Review and negotiate project labor agreement for Jane Smith." The matter may be
+“Review and negotiate project labor agreement for Jane Smith.” The matter may be
 encoded to have two processes – one for review and another of negotiation. But the
 review and negotiation are the same legal entity. An entity declaration should be used in
 this instance and the entity NameID should be used in each process to ensure that it is
@@ -188,95 +173,91 @@ ELEMENT REQ. MULT. TYPE COMMENTS
 NameID Y N Text(40) The NameID of the entity. Must be of the
 regular expression form \^[A-Za-z0-9_-]{1,39}
 Name Y N Text(250) Name to be inserted wherever the NameID
-appears
+appears</p>
 
-#### 4.5.1 NameID
+<h4 id="451-nameid">4.5.1 NameID</h4>
 
-The ID to be used in place of a name. NameIDs must begin with a caret symbol. (e.g.
-^102 or ^EntityXYZ).
+<p>The ID to be used in place of a name. NameIDs must begin with a caret symbol. (e.g.
+^102 or ^EntityXYZ).</p>
 
-#### 4.5.2 Name
+<h4 id="452-name">4.5.2 Name</h4>
 
-The name to be used in place of the NameID.
+<p>The name to be used in place of the NameID.</p>
 
-### 4.6 Matter
+<h3 id="46-matter">4.6 Matter</h3>
 
-The Matter container encapsulates the information for a matter. There may be more
+<p>The Matter container encapsulates the information for a matter. There may be more
 than one matter per document. The matter must have a title, a human readable
 description, a locale and one or more processes. The locale may restrict the types of
 the processes. For example, certain bankruptcy processes are limited to the US
-because those processes a defined by US Bankruptcy law.
+because those processes a defined by US Bankruptcy law.</p>
 
-
-Matter container elements
+<p>Matter container elements
 ELEMENT REQ MULT. TYPE COMMENTS
 Title Y N Text( 250 ) The title of the matter.
 Locale Y N Enumeration: ISO
 3166 - 2
 The location of the matter.
 Process Y Y Container The process or processes for this matter.
-Narrative Y N Container The description of the matter.
+Narrative Y N Container The description of the matter.</p>
 
-#### 4.6.1 Title
+<h4 id="461-title">4.6.1 Title</h4>
 
-A required title for the process.
+<p>A required title for the process.</p>
 
-#### 4.6.2 Locale
+<h4 id="462-locale">4.6.2 Locale</h4>
 
-A required locale for the matter. The locale is an enumeration.
+<p>A required locale for the matter. The locale is an enumeration.</p>
 
-### 4.7 Narrative
+<h3 id="47-narrative">4.7 Narrative</h3>
 
-A narrative holds a group of related matter descriptions. It includes a required type
+<p>A narrative holds a group of related matter descriptions. It includes a required type
 which is an enumerated list, an optional usage tag, and an optional source. Each
 narrative can have a specified usage so a Matter can have multiple narratives based on
 the audience. each narrative is intended to capture a logically unique matter
 interpretation of the matter. Formatting and language variants are accommodated in the
-description container.
+description container.</p>
 
-
-Narrative container elements
+<p>Narrative container elements
 ELEMENT REQ. MULT. TYPE COMMENTS
 Type Y N Enumeration:
 SALI Narrative
 Type
-The type of the narrative.
+The type of the narrative.</p>
 
-Usage (^) N N Text( 250 ) Descriptions of the intended audience or
+<p>Usage (^) N N Text( 250 ) Descriptions of the intended audience or
 other usage of the narrative
 Description Y Y Container One or more descriptions of a narrative.
-Source N Y Text( 250 ) The source of the narrative
+Source N Y Text( 250 ) The source of the narrative</p>
 
-#### 4.7.1 Type
+<h4 id="471-type">4.7.1 Type</h4>
 
-The narrative type is an enumerated list intended to capture the sensitivity of the
-narrative. Values include: public, confidential, private, generic, etc.
+<p>The narrative type is an enumerated list intended to capture the sensitivity of the
+narrative. Values include: public, confidential, private, generic, etc.</p>
 
-#### 4.7.2 Usage
+<h4 id="472-usage">4.7.2 Usage</h4>
 
-Usage is an optional human readable field that should capture the audience or usage of
-the narrative. Examples for the same matter might be: "Narrative written for pitches to
-lenders," "Narrative written for pitches to borrowers," and "Narrative written for generic
-finance pitches."
+<p>Usage is an optional human readable field that should capture the audience or usage of
+the narrative. Examples for the same matter might be: “Narrative written for pitches to
+lenders,” “Narrative written for pitches to borrowers,” and “Narrative written for generic
+finance pitches.”</p>
 
-#### 4.7.3 Source
+<h4 id="473-source">4.7.3 Source</h4>
 
-The source is an optional element that describe the source of the narrative. You may
-provide multiple sources. Examples include: "2015 litigation department compensation
-memo," and "2017 environmental practice Chambers submission."
+<p>The source is an optional element that describe the source of the narrative. You may
+provide multiple sources. Examples include: “2015 litigation department compensation
+memo,” and “2017 environmental practice Chambers submission.”</p>
 
-### 4.8 Description
+<h3 id="48-description">4.8 Description</h3>
 
-The description is an container encapsulates the specific text of a specific narrative. The
+<p>The description is an container encapsulates the specific text of a specific narrative. The
 description has text, a format and a language. If the language is not specified, it is
 inherited from the matter. For example, if a firm keeps French and English versions of
 the same narrative, or plain text and HTML formatted versions of the same narrative,
 these would be accommodated in the description container.
-ELEMENT REQ. MULT. TYPE COMMENTS
+ELEMENT REQ. MULT. TYPE COMMENTS</p>
 
-
-```
-Text Y N Text(4000) The description of the matter.
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Text Y N Text(4000) The description of the matter.
 Format Y N Enumeration of
 Narrative
 Formats
@@ -286,23 +267,23 @@ IETF BCP 47
 The language of the description. If omitted, it
 is assumed to be the same as that of the
 matter.
-```
-#### 4.8.1 Text
+</code></pre></div></div>
+<h4 id="481-text">4.8.1 Text</h4>
 
-The text holds the characters of the description. The format of the text is interpreted
-based on the description type.
+<p>The text holds the characters of the description. The format of the text is interpreted
+based on the description type.</p>
 
-#### 4.8.2 Format
+<h4 id="482-format">4.8.2 Format</h4>
 
-Two formats are supported: Text and HTML.
+<p>Two formats are supported: Text and HTML.</p>
 
-#### 4.8.3 Language
+<h4 id="483-language">4.8.3 Language</h4>
 
-Language is optionally specified by using BCP 47.
+<p>Language is optionally specified by using BCP 47.</p>
 
-### 4.9 Process
+<h3 id="49-process">4.9 Process</h3>
 
-The Process container describes the process, service or product being delivered.
+<p>The Process container describes the process, service or product being delivered.
 Every process must have a single process type. Top-level process types are
 transactions, disputes, regulatory proceedings, bankruptcy/restructurings, and advisory.
 If we think of the process as a sentence, the process type reprints the “verb.” They
@@ -316,10 +297,9 @@ The Area of Law provides context to the process. The area of law should be thoug
 the primary subject of law for the process — think the class that’s the attorney was in
 when she learned about the applicable law. The area of law is provided primarily for
 context as in the examples, “He prosecuted the defendant” and “She prosecuted the
-patent.” The first is criminal law, the second is intellectual property law.
+patent.” The first is criminal law, the second is intellectual property law.</p>
 
-
-Process container elements
+<p>Process container elements
 ELEMENT REQ. MULT. TYPE COMMENTS
 Title N N Text(100) The title of the process.
 Description N N Text(4000) An optional description of the process.
@@ -344,38 +324,37 @@ Process
 Object
 N Y Container The process object hold information
 specific to each kind of process. See the
-discussion below.
+discussion below.</p>
 
-#### 4.9.1 Title
+<h4 id="491-title">4.9.1 Title</h4>
 
-The optional title of the process. Examples include: "LLC formation in California", and
-"License of technology to French company.".
+<p>The optional title of the process. Examples include: “LLC formation in California”, and
+“License of technology to French company.”.</p>
 
-#### 4.9.2 Description
+<h4 id="492-description">4.9.2 Description</h4>
 
-An optional field to store additional information about the process.
+<p>An optional field to store additional information about the process.</p>
 
-#### 4.9.3 Process Type
+<h4 id="493-process-type">4.9.3 Process Type</h4>
 
-A SALI enumerated value. Top-level process types are transactions, disputes,
+<p>A SALI enumerated value. Top-level process types are transactions, disputes,
 regulatory proceedings, bankruptcy/restructurings, and advisory. If we think of the
 process as a sentence, the process type reprints the “verb.” They describe the action
-that is being taken.
+that is being taken.</p>
 
-#### 4.9.4 Area of Law
+<h4 id="494-area-of-law">4.9.4 Area of Law</h4>
 
-The Area of Law is a SALI enumerated value that provides context to the process. The
+<p>The Area of Law is a SALI enumerated value that provides context to the process. The
 area of law should be thought of the primary subject of law for the process — think the
 class that’s the attorney was in when she learned about the applicable law. The area of
-law is provided primarily for context as in the examples, “He prosecuted the defendant”
+law is provided primarily for context as in the examples, “He prosecuted the defendant”</p>
 
+<p>and “She prosecuted the patent.” The first is criminal law, the second is intellectual
+property law. There can be multiple areas of law.</p>
 
-and “She prosecuted the patent.” The first is criminal law, the second is intellectual
-property law. There can be multiple areas of law.
+<h3 id="410-player">4.10 Player</h3>
 
-### 4.10 Player
-
-The players are the subject of the sentence and sometimes the object. Primary players
+<p>The players are the subject of the sentence and sometimes the object. Primary players
 are the primary parties involved in a legal process. The Player container has the
 following fields:
 Player container elements
@@ -405,73 +384,71 @@ Authority
 Used when the player is a governmental
 authority
 Counsel N Y Container The legal representatives of the player
-*Either a Name or a NameID is required.
+*Either a Name or a NameID is required.</p>
 
-#### 4.10.1 Name
+<h4 id="4101-name">4.10.1 Name</h4>
 
-The name is the name of player in human readable form. If a NameID is used, an Name
-is not required.
+<p>The name is the name of player in human readable form. If a NameID is used, an Name
+is not required.</p>
 
-#### 4.10.2 Player Role
+<h4 id="4102-player-role">4.10.2 Player Role</h4>
 
-The Player Role is an optional element that provides context. Examples of roles are
+<p>The Player Role is an optional element that provides context. Examples of roles are
 Plaintiff, Defendant, Acquiror, etc. .The Roles span both legal roles and functional roles.
-Play is an enumerated value.
+Play is an enumerated value.</p>
 
+<h4 id="4103-industry">4.10.3 Industry</h4>
 
-#### 4.10.3 Industry
+<p>The industry is an optional field that describes the industry of the player. Industry is an
+enumerated value.</p>
 
-The industry is an optional field that describes the industry of the player. Industry is an
-enumerated value.
+<h4 id="4104-legal-entity">4.10.4 Legal Entity</h4>
 
-#### 4.10.4 Legal Entity
-
-Legal entity describes the type of the player. In law, a "legal person" or "legal entity" is
+<p>Legal entity describes the type of the player. In law, a “legal person” or “legal entity” is
 any human or non-human entity, in other words, any human being, firm, or government
 agency that is recognized as having privileges and obligations, such as having the
 ability to enter into contracts, to sue, and to be sued. Legal Entity is an enumerated
-value.
+value.</p>
 
-#### 4.10. 5 Governmental Authority
+<h4 id="410-5-governmental-authority">4.10. 5 Governmental Authority</h4>
 
-The enumerated identification of the governmental authority if the player is a
-governmental authority.
+<p>The enumerated identification of the governmental authority if the player is a
+governmental authority.</p>
 
-### 4.11 Counsel
+<h3 id="411-counsel">4.11 Counsel</h3>
 
-The counsel container includes all of the legal representatives of the player. The fields
+<p>The counsel container includes all of the legal representatives of the player. The fields
 of the counsel container are described below:
 Counsel container elements
-ELEMENT REQ. MULT. TYPE COMMENTS
+ELEMENT REQ. MULT. TYPE COMMENTS</p>
 
-Name (^) Y* N Text(250) The name of the legal representative. May
+<p>Name (^) Y* N Text(250) The name of the legal representative. May
 use a Name or a declared ID.
 Firm Name N* N Text(250) The firms of the legal representative. May
 use a Name or a declared ID.
 Representation
 Role
 Y N Enumeration The role of the legal representative
-*Either a Name or a NameID is required.
+*Either a Name or a NameID is required.</p>
 
-#### 4.11.1 Name
+<h4 id="4111-name">4.11.1 Name</h4>
 
-The name is the name of counsel in human readable form. If a NameID is used, an
-Name is not required. (NameIDs are indicated by prefixing them with a caret "^" symbol.
-e.g. "^103".)
+<p>The name is the name of counsel in human readable form. If a NameID is used, an
+Name is not required. (NameIDs are indicated by prefixing them with a caret “^” symbol.
+e.g. “^103”.)</p>
 
+<h4 id="4112-firm-name">4.11.2 Firm Name</h4>
 
-#### 4.11.2 Firm Name
+<p>The firm name is the name of firm that the counsel is part of in human readable form. If
+a NameID is used, an Firm Name is not required.</p>
 
-The firm name is the name of firm that the counsel is part of in human readable form. If
-a NameID is used, an Firm Name is not required.
+<h4 id="4113-representation-role">4.11.3 Representation Role</h4>
 
-#### 4.11.3 Representation Role
+<p>The role of the legal representative. Role is an enumerated value.</p>
 
-The role of the legal representative. Role is an enumerated value.
+<h3 id="412-process-object">4.12 Process Object</h3>
 
-### 4.12 Process Object
-
-The process object encapsulates important elements of the process. A process can
+<p>The process object encapsulates important elements of the process. A process can
 have multiple process object. The process object can simply be a summary of key
 attributes of the overall process. Additional process objects can be attached to describe
 the preconditions and post conditions of a process. For example, for a merger, there
@@ -489,19 +466,18 @@ N N Date The term sheet date, if appropriate
 Effective Date N N Date The effective date of the process
 Closing Date N N Date Closing date, if appropriate
 Announce date N N Date The date process was announced, if
-appropriate
+appropriate</p>
 
-Asset Location (^) N N Text(4000) Location of the transaction - esp. for real
+<p>Asset Location (^) N N Text(4000) Location of the transaction - esp. for real
 property
 Asset
 Description
 N N Text(4000) Description of the asset such as asset type,
 asset size, etc.
 Monetary Value (^) N N Container The monetary value of the transaction,
-dispute or object
+dispute or object</p>
 
-
-ELEMENT REQ. MULT. TYPE COMMENTS
+<p>ELEMENT REQ. MULT. TYPE COMMENTS
 Non-Monetary
 Value
 N N Text(400) The non-monetary value of the transaction,
@@ -566,10 +542,9 @@ Duration
 N N Integer Duration of the dispute in months
 Dispute: Multi-
 Jurisdictional
-N N Boolean Set if the dispute is multijurisdictional
+N N Boolean Set if the dispute is multijurisdictional</p>
 
-
-ELEMENT REQ. MULT. TYPE COMMENTS
+<p>ELEMENT REQ. MULT. TYPE COMMENTS
 Dispute:
 Number of
 Depositions
@@ -578,15 +553,16 @@ Dispute:
 Number of
 Experts
 N N Integer Number of experts
-See the table above for descriptions.
+See the table above for descriptions.</p>
 
-### 4.13 Monetary Value
+<h3 id="413-monetary-value">4.13 Monetary Value</h3>
 
-Monetary Value encapsulates a financial value attribute. It consists of a floating point
+<p>Monetary Value encapsulates a financial value attribute. It consists of a floating point
 number and a currency code.
 Monetary value container elements
 ELEMENT REQ. MULT. TYPE COMMENTS
 Currency Y N Enumeration:
 Currency
 A currency code a defined by ISO 4217
-Value Y N Float A floating point number that represents the value
+Value Y N Float A floating point number that represents the value</p>
+:ET

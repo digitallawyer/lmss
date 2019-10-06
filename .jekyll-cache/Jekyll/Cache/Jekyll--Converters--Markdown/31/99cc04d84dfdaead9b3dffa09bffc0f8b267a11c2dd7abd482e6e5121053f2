@@ -1,20 +1,11 @@
----
-layout: page-wide
-title: LMSS Codes
-description: A detailed look at the LMSS Codes
-nav-menu: true
-show_tile: true
-image: assets/images/codes.jpg
----
-
-<!-- Main -->
+I"ž!<!-- Main -->
 <div id="main" class="alt">
 	<!-- One -->
 	<section>
 		<header class="major">
 			<h1>LMSS Codes</h1>
 		</header>
-		<input type="text" class="light-table-filter" data-table="order-table" placeholder="Enter one or more keywords to search the codes">
+		<input type="text" class="light-table-filter" data-table="order-table" placeholder="Enter one or more keywords to search the codes" />
 		<p>
 		<div class="table-responsive">
 		    <table class="table-wrapper order-table table">
@@ -60,9 +51,9 @@ image: assets/images/codes.jpg
 		          </td> 
 		        <td><div>Monetary Value <span></span> Currency<div></div></div></td> 
 		        <td><a href="/SALI-currency">178</a></td> 
-		        <td><a href="/SALI-currency">HTML</a></td> 
+		        <td>HTML</td> 
 		        <td><a href="/assets/xlsx/SALI-currency.xlsx">XLSX</a></td>
-		        <td><a href="assets/json/SALI-currency.json" target="_blank">JSON</a></td>
+		        <td>JSON</td>
 		      </tr>
 		      <tr>
 		        <td>SALI Format</td> 
@@ -72,7 +63,7 @@ image: assets/images/codes.jpg
 		        <td><div>Description <span></span> Format<div></div></div></td> 
 		        <td>2</td> 
 		        <td>HTML</td> 
-		        <td><a href="/assets/xlsx/SALI-format.xlsx">XLSX</a></td> 
+		        <td>XLSX</td> 
 		        <td>JSON</td>
 		      </tr>
 		      <tr>
@@ -83,7 +74,7 @@ image: assets/images/codes.jpg
 		        <td><div>Player <span></span> Governmental Authority<div><div>Process Object <span></span> Regulatory: Authority<div></div></div></div></div></td> 
 		        <td>331</td> 
 		        <td>HTML</td> 
-		        <td><a href="/assets/xlsx/SALI-governmental-body.xlsx">XLSX</a></td>  
+		        <td>XLSX</td> 
 		        <td>JSON</td>
 		      </tr>
 		      <tr>
@@ -94,7 +85,7 @@ image: assets/images/codes.jpg
 		        <td><div>Player <span></span> Industry<div></div></div></td> 
 		        <td>25</td> 
 		        <td>HTML</td> 
-		        <td><a href="/assets/xlsx/SALI-industry.xlsx">XLSX</a></td>  
+		        <td>XLSX</td> 
 		        <td>JSON</td>
 		      </tr>
 		      <tr>
@@ -105,7 +96,7 @@ image: assets/images/codes.jpg
 		        <td><div>Player <span></span> Legal Entity<div><div>Process Object <span></span> Transaction Legal Entity<div></div></div></div></div></td> 
 		        <td>27</td>
 				<td>HTML</td> 
-		        <td><a href="/assets/xlsx/SALI-legal-entity.xlsx">XLSX</a></td>  
+		        <td>XLSX</td> 
 		        <td>JSON</td> 
 		      </tr>
 		      <tr>
@@ -116,7 +107,7 @@ image: assets/images/codes.jpg
 		        <td><div>Header <span></span> LMSS Type<div></div></div></td> 
 		        <td>3</td> 
 		        <td>HTML</td> 
-		        <td><a href="/assets/xlsx/SALI-LMSS-type.xlsx">XLSX</a></td>  
+		        <td>XLSX</td> 
 		        <td>JSON</td>
 		      </tr>
 		      <tr>
@@ -127,19 +118,19 @@ image: assets/images/codes.jpg
 		        <td><div>Header <span></span> LMSS Version<div></div></div></td> 
 		        <td>1</td>
 		        <td>HTML</td> 
-		        <td><a href="/assets/xlsx/SALI-LMSS-version.xlsx">XLSX</a></td>   
+		        <td>XLSX</td> 
 		        <td>JSON</td>
 		      </tr>
 		      <tr>
 		        <td>SALI Location (Adapted ISO 3166-2)</td> 
 		        <td>SALI-ISO31662</td> 
 		        <td>ISO 3166-2 is part of the ISO 3166 standard published by the International Organization for Standardization (ISO), and defines codes for identifying the principal subdivisions (e.g., provinces or states) of all countries coded in ISO 3166-1. The official name of the standard is Codes for the representation of names of countries and their subdivisions â€“ Part 2: Country subdivision code.  
-		<br>SALI has adapted part 2 to enforce uniqueness of names across the namespace. 
+		<br />SALI has adapted part 2 to enforce uniqueness of names across the namespace. 
 		          </td> 
 		        <td><div>Matter <span></span> Locale<div></div></div></td> 
 		        <td>3,771</td>
 		        <td>HTML</td> 
-		        <td><a href="/assets/xlsx/SALI-location.xlsx">XLSX</a></td>  
+		        <td>XLSX</td> 
 		        <td>JSON</td> 
 		      </tr>
 		      <tr>
@@ -150,7 +141,7 @@ image: assets/images/codes.jpg
 		        <td><div>Narrative <span></span> Type<div></div></div></td> 
 		        <td>3</td> 
 		        <td>HTML</td> 
-		        <td><a href="/assets/xlsx/SALI-matter-narrative.xlsx">XLSX</a></td>  
+		        <td>XLSX</td> 
 		        <td>JSON</td>
 		      </tr>
 		      <tr>
@@ -161,7 +152,7 @@ image: assets/images/codes.jpg
 		        <td><div>Player <span></span> Player Role<div></div></div></td> 
 		        <td>45</td>
 		        <td>HTML</td> 
-		        <td><a href="/assets/xlsx/SALI-player-role.xlsx">XLSX</a></td>  
+		        <td>XLSX</td> 
 		        <td>JSON</td>
 		      </tr>
 		      <tr>
@@ -172,7 +163,7 @@ image: assets/images/codes.jpg
 		        <td><div>Process <span></span> Process Type<div></div></div></td> 
 		        <td>35</td> 
 		        <td>HTML</td> 
-		        <td><a href="/assets/xlsx/SALI-process.xlsx">XLSX</a></td>
+		        <td>XLSX</td> 
 		        <td>JSON</td>
 		      </tr>
 		      <tr>
@@ -182,7 +173,7 @@ image: assets/images/codes.jpg
 		          </td> 
 		        <td><div>Process Object <span></span> Status<div></div></div></td> 
 		        <td>3</td> <td>HTML</td> 
-		        <td><a href="/assets/xlsx/SALI-process-status.xlsx">XLSX</a></td> 
+		        <td>XLSX</td> 
 		        <td>JSON</td>
 		      </tr>
 		      <tr>
@@ -193,7 +184,7 @@ image: assets/images/codes.jpg
 		        <td><div>Counsel <span></span> Representation Role<div></div></div></td> 
 		        <td>4</td>
 		        <td>HTML</td> 
-		        <td><a href="/assets/xlsx/SALI-representation-role.xlsx">XLSX</a></td>  
+		        <td>XLSX</td> 
 		        <td>JSON</td>
 		      </tr>
 		      <tr>
@@ -204,7 +195,7 @@ image: assets/images/codes.jpg
 		        <td><div>Process Object <span></span> Dispute: Trial Type<div></div></div></td> 
 		        <td>2</td>
 		        <td>HTML</td> 
-		        <td><a href="/assets/xlsx/SALI-trial-type.xlsx">XLSX</a></td>   
+		        <td>XLSX</td> 
 		        <td>JSON</td>
 		      </tr>
 		    </tbody></table>
@@ -253,3 +244,5 @@ image: assets/images/codes.jpg
 })(document);
 
 </script>
+</p></section></div>
+:ET
