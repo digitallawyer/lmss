@@ -131,14 +131,14 @@ image: assets/images/codes.jpg
 		        <td><a href="assets/json/SALI-LMSS-version.json" target="_blank">JSON</a></td>
 		      </tr>
 		      <tr>
-		        <td>SALI Location (Adapted ISO 3166-2)</td> 
+		        <td><a href="/SALI-location">SALI Location (Adapted ISO 3166-2)</a></td>
 		        <td>SALI-ISO31662</td> 
 		        <td>ISO 3166-2 is part of the ISO 3166 standard published by the International Organization for Standardization (ISO), and defines codes for identifying the principal subdivisions (e.g., provinces or states) of all countries coded in ISO 3166-1. The official name of the standard is Codes for the representation of names of countries and their subdivisions – Part 2: Country subdivision code.  
 		<br>SALI has adapted part 2 to enforce uniqueness of names across the namespace. 
 		          </td> 
 		        <td><div>Matter <span></span> Locale<div></div></div></td> 
-		        <td>3,771</td>
-		        <td>HTML</td> 
+		        <td><a href="/SALI-location">3,771</a></td> 
+		        <td><a href="/SALI-location">HTML</a></td> 
 		        <td><a href="/assets/xlsx/SALI-location.xlsx">XLSX</a></td>  
 		        <td><a href="assets/json/SALI-location.json" target="_blank">JSON</a></td>
 		      </tr>
