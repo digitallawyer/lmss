@@ -46,8 +46,8 @@ image: assets/images/api.jpg
 						<label>Area of law *</label>
 						<div class="select-wrapper">
 							<select id="#PracticeAreas" class="multiselect" name="practice_areas"  data-placeholder="Select">
-								<option value="Family">Family</option>
-								<option value="Bank">Bank</option>
+								<option value="CORP">Corporate Law    </option>
+								<option value="CORP-BIZO">- Business Organizations</option>
 							</select>
 						</div>
 					</div>
