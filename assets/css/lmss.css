@@ -141,12 +141,12 @@ border:0;border-radius:6px;background:var(--accent);color:#fff;white-space:nowra
    shape of the standard is visible at a glance rather than described. */
 .map-section{margin-bottom:40px}
 .map-head{display:flex;justify-content:space-between;align-items:baseline;gap:16px;
-margin:0 0 4px;font-size:14px;text-transform:uppercase;letter-spacing:.08em;
-color:var(--soft);font-weight:600}
-.map-head a{font-size:13px;text-transform:none;letter-spacing:0;font-weight:500;
-text-decoration:none;white-space:nowrap}
+margin:0 0 14px;padding-bottom:9px;border-bottom:1px solid var(--rule)}
+.map-head h2{margin:0;font-size:15px;text-transform:none;letter-spacing:0;
+color:var(--ink);font-weight:600}
+.map-head h2 span{color:var(--faint);font-weight:400;margin-left:8px;font-size:13.5px}
+.map-head a{font-size:13.5px;text-decoration:none;white-space:nowrap}
 .map-head a:hover{text-decoration:underline}
-.map-note{margin:0 0 14px;font-size:13.5px;color:var(--faint)}
 .mosaic{display:grid;grid-template-columns:repeat(4,1fr);gap:7px}
 @media(min-width:600px){.mosaic{grid-template-columns:repeat(6,1fr)}}
 @media(min-width:900px){.mosaic{grid-template-columns:repeat(12,1fr)}}

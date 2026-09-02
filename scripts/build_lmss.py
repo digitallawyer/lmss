@@ -137,9 +137,11 @@ def page(title, description, body, canonical, breadcrumbs=None):
 {body}
 </main>
 <footer class="site">
-  <p>LMSS is published by the <a href="https://sali.org" rel="noopener">SALI Alliance</a>
-  under <a href="https://github.com/sali-legal/LMSS/blob/main/LICENSE" rel="noopener">its own licence</a>.
-  Built by <a href="https://www.legal.io" rel="noopener">Legal.io</a>; not affiliated with SALI.
+  <p>The LMSS is published by the <a href="https://sali.org" rel="noopener">SALI Alliance</a>
+  under the <a href="https://github.com/sali-legal/LMSS/blob/main/LICENSE" rel="noopener">MIT licence</a>.
+  This site is built and maintained by
+  <a href="https://www.linkedin.com/in/pietergunst/" rel="noopener">Pieter Gunst</a>,
+  and is not affiliated with SALI.
   <a href="/talk-to-us/">Contact</a> &middot;
   <a href="https://github.com/digitallawyer/lmss" rel="noopener">Source</a></p>
 </footer>

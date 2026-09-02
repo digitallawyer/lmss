@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Specification
-description: How the LMSS is built — identifiers, branches, labels, relationships and versioning.
+description: How the LMSS is built: identifiers, branches, labels, relationships and versioning.
 ---
 The Legal Matter Specification Standard is published by the [SALI
 Alliance](https://sali.org) as an **OWL ontology**: a set of concepts, each with a
@@ -32,9 +32,9 @@ The ontology has **{{ site.data.lmss_stats.branches_fmt }} publishable top-level
 happens to sit at the root, and everything below it is a `rdfs:subClassOf`
 descendant. The tree runs up to **ten levels deep**.
 
-Branches are not a fixed schema. They are subject areas — Area of Law, Industry and
-Market, Forums and Venues, Governmental Body, Document / Artifact, Location and so
-on — and SALI adds to them between releases. [Browse them all](/branch/).
+Branches are not a fixed schema. They are subject areas (Area of Law, Industry and
+Market, Forums and Venues, Governmental Body, Document / Artifact, Location and so on),
+and SALI adds to them between releases. [Browse them all](/branch/).
 
 ### Multiple parentage
 

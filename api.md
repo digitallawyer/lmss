@@ -50,9 +50,9 @@ you need anyway to expand the hierarchy at query time.
 
 ## SALI's own API standard
 
-This API serves the *contents* of the standard. A different thing — how two systems
-exchange LMSS-tagged matters with each other — is covered by SALI's draft API
-standard at [`sali-legal/api`](https://github.com/sali-legal/api/blob/main/SALI_API.yml).
+This API serves the *contents* of the standard. How two systems exchange LMSS-tagged
+matters with each other is a different question, covered by SALI's draft API standard
+at [`sali-legal/api`](https://github.com/sali-legal/api/blob/main/SALI_API.yml).
 If you are designing an integration between legal systems rather than loading the
 taxonomy, read that one.
 

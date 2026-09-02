@@ -35,7 +35,7 @@ branch, usually Area of Law, into a local table with `iri`, `label`, `parent` an
 ## 3. Store the IRI
 
 Add a column for the IRI on your matter table, or a join table if a matter can carry
-several tags from the same branch — which it usually can. Keep the label alongside
+several tags from the same branch, which it usually can. Keep the label alongside
 it for display, and treat that copy as a cache you refresh, not as the key.
 
 ## 4. Query it back

@@ -61,8 +61,9 @@ say that one thing is governed by another, or supersedes it.
 
 ## Where to go next
 
-- [Browse the tags](/branch/) — all {{ site.data.lmss_stats.branches }} branches, down to the leaf
-- [Specification](/specification/) — how the standard is built
-- [Using LMSS on a matter](/lmss-structure/) — the implementation view
-- [Getting started](/getting-started/) — find a tag, store it, query it back
-- [Crosswalk](/crosswalk/) — if you hold data coded under LMSS 1.0
+[Browse the tags](/branch/) to see the whole thing. The
+[specification](/specification/) covers how it is built, and
+[using LMSS on a matter](/lmss-structure/) covers how to implement it.
+[Getting started](/getting-started/) is the short version of both.
+
+If you hold data coded under LMSS 1.0, start at the [crosswalk](/crosswalk/).
