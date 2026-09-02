@@ -24,6 +24,9 @@ tiles-count: 100
 # analytics — set to a GA4 measurement ID (G-XXXXXXXXXX) to enable
 google_analytics:
 
+# contact form — set to a Formspree form ID to enable; falls back to mailto
+formspree_id:
+
 # social settings
 facebook_url:
 github_url: https://github.com/digitallawyer/lmss
@@ -35,6 +38,7 @@ gitlab_url:
 
 # build settings
 markdown: kramdown
+permalink: pretty
 
 sass:
   style: compressed

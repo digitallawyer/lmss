@@ -36,6 +36,11 @@ jobs:
           path: .cache
           key: lmss-owl-${{ hashFiles('_config.yml') }}
 
+      # Emits _data/lmss_stats.json so the hand-written pages quote real
+      # counts. Must run before Jekyll, which reads that file.
+      - name: Compute ontology statistics
+        run: python3 scripts/build_lmss.py --stats-only
+
       - name: Build the hand-written pages
         run: bundle exec jekyll build
         env:

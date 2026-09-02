@@ -21,10 +21,35 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 import lmss_parse as L
+import build_crosswalk as C
 
 OWL_URL = "https://raw.githubusercontent.com/{repo}/{ref}/LMSS.owl"
 SITE = "https://lmss.io"
 CACHE = Path(".cache")
+
+# LMSS 1.0 rev. 2 pages that no longer exist, and where their readers should go.
+# GitHub Pages cannot issue a real 301, so these become meta-refresh stubs.
+REDIRECTS = {
+    "SALI-areas-of-law": "/branch/area-of-law/",
+    "SALI-court": "/branch/forums-and-venues/",
+    "SALI-currency": "/branch/currency/",
+    "SALI-format": "/branch/data-format/",
+    "SALI-governmental-body": "/branch/governmental-body/",
+    "SALI-industry": "/branch/industry-and-market/",
+    "SALI-legal-entity": "/branch/legal-entity/",
+    "SALI-locations": "/branch/location/",
+    "SALI-matter-narrative": "/branch/matter-narrative/",
+    "SALI-player-role": "/branch/actor-player/",
+    "SALI-process": "/branch/event/",
+    "SALI-process-status": "/branch/status/",
+    "SALI-representation-role": "/branch/actor-player/",
+    "SALI-trial-type": "/branch/event/",
+    "SALI-LMSS-type": "/specification/",
+    "SALI-LMSS-version": "/specification/",
+    "lmss-codes": "/branch/",
+    "lmss-ux-api": "/api/",
+    "matter-api": "/api/",
+}
 
 
 # --------------------------------------------------------------------------- data
@@ -282,6 +307,9 @@ def main():
     ap.add_argument("--out", default="_site", help="output directory (a built _site)")
     ap.add_argument("--only-branch", help="generate one branch only, by label")
     ap.add_argument("--owl", help="use a local LMSS.owl instead of downloading")
+    ap.add_argument("--stats-only", action="store_true",
+                    help="write _data/lmss_stats.json and exit, so Jekyll pages "
+                         "can quote real counts instead of hardcoded ones")
     args = ap.parse_args()
 
     pin = read_pin()
@@ -294,6 +322,10 @@ def main():
     for t in tags.values():
         if t.branch in counts:
             counts[t.branch] += 1
+
+    if args.stats_only:
+        write_stats(tags, branches, counts, pin, owl)
+        return
 
     if args.only_branch:
         keep = [b for b in branches if (tags[b].label or "") == args.only_branch]
@@ -352,13 +384,146 @@ def main():
         "deprecated": {"v1": f"{SITE}/api/v1/ — LMSS 1.0 rev. 2, frozen"},
     })
 
+    if not args.only_branch:
+        rows, stats = C.build("api/v1", tags, branches)
+        write(out / "crosswalk" / "index.html", render_crosswalk(rows, stats, pin))
+        write(out / "api" / "v2" / "crosswalk.json",
+              {"source": {"repo": pin["repo"], "ref": pin["ref"]},
+               "note": "Derived by label matching; review before relying on it.",
+               "stats": stats, "codes": rows})
+        n_redirects = write_redirects(out)
+        n_v1 = stamp_v1_deprecation(out)
+        print(f"  crosswalk: {len(rows):,} codes "
+              f"({stats.get('high', 0):,} high confidence)")
+        print(f"  {n_redirects} redirect stubs, {n_v1} v1 files stamped deprecated")
+
     write_sitemaps(out, tags, branches)
-    write_css(out)
 
     files = sum(1 for _ in out.rglob("*") if _.is_file())
     size = sum(f.stat().st_size for f in out.rglob("*") if f.is_file())
     print(f"done: {len(tags):,} tags, {len(branches)} branches, "
           f"{files:,} files, {size / 1e6:.0f} MB")
+
+
+def write_redirects(out):
+    """Meta-refresh stubs. Not a 301 -- Pages has no server config -- so each
+    carries a canonical link, which is what search engines actually act on."""
+    for old, new in REDIRECTS.items():
+        write(out / f"{old}.html", f"""<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Moved — LMSS</title>
+<link rel="canonical" href="{SITE}{new}">
+<meta http-equiv="refresh" content="0; url={new}">
+<meta name="robots" content="noindex">
+</head><body>
+<p>This page covered LMSS 1.0 rev. 2 and has been replaced.
+<a href="{new}">Continue to its replacement</a>.</p>
+</body></html>
+""")
+    return len(REDIRECTS)
+
+
+def stamp_v1_deprecation(out):
+    """Mark the frozen 1.0 JSON in place. Deliberately not redirected: an HTML
+    stub at a .json path hands machine clients HTML and breaks their parser."""
+    v1 = out / "api" / "v1"
+    if not v1.is_dir():
+        return 0
+    notice = {
+        "deprecated": True,
+        "standard": "LMSS 1.0 rev. 2",
+        "note": "Frozen 2019 snapshot of a superseded version of the LMSS.",
+        "supersededBy": f"{SITE}/api/v2/",
+        "crosswalk": f"{SITE}/api/v2/crosswalk.json",
+    }
+    n = 0
+    for path in v1.glob("*.json"):
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        write(path, {**notice, "codes": data} if isinstance(data, list) else
+                    {**notice, **data})
+        n += 1
+    return n
+
+
+def render_crosswalk(rows, stats, pin):
+    order = {"high": 0, "medium": 1, "low": 2, "none": 3, "retired": 4}
+    rows = sorted(rows, key=lambda r: (order.get(r["confidence"], 9),
+                                       r["codeSet"], r["code"]))
+    body = [
+        "<h1>LMSS 1.0 → v3 crosswalk</h1>",
+        "<p class='lede'>SALI publishes no mapping from the 1.0 rev. 2 mnemonic "
+        "codes to current IRIs — the ontology defines a <code>sali:code</code> "
+        "annotation, but no tag uses it. This one is derived by matching labels, "
+        "so treat it as a starting point for review rather than an authority.</p>",
+        definition_list([
+            ("Codes", f"{len(rows):,}"),
+            ("High confidence", f"{stats.get('high', 0):,} — exact name match "
+                                f"inside the successor branch"),
+            ("Medium / low", f"{stats.get('medium', 0) + stats.get('low', 0):,} — "
+                             f"matched outside the branch, or ambiguous"),
+            ("No match", f"{stats.get('none', 0):,}"),
+            ("JSON", f"<a href='/api/v2/crosswalk.json'>/api/v2/crosswalk.json</a>"),
+        ]),
+        "<section><h2>Mapping</h2><div class='tbl'><table>",
+        "<thead><tr><th>Code</th><th>1.0 name</th><th>Current tag</th>"
+        "<th>Confidence</th></tr></thead><tbody>",
+    ]
+    for r in rows:
+        m = r["match"]
+        target = (f"<a href='/tag/{e(m['id'])}/'>{e(m['label'])}</a>" if m
+                  else "<span class='none'>—</span>")
+        body.append(f"<tr><td><code>{e(r['code'])}</code></td><td>{e(r['name'])}</td>"
+                    f"<td>{target}</td>"
+                    f"<td><span class='conf {r['confidence']}'>"
+                    f"{r['confidence']}</span></td></tr>")
+    body.append("</tbody></table></div></section>")
+    body.append(f"<p class='provenance'>Derived from the 1.0 rev. 2 code sets "
+                f"archived at <code>/api/v1/</code> against "
+                f"<code>{e(pin['repo'])}</code> @ <code>{e(pin['ref'][:12])}</code>.</p>")
+    return page("LMSS 1.0 to v3 crosswalk",
+                "Mapping LMSS 1.0 rev. 2 codes onto current SALI LMSS IRIs.",
+                "\n".join(body), f"{SITE}/crosswalk/",
+                [("Crosswalk", None)])
+
+
+def write_stats(tags, branches, counts, pin, owl):
+    """Figures quoted in hand-written prose, so they cannot silently drift."""
+    depth, stack = {}, [(b, 1) for b in branches]
+    while stack:
+        iri, d = stack.pop()
+        if iri in depth and depth[iri] <= d:
+            continue
+        depth[iri] = d
+        stack.extend((c, d + 1) for c in tags[iri].children)
+
+    stats = {
+        "tags": len(tags),
+        "branches": len(branches),
+        "definitions": sum(1 for t in tags.values() if t.definition or t.description),
+        "synonyms": sum(len(t.pref_labels) + len(t.alt_labels) for t in tags.values()),
+        "multi_parent": sum(1 for t in tags.values()
+                            if len([p for p in t.parents if p in tags]) > 1),
+        "max_depth": max(depth.values()) if depth else 0,
+        "object_properties": L.count_object_properties(owl),
+        "ref": pin["ref"],
+        "ref_date": pin.get("ref_date"),
+        "largest_branches": [
+            {"label": label_of(tags, b), "slug": L.slug(label_of(tags, b)),
+             "count": counts.get(b, 0)}
+            for b in sorted(branches, key=lambda x: -counts.get(x, 0))[:5]],
+    }
+    # Liquid has no thousands-separator filter, so ship pre-formatted strings
+    # alongside the raw integers.
+    for key in ("tags", "branches", "definitions", "synonyms", "multi_parent",
+                "object_properties"):
+        stats[f"{key}_fmt"] = f"{stats[key]:,}"
+
+    write(Path("_data") / "lmss_stats.json", stats)
+    print(f"  wrote _data/lmss_stats.json ({stats['tags']:,} tags)")
+    return stats
 
 
 def write_sitemaps(out, tags, branches):
@@ -381,56 +546,6 @@ def write_sitemaps(out, tags, branches):
           f"{idx}</sitemapindex>")
 
 
-def write_css(out):
-    write(out / "assets" / "css" / "lmss.css", """
-:root{--paper:#fbfbfa;--surface:#fff;--rule:#e2e4e8;--ink:#1a1d23;--soft:#5a6270;
---faint:#8a919e;--accent:#0f5c63;--accent-dim:#eaf3f3}
-@media(prefers-color-scheme:dark){:root{--paper:#15181d;--surface:#1c2026;--rule:#2f353f;
---ink:#e8ebef;--soft:#a5adba;--faint:#79818f;--accent:#5fb6bc;--accent-dim:#173235}}
-*{box-sizing:border-box}
-body{margin:0;background:var(--paper);color:var(--ink);line-height:1.6;
-font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
-a{color:var(--accent)}
-header.site,footer.site{border-bottom:1px solid var(--rule);background:var(--surface)}
-footer.site{border:0;border-top:1px solid var(--rule);margin-top:48px}
-header.site{display:flex;flex-wrap:wrap;gap:8px 24px;align-items:center;
-padding:14px 24px;position:sticky;top:0;z-index:5}
-.brand{text-decoration:none;color:var(--ink);font-weight:700;letter-spacing:.02em}
-.brand span{color:var(--accent);margin-left:4px;font-weight:500}
-header.site nav{display:flex;gap:18px;font-size:14px}
-main{max-width:860px;margin:0 auto;padding:28px 24px 64px}
-footer.site p{max-width:860px;margin:0 auto;padding:16px 24px;font-size:13px;color:var(--faint)}
-h1{font-size:clamp(24px,4vw,34px);line-height:1.15;margin:.2em 0 .4em}
-h2{font-size:14px;text-transform:uppercase;letter-spacing:.08em;color:var(--soft);
-margin:34px 0 10px}
-h2 .count{color:var(--faint);font-weight:400;text-transform:none;letter-spacing:0}
-.lede{font-size:18px;color:var(--soft);max-width:66ch}
-.count-line{color:var(--soft)}
-.crumbs{font-size:13px;color:var(--faint);margin-bottom:8px}
-.crumbs a{color:var(--soft)}
-code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.86em;
-background:var(--accent-dim);padding:.12em .38em;border-radius:3px;word-break:break-all}
-dl.meta{display:grid;grid-template-columns:auto 1fr;gap:6px 18px;margin:18px 0;
-font-size:14px;border-top:1px solid var(--rule);padding-top:14px}
-dl.meta dt{color:var(--faint);text-transform:uppercase;font-size:11px;letter-spacing:.07em;
-padding-top:.35em}
-dl.meta dd{margin:0}
-ul.tags,ul.grid,ul.paths,ul.rels,ul.plain{list-style:none;padding:0;margin:0}
-ul.tags,ul.grid{display:grid;gap:1px;background:var(--rule);border:1px solid var(--rule);
-border-radius:4px;overflow:hidden}
-@media(min-width:620px){ul.tags,ul.grid{grid-template-columns:1fr 1fr}}
-ul.tags li,ul.grid li{background:var(--surface);padding:9px 14px;display:flex;
-justify-content:space-between;gap:12px;font-size:15px}
-ul.grid .n,ul.tags .n{color:var(--faint);font-size:13px;font-variant-numeric:tabular-nums}
-li.more{color:var(--faint);font-style:italic}
-ul.paths li,ul.rels li,ul.plain li{padding:5px 0;border-bottom:1px solid var(--rule);
-font-size:15px}
-.rel{color:var(--faint);font-size:12px;text-transform:uppercase;letter-spacing:.06em;
-margin-right:8px}
-.syn{color:var(--soft);max-width:70ch}
-.provenance{margin-top:40px;padding-top:14px;border-top:1px solid var(--rule);
-font-size:13px;color:var(--faint)}
-""".strip())
 
 
 if __name__ == "__main__":

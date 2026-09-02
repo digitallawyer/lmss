@@ -113,6 +113,7 @@ def parse(path):
                     tag.relations.append((name, target))
 
     _link_children(tags)
+    _drop_foreign(tags)
     branches = _find_branches(tags)
     _assign_branches(tags, branches)
     _drop_excluded(tags, branches)
@@ -126,6 +127,22 @@ def _link_children(tags):
                 tags[parent].children.append(iri)
     for tag in tags.values():
         tag.children.sort(key=lambda i: (tags[i].label or "").lower())
+
+
+def _drop_foreign(tags):
+    """Remove classes from imported vocabularies (owl:Thing, dcterms:agent).
+
+    They are structural, not part of the published standard, and owl:Thing in
+    particular would otherwise render as an ancestor on every branch page and
+    generate a tag page at the un-linkable path /tag/owl#Thing/.
+    """
+    for iri in [i for i in tags if not i.startswith(LMSS_BASE)]:
+        del tags[iri]
+    live = set(tags)
+    for tag in tags.values():
+        tag.children = [c for c in tag.children if c in live]
+        tag.relations = [(n, t) for n, t in tag.relations if t in live]
+        # owl:Thing stays in `parents`: _find_branches keys off it.
 
 
 def _find_branches(tags):
@@ -159,6 +176,12 @@ def _drop_excluded(tags, branches):
         tag.parents = [p for p in tag.parents if p in live or p == OWL_THING]
         tag.children = [c for c in tag.children if c in live]
         tag.relations = [(n, t) for n, t in tag.relations if t in live]
+
+
+def count_object_properties(path):
+    """Typed relationship properties defined by the ontology (sali:governedBy etc.)."""
+    root = ET.parse(path).getroot()
+    return sum(1 for el in root if el.tag.endswith("ObjectProperty"))
 
 
 def ancestry(tags, iri):

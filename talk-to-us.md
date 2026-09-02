@@ -1,77 +1,31 @@
 ---
 layout: page
 title: Talk to us
-description: Streamline your legal operations with LMSS.
-nav-menu: false
-show_tile: true
-image: assets/images/contact.jpg
+description: Questions about the standard, or about this site.
 ---
-<header class="major">
-	<h1>Get in touch</h1>
-</header>
- <!-- Contact -->
-<section id="contact">
-	<div class="inner">
-		<section style="padding-left:0.1em">
-			<form action="https://formspree.io/contact@legal.io" method="POST">
-				<div class="field half first">
-					<label for="name">Name</label>
-					<input type="text" name="name" id="name" />
-				</div>
-				<div class="field half">
-					<label for="email">Email</label>
-					<input type="text" name="_replyto" id="email" />
-				</div>
-				<div class="field">
-					<label for="message">Message</label>
-					<textarea name="message" id="message" rows="6"></textarea>
-				</div>
-				<ul class="actions">
-					<li><input type="submit" value="Send Message" class="special" /></li>
-					<li><input type="reset" value="Clear" /></li>
-				</ul>
-			</form>
-		</section>
-		<section class="split">
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-envelope"></span>
-					<h3>Email</h3>
-					<a href="mailto:contact@legal.io">contact@legal.io</a>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
-					<span>(650) 391-3832</span>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
-					<h3>Address</h3>
-					<span>
-					
-					    Legal.io<br />
+This site is built and maintained by [Legal.io](https://www.legal.io). We are not
+the SALI Alliance — for questions about the standard itself, or to get involved in
+its development, go to [sali.org](https://sali.org).
 
-					    1535 Mission St<br />
-					
-					
-					    San Francisco,
-					
-					
-					    CA
-					
-					
-					    94103<br />
-					
-					
-					    United States of America
-					
-					</span>
-				</div>
-			</section>
-		</section>
-	</div>
-</section>
+For anything about **this site** — a wrong tag page, a bad crosswalk match, an API
+question, or a correction — get in touch.
+
+{% if site.formspree_id %}
+<form action="https://formspree.io/f/{{ site.formspree_id }}" method="POST">
+  <p><label for="name">Name</label><br>
+     <input type="text" name="name" id="name" required></p>
+  <p><label for="email">Email</label><br>
+     <input type="email" name="email" id="email" required></p>
+  <p><label for="message">Message</label><br>
+     <textarea name="message" id="message" rows="6" required></textarea></p>
+  <p><button type="submit">Send</button></p>
+</form>
+{% else %}
+**Email:** [contact@legal.io](mailto:contact@legal.io?subject=lmss.io)
+
+Bugs and corrections are best filed as an
+[issue]({{ site.github_url }}/issues) — that way they are public and trackable.
+{% endif %}
+
+You can also open a pull request; see
+[CONTRIBUTING]({{ site.github_url }}/blob/master/CONTRIBUTING.md).

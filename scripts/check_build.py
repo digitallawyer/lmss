@@ -45,6 +45,22 @@ def main(out):
         problems.append(f"{len(dangling_branches)} dangling /branch/ links, "
                         f"e.g. {sorted(dangling_branches)[:3]}")
 
+    # Hand-written pages link into the generated tree, so check those too.
+    # Skip hrefs containing quotes/plus signs: those are JS-built strings.
+    def resolves(href):
+        href = href.split("#")[0].split("?")[0]
+        target = root / href.lstrip("/")
+        return (target.is_file() or (target / "index.html").is_file()
+                or (root / (href.lstrip("/") + ".html")).is_file())
+
+    for path in list(root.glob("*.html")) + [root / "branch/index.html",
+                                             root / "crosswalk/index.html"]:
+        if not path.is_file():
+            continue
+        for href in re.findall(r'href="(/[^"\'+]*)"', path.read_text(errors="ignore")):
+            if not resolves(href):
+                problems.append(f"broken link in {path.name}: {href}")
+
     labels = [json.loads((root / "api/v2/branch" / f"{s}.json").read_text())["label"]
               for s in slugs]
     if len(set(labels)) != len(labels):

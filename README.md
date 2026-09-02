@@ -22,12 +22,19 @@ tag tree is hand-maintained.
 
 ```
 bundle install
-python3 scripts/build_lmss.py --out _generated
-bundle exec jekyll serve
+python3 scripts/build_lmss.py --stats-only   # writes _data/lmss_stats.json
+bundle exec jekyll build
+python3 scripts/build_lmss.py --out _site    # writes the tag tree into _site
+python3 scripts/check_build.py _site
 ```
 
-`scripts/build_lmss.py` downloads the pinned `LMSS.owl` (cached in `.cache/`), parses it,
-and writes the generated tree. Jekyll then builds the hand-written pages around it.
+`scripts/build_lmss.py` downloads the pinned `LMSS.owl` (cached in `.cache/`) and parses
+it. The order matters: the stats pass must run first so Jekyll can quote real counts,
+and the tree is written into `_site` *after* Jekyll, because ~18k pages through Liquid
+would take hours where writing them directly takes seconds.
+
+Serve the result with any static server, e.g. `python3 -m http.server -d _site`.
+Use `--only-branch "Area of Law"` to iterate on a small subset.
 
 ## Updating the standard
 
