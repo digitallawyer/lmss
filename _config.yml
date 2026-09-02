@@ -4,7 +4,7 @@ subtitle: IO
 email: youremailaddress@gmail.com
 description: An introduction to the <a href="https://www.salilegal.org" target="_blank">SALI</a> Legal Matter <br/> Specification Standard, by <a href="https://www.legal.io" target="_blank">Legal.io</a>.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+url: "https://lmss.io" # required: the legacy Pages builder injected this automatically, Actions does not
 author:
 street_address: 1234 Somewhere Road
 city: Nashville
