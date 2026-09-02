@@ -24,14 +24,22 @@ description: Every tag in SALI's Legal Matter Specification Standard. Browsable,
     <h2>{{ site.data.lmss_stats.branches }} branches <span>sized by tag count</span></h2>
     <a href="/branch/">All tags &rarr;</a>
   </div>
+  <ul class="legend">
+    {% for f in site.data.lmss_stats.families %}
+    <li data-fam="{{ f.key }}"><span class="sw"></span>{{ f.label }}</li>
+    {% endfor %}
+  </ul>
   <div class="mosaic">
     {% for b in site.data.lmss_stats.branch_list %}
-    <a class="tile" href="/branch/{{ b.slug }}/" style="--span:{{ b.span }}">
+    <a class="tile" href="/branch/{{ b.slug }}/" data-fam="{{ b.family }}"
+       style="--span:{{ b.span }}">
       <span class="tile-name">{{ b.label }}</span>
       <span class="tile-n">{{ b.count_fmt }}</span>
     </a>
     {% endfor %}
   </div>
+  <p class="map-foot">Colours group the branches by what they describe. The grouping is
+  ours, for readability; the standard itself has no families.</p>
 </section>
 
 <section>
