@@ -76,6 +76,14 @@ def main(out):
     if any_tag and nav_marker not in any_tag.read_text(errors="ignore"):
         problems.append("generated tag pages are missing the shared site nav")
 
+    stats_file = Path("_data/lmss_stats.json")
+    if stats_file.is_file():
+        stats = json.loads(stats_file.read_text())
+        if stats.get("unclassified"):
+            problems.append(
+                "branches with no family, add them to BRANCH_FAMILY in "
+                "scripts/build_lmss.py: " + ", ".join(stats["unclassified"]))
+
     size = sum(f.stat().st_size for f in root.rglob("*") if f.is_file())
     if size > 900e6:
         problems.append(f"site is {size/1e6:.0f} MB, near the 1 GB Pages limit")

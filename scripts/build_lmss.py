@@ -23,6 +23,49 @@ sys.path.insert(0, str(Path(__file__).parent))
 import lmss_parse as L
 import build_crosswalk as C
 
+# The 24 branches grouped by what they describe about a matter. This grouping is
+# ours, not SALI's: the ontology has no notion of families, and the homepage says
+# so. It exists so 24 tiles read as a structure rather than a list.
+FAMILIES = [
+    ("subject", "What the work is"),
+    ("parties", "Who is involved"),
+    ("place", "Where and under what authority"),
+    ("things", "What is involved"),
+    ("process", "How it runs"),
+    ("interop", "Technical"),
+]
+BRANCH_FAMILY = {
+    "Area of Law": "subject",
+    "Legal Use Cases": "subject",
+    "Service": "subject",
+    "Objectives": "subject",
+    "Matter Narrative": "subject",
+
+    "Actor / Player": "parties",
+    "Legal Entity": "parties",
+    "Governmental Body": "parties",
+    "Industry and Market": "parties",
+
+    "Location": "place",
+    "Forums and Venues": "place",
+    "Legal Authorities": "place",
+    "Language": "place",
+
+    "Document / Artifact": "things",
+    "Asset Type": "things",
+    "Currency": "things",
+    "Financial Concepts and Metrics": "things",
+
+    "Event": "process",
+    "Status": "process",
+    "Engagement Attributes": "process",
+    "Communication Modality": "process",
+
+    "Standards Compatibility": "interop",
+    "Data Format": "interop",
+    "System Identifiers": "interop",
+}
+
 OWL_URL = "https://raw.githubusercontent.com/{repo}/{ref}/LMSS.owl"
 SITE = "https://lmss.io"
 CACHE = Path(".cache")
@@ -273,7 +316,8 @@ def render_branch_index(tags, branches, counts, total):
     ordered = sorted(branches, key=lambda x: -counts[x])
     biggest = counts[ordered[0]] if ordered else 1
     rows = "".join(
-        f'<li><a href="/branch/{e(L.slug(label_of(tags, b)))}/">'
+        f'<li><a href="/branch/{e(L.slug(label_of(tags, b)))}/" '
+        f'data-fam="{e(BRANCH_FAMILY.get(label_of(tags, b), "other"))}">'
         f'<span class="bn">{e(label_of(tags, b))}</span>'
         f'<span class="bbar"><span style="width:{max(1.5, counts[b] / biggest * 100):.1f}%">'
         f'</span></span>'
@@ -539,7 +583,8 @@ def write_stats(tags, branches, counts, pin, owl):
              "weight": max(4, round(counts.get(b, 0) ** 0.5)),
              # Columns on the homepage's 12-wide grid. sqrt-scaled: raw counts
              # span 12 to 3,783, which would leave most branches as slivers.
-             "span": max(2, min(6, round((counts.get(b, 0) ** 0.5) / 9)))}
+             "span": max(2, min(6, round((counts.get(b, 0) ** 0.5) / 9))),
+             "family": BRANCH_FAMILY.get(label_of(tags, b), "other")}
             for b in sorted(branches, key=lambda x: -counts.get(x, 0))],
     }
     # Liquid has no thousands-separator filter, so ship pre-formatted strings
@@ -547,6 +592,16 @@ def write_stats(tags, branches, counts, pin, owl):
     for key in ("tags", "branches", "definitions", "synonyms", "multi_parent",
                 "object_properties"):
         stats[f"{key}_fmt"] = f"{stats[key]:,}"
+
+    stats["families"] = [{"key": k, "label": v} for k, v in FAMILIES]
+
+    unclassified = sorted(b["label"] for b in stats["branch_list"]
+                          if b["family"] == "other")
+    if unclassified:
+        # A new upstream branch should be classified by a person, not silently
+        # rendered grey. The weekly update PR fails here rather than on master.
+        print("  WARNING unclassified branches: " + ", ".join(unclassified))
+    stats["unclassified"] = unclassified
 
     # The crosswalk headline number, so the homepage can quote it.
     try:
