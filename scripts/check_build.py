@@ -68,13 +68,37 @@ def main(out):
 
     # Generated pages read _includes/nav.html directly; if a Jekyll page and a
     # tag page ever disagree on the header, the site feels broken at the seams.
+    # Every full page must carry the nav. A page whose front matter fails to
+    # parse loses its layout silently: Jekyll emits the body with no <head>,
+    # no nav and no stylesheet, and the build still "succeeds".
     nav_marker = '<nav id="sitenav"'
-    for sample in [root / "index.html", root / "branch/index.html"]:
-        if sample.is_file() and nav_marker not in sample.read_text(errors="ignore"):
-            problems.append(f"{sample.name} is missing the shared site nav")
+    pages = [p for p in root.glob("*.html")] + \
+            [p for p in root.glob("*/index.html")
+             if p.parent.name not in {"tag", "api", "v1", "v2"}]
+    for pg in pages:
+        text = pg.read_text(errors="ignore")
+        if "http-equiv=\"refresh\"" in text:
+            continue                       # redirect stubs are intentionally bare
+        rel = pg.relative_to(root)
+        if nav_marker not in text:
+            problems.append(f"{rel} is missing the site nav (lost its layout?)")
+        elif "<head>" not in text and "<title>" not in text:
+            problems.append(f"{rel} has no <head>")
     any_tag = next((root / "tag").glob("*/index.html"), None)
     if any_tag and nav_marker not in any_tag.read_text(errors="ignore"):
         problems.append("generated tag pages are missing the shared site nav")
+
+    ga = next((l.split(":", 1)[1].split("#")[0].strip().strip('"')
+               for l in Path("_config.yml").read_text().splitlines()
+               if l.startswith("google_analytics:")), "")
+    if ga:
+        blind = [p.name for p in [root / "index.html", root / "branch/index.html"]
+                 if p.is_file() and ga not in p.read_text(errors="ignore")]
+        sample = next((root / "tag").glob("*/index.html"), None)
+        if sample and ga not in sample.read_text(errors="ignore"):
+            blind.append("generated tag pages")
+        if blind:
+            problems.append(f"analytics ({ga}) missing from: {', '.join(blind)}")
 
     stats_file = Path("_data/lmss_stats.json")
     if stats_file.is_file():

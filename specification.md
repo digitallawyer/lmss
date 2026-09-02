@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Specification
-description: How the LMSS is built: identifiers, branches, labels, relationships and versioning.
+description: "How the LMSS is built: identifiers, branches, labels, relationships and versioning."
 ---
 The Legal Matter Specification Standard is published by the [SALI
 Alliance](https://sali.org) as an **OWL ontology**: a set of concepts, each with a

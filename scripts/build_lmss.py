@@ -111,6 +111,35 @@ def fetch_owl(repo, ref):
     return dest
 
 
+def read_config_value(key, config_path="_config.yml"):
+    """Read one top-level scalar out of _config.yml without a YAML parser."""
+    for line in Path(config_path).read_text().splitlines():
+        if line.startswith(f"{key}:"):
+            value = line.split(":", 1)[1].split("#")[0].strip().strip('"').strip("'")
+            return value or None
+    return None
+
+
+def analytics_snippet():
+    """The same GA4 tag Jekyll injects, so the 18k generated pages are not blind.
+
+    Without this, analytics would only cover the handful of hand-written pages
+    and miss the entire tag tree, which is where the traffic actually lands.
+    """
+    measurement_id = read_config_value("google_analytics")
+    if not measurement_id:
+        return ""
+    return (
+        f'<script async src="https://www.googletagmanager.com/gtag/js?id={measurement_id}">'
+        "</script>\n<script>\n"
+        "  window.dataLayer = window.dataLayer || [];\n"
+        "  function gtag(){dataLayer.push(arguments);}\n"
+        "  gtag('js', new Date());\n"
+        f"  gtag('config', '{measurement_id}');\n"
+        "</script>"
+    )
+
+
 def read_pin(config_path="_config.yml"):
     """Read the pinned upstream ref without needing a YAML parser."""
     pin, inside = {}, False
@@ -172,6 +201,7 @@ def page(title, description, body, canonical, breadcrumbs=None):
 <link rel="canonical" href="{e(canonical)}">
 <link rel="stylesheet" href="/assets/css/lmss.css">
 <link rel="icon" href="/favicon.ico">
+{analytics_snippet()}
 </head>
 <body>
 {site_nav()}
