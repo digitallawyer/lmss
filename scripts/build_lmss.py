@@ -552,6 +552,39 @@ def render_crosswalk(rows, stats, pin):
                 [("Crosswalk", None)])
 
 
+def pack_rows(spans, width=12):
+    """Grow spans so every row of the mosaic fills the grid exactly.
+
+    sqrt-scaled spans rarely sum to a multiple of the grid width, which leaves
+    ragged gaps at the right edge. This greedily packs them into rows in the
+    given order, then distributes each row's shortfall across its tiles,
+    widest first. Order and relative size survive; the right edge comes out
+    flush.
+    """
+    rows, current = [], []
+    for index, span in enumerate(spans):
+        if current and sum(s for _, s in current) + span > width:
+            rows.append(current)
+            current = []
+        current.append([index, span])
+    if current:
+        rows.append(current)
+
+    packed = list(spans)
+    for row in rows:
+        shortfall = width - sum(s for _, s in row)
+        order = sorted(range(len(row)), key=lambda i: -row[i][1])
+        while shortfall > 0:
+            for i in order:
+                if shortfall == 0:
+                    break
+                row[i][1] += 1
+                shortfall -= 1
+        for index, span in row:
+            packed[index] = span
+    return packed
+
+
 def write_stats(tags, branches, counts, pin, owl):
     """Figures quoted in hand-written prose, so they cannot silently drift."""
     depth, stack = {}, [(b, 1) for b in branches]
@@ -592,6 +625,10 @@ def write_stats(tags, branches, counts, pin, owl):
     for key in ("tags", "branches", "definitions", "synonyms", "multi_parent",
                 "object_properties"):
         stats[f"{key}_fmt"] = f"{stats[key]:,}"
+
+    packed = pack_rows([b["span"] for b in stats["branch_list"]])
+    for entry, span in zip(stats["branch_list"], packed):
+        entry["span"] = span
 
     stats["families"] = [{"key": k, "label": v} for k, v in FAMILIES]
 
