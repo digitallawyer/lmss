@@ -88,17 +88,23 @@ renamed. See [the API](/api/) for how to read the version out of the data itself
 
 ## Licence
 
-The LMSS is © SALI Alliance. SALI states that it is licensed
-[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/): the material may be
-shared with attribution, but not used to create competing standards or distributed
-derivatives, while stakeholders may adapt it for internal use. Note that SALI's GitHub
-repositories ship an MIT licence instead, which contradicts that, so check with SALI
-before relying on either for anything consequential.
+The LMSS is © SALI Alliance, licensed
+[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/). That licence lets
+anyone share the material, in any medium or format and for any purpose including
+commercially, as long as it is attributed. What it withholds is the right to distribute
+an *altered* version: you cannot publish a changed LMSS or use it to build a competing
+standard.
 
-This site reproduces SALI's labels and definitions with attribution and treats
-[sali.org](https://sali.org) as canonical. Where something here is ours rather than
-SALI's, such as the [crosswalk](/crosswalk/) or the branch groupings on the home page,
-it says so.
+Reproducing the standard, as this site does, is squarely what the licence allows.
+
+Two things are worth knowing if you are reusing it yourself. Creative Commons' own
+guidance is that changing format alone never creates an adaptation, so publishing the
+tags as web pages or JSON is not a derivative. And SALI's GitHub repositories carry an
+MIT licence, which contradicts the CC BY-ND on their website; this site follows the
+more restrictive of the two.
+
+Where something here is ours rather than SALI's, such as the [crosswalk](/crosswalk/)
+or the branch groupings on the home page, it says so.
 
 ## What happened to LMSS 1.0
 
