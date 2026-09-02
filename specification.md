@@ -6,8 +6,8 @@ description: How the LMSS is built — identifiers, branches, labels, relationsh
 The Legal Matter Specification Standard is published by the [SALI
 Alliance](https://sali.org) as an **OWL ontology**: a set of concepts, each with a
 stable identifier, arranged in a hierarchy and connected by typed relationships.
-That is a change of kind from the standard's first release, which was a document
-format with a set of flat code lists.
+The first release worked differently: it was a document format wrapped around a set
+of flat code lists.
 
 ## Identifiers
 
@@ -17,15 +17,14 @@ Every tag has one permanent identifier, an **IRI**, of the form:
 http://lmss.sali.org/R8AC0Iq3zua7VGgBd0jCBtz
 ```
 
-The trailing segment is opaque on purpose. It carries no meaning, which is exactly
-what makes it durable: a tag can be renamed, redefined, moved to a different parent
-or given new synonyms, and every system that stored the IRI still resolves to the
-right concept. SALI's own guidance is that IRIs will remain operative indefinitely
-once released, and that deprecation — when it happens at all — is usually
-consolidation of duplicates rather than deletion.
+The trailing segment carries no meaning, and that is the point. A tag can be renamed,
+redefined, moved under a different parent or given new synonyms, and any system holding
+the IRI still resolves to the right concept. SALI's guidance is that released IRIs stay
+operative indefinitely, and that deprecation, where it happens, is usually consolidation
+of duplicates rather than deletion.
 
-**Store the IRI, not the label.** Labels are the one part of a tag that SALI
-explicitly expects to keep changing.
+So store the IRI and render the label. Labels are the part of a tag SALI expects to keep
+changing.
 
 ## Structure
 
@@ -39,11 +38,11 @@ on — and SALI adds to them between releases. [Browse them all](/branch/).
 
 ### Multiple parentage
 
-A tag may have more than one parent, and **{{ site.data.lmss_stats.multi_parent_fmt }} of them do**. A concept that is
-genuinely both a kind of document and a kind of event sits under both. This means
-the LMSS is a directed graph, not a strict tree, and any code that walks it needs to
-handle a node being reachable by several paths. On this site each tag has one
-canonical URL but shows every ancestry path it has.
+A tag may have more than one parent, and **{{ site.data.lmss_stats.multi_parent_fmt }} of
+them do**: a concept that is both a kind of document and a kind of event sits under both.
+So the LMSS is a directed graph rather than a strict tree, and code that walks it has to
+cope with a node being reachable by several routes. On this site each tag has one
+canonical URL and lists every ancestry path it has.
 
 ## Properties on a tag
 
@@ -77,10 +76,10 @@ SALI maintains the ontology on the `main` branch of
 periodically. Between releases, `main` is explicitly provisional — SALI's own README
 warns that commits remain subject to public review until a release is cut.
 
-The practical position today is awkward and worth stating plainly. The only tagged
-release, `v2.0.0`, holds **10,489 tags**. Current `main` holds **{{ site.data.lmss_stats.tags_fmt }}**. The tagged
-release is missing well over a third of the standard, so building against it would
-mean building against something substantially incomplete.
+The practical position today is awkward. The only tagged release, `v2.0.0`, holds
+**10,489 tags**. Current `main` holds **{{ site.data.lmss_stats.tags_fmt }}**. Building
+against the tag would mean building against a standard missing well over a third of
+itself.
 
 **This site therefore renders a pinned commit of `main`**, recorded in the repo and
 shown in the footer of every page, and treats it as pre-release. The pin only moves

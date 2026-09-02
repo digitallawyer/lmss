@@ -66,6 +66,16 @@ def main(out):
     if len(set(labels)) != len(labels):
         problems.append("branch slug collision -- two branches share a URL")
 
+    # Generated pages read _includes/nav.html directly; if a Jekyll page and a
+    # tag page ever disagree on the header, the site feels broken at the seams.
+    nav_marker = '<nav id="sitenav"'
+    for sample in [root / "index.html", root / "branch/index.html"]:
+        if sample.is_file() and nav_marker not in sample.read_text(errors="ignore"):
+            problems.append(f"{sample.name} is missing the shared site nav")
+    any_tag = next((root / "tag").glob("*/index.html"), None)
+    if any_tag and nav_marker not in any_tag.read_text(errors="ignore"):
+        problems.append("generated tag pages are missing the shared site nav")
+
     size = sum(f.stat().st_size for f in root.rglob("*") if f.is_file())
     if size > 900e6:
         problems.append(f"site is {size/1e6:.0f} MB, near the 1 GB Pages limit")
