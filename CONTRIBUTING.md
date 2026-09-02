@@ -1,15 +1,12 @@
-All contributions, including merge requests, feature requests, ideas, design tweaks, etc. are welcome. 
-I welcome all input, from sharing your own implementations of code to general thoughts and ideas. Just open a new issue!
+# Contributing
 
-## Feature Requests
+Issues and pull requests are welcome at
+[digitallawyer/lmss](https://github.com/digitallawyer/lmss).
 
-Feature requests are always welcome! If Jekyll can do it and if the theme's design would work well with it, then I would love to add it. Of course, 
-code submission via a merge/pull request is great, but not necessary.
+**Please note:** the tag pages under `/tag/` and `/branch/` are generated from SALI's
+ontology and are not edited by hand — a pull request changing them will be overwritten by
+the next build. If a tag's label or definition is wrong, that is a change to the standard
+itself: raise it with [SALI](https://sali.org), or open an issue here and we'll help route it.
 
-## Bug Reports
-
-If you encounter any issues with these themes on any devices, please submit a bug report with the device type and a detailed description of what 
-the issue that you're encountering is.
-<br /><br />
-
-*Thank you*
+Corrections to the hand-written pages (the specification, structure and introduction), to
+the generator in `scripts/`, or to the site itself are exactly what pull requests are for.

@@ -26,10 +26,6 @@ image: assets/images/api.jpg
 			<form name="test_form">
 				<br>
 		        <div class="">
-		            <div class="field" style="display: none;">
-		            	<label for="given_name">Community API token</label>
-		            	<input name="api_token" pattern=".+" required="animated-label" type="text" disabled="disabled" value="7b69c2e4-c1aa-4b69-888c-0a30f55556d2">
-		            </div>
 		            <div class="field">
 		            	<label for="summary">Title *</label>
 		            	<input  id="title_input" name="summary" pattern=".+" required="required" type="text" onkeyup="titleUpdateFunction()">

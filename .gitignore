@@ -1,7 +1,9 @@
 _site/
 .sass-cache/
-.jekyll-metadata
-*.gem
 .jekyll-cache/
+.jekyll-metadata
+.cache/
+vendor/
+.bundle/
 __pycache__/
 *.pyc

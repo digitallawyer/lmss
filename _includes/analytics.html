@@ -1,9 +1,14 @@
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-30160433-6"></script>
+{% comment %}
+Analytics. The previous Universal Analytics property (UA-30160433-6) stopped
+collecting data when Google retired UA on 1 July 2023 and has been removed.
+To re-enable, set `google_analytics: G-XXXXXXXXXX` in _config.yml.
+{% endcomment %}
+{% if site.google_analytics %}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
-  gtag('config', 'UA-30160433-6');
+  gtag('config', '{{ site.google_analytics }}');
 </script>
+{% endif %}

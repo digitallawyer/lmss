@@ -25,15 +25,29 @@ jobs:
           ruby-version: "3.3"
           bundler-cache: true
 
-      - name: Build
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # The pinned LMSS.owl only changes when _config.yml does, so key on it.
+      - name: Cache the pinned ontology
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: lmss-owl-${{ hashFiles('_config.yml') }}
+
+      - name: Build the hand-written pages
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
 
-      - name: Verify the build produced something
-        run: |
-          test -f _site/index.html || { echo "no index.html"; exit 1; }
-          echo "$(find _site -type f | wc -l) files built"
+      # Writes ~18k tag pages straight into _site. Deliberately not Jekyll
+      # pages: Liquid-rendering that many files takes hours, this takes seconds.
+      - name: Generate the tag tree, API and search index
+        run: python3 scripts/build_lmss.py --out _site
+
+      - name: Check the output
+        run: python3 scripts/check_build.py _site
 
       - uses: actions/upload-pages-artifact@v3
         with:
