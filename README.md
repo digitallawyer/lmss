@@ -43,6 +43,23 @@ diff of added, changed and removed tags. The site never follows upstream `main` 
 
 ## Licence
 
-Site code is MIT (see `LICENSE.md`). The LMSS itself is published by the SALI Alliance
-under [its own licence](https://github.com/sali-legal/LMSS/blob/main/LICENSE); lmss.io is
-not affiliated with SALI.
+Site code is MIT (see `LICENSE.md`). lmss.io is not affiliated with SALI.
+
+The LMSS itself is © SALI Alliance. **Its licensing is genuinely ambiguous and worth
+knowing about before reusing anything here:**
+
+- [sali.org](https://sali.org/explore-the-standard/) states **CC BY-ND 4.0**, with a
+  reasoned rationale: SALI-licensed material "cannot be used to create competing
+  standards or distributed derivatives", though stakeholders may "freely incorporate
+  SALI into their systems and adapt it for their internal use".
+- The [`sali-legal/LMSS`](https://github.com/sali-legal/LMSS/blob/main/LICENSE) repo
+  ships **MIT**, as do `sali-legal/api` and `sali-legal/tools`. MIT has been there since
+  the initial commit in 2022; the file has been edited three times since, but only ever
+  on the copyright line.
+- `LMSS.owl` carries no licence statement of its own.
+
+This site follows the more restrictive of the two, CC BY-ND, since it is the
+rights-holder's own published policy. It reproduces SALI's labels and definitions with
+attribution and points at SALI as canonical, rather than presenting an altered version
+of the standard. The branch families on the homepage and the 1.0 crosswalk are our own
+additions and are labelled as such.

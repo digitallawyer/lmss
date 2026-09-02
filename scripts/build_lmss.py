@@ -210,10 +210,11 @@ def page(title, description, body, canonical, breadcrumbs=None):
 {body}
 </main>
 <footer class="site">
-  <p>The LMSS is published by the <a href="https://sali.org" rel="noopener">SALI Alliance</a>
-  under the <a href="https://github.com/sali-legal/LMSS/blob/main/LICENSE" rel="noopener">MIT licence</a>.
-  This site is built and maintained by
-  <a href="https://www.linkedin.com/in/pietergunst/" rel="noopener">Pieter Gunst</a>,
+  <p>The LMSS is &copy; <a href="https://sali.org" rel="noopener">SALI Alliance</a>,
+  licensed <a href="https://creativecommons.org/licenses/by-nd/4.0/" rel="noopener">CC BY-ND 4.0</a>
+  and reproduced here with attribution. SALI is the canonical source.
+  This project is maintained by
+  <a href="https://www.linkedin.com/in/pietergunst/" rel="noopener">Pieter Gunst</a>
   and is not affiliated with SALI.
   <a href="/talk-to-us/">Contact</a> &middot;
   <a href="https://github.com/digitallawyer/lmss" rel="noopener">Source</a></p>

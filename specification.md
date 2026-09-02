@@ -86,6 +86,20 @@ shown in the footer of every page, and treats it as pre-release. The pin only mo
 through a reviewed pull request that lists exactly which tags were added, removed or
 renamed. See [the API](/api/) for how to read the version out of the data itself.
 
+## Licence
+
+The LMSS is © SALI Alliance. SALI states that it is licensed
+[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/): the material may be
+shared with attribution, but not used to create competing standards or distributed
+derivatives, while stakeholders may adapt it for internal use. Note that SALI's GitHub
+repositories ship an MIT licence instead, which contradicts that, so check with SALI
+before relying on either for anything consequential.
+
+This site reproduces SALI's labels and definitions with attribution and treats
+[sali.org](https://sali.org) as canonical. Where something here is ours rather than
+SALI's, such as the [crosswalk](/crosswalk/) or the branch groupings on the home page,
+it says so.
+
 ## What happened to LMSS 1.0
 
 The first release, LMSS 1.0 rev. 2, specified an interchange *document* — a Header
