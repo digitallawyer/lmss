@@ -59,7 +59,10 @@ knowing about before reusing anything here:**
 - `LMSS.owl` carries no licence statement of its own.
 
 This site follows the more restrictive of the two, CC BY-ND, since it is the
-rights-holder's own published policy. It reproduces SALI's labels and definitions with
-attribution and points at SALI as canonical, rather than presenting an altered version
-of the standard. The branch families on the homepage and the 1.0 crosswalk are our own
-additions and are labelled as such.
+rights-holder's own published policy. That is not a constraint on what this site does:
+BY-ND permits sharing the material in any medium or format, including commercially,
+with attribution. It withholds only the right to distribute an altered version, and
+Creative Commons' own guidance is that a change of format alone never creates an
+adaptation. This site reproduces the standard with attribution and points at SALI as
+canonical. The branch families and the 1.0 crosswalk are our own additions and are
+labelled as such.
