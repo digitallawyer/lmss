@@ -21,8 +21,9 @@ lmss:
 tiles-source: pages
 tiles-count: 100
 
-# analytics — set to a GA4 measurement ID (G-XXXXXXXXXX) to enable
-google_analytics:
+# analytics: GA4 measurement ID. Read by Jekyll (_includes/analytics.html)
+# and by scripts/build_lmss.py, which writes the tag pages.
+google_analytics: G-PVRW07ZWK7
 
 # contact form — set to a Formspree form ID to enable; falls back to mailto
 formspree_id:
