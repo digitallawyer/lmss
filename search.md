@@ -16,6 +16,10 @@ description: Search every tag in the standard by name, synonym or identifier.
       out = document.getElementById('results'),
       tags = null, syn = null, synLoading = false;
 
+  // Accept ?q= so the homepage search box can hand off to this page.
+  var initial = new URLSearchParams(location.search).get('q');
+  if (initial) q.value = initial;
+
   fetch('/search/index.json')
     .then(function (r) { return r.json(); })
     .then(function (d) {
@@ -88,7 +92,11 @@ description: Search every tag in the standard by name, synonym or identifier.
   var timer;
   q.addEventListener('input', function () {
     clearTimeout(timer);
-    timer = setTimeout(run, 120);
+    timer = setTimeout(function () {
+      run();
+      var url = q.value ? '?q=' + encodeURIComponent(q.value) : location.pathname;
+      history.replaceState(null, '', url);
+    }, 120);
   });
 })();
 </script>

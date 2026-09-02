@@ -1,0 +1,40 @@
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <a class="brand" href="/"><strong>LMSS</strong><span>IO</span></a>
+  <button class="navtoggle" type="button" aria-expanded="false" aria-controls="sitenav">
+    <span class="navtoggle-bars" aria-hidden="true"></span>
+    <span class="navtoggle-label">Menu</span>
+  </button>
+  <nav id="sitenav" class="sitenav">
+    <a href="/a-brief-introduction/" data-nav="intro">Introduction</a>
+    <a href="/branch/" data-nav="tags">Tags</a>
+    <a href="/specification/" data-nav="spec">Specification</a>
+    <a href="/api/" data-nav="api">API</a>
+    <a href="/crosswalk/" data-nav="crosswalk">Crosswalk</a>
+    <a href="/search/" data-nav="search" class="nav-search">Search</a>
+  </nav>
+</header>
+<script>
+(function () {
+  var btn = document.querySelector('.navtoggle');
+  var nav = document.getElementById('sitenav');
+  if (!btn || !nav) return;
+  btn.addEventListener('click', function () {
+    var open = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!open));
+    nav.classList.toggle('is-open', !open);
+  });
+  // Mark the current section so people know where they are.
+  var path = location.pathname;
+  var links = nav.querySelectorAll('a');
+  for (var i = 0; i < links.length; i++) {
+    var href = links[i].getAttribute('href');
+    if (href === path || (href !== '/' && path.indexOf(href) === 0)) {
+      links[i].setAttribute('aria-current', 'page');
+    }
+  }
+  if (path.indexOf('/tag/') === 0) {
+    nav.querySelector('[data-nav="tags"]').setAttribute('aria-current', 'page');
+  }
+})();
+</script>

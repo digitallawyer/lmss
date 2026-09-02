@@ -89,6 +89,18 @@ def read_pin(config_path="_config.yml"):
 
 # --------------------------------------------------------------------------- html
 
+NAV_INCLUDE = Path("_includes/nav.html")
+
+
+def site_nav():
+    """The header markup, read from the include Jekyll uses.
+
+    Deliberately plain HTML with no Liquid, so generated pages and Jekyll pages
+    cannot drift apart. check_build.py asserts they match.
+    """
+    return NAV_INCLUDE.read_text(encoding="utf-8").strip()
+
+
 def e(s):
     return html.escape(s or "", quote=True)
 
@@ -119,18 +131,17 @@ def page(title, description, body, canonical, breadcrumbs=None):
 <link rel="icon" href="/favicon.ico">
 </head>
 <body>
-<header class="site">
-  <a class="brand" href="/"><strong>LMSS</strong><span>IO</span></a>
-  <nav><a href="/branch/">Tags</a> <a href="/specification">Specification</a>
-       <a href="/api">API</a> <a href="/search">Search</a></nav>
-</header>
-<main>
+{site_nav()}
+<main id="main">
 {crumbs}
 {body}
 </main>
 <footer class="site">
-  <p>Generated from the <a href="https://sali.org" rel="noopener">SALI Alliance</a>
-     LMSS ontology. lmss.io is not affiliated with SALI.</p>
+  <p>LMSS is published by the <a href="https://sali.org" rel="noopener">SALI Alliance</a>
+  under <a href="https://github.com/sali-legal/LMSS/blob/main/LICENSE" rel="noopener">its own licence</a>.
+  Built by <a href="https://www.legal.io" rel="noopener">Legal.io</a>; not affiliated with SALI.
+  <a href="/talk-to-us/">Contact</a> &middot;
+  <a href="https://github.com/digitallawyer/lmss" rel="noopener">Source</a></p>
 </footer>
 </body>
 </html>
@@ -257,13 +268,19 @@ def render_branch(tags, branch_iri, members, pin):
 
 
 def render_branch_index(tags, branches, counts, total):
+    ordered = sorted(branches, key=lambda x: -counts[x])
+    biggest = counts[ordered[0]] if ordered else 1
     rows = "".join(
         f'<li><a href="/branch/{e(L.slug(label_of(tags, b)))}/">'
-        f'{e(label_of(tags, b))}</a><span class="n">{counts[b]:,}</span></li>'
-        for b in sorted(branches, key=lambda x: -counts[x]))
+        f'<span class="bn">{e(label_of(tags, b))}</span>'
+        f'<span class="bbar"><span style="width:{max(1.5, counts[b] / biggest * 100):.1f}%">'
+        f'</span></span>'
+        f'<span class="n">{counts[b]:,}</span></a></li>'
+        for b in ordered)
     body = (f"<h1>LMSS tags</h1><p class='lede'>The complete standard: "
             f"<strong>{total:,}</strong> tags across <strong>{len(branches)}</strong> "
-            f"top-level branches.</p><ul class='grid'>{rows}</ul>")
+            f"top-level branches, nested up to ten levels deep.</p>"
+            f"<ul class='branchlist'>{rows}</ul>")
     return page("LMSS tags", f"All {total:,} tags in the SALI LMSS standard.",
                 body, f"{SITE}/branch/", [("Tags", None)])
 
@@ -510,16 +527,33 @@ def write_stats(tags, branches, counts, pin, owl):
         "object_properties": L.count_object_properties(owl),
         "ref": pin["ref"],
         "ref_date": pin.get("ref_date"),
-        "largest_branches": [
+        # Every branch, largest first. `weight` is sqrt-scaled so the homepage
+        # mosaic stays readable: raw counts span 12 to 3,783, which would make
+        # the small branches invisible slivers.
+        "branch_list": [
             {"label": label_of(tags, b), "slug": L.slug(label_of(tags, b)),
-             "count": counts.get(b, 0)}
-            for b in sorted(branches, key=lambda x: -counts.get(x, 0))[:5]],
+             "count": counts.get(b, 0),
+             "count_fmt": f"{counts.get(b, 0):,}",
+             "weight": max(4, round(counts.get(b, 0) ** 0.5)),
+             # Columns on the homepage's 12-wide grid. sqrt-scaled: raw counts
+             # span 12 to 3,783, which would leave most branches as slivers.
+             "span": max(2, min(6, round((counts.get(b, 0) ** 0.5) / 9)))}
+            for b in sorted(branches, key=lambda x: -counts.get(x, 0))],
     }
     # Liquid has no thousands-separator filter, so ship pre-formatted strings
     # alongside the raw integers.
     for key in ("tags", "branches", "definitions", "synonyms", "multi_parent",
                 "object_properties"):
         stats[f"{key}_fmt"] = f"{stats[key]:,}"
+
+    # The crosswalk headline number, so the homepage can quote it.
+    try:
+        rows, cw = C.build("api/v1", tags, branches)
+        stats["crosswalk_total"] = len(rows)
+        stats["crosswalk_high"] = cw.get("high", 0)
+        stats["crosswalk_high_fmt"] = f"{cw.get('high', 0):,}"
+    except Exception as exc:                       # archive absent in some checkouts
+        print(f"  crosswalk stats skipped: {exc}")
 
     write(Path("_data") / "lmss_stats.json", stats)
     print(f"  wrote _data/lmss_stats.json ({stats['tags']:,} tags)")

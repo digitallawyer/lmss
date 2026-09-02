@@ -30,13 +30,10 @@ LMSS 1.0 had.
 
 ## Store IRIs
 
-The one implementation rule that matters:
-
-> Store the IRI. Render the label.
-
-Labels change between releases; IRIs do not. A system that stores
-`http://lmss.sali.org/R8AC0Iq3zua7VGgBd0jCBtz` keeps working when SALI renames that
-tag. A system that stored "Business Organizations Law" as a string quietly breaks.
+Labels change between releases; IRIs do not. A system holding
+`http://lmss.sali.org/R8AC0Iq3zua7VGgBd0jCBtz` keeps working when SALI renames that tag.
+A system that stored the string "Business Organizations Law" breaks quietly, and you
+find out months later when a report comes back short.
 
 Keep a local copy of the tag's label for display and search, refresh it when you
 update your snapshot of the standard, but always treat the IRI as the key.
@@ -69,8 +66,7 @@ defines how two systems exchange LMSS-tagged matters and documents. Its shape:
   requests and responses.
 - Responses return leaf tags; parent-child expansion is the caller's job.
 
-It is explicitly a draft, and worth reading before you design your own interchange
-format rather than after.
+It is still a draft, but read it before designing your own interchange format.
 
 ## A worked example
 

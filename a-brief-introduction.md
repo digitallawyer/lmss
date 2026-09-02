@@ -5,64 +5,64 @@ description: What the LMSS is, why it exists, and what changed when it became an
 ---
 ## What is the LMSS?
 
-The **Legal Matter Specification Standard** is a standard way to describe a legal
-matter — a piece of legal work, or a grouping of work around a legal issue. It is
-published by the [SALI Alliance](https://sali.org), it is open, and anyone can use
-it for free.
+The Legal Matter Specification Standard is a standard way to describe a legal matter:
+a piece of legal work, or a grouping of work around a legal issue. It is published by
+the [SALI Alliance](https://sali.org), it is open, and anyone can use it for free.
 
-The idea is simple. Manufactured goods have product codes; legal work does not. The
-LMSS is a shared vocabulary for saying what a piece of legal work actually *is* — its
-area of law, the client's industry, the forum, the parties and their roles, the
-documents involved — in terms that every system in the industry can read the same way.
+The idea is borrowed from manufacturing. Physical goods have product codes; legal work
+has never had an equivalent. The LMSS supplies one. It gives you a shared way to say
+what a piece of legal work actually is: its area of law, the client's industry, the
+forum, the parties and their roles, the documents involved.
 
 ## Why it matters
 
 Matter coding makes buying, staffing, pricing and delivering legal services more
-tractable, because it makes comparison possible.
+efficient, because it makes work comparable.
 
-Take a wage and hour class action. If the client can state the kind of matter in
-codes, the firm can search its own history by those same codes: which comparable
-matters it has handled, which lawyers have the most relevant experience, and — if
-the client wants a fixed fee — what those comparable matters actually cost. None of
-that works when every organisation describes the same matter in its own words.
+Take a wage and hour class action in Georgia. If the client can state the kind of
+matter in tags, the firm can search its own history against those same tags. Which
+comparable matters has it handled? Which lawyers worked on them? If the client wants a
+fixed fee, what did those matters actually cost to run?
 
-The value is not in any single tag. It is in two systems using the *same* tag.
+None of that is possible when every organisation describes the same case in its own
+words. Two firms will call it a "wage and hour class action", an "FLSA collective
+action" and a "employment class claim", and no database can tell they mean the same
+thing. Tags fix that, but only when both sides use the same ones.
 
-<p><iframe width="560" height="315" style="max-width:100%;border:1px solid var(--rule);border-radius:4px"
+<p><iframe width="560" height="315" style="max-width:100%;border:1px solid var(--rule);border-radius:6px"
   src="https://www.youtube.com/embed/XdcMBHTNE6M" title="SALI LMSS: An introduction"
   loading="lazy" frameborder="0" allowfullscreen></iframe></p>
 
-<p class="hint">Recorded in 2019, so it describes the standard's first release. The
-fundamentals still hold; the mechanics have moved on, as below.</p>
+<p class="hint">Recorded in 2019, so it covers the standard's first release. The
+reasoning still holds; the mechanics have moved on, as below.</p>
 
-## What changed: from code lists to an ontology
+## From code lists to an ontology
 
-The first release of the LMSS was a document format with sixteen flat code lists.
-Codes were short mnemonics — `LEMP-WGHR` for wage and hour law, `PLTF` for
-plaintiff — and a matter was expressed as a nested JSON document with a required
-Header and Matter structure.
+The first release was a document format wrapped around sixteen flat code lists. Codes
+were short mnemonics: `LEMP-WGHR` for wage and hour law, `PLTF` for plaintiff. A matter
+was a nested JSON document with a required Header and Matter structure.
 
-SALI has since rebuilt the standard as an **ontology**. Three practical differences:
+SALI has since rebuilt the standard as an ontology. Three things changed in practice.
 
-**It is much larger.** Roughly 117 areas of law became 161; 458 courts became 2,172
-forums and venues; 45 industry codes became 2,183 aligned to NAICS. The standard now
-holds **{{ site.data.lmss_stats.tags_fmt }} tags** across {{ site.data.lmss_stats.branches_fmt }} branches, including whole areas — documents, matter
-phases, objectives — that had no equivalent before.
+**It got much bigger.** Roughly 117 areas of law became 152. The 458 courts became
+1,880 forums and venues. The 45 industry codes became 2,184, aligned to NAICS. The
+standard now holds {{ site.data.lmss_stats.tags_fmt }} tags across
+{{ site.data.lmss_stats.branches }} branches, and whole subject areas that had no
+equivalent before: documents, matter phases, objectives.
 
-**Tags have opaque permanent identifiers.** Instead of `LEMP-WGHR`, a tag is
-identified by an IRI like `http://lmss.sali.org/R8AC0Iq3zua7VGgBd0jCBtz`. That looks
-worse to read and is much better to build on: the label can change without breaking
-every system that stored it.
+**Tags got permanent identifiers.** Instead of `LEMP-WGHR`, each tag is identified by
+an IRI like `http://lmss.sali.org/R8AC0Iq3zua7VGgBd0jCBtz`. Harder to read, far safer
+to build on. SALI can rename a tag whenever the profession's language shifts, and every
+system that stored the IRI keeps working.
 
-**It records relationships, not just membership.** Tags carry definitions, synonyms
-across languages, and typed links to other tags. The standard can now express that
-one thing is governed by another, or supersedes it — which a flat list of codes
-never could.
+**It records relationships.** Tags carry definitions, synonyms in a dozen languages,
+and typed links to other tags. A flat list can only say what exists. An ontology can
+say that one thing is governed by another, or supersedes it.
 
 ## Where to go next
 
-- [Browse the tags](/branch/) — all {{ site.data.lmss_stats.branches_fmt }} branches, down to the leaf
+- [Browse the tags](/branch/) — all {{ site.data.lmss_stats.branches }} branches, down to the leaf
 - [Specification](/specification/) — how the standard is built
 - [Using LMSS on a matter](/lmss-structure/) — the implementation view
 - [Getting started](/getting-started/) — find a tag, store it, query it back
-- [1.0 → v3 crosswalk](/crosswalk/) — if you hold data coded under the old release
+- [Crosswalk](/crosswalk/) — if you hold data coded under LMSS 1.0

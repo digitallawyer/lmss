@@ -40,8 +40,8 @@ it for display, and treat that copy as a cache you refresh, not as the key.
 
 ## 4. Query it back
 
-The step people miss: **expand the hierarchy before you match.** A user asking for
-Corporate Law matters expects everything underneath it too. Build a descendant
+**Expand the hierarchy before you match.** This is the step that gets missed. Someone
+asking for Corporate Law matters expects everything underneath it too. Build a descendant
 lookup from the `children` arrays in the JSON, then match against the expanded set.
 
 Without that expansion, a matter tagged *Business Organizations Law* will not appear
