@@ -1,39 +1,58 @@
 # site settings
 title: LMSS
 subtitle: IO
-email: youremailaddress@gmail.com
-description: An introduction to the <a href="https://www.salilegal.org" target="_blank">SALI</a> Legal Matter <br/> Specification Standard, by <a href="https://www.legal.io" target="_blank">Legal.io</a>.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lmss.io" # required: the legacy Pages builder injected this automatically, Actions does not
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+email: contact@legal.io
+description: >-
+  A complete, browsable rendering of the <a href="https://sali.org" target="_blank">SALI</a>
+  Legal Matter Specification Standard, published by <a href="https://www.legal.io" target="_blank">Legal.io</a>.
+baseurl: ""
+url: "https://lmss.io"
+
+# The upstream LMSS ontology this site is generated from.
+# Pinned deliberately: the build never follows a moving `main`.
+# Bump via the update-lmss workflow, which opens a PR with a tag diff.
+lmss:
+  repo: sali-legal/LMSS
+  ref: 3f9ac0c9357b2a971582ae79ede243511d47811d
+  ref_date: "2026-03-10"
+  channel: pre-release   # `main` is unfinalised pending the v3 release
 
 # homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
+tiles-source: pages
 tiles-count: 100
 
+# analytics — set to a GA4 measurement ID (G-XXXXXXXXXX) to enable
+google_analytics:
+
+# contact form — set to a Formspree form ID to enable; falls back to mailto
+formspree_id:
+
 # social settings
-500px_url:
 facebook_url:
-github_url:
-gitlab_url: 
-googleplus_url:
+github_url: https://github.com/digitallawyer/lmss
 instagram_url:
-linkedin_url: 
-pinterest_url:
+linkedin_url:
 slack_url:
 twitter_url:
+gitlab_url:
 
 # build settings
 markdown: kramdown
+permalink: pretty
 
 sass:
   style: compressed
-  
+
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - LICENSE.md
+  - Gemfile
+  - Gemfile.lock
+  - forty_jekyll_theme.gemspec
+  - CONTRIBUTING.md
+  - scripts/
+  - vendor/

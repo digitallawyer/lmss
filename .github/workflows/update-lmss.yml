@@ -1,0 +1,82 @@
+name: Check for LMSS updates
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # Mondays, 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compare pinned ref against upstream
+        id: check
+        run: |
+          set -euo pipefail
+          REPO=$(awk '/^  repo:/{print $2}' _config.yml)
+          PINNED=$(awk '/^  ref:/{print $2}' _config.yml)
+          LATEST=$(curl -sfL "https://api.github.com/repos/$REPO/commits/main" \
+                   | python3 -c 'import json,sys; print(json.load(sys.stdin)["sha"])')
+          echo "repo=$REPO"     >> "$GITHUB_OUTPUT"
+          echo "pinned=$PINNED" >> "$GITHUB_OUTPUT"
+          echo "latest=$LATEST" >> "$GITHUB_OUTPUT"
+          if [ "$PINNED" = "$LATEST" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Already on the latest upstream commit."
+          else
+            echo "changed=true"  >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build the tag diff
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          R=${{ steps.check.outputs.repo }}
+          curl -sfL -o old.owl "https://raw.githubusercontent.com/$R/${{ steps.check.outputs.pinned }}/LMSS.owl"
+          curl -sfL -o new.owl "https://raw.githubusercontent.com/$R/${{ steps.check.outputs.latest }}/LMSS.owl"
+          {
+            echo "Upstream \`$R\` has moved since this site was last pinned."
+            echo
+            echo "\`${{ steps.check.outputs.pinned }}\` → \`${{ steps.check.outputs.latest }}\`"
+            echo
+            python3 scripts/diff_lmss.py old.owl new.owl
+            echo
+            echo "Merging republishes the site against the new revision."
+          } > pr-body.md
+          rm -f old.owl new.owl
+
+      - name: Open the update pull request
+        if: steps.check.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          LATEST=${{ steps.check.outputs.latest }}
+          BRANCH="lmss-update-${LATEST:0:12}"
+          DATE=$(curl -sfL "https://api.github.com/repos/${{ steps.check.outputs.repo }}/commits/$LATEST" \
+                 | python3 -c 'import json,sys; print(json.load(sys.stdin)["commit"]["author"]["date"][:10])')
+
+          if git ls-remote --exit-code --heads origin "$BRANCH" >/dev/null 2>&1; then
+            echo "PR branch $BRANCH already exists; nothing to do."
+            exit 0
+          fi
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          sed -i "s|^  ref: .*|  ref: $LATEST|"      _config.yml
+          sed -i "s|^  ref_date: .*|  ref_date: \"$DATE\"|" _config.yml
+          git add _config.yml
+          git commit -m "Update pinned LMSS ontology to ${LATEST:0:12}"
+          git push origin "$BRANCH"
+          gh pr create --title "Update LMSS ontology to ${LATEST:0:12} ($DATE)" \
+                       --body-file pr-body.md --base master --head "$BRANCH"
