@@ -5,7 +5,8 @@ description: Every tag in SALI's Legal Matter Specification Standard. Browsable,
 ---
 <section class="hero">
   <h1>LMSS</h1>
-  <p class="hero-sub">SALI's standard vocabulary for describing legal work.</p>
+  <p class="hero-sub">A project tracking SALI's standard vocabulary for describing
+  legal work.</p>
 
   <form class="hero-search" action="/search/" method="get" role="search">
     <label class="sr-only" for="hq">Search the standard</label>
