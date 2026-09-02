@@ -1,12 +1,11 @@
 ---
 layout: home
-title: The LMSS, in full
+title: The legal matter standard
 description: Every tag in SALI's Legal Matter Specification Standard. Browsable, searchable, and in JSON.
 ---
 <section class="hero">
-  <h1>The LMSS, in full</h1>
-  <p class="hero-sub">SALI's standard vocabulary for describing legal work.
-  All {{ site.data.lmss_stats.tags_fmt }} tags, browsable and in JSON.</p>
+  <h1>LMSS</h1>
+  <p class="hero-sub">SALI's standard vocabulary for describing legal work.</p>
 
   <form class="hero-search" action="/search/" method="get" role="search">
     <label class="sr-only" for="hq">Search the standard</label>
